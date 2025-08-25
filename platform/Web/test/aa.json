@@ -1,6 +1,11 @@
 [
-    {
-        "en": "tt1",
-        "key": "tt1"
-    }
+ {
+  "en": "Action",
+  "key": "action",
+  "zh-CN": "操作"
+ },
+ {
+  "en": "tt1",
+  "key": "tt1"
+ }
 ]
