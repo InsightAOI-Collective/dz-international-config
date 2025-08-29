@@ -31,7 +31,7 @@ jobs:
       # Checkout dz-international-config (文本库)
       - uses: actions/checkout@v4
         with:
-          token: ${{ secrets.DZ_GH_TOKEN }}
+          ssh-key: ${{ secrets.DZ_SSH_KEY_1 }}
 
       # Checkout dz_ai_translation (工具服务)
       - uses: actions/checkout@v4
@@ -132,7 +132,7 @@ jobs:
       # Checkout dz-international-config (文本库)
       - uses: actions/checkout@v4
         with:
-          token: ${{ secrets.DZ_GH_TOKEN }}
+          ssh-key: ${{ secrets.DZ_SSH_KEY_1 }}
 
       # Checkout dz_ai_translation (工具服务)
       - uses: actions/checkout@v4
