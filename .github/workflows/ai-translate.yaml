@@ -60,7 +60,7 @@ jobs:
 
           # 安装 protoc
           PROTOC_ZIP=protoc-24.2-linux-x86_64.zip
-          wget -q https://github.com/protocolbuffers/protobuf/releases/download/v24.2/$PROTOC_ZIP
+          curl -sL -o $PROTOC_ZIP https://github.com/protocolbuffers/protobuf/releases/download/v24.2/$PROTOC_ZIP
           unzip -o $PROTOC_ZIP -d $HOME/.local
           export PATH="$HOME/.local/bin:$PATH"
           protoc --version
@@ -155,7 +155,7 @@ jobs:
 
           # 安装 protoc
           PROTOC_ZIP=protoc-24.2-linux-x86_64.zip
-          wget -q https://github.com/protocolbuffers/protobuf/releases/download/v24.2/$PROTOC_ZIP
+          curl -sL -o $PROTOC_ZIP https://github.com/protocolbuffers/protobuf/releases/download/v24.2/$PROTOC_ZIP
           unzip -o $PROTOC_ZIP -d $HOME/.local
           export PATH="$HOME/.local/bin:$PATH"
           protoc --version
