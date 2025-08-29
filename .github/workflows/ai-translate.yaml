@@ -58,7 +58,7 @@ jobs:
           go clean -modcache
           go mod tidy
 
-          # 生成 protobuf 文件
+          # 重新生成 protobuf 文件
           go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
           protoc --go_out=. --go_opt=paths=source_relative internal/conf/conf.proto
           protoc --go-grpc_out=. --go-grpc_opt=paths=source_relative internal/conf/conf.proto || true
@@ -66,6 +66,7 @@ jobs:
           # 构建项目
           go build -o ./bin/ ./...
           go install github.com/a8m/envsubst/cmd/envsubst@latest
+
           ~/go/bin/envsubst < configs/dev.yaml.tpl > configs/dev.yaml
 
       - shell: bash
@@ -76,7 +77,11 @@ jobs:
       - shell: bash
         if: github.event.inputs.command == 'diff'
         run: |
-          git fetch origin develop
+          cd dz_ai_translation
+          git reset --hard
+          git clean -fd
+          git fetch origin develop:develop
+          git checkout develop
           git diff --name-only origin/develop | grep '\.json$' > json_diff.txt
           files=$(cat json_diff.txt)
           if [ -n "$files" ]; then
@@ -109,9 +114,8 @@ jobs:
       contents: write
       pull-requests: write
     steps:
-      - name: Sleep for 30 seconds before diff
+      - name: Sleep for 30s before diff
         run: sleep 30
-
       - uses: actions/checkout@v4
 
       - uses: actions/checkout@v4
@@ -148,7 +152,11 @@ jobs:
 
       - shell: bash
         run: |
-          git fetch origin develop
+          cd dz_ai_translation
+          git reset --hard
+          git clean -fd
+          git fetch origin develop:develop
+          git checkout develop
           git diff --name-only origin/develop | grep '\.json$' > json_diff.txt
           files=$(cat json_diff.txt)
           if [ -n "$files" ]; then
