@@ -28,24 +28,24 @@ jobs:
       contents: write
       pull-requests: write
     steps:
-      # Checkout 仓库，确保唯一路径、使用 token、拉全量历史
-      - name: Checkout repository
+      # Checkout dz-international-config 仓库
+      - name: Checkout dz-international-config
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.DZ_GH_TOKEN }}
-          repository: InsightAOI-Collective/dz_ai_translation
+          repository: InsightAOI-Collective/dz-international-config
           ref: develop
-          path: dz_ai_translation
+          path: dz-international-config
           fetch-depth: 0
           clean: true
 
       # 保留 setup-go 注释说明
-      # - uses: actions/setup-go@v5
-      #   with:
-      #     go-version: '1.24.x'
-      #     cache-dependency-path: dz_ai_translation/go.sum
-      #   env:
-      #     GO_INSTALL_BASE_URL: "https://golang.google.cn/dl/"
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.24.x'
+          cache-dependency-path: dz-international-config/go.sum
+        env:
+          GO_INSTALL_BASE_URL: "https://golang.google.cn/dl/"
 
       - shell: bash
         env:
@@ -55,7 +55,7 @@ jobs:
           DB_NAME: "ai_translation"
           PLATFORM_DIR: ${{ github.workspace }}/platform
         run: |
-          cd dz_ai_translation
+          cd dz-international-config
           go version
           go clean -modcache
           go mod tidy
@@ -69,12 +69,12 @@ jobs:
       - shell: bash
         if: github.event.inputs.command == 'full-load' || github.event.inputs.command == 'self-check' || github.event.inputs.command == 'backtest'
         run: |
-          ./dz_ai_translation/bin/cmd -conf ./dz_ai_translation/configs/dev.yaml ${{ github.event.inputs.command }}
+          ./dz-international-config/bin/cmd -conf ./dz-international-config/configs/dev.yaml ${{ github.event.inputs.command }}
 
       - shell: bash
         if: github.event.inputs.command == 'diff'
         run: |
-          cd dz_ai_translation
+          cd dz-international-config
           git fetch origin develop
           git checkout develop
           git pull origin develop
@@ -82,7 +82,7 @@ jobs:
           git diff --name-only develop...$current_branch | grep '\.json$' > json_diff.txt
           files=$(cat json_diff.txt)
           if [ -n "$files" ]; then
-            ./dz_ai_translation/bin/cmd -conf ./dz_ai_translation/configs/dev.yaml diff $files
+            ./dz-international-config/bin/cmd -conf ./dz-international-config/configs/dev.yaml diff $files
           else
             echo "No JSON changes to diff"
           fi
@@ -114,24 +114,24 @@ jobs:
       - name: Sleep for 30 seconds before diff
         run: sleep 30
 
-      # Checkout 仓库，保持和 Workflow job 一致
-      - name: Checkout repository
+      # Checkout dz-international-config 仓库
+      - name: Checkout dz-international-config
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.DZ_GH_TOKEN }}
-          repository: InsightAOI-Collective/dz_ai_translation
+          repository: InsightAOI-Collective/dz-international-config
           ref: develop
-          path: dz_ai_translation
+          path: dz-international-config
           fetch-depth: 0
           clean: true
 
       # 保留 setup-go 注释说明
-      # - uses: actions/setup-go@v5
-      #   with:
-      #     go-version: '1.24.x'
-      #     cache-dependency-path: dz_ai_translation/go.sum
-      #   env:
-      #     GO_INSTALL_BASE_URL: "https://golang.google.cn/dl/"
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.24.x'
+          cache-dependency-path: dz-international-config/go.sum
+        env:
+          GO_INSTALL_BASE_URL: "https://golang.google.cn/dl/"
 
       - shell: bash
         env:
@@ -141,7 +141,7 @@ jobs:
           DB_NAME: "ai_translation"
           PLATFORM_DIR: ${{ github.workspace }}/platform
         run: |
-          cd dz_ai_translation
+          cd dz-international-config
           go version
           go clean -modcache
           go mod tidy
@@ -154,7 +154,7 @@ jobs:
 
       - shell: bash
         run: |
-          cd dz_ai_translation
+          cd dz-international-config
           current_branch=$(git rev-parse --abbrev-ref HEAD)
           git fetch origin develop
           git checkout develop
@@ -162,7 +162,7 @@ jobs:
           git diff --name-only develop...$current_branch | grep '\.json$' > json_diff.txt
           files=$(cat json_diff.txt)
           if [ -n "$files" ]; then
-            ./dz_ai_translation/bin/cmd -conf ./dz_ai_translation/configs/dev.yaml diff $files
+            ./dz-international-config/bin/cmd -conf ./dz-international-config/configs/dev.yaml diff $files
           else
             echo "No JSON changes to diff"
           fi
