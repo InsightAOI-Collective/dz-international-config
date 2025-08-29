@@ -28,11 +28,12 @@ jobs:
       contents: write
       pull-requests: write
     steps:
+      # Checkout dz-international-config (文本库)
       - uses: actions/checkout@v4
         with:
           ssh-key: ${{ secrets.DZ_SSH_KEY }}
 
-      # Checkout dz_ai_translation
+      # Checkout dz_ai_translation (工具服务)
       - uses: actions/checkout@v4
         with:
           repository: InsightAOI-Collective/dz_ai_translation
@@ -86,6 +87,7 @@ jobs:
         run: |
           ./dz_ai_translation/bin/cmd -conf ./dz_ai_translation/configs/dev.yaml ${{ github.event.inputs.command }}
 
+      # diff 操作
       - uses: softprops/diffset@v2
         id: diffset
         if: github.event.inputs.command == 'diff'
@@ -93,13 +95,13 @@ jobs:
           json_files: |
             platform/*/*/*.json
           base: ai-translation
-      
+
       - shell: bash
         if: github.event.inputs.command == 'diff'
         run: |
           ./dz_ai_translation/bin/cmd -conf ./dz_ai_translation/configs/dev.yaml ${{ github.event.inputs.command }} ${{ steps.diffset.outputs.json_files }}
 
-      # 创建 PR
+      # 创建 PR (dz-international-config 根目录)
       - uses: peter-evans/create-pull-request@v7
         id: cpr
         with:
@@ -127,7 +129,12 @@ jobs:
       - name: Sleep for 30 seconds before diff
         run: sleep 30
 
-      # Checkout dz_ai_translation
+      # Checkout dz-international-config (文本库)
+      - uses: actions/checkout@v4
+        with:
+          ssh-key: ${{ secrets.DZ_SSH_KEY }}
+
+      # Checkout dz_ai_translation (工具服务)
       - uses: actions/checkout@v4
         with:
           repository: InsightAOI-Collective/dz_ai_translation
@@ -175,6 +182,7 @@ jobs:
           go install github.com/a8m/envsubst/cmd/envsubst@latest
           ~/go/bin/envsubst < configs/dev.yaml.tpl > configs/dev.yaml
 
+      # diff 文件生成
       - uses: softprops/diffset@v2
         id: diffset
         with:
@@ -186,6 +194,7 @@ jobs:
         run: |
           ./dz_ai_translation/bin/cmd -conf ./dz_ai_translation/configs/dev.yaml diff ${{ steps.diffset.outputs.json_files }}
 
+      # 创建 PR (dz-international-config 根目录)
       - uses: peter-evans/create-pull-request@v7
         id: cpr
         with:
