@@ -60,6 +60,9 @@ jobs:
           export GOPROXY=https://goproxy.cn,direct
           export GOSUMDB=off
 
+          # 安装 unzip
+          sudo apt-get update && sudo apt-get install -y unzip
+
           # 安装 protoc
           PROTOC_ZIP=protoc-24.2-linux-x86_64.zip
           curl -sL -o $PROTOC_ZIP https://github.com/protocolbuffers/protobuf/releases/download/v24.2/$PROTOC_ZIP
@@ -154,6 +157,9 @@ jobs:
           cd dz_ai_translation
           export GOPROXY=https://goproxy.cn,direct
           export GOSUMDB=off
+
+          # 安装 unzip
+          sudo apt-get update && sudo apt-get install -y unzip
 
           # 安装 protoc
           PROTOC_ZIP=protoc-24.2-linux-x86_64.zip
