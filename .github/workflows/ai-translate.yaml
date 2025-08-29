@@ -52,7 +52,20 @@ jobs:
           PLATFORM_DIR: ${{ github.workspace }}/platform
         run: |
           cd dz_ai_translation
+
+          # 使用本地 Go
+          go version
+
+          # 清理 module 缓存
+          go clean -modcache
           go mod tidy
+
+          # 重新生成 protobuf 文件
+          go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
+          protoc --go_out=. --go_opt=paths=source_relative internal/conf/conf.proto
+          protoc --go-grpc_out=. --go-grpc_opt=paths=source_relative internal/conf/conf.proto || true
+
+          # 构建项目
           go build -o ./bin/ ./...
           go install github.com/a8m/envsubst/cmd/envsubst@latest
 
@@ -63,18 +76,17 @@ jobs:
         run: |
           ./dz_ai_translation/bin/cmd -conf ./dz_ai_translation/configs/dev.yaml ${{ github.event.inputs.command }}
 
-      - uses: softprops/diffset@v2
-        id: diffset
-        if: github.event.inputs.command == 'diff'
-        with:
-          json_files: |
-            platform/*/*/*.json
-          base: ai-translation
-
       - shell: bash
         if: github.event.inputs.command == 'diff'
         run: |
-          ./dz_ai_translation/bin/cmd -conf ./dz_ai_translation/configs/dev.yaml ${{ github.event.inputs.command }} ${{ steps.diffset.outputs.json_files }}
+          git fetch origin develop
+          git diff --name-only origin/develop | grep '\.json$' > json_diff.txt
+          files=$(cat json_diff.txt)
+          if [ -n "$files" ]; then
+            ./dz_ai_translation/bin/cmd -conf ./dz_ai_translation/configs/dev.yaml diff $files
+          else
+            echo "No JSON changes to diff"
+          fi
 
       - uses: peter-evans/create-pull-request@v7
         id: cpr
@@ -82,7 +94,6 @@ jobs:
           token: ${{ secrets.DZ_GH_TOKEN }}
           base: develop
           branch: ai-translation
-          # delete-branch: true
           title: "AI translation update"
 
       - name: Enable Pull Request Automerge
@@ -127,22 +138,26 @@ jobs:
           PLATFORM_DIR: ${{ github.workspace }}/platform
         run: |
           cd dz_ai_translation
+          go version
+          go clean -modcache
           go mod tidy
+          go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
+          protoc --go_out=. --go_opt=paths=source_relative internal/conf/conf.proto
+          protoc --go-grpc_out=. --go-grpc_opt=paths=source_relative internal/conf/conf.proto || true
           go build -o ./bin/ ./...
           go install github.com/a8m/envsubst/cmd/envsubst@latest
-
           ~/go/bin/envsubst < configs/dev.yaml.tpl > configs/dev.yaml
-
-      - uses: softprops/diffset@v2
-        id: diffset
-        with:
-          json_files: |
-            platform/*/*/*.json
-          base: ai-translation
 
       - shell: bash
         run: |
-          ./dz_ai_translation/bin/cmd -conf ./dz_ai_translation/configs/dev.yaml diff ${{ steps.diffset.outputs.json_files }}
+          git fetch origin develop
+          git diff --name-only origin/develop | grep '\.json$' > json_diff.txt
+          files=$(cat json_diff.txt)
+          if [ -n "$files" ]; then
+            ./dz_ai_translation/bin/cmd -conf ./dz_ai_translation/configs/dev.yaml diff $files
+          else
+            echo "No JSON changes to diff"
+          fi
 
       - uses: peter-evans/create-pull-request@v7
         id: cpr
@@ -150,7 +165,6 @@ jobs:
           token: ${{ secrets.DZ_GH_TOKEN }}
           base: develop
           branch: ai-translation
-          # delete-branch: true
           title: "AI translation update (push triggered)"
 
       - name: Enable Pull Request Automerge
