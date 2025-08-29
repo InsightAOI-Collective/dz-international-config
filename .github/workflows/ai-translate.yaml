@@ -79,8 +79,9 @@ jobs:
       - shell: bash
         if: github.event.inputs.command == 'diff'
         run: |
-          git fetch origin develop
-          git diff --name-only origin/develop | grep '\.json$' > json_diff.txt
+          # 使用 token 安全 fetch develop 分支
+          git fetch https://x-access-token:${{ secrets.DZ_GH_TOKEN }}@github.com/InsightAOI-Collective/dz-international-config.git develop
+          git diff --name-only FETCH_HEAD | grep '\.json$' > json_diff.txt || true
           files=$(cat json_diff.txt)
           if [ -n "$files" ]; then
             ./dz_ai_translation/bin/cmd -conf ./dz_ai_translation/configs/dev.yaml diff $files
@@ -112,7 +113,7 @@ jobs:
       contents: write
       pull-requests: write
     steps:
-      - name: Sleep for 5 minutes before diff
+      - name: Sleep for 30 seconds before diff
         run: sleep 30
       - uses: actions/checkout@v4
 
@@ -150,8 +151,8 @@ jobs:
 
       - shell: bash
         run: |
-          git fetch origin develop
-          git diff --name-only origin/develop | grep '\.json$' > json_diff.txt
+          git fetch https://x-access-token:${{ secrets.DZ_GH_TOKEN }}@github.com/InsightAOI-Collective/dz-international-config.git develop
+          git diff --name-only FETCH_HEAD | grep '\.json$' > json_diff.txt || true
           files=$(cat json_diff.txt)
           if [ -n "$files" ]; then
             ./dz_ai_translation/bin/cmd -conf ./dz_ai_translation/configs/dev.yaml diff $files
