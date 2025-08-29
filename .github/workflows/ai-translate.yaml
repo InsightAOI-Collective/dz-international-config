@@ -60,10 +60,15 @@ jobs:
           export GOPROXY=https://goproxy.cn,direct
           export GOSUMDB=off
 
-          # 安装 unzip
-          sudo apt-get update && sudo apt-get install -y unzip
+          # 安装 unzip 到用户目录（无需 sudo）
+          UNZIP_DIR=$HOME/.local
+          mkdir -p $UNZIP_DIR
+          curl -sL -o $HOME/unzip60.tar.gz https://downloads.sourceforge.net/infozip/unzip60.tar.gz
+          tar -xzf $HOME/unzip60.tar.gz -C $HOME/
+          # 假设 unzip 可执行文件在解压后的 unzip60 目录里
+          export PATH="$UNZIP_DIR:$PATH"
 
-          # 安装 protoc
+          # 安装 protoc 到用户目录
           PROTOC_ZIP=protoc-24.2-linux-x86_64.zip
           curl -sL -o $PROTOC_ZIP https://github.com/protocolbuffers/protobuf/releases/download/v24.2/$PROTOC_ZIP
           unzip -o $PROTOC_ZIP -d $HOME/.local
@@ -158,10 +163,15 @@ jobs:
           export GOPROXY=https://goproxy.cn,direct
           export GOSUMDB=off
 
-          # 安装 unzip
-          sudo apt-get update && sudo apt-get install -y unzip
+          # 安装 unzip 到用户目录（无需 sudo）
+          UNZIP_DIR=$HOME/.local
+          mkdir -p $UNZIP_DIR
+          curl -sL -o $HOME/unzip60.tar.gz https://downloads.sourceforge.net/infozip/unzip60.tar.gz
+          tar -xzf $HOME/unzip60.tar.gz -C $HOME/
+          # 假设 unzip 可执行文件在解压后的 unzip60 目录里
+          export PATH="$UNZIP_DIR:$PATH"
 
-          # 安装 protoc
+          # 安装 protoc 到用户目录
           PROTOC_ZIP=protoc-24.2-linux-x86_64.zip
           curl -sL -o $PROTOC_ZIP https://github.com/protocolbuffers/protobuf/releases/download/v24.2/$PROTOC_ZIP
           unzip -o $PROTOC_ZIP -d $HOME/.local
