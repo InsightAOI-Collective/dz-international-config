@@ -115,6 +115,8 @@ jobs:
         with:
           go-version: '1.24.x'
           cache-dependency-path: dz_ai_translation/go.sum
+        env:
+          GO_INSTALL_BASE_URL: "https://golang.google.cn/dl/"
 
       - shell: bash
         env:
