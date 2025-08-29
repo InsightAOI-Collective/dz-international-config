@@ -28,36 +28,29 @@ jobs:
       contents: write
       pull-requests: write
     steps:
-      # Checkout dz-international-config
-      - name: Checkout dz-international-config
-        uses: actions/checkout@v4
+      # checkout dz-international-config 作为文本库
+      - uses: actions/checkout@v4
         with:
           token: ${{ secrets.DZ_GH_TOKEN }}
           repository: InsightAOI-Collective/dz-international-config
           ref: develop
           path: dz-international-config
-          fetch-depth: 0
-          clean: true
 
-      # Checkout dz_ai_translation
-      - name: Checkout dz_ai_translation
-        uses: actions/checkout@v4
+      # checkout dz_ai_translation 作为构建执行库
+      - uses: actions/checkout@v4
         with:
           token: ${{ secrets.DZ_GH_TOKEN }}
           repository: InsightAOI-Collective/dz_ai_translation
           ref: main
           path: dz_ai_translation
-          fetch-depth: 0
-          clean: true
 
-      # Go setup 注释保留
+      # 设置 Go 环境
       - uses: actions/setup-go@v5
         with:
           go-version: '1.24.x'
           cache-dependency-path: dz_ai_translation/go.sum
-        env:
-          GO_INSTALL_BASE_URL: "https://golang.google.cn/dl/"
 
+      # 构建 dz_ai_translation
       - shell: bash
         env:
           GEMINI_TOKEN: ${{ secrets.GEMINI_TOKEN }}
@@ -67,6 +60,10 @@ jobs:
           PLATFORM_DIR: ${{ github.workspace }}/platform
         run: |
           cd dz_ai_translation
+          # 使用国内代理，避免依赖拉取失败
+          export GOPROXY=https://goproxy.cn,direct
+          export GOSUMDB=off
+
           go version
           go clean -modcache
           go mod tidy
@@ -77,32 +74,36 @@ jobs:
           go install github.com/a8m/envsubst/cmd/envsubst@latest
           ~/go/bin/envsubst < configs/dev.yaml.tpl > configs/dev.yaml
 
-      # 执行 full-load/self-check/backtest
+      # 根据 workflow_dispatch 输入执行命令
       - shell: bash
         if: github.event.inputs.command == 'full-load' || github.event.inputs.command == 'self-check' || github.event.inputs.command == 'backtest'
         run: |
           ./dz_ai_translation/bin/cmd -conf ./dz_ai_translation/configs/dev.yaml ${{ github.event.inputs.command }}
 
       # 执行 diff
-      - uses: softprops/diffset@v2
-        id: diffset
-        if: github.event.inputs.command == 'diff'
-        with:
-          json_files: |
-            dz-international-config/*/*/*.json
-          base: develop
-
       - shell: bash
         if: github.event.inputs.command == 'diff'
         run: |
-          ./dz_ai_translation/bin/cmd -conf ./dz_ai_translation/configs/dev.yaml diff ${{ steps.diffset.outputs.json_files }}
+          cd dz_ai_translation
+          git fetch origin main
+          git checkout main
+          git pull origin main
+          # 比较当前 main 与 dz-international-config/develop 的 JSON 文件
+          current_branch=$(git rev-parse --abbrev-ref HEAD)
+          git --git-dir=../dz-international-config/.git diff --name-only develop...$current_branch | grep '\.json$' > json_diff.txt
+          files=$(cat json_diff.txt)
+          if [ -n "$files" ]; then
+            ./dz_ai_translation/bin/cmd -conf ./dz_ai_translation/configs/dev.yaml diff $files
+          else
+            echo "No JSON changes to diff"
+          fi
 
-      # 创建 PR
+      # 创建 Pull Request
       - uses: peter-evans/create-pull-request@v7
         id: cpr
         with:
           token: ${{ secrets.DZ_GH_TOKEN }}
-          base: ai_translation
+          base: develop
           branch: ai-translation
           title: "AI translation update"
 
@@ -125,33 +126,24 @@ jobs:
       - name: Sleep for 30 seconds before diff
         run: sleep 30
 
-      - name: Checkout dz-international-config
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           token: ${{ secrets.DZ_GH_TOKEN }}
           repository: InsightAOI-Collective/dz-international-config
           ref: develop
           path: dz-international-config
-          fetch-depth: 0
-          clean: true
 
-      - name: Checkout dz_ai_translation
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           token: ${{ secrets.DZ_GH_TOKEN }}
           repository: InsightAOI-Collective/dz_ai_translation
           ref: main
           path: dz_ai_translation
-          fetch-depth: 0
-          clean: true
 
-      # Go setup 注释保留
       - uses: actions/setup-go@v5
         with:
           go-version: '1.24.x'
           cache-dependency-path: dz_ai_translation/go.sum
-        env:
-          GO_INSTALL_BASE_URL: "https://golang.google.cn/dl/"
 
       - shell: bash
         env:
@@ -162,32 +154,30 @@ jobs:
           PLATFORM_DIR: ${{ github.workspace }}/platform
         run: |
           cd dz_ai_translation
-          go version
-          go clean -modcache
+          export GOPROXY=https://goproxy.cn,direct
+          export GOSUMDB=off
           go mod tidy
-          go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
-          protoc --go_out=. --go_opt=paths=source_relative internal/conf/conf.proto
-          protoc --go-grpc_out=. --go-grpc_opt=paths=source_relative internal/conf/conf.proto || true
           go build -o ./bin/ ./...
           go install github.com/a8m/envsubst/cmd/envsubst@latest
           ~/go/bin/envsubst < configs/dev.yaml.tpl > configs/dev.yaml
 
-      - uses: softprops/diffset@v2
-        id: diffset
-        with:
-          json_files: |
-            dz-international-config/*/*/*.json
-          base: develop
-
       - shell: bash
         run: |
-          ./dz_ai_translation/bin/cmd -conf ./dz_ai_translation/configs/dev.yaml diff ${{ steps.diffset.outputs.json_files }}
+          cd dz_ai_translation
+          current_branch=$(git rev-parse --abbrev-ref HEAD)
+          git --git-dir=../dz-international-config/.git diff --name-only develop...$current_branch | grep '\.json$' > json_diff.txt
+          files=$(cat json_diff.txt)
+          if [ -n "$files" ]; then
+            ./dz_ai_translation/bin/cmd -conf ./dz_ai_translation/configs/dev.yaml diff $files
+          else
+            echo "No JSON changes to diff"
+          fi
 
       - uses: peter-evans/create-pull-request@v7
         id: cpr
         with:
           token: ${{ secrets.DZ_GH_TOKEN }}
-          base: ai_translation
+          base: develop
           branch: ai-translation
           title: "AI translation update (push triggered)"
 
