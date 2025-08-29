@@ -13,7 +13,7 @@ on:
         - backtest
   push:
     branches:
-      - main
+      - develop
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.event.ref || github.head_ref || github.ref }}
@@ -37,14 +37,6 @@ jobs:
           repository: InsightAOI-Collective/dz_ai_translation
           path: dz_ai_translation
 
-      # Checkout dz-international-config 仓库
-      - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.DZ_GH_TOKEN }}
-          repository: InsightAOI-Collective/dz-international-config
-          ref: develop
-          path: dz-international-config
-
       # Go 安装和依赖缓存
       - uses: actions/setup-go@v5
         with:
@@ -64,11 +56,9 @@ jobs:
         run: |
           cd dz_ai_translation
           go mod tidy
-          go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
-          protoc --go_out=. --go_opt=paths=source_relative internal/conf/conf.proto
-          protoc --go-grpc_out=. --go-grpc_opt=paths=source_relative internal/conf/conf.proto || true
           go build -o ./bin/ ./...
           go install github.com/a8m/envsubst/cmd/envsubst@latest
+
           ~/go/bin/envsubst < configs/dev.yaml.tpl > configs/dev.yaml
 
       # 执行 full-load/self-check/backtest
@@ -77,26 +67,18 @@ jobs:
         run: |
           ./dz_ai_translation/bin/cmd -conf ./dz_ai_translation/configs/dev.yaml ${{ github.event.inputs.command }}
 
-      # 执行 diff
+      - uses: softprops/diffset@v2
+        id: diffset
+        if: github.event.inputs.command == 'diff'
+        with:
+          json_files: |
+            platform/*/*/*.json
+          base: ai-translation
+      
       - shell: bash
         if: github.event.inputs.command == 'diff'
         run: |
-          # 获取 dz-international-config develop commit
-          cd ../dz-international-config
-          git fetch origin develop
-          git checkout develop
-          DZ_ICOMMIT=$(git rev-parse HEAD)
-          cd ../dz_ai_translation
-          # 获取 dz_ai_translation main commit
-          DA_COMMIT=$(git rev-parse HEAD)
-          # 比较两个仓库对应文件差异
-          git --no-pager diff --name-only $DZ_ICOMMIT $DA_COMMIT | grep '\.json$' > json_diff.txt
-          files=$(cat json_diff.txt)
-          if [ -n "$files" ]; then
-            ./dz_ai_translation/bin/cmd -conf ./dz_ai_translation/configs/dev.yaml diff $files
-          else
-            echo "No JSON changes to diff"
-          fi
+          ./dz_ai_translation/bin/cmd -conf ./dz_ai_translation/configs/dev.yaml ${{ github.event.inputs.command }} ${{ steps.diffset.outputs.json_files }}
 
       # 创建 PR
       - uses: peter-evans/create-pull-request@v7
@@ -133,14 +115,6 @@ jobs:
           repository: InsightAOI-Collective/dz_ai_translation
           path: dz_ai_translation
 
-      # Checkout dz-international-config
-      - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.DZ_GH_TOKEN }}
-          repository: InsightAOI-Collective/dz-international-config
-          ref: develop
-          path: dz-international-config
-
       # Go 安装和依赖缓存
       - uses: actions/setup-go@v5
         with:
@@ -160,29 +134,21 @@ jobs:
         run: |
           cd dz_ai_translation
           go mod tidy
-          go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
-          protoc --go_out=. --go_opt=paths=source_relative internal/conf/conf.proto
-          protoc --go-grpc_out=. --go-grpc_opt=paths=source_relative internal/conf/conf.proto || true
           go build -o ./bin/ ./...
           go install github.com/a8m/envsubst/cmd/envsubst@latest
+
           ~/go/bin/envsubst < configs/dev.yaml.tpl > configs/dev.yaml
 
-      # diff 比较
+      - uses: softprops/diffset@v2
+        id: diffset
+        with:
+          json_files: |
+            platform/*/*/*.json
+          base: ai-translation
+
       - shell: bash
         run: |
-          cd ../dz-international-config
-          git fetch origin develop
-          git checkout develop
-          DZ_ICOMMIT=$(git rev-parse HEAD)
-          cd ../dz_ai_translation
-          DA_COMMIT=$(git rev-parse HEAD)
-          git --no-pager diff --name-only $DZ_ICOMMIT $DA_COMMIT | grep '\.json$' > json_diff.txt
-          files=$(cat json_diff.txt)
-          if [ -n "$files" ]; then
-            ./dz_ai_translation/bin/cmd -conf ./dz_ai_translation/configs/dev.yaml diff $files
-          else
-            echo "No JSON changes to diff"
-          fi
+          ./dz_ai_translation/bin/cmd -conf ./dz_ai_translation/configs/dev.yaml diff ${{ steps.diffset.outputs.json_files }}
 
       - uses: peter-evans/create-pull-request@v7
         id: cpr
