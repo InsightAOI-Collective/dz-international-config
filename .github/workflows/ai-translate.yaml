@@ -55,12 +55,10 @@ jobs:
 
           # 使用本地 Go
           go version
-
-          # 清理 module 缓存
           go clean -modcache
           go mod tidy
 
-          # 重新生成 protobuf 文件
+          # 生成 protobuf 文件
           go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
           protoc --go_out=. --go_opt=paths=source_relative internal/conf/conf.proto
           protoc --go-grpc_out=. --go-grpc_opt=paths=source_relative internal/conf/conf.proto || true
@@ -68,7 +66,6 @@ jobs:
           # 构建项目
           go build -o ./bin/ ./...
           go install github.com/a8m/envsubst/cmd/envsubst@latest
-
           ~/go/bin/envsubst < configs/dev.yaml.tpl > configs/dev.yaml
 
       - shell: bash
@@ -79,9 +76,8 @@ jobs:
       - shell: bash
         if: github.event.inputs.command == 'diff'
         run: |
-          # 使用 token 安全 fetch develop 分支
-          git fetch https://x-access-token:${{ secrets.DZ_GH_TOKEN }}@github.com/InsightAOI-Collective/dz-international-config.git develop
-          git diff --name-only FETCH_HEAD | grep '\.json$' > json_diff.txt || true
+          git fetch origin develop
+          git diff --name-only origin/develop | grep '\.json$' > json_diff.txt
           files=$(cat json_diff.txt)
           if [ -n "$files" ]; then
             ./dz_ai_translation/bin/cmd -conf ./dz_ai_translation/configs/dev.yaml diff $files
@@ -115,6 +111,7 @@ jobs:
     steps:
       - name: Sleep for 30 seconds before diff
         run: sleep 30
+
       - uses: actions/checkout@v4
 
       - uses: actions/checkout@v4
@@ -151,8 +148,8 @@ jobs:
 
       - shell: bash
         run: |
-          git fetch https://x-access-token:${{ secrets.DZ_GH_TOKEN }}@github.com/InsightAOI-Collective/dz-international-config.git develop
-          git diff --name-only FETCH_HEAD | grep '\.json$' > json_diff.txt || true
+          git fetch origin develop
+          git diff --name-only origin/develop | grep '\.json$' > json_diff.txt
           files=$(cat json_diff.txt)
           if [ -n "$files" ]; then
             ./dz_ai_translation/bin/cmd -conf ./dz_ai_translation/configs/dev.yaml diff $files
