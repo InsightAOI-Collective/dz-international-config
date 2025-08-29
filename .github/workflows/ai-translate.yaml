@@ -55,6 +55,8 @@ jobs:
           PLATFORM_DIR: ${{ github.workspace }}/platform
         run: |
           cd dz_ai_translation
+          export GOPROXY=https://goproxy.cn,direct
+          export GOSUMDB=off
           go mod tidy
           go build -o ./bin/ ./...
           go install github.com/a8m/envsubst/cmd/envsubst@latest
@@ -133,6 +135,8 @@ jobs:
           PLATFORM_DIR: ${{ github.workspace }}/platform
         run: |
           cd dz_ai_translation
+          export GOPROXY=https://goproxy.cn,direct
+          export GOSUMDB=off
           go mod tidy
           go build -o ./bin/ ./...
           go install github.com/a8m/envsubst/cmd/envsubst@latest
