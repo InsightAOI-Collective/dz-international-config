@@ -28,7 +28,7 @@ jobs:
       contents: write
       pull-requests: write
     steps:
-      # Checkout dz-international-config 用于存储文本
+      # Checkout dz-international-config
       - name: Checkout dz-international-config
         uses: actions/checkout@v4
         with:
@@ -39,22 +39,24 @@ jobs:
           fetch-depth: 0
           clean: true
 
-      # Checkout dz_ai_translation 用于执行程序
+      # Checkout dz_ai_translation
       - name: Checkout dz_ai_translation
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.DZ_GH_TOKEN }}
           repository: InsightAOI-Collective/dz_ai_translation
-          ref: develop
+          ref: main
           path: dz_ai_translation
           fetch-depth: 0
           clean: true
 
-      # 保留 setup-go 注释
-      - uses: actions/setup-go@v5
-        with:
-          go-version: '1.24.x'
-          cache-dependency-path: dz_ai_translation/go.sum
+      # Go setup 注释保留
+      # - uses: actions/setup-go@v5
+      #   with:
+      #     go-version: '1.24.x'
+      #     cache-dependency-path: dz_ai_translation/go.sum
+      #   env:
+      #     GO_INSTALL_BASE_URL: "https://golang.google.cn/dl/"
 
       - shell: bash
         env:
@@ -65,36 +67,42 @@ jobs:
           PLATFORM_DIR: ${{ github.workspace }}/platform
         run: |
           cd dz_ai_translation
+          go version
+          go clean -modcache
           go mod tidy
+          go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
+          protoc --go_out=. --go_opt=paths=source_relative internal/conf/conf.proto
+          protoc --go-grpc_out=. --go-grpc_opt=paths=source_relative internal/conf/conf.proto || true
           go build -o ./bin/ ./...
           go install github.com/a8m/envsubst/cmd/envsubst@latest
           ~/go/bin/envsubst < configs/dev.yaml.tpl > configs/dev.yaml
 
-      # full-load / self-check / backtest
+      # 执行 full-load/self-check/backtest
       - shell: bash
         if: github.event.inputs.command == 'full-load' || github.event.inputs.command == 'self-check' || github.event.inputs.command == 'backtest'
         run: |
           ./dz_ai_translation/bin/cmd -conf ./dz_ai_translation/configs/dev.yaml ${{ github.event.inputs.command }}
 
-      # diff
+      # 执行 diff
       - uses: softprops/diffset@v2
         id: diffset
         if: github.event.inputs.command == 'diff'
         with:
           json_files: |
-            dz-international-config/platform/*/*/*.json
-          base: ai-translation
+            dz-international-config/*/*/*.json
+          base: develop
 
       - shell: bash
         if: github.event.inputs.command == 'diff'
         run: |
           ./dz_ai_translation/bin/cmd -conf ./dz_ai_translation/configs/dev.yaml diff ${{ steps.diffset.outputs.json_files }}
 
+      # 创建 PR
       - uses: peter-evans/create-pull-request@v7
         id: cpr
         with:
           token: ${{ secrets.DZ_GH_TOKEN }}
-          base: develop
+          base: ai_translation
           branch: ai-translation
           title: "AI translation update"
 
@@ -117,7 +125,6 @@ jobs:
       - name: Sleep for 30 seconds before diff
         run: sleep 30
 
-      # Checkout dz-international-config
       - name: Checkout dz-international-config
         uses: actions/checkout@v4
         with:
@@ -128,22 +135,23 @@ jobs:
           fetch-depth: 0
           clean: true
 
-      # Checkout dz_ai_translation
       - name: Checkout dz_ai_translation
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.DZ_GH_TOKEN }}
           repository: InsightAOI-Collective/dz_ai_translation
-          ref: develop
+          ref: main
           path: dz_ai_translation
           fetch-depth: 0
           clean: true
 
-      # 保留 setup-go 注释
-      - uses: actions/setup-go@v5
-        with:
-          go-version: '1.24.x'
-          cache-dependency-path: dz_ai_translation/go.sum
+      # Go setup 注释保留
+      # - uses: actions/setup-go@v5
+      #   with:
+      #     go-version: '1.24.x'
+      #     cache-dependency-path: dz_ai_translation/go.sum
+      #   env:
+      #     GO_INSTALL_BASE_URL: "https://golang.google.cn/dl/"
 
       - shell: bash
         env:
@@ -154,7 +162,12 @@ jobs:
           PLATFORM_DIR: ${{ github.workspace }}/platform
         run: |
           cd dz_ai_translation
+          go version
+          go clean -modcache
           go mod tidy
+          go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
+          protoc --go_out=. --go_opt=paths=source_relative internal/conf/conf.proto
+          protoc --go-grpc_out=. --go-grpc_opt=paths=source_relative internal/conf/conf.proto || true
           go build -o ./bin/ ./...
           go install github.com/a8m/envsubst/cmd/envsubst@latest
           ~/go/bin/envsubst < configs/dev.yaml.tpl > configs/dev.yaml
@@ -163,8 +176,8 @@ jobs:
         id: diffset
         with:
           json_files: |
-            dz-international-config/platform/*/*/*.json
-          base: ai-translation
+            dz-international-config/*/*/*.json
+          base: develop
 
       - shell: bash
         run: |
@@ -174,7 +187,7 @@ jobs:
         id: cpr
         with:
           token: ${{ secrets.DZ_GH_TOKEN }}
-          base: develop
+          base: ai_translation
           branch: ai-translation
           title: "AI translation update (push triggered)"
 
