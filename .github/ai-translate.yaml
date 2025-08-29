@@ -1,0 +1,158 @@
+name: AI-Translate
+on:
+  workflow_dispatch:
+    inputs:
+      command:
+        required: true
+        description: 要操作的命令
+        type: choice
+        options:
+        - full-load
+        - diff
+        - self-check
+        - backtest
+  push:
+    branches:
+      - develop
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.ref || github.head_ref || github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  Workflow:
+    name: Build and Deploy
+    runs-on: dz-action-runner
+    if: github.event_name == 'workflow_dispatch'
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.DZ_GH_TOKEN }}
+          repository: InsightAOI-Collective/dz_ai_translation
+          path: dz_ai_translation
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.24.x'
+          cache-dependency-path: dz_ai_translation/go.sum
+
+      - shell: bash
+        env:
+          GEMINI_TOKEN: ${{ secrets.GEMINI_TOKEN }}
+          DB_USERNAME: ${{ secrets.DB_USERNAME }}
+          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+          DB_NAME: "ai_translation"
+          PLATFORM_DIR: ${{ github.workspace }}/platform
+        run: |
+          cd dz_ai_translation
+          go mod tidy
+          go build -o ./bin/ ./...
+          go install github.com/a8m/envsubst/cmd/envsubst@latest
+
+          ~/go/bin/envsubst < configs/dev.yaml.tpl > configs/dev.yaml
+
+      - shell: bash
+        if: github.event.inputs.command == 'full-load' || github.event.inputs.command == 'self-check' || github.event.inputs.command == 'backtest'
+        run: |
+          ./dz_ai_translation/bin/cmd -conf ./dz_ai_translation/configs/dev.yaml ${{ github.event.inputs.command }}
+
+      - uses: softprops/diffset@v2
+        id: diffset
+        if: github.event.inputs.command == 'diff'
+        with:
+          json_files: |
+            platform/*/*/*.json
+          base: ai-translation
+
+      - shell: bash
+        if: github.event.inputs.command == 'diff'
+        run: |
+          ./dz_ai_translation/bin/cmd -conf ./dz_ai_translation/configs/dev.yaml ${{ github.event.inputs.command }} ${{ steps.diffset.outputs.json_files }}
+
+      - uses: peter-evans/create-pull-request@v7
+        id: cpr
+        with:
+          token: ${{ secrets.DZ_GH_TOKEN }}
+          base: develop
+          branch: ai-translation
+          # delete-branch: true
+          title: "AI translation update"
+
+      - name: Enable Pull Request Automerge
+        if: steps.cpr.outputs.pull-request-operation == 'created'
+        uses: peter-evans/enable-pull-request-automerge@v3
+        with:
+          token: ${{ secrets.DZ_GH_TOKEN }}
+          pull-request-number: ${{ steps.cpr.outputs.pull-request-number }}
+          merge-method: squash
+
+  Push-Diff:
+    name: Push Triggered Diff
+    runs-on: dz-action-runner
+    if: github.event_name == 'push'
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Sleep for 5 minutes before diff
+        run: sleep 300
+      - uses: actions/checkout@v4
+
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.DZ_GH_TOKEN }}
+          repository: InsightAOI-Collective/dz_ai_translation
+          path: dz_ai_translation
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.24.x'
+          cache-dependency-path: dz_ai_translation/go.sum
+
+      - shell: bash
+        env:
+          GEMINI_TOKEN: ${{ secrets.GEMINI_TOKEN }}
+          DB_USERNAME: ${{ secrets.DB_USERNAME }}
+          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+          DB_NAME: "ai_translation"
+          PLATFORM_DIR: ${{ github.workspace }}/platform
+        run: |
+          cd dz_ai_translation
+          go mod tidy
+          go build -o ./bin/ ./...
+          go install github.com/a8m/envsubst/cmd/envsubst@latest
+
+          ~/go/bin/envsubst < configs/dev.yaml.tpl > configs/dev.yaml
+
+      - uses: softprops/diffset@v2
+        id: diffset
+        with:
+          json_files: |
+            platform/*/*/*.json
+          base: ai-translation
+
+      - shell: bash
+        run: |
+          ./dz_ai_translation/bin/cmd -conf ./dz_ai_translation/configs/dev.yaml diff ${{ steps.diffset.outputs.json_files }}
+
+      - uses: peter-evans/create-pull-request@v7
+        id: cpr
+        with:
+          token: ${{ secrets.DZ_GH_TOKEN }}
+          base: develop
+          branch: ai-translation
+          # delete-branch: true
+          title: "AI translation update (push triggered)"
+
+      - name: Enable Pull Request Automerge
+        if: steps.cpr.outputs.pull-request-operation == 'created'
+        uses: peter-evans/enable-pull-request-automerge@v3
+        with:
+          token: ${{ secrets.DZ_GH_TOKEN }}
+          pull-request-number: ${{ steps.cpr.outputs.pull-request-number }}
+          merge-method: squash
