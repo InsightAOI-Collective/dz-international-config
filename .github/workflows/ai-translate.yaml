@@ -47,6 +47,12 @@ jobs:
           cache-dependency-path: dz_ai_translation/go.sum
         env:
           GO_INSTALL_BASE_URL: "https://golang.google.cn/dl/"
+      
+       # 安装 protoc
+      - uses: arduino/setup-protoc@v2
+        with:
+          version: "24.2"
+          repo-token: ${{ secrets.DZ_GH_TOKEN }}
 
       # Build dz_ai_translation
       - shell: bash
@@ -60,13 +66,6 @@ jobs:
           cd dz_ai_translation
           export GOPROXY=https://goproxy.cn,direct
           export GOSUMDB=off
-
-          # 安装 protoc
-          PROTOC_ZIP=protoc-24.2-linux-x86_64.zip
-          curl -sL -o $PROTOC_ZIP https://github.com/protocolbuffers/protobuf/releases/download/v24.2/$PROTOC_ZIP
-          unzip -o $PROTOC_ZIP -d $HOME/.local
-          export PATH="$HOME/.local/bin:$PATH"
-          protoc --version
 
           # 清理旧的 pb.go
           rm -f internal/conf/conf.pb.go
@@ -149,6 +148,12 @@ jobs:
         env:
           GO_INSTALL_BASE_URL: "https://golang.google.cn/dl/"
 
+       # 安装 protoc
+      - uses: arduino/setup-protoc@v2
+        with:
+          version: "24.2"
+          repo-token: ${{ secrets.DZ_GH_TOKEN }}
+
       # Build dz_ai_translation
       - shell: bash
         env:
@@ -161,13 +166,6 @@ jobs:
           cd dz_ai_translation
           export GOPROXY=https://goproxy.cn,direct
           export GOSUMDB=off
-
-          # 安装 protoc
-          PROTOC_ZIP=protoc-24.2-linux-x86_64.zip
-          curl -sL -o $PROTOC_ZIP https://github.com/protocolbuffers/protobuf/releases/download/v24.2/$PROTOC_ZIP
-          unzip -o $PROTOC_ZIP -d $HOME/.local
-          export PATH="$HOME/.local/bin:$PATH"
-          protoc --version
 
           # 清理旧的 pb.go
           rm -f internal/conf/conf.pb.go
