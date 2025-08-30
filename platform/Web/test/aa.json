@@ -1,23 +1,17 @@
 [
  {
-  "en": "Action",
-  "key": "action",
-  "zh-CN": "操作"
+  "key": "action"
  },
  {
-  "en": "tt1",
   "key": "tt1"
  },
  {
-  "en": "one",
   "key": "one"
  },
  {
-  "en": "two",
   "key": "two"
  },
  {
-  "en": "three",
   "key": "three"
  }
 ]
