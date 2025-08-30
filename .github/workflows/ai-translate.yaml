@@ -40,6 +40,24 @@ jobs:
           path: dz_ai_translation
           ssh-key: ${{ secrets.DZ_SSH_KEY }}
 
+      # Verify dz_ai_translation checkout
+      - name: Verify dz_ai_translation checkout
+        run: |
+          if [ ! -d "dz_ai_translation/.git" ]; then
+            echo "ERROR: dz_ai_translation checkout failed or repo is empty"
+            exit 1
+          fi
+
+      # Remove empty or non-git directories
+      - name: Remove empty or non-git directories
+        run: |
+          for dir in dz_ai_translation; do
+            if [ -d "$dir" ] && [ ! -d "$dir/.git" ]; then
+              echo "Removing empty or non-git directory: $dir"
+              rm -rf "$dir"
+            fi
+          done
+
       # Go 安装和依赖缓存
       - uses: actions/setup-go@v5
         with:
@@ -102,6 +120,12 @@ jobs:
         run: |
           ./dz_ai_translation/bin/cmd -conf ./dz_ai_translation/configs/dev.yaml ${{ github.event.inputs.command }} ${{ steps.diffset.outputs.json_files }}
 
+      # Ensure git index is clean before creating PR
+      - name: Ensure git index is clean
+        run: |
+          git add -A
+          git status
+
       # 创建 PR (dz-international-config 根目录)
       - uses: peter-evans/create-pull-request@v7
         id: cpr
@@ -141,6 +165,24 @@ jobs:
           repository: InsightAOI-Collective/dz_ai_translation
           path: dz_ai_translation
           ssh-key: ${{ secrets.DZ_SSH_KEY }}
+
+      # Verify dz_ai_translation checkout
+      - name: Verify dz_ai_translation checkout
+        run: |
+          if [ ! -d "dz_ai_translation/.git" ]; then
+            echo "ERROR: dz_ai_translation checkout failed or repo is empty"
+            exit 1
+          fi
+
+      # Remove empty or non-git directories
+      - name: Remove empty or non-git directories
+        run: |
+          for dir in dz_ai_translation; do
+            if [ -d "$dir" ] && [ ! -d "$dir/.git" ]; then
+              echo "Removing empty or non-git directory: $dir"
+              rm -rf "$dir"
+            fi
+          done
 
       # Go 安装和依赖缓存
       - uses: actions/setup-go@v5
@@ -195,6 +237,12 @@ jobs:
       - shell: bash
         run: |
           ./dz_ai_translation/bin/cmd -conf ./dz_ai_translation/configs/dev.yaml diff ${{ steps.diffset.outputs.json_files }}
+
+      # Ensure git index is clean before creating PR
+      - name: Ensure git index is clean
+        run: |
+          git add -A
+          git status
 
       # 创建 PR (dz-international-config 根目录)
       - uses: peter-evans/create-pull-request@v7
