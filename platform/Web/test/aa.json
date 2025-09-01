@@ -4,6 +4,7 @@
   "key": "two"
  },
  {
+  "en": "action",
   "key": "action"
  },
  {
@@ -15,9 +16,9 @@
  {
   "en": "four",
   "key": "four",
-  "th-TH": "สี่",
-  "vi-VN": "bốn",
-  "zh-CN": "四",
-  "zh-TW": "四"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "",
+  "zh-TW": ""
  }
 ]
