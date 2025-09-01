@@ -1,6 +1,24 @@
 [
-    {
-        "en": "tt1",
-        "key": "tt1"
-    }
+ {
+  "en": "two",
+  "key": "two"
+ },
+ {
+  "en": "action",
+  "key": "action"
+ },
+ {
+  "key": "tt1"
+ },
+ {
+  "key": "one"
+ },
+ {
+  "en": "four",
+  "key": "four",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "",
+  "zh-TW": ""
+ }
 ]
