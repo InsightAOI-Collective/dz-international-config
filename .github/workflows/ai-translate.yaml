@@ -127,8 +127,8 @@ jobs:
       contents: write
       pull-requests: write
     steps:
-      - name: Sleep for 30 seconds before diff
-        run: sleep 30
+      - name: Sleep for 300 seconds before diff
+        run: sleep 300
 
       # Checkout dz-international-config (文本库)
       - uses: actions/checkout@v4
