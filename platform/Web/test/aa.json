@@ -4,11 +4,7 @@
  },
  {
   "en": "action",
-  "key": "action",
-  "th-TH": "การดำเนินการ",
-  "vi-VN": "hành động",
-  "zh-CN": "行动",
-  "zh-TW": "行動"
+  "key": "action"
  },
  {
   "key": "tt1"
@@ -19,9 +15,9 @@
  {
   "en": "four",
   "key": "four",
-  "th-TH": "สี่",
-  "vi-VN": "bốn",
-  "zh-CN": "四",
-  "zh-TW": "四"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "",
+  "zh-TW": ""
  }
 ]

@@ -1,12 +1,10 @@
 [
  {
   "en": "two",
-  "key": "two",
-  "zh-CN": "二"
+  "key": "two"
  },
  {
   "en": "one",
-  "key": "one",
-  "zh-CN": "一"
+  "key": "one"
  }
 ]
