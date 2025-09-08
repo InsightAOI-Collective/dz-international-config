@@ -3,455 +3,1133 @@
   "key": "admin.Account.title"
  },
  {
+  "en": "",
+  "en-US": "Username",
   "key": "admin.Account.formNicknameLabel",
-  "zh-CN": "用户名"
+  "th-TH": "ชื่อผู้ใช้",
+  "vi-VN": "",
+  "zh-CN": "用户名",
+  "zh-MY": "",
+  "zh-TW": "使用者名稱"
  },
  {
+  "en": "",
+  "en-US": "Please enter username",
   "key": "admin.Account.formNicknamePlaceholder",
-  "zh-CN": "请输入用户名"
+  "th-TH": "โปรดป้อนชื่อผู้ใช้",
+  "vi-VN": "",
+  "zh-CN": "请输入用户名",
+  "zh-MY": "",
+  "zh-TW": "請輸入使用者名稱"
  },
  {
+  "en": "",
+  "en-US": "Account (Employee ID)",
   "key": "admin.Account.formUsernameLabel",
-  "zh-CN": "账户（工号）"
+  "th-TH": "บัญชี (รหัสพนักงาน)",
+  "vi-VN": "",
+  "zh-CN": "账户（工号）",
+  "zh-MY": "",
+  "zh-TW": "帳戶（工號）"
  },
  {
+  "en": "",
+  "en-US": "Please enter account (Employee ID)",
   "key": "admin.Account.formUsernamePlaceholder",
-  "zh-CN": "请输入账户（工号）"
+  "th-TH": "โปรดป้อนบัญชี (รหัสพนักงาน)",
+  "vi-VN": "",
+  "zh-CN": "请输入账户（工号）",
+  "zh-MY": "",
+  "zh-TW": "請輸入帳戶（工號）"
  },
  {
+  "en": "",
+  "en-US": "Role",
   "key": "admin.Account.formRoleLabel",
-  "zh-CN": "角色"
+  "th-TH": "บทบาท",
+  "vi-VN": "",
+  "zh-CN": "角色",
+  "zh-MY": "",
+  "zh-TW": "角色"
  },
  {
+  "en": "",
+  "en-US": "Please select role",
   "key": "admin.Account.formRolePlaceholder",
-  "zh-CN": "请选择角色"
+  "th-TH": "โปรดเลือกบทบาท",
+  "vi-VN": "",
+  "zh-CN": "请选择角色",
+  "zh-MY": "",
+  "zh-TW": "請選擇角色"
  },
  {
+  "en": "",
+  "en-US": "Status",
   "key": "admin.Account.formStatusLabel",
-  "zh-CN": "状态"
+  "th-TH": "สถานะ",
+  "vi-VN": "",
+  "zh-CN": "状态",
+  "zh-MY": "",
+  "zh-TW": "狀態"
  },
  {
+  "en": "",
+  "en-US": "Please select status",
   "key": "admin.Account.formStatusPlaceholder",
-  "zh-CN": "请选择状态"
+  "th-TH": "โปรดเลือกสถานะ",
+  "vi-VN": "",
+  "zh-CN": "请选择状态",
+  "zh-MY": "",
+  "zh-TW": "請選擇狀態"
  },
  {
+  "en": "",
+  "en-US": "Creation Time",
   "key": "admin.Account.formCreateTimeLabel",
-  "zh-CN": "创建时间"
+  "th-TH": "เวลาสร้าง",
+  "vi-VN": "",
+  "zh-CN": "创建时间",
+  "zh-MY": "",
+  "zh-TW": "建立時間"
  },
  {
+  "en": "",
+  "en-US": "Start Time",
   "key": "admin.Account.formCreateTimeStartPlaceholder",
-  "zh-CN": "开始时间"
+  "th-TH": "เวลาเริ่มต้น",
+  "vi-VN": "",
+  "zh-CN": "开始时间",
+  "zh-MY": "",
+  "zh-TW": "開始時間"
  },
  {
+  "en": "",
+  "en-US": "End Time",
   "key": "admin.Account.formCreateTimeEndPlaceholder",
-  "zh-CN": "结束时间"
+  "th-TH": "เวลาสิ้นสุด",
+  "vi-VN": "",
+  "zh-CN": "结束时间",
+  "zh-MY": "",
+  "zh-TW": "結束時間"
  },
  {
+  "en": "",
+  "en-US": "Search",
   "key": "admin.Account.formBtnSearch",
-  "zh-CN": "搜索"
+  "th-TH": "ค้นหา",
+  "vi-VN": "",
+  "zh-CN": "搜索",
+  "zh-MY": "",
+  "zh-TW": "搜尋"
  },
  {
+  "en": "",
+  "en-US": "Reset",
   "key": "admin.Account.formBtnReset",
-  "zh-CN": "重置"
+  "th-TH": "รีเซ็ต",
+  "vi-VN": "",
+  "zh-CN": "重置",
+  "zh-MY": "",
+  "zh-TW": "重設"
  },
  {
+  "en": "",
+  "en-US": "Account List",
   "key": "admin.Account.listTitle",
-  "zh-CN": "账户列表"
+  "th-TH": "รายการบัญชี",
+  "vi-VN": "",
+  "zh-CN": "账户列表",
+  "zh-MY": "",
+  "zh-TW": "帳戶列表"
  },
  {
+  "en": "",
+  "en-US": "Add",
   "key": "admin.Account.listBtnAdd",
-  "zh-CN": "添加"
+  "th-TH": "เพิ่ม",
+  "vi-VN": "",
+  "zh-CN": "添加",
+  "zh-MY": "",
+  "zh-TW": "新增"
  },
  {
+  "en": "",
+  "en-US": "Total ${total} records",
   "key": "admin.Account.listTotal",
-  "zh-CN": "共 ${total} 条记录"
+  "th-TH": "รวม ${total} รายการ",
+  "vi-VN": "",
+  "zh-CN": "共 ${total} 条记录",
+  "zh-MY": "",
+  "zh-TW": "共 ${total} 筆記錄"
  },
  {
+  "en": "",
+  "en-US": "Add User",
   "key": "admin.Account.addModalTitle",
-  "zh-CN": "添加用户"
+  "th-TH": "เพิ่มผู้ใช้",
+  "vi-VN": "",
+  "zh-CN": "添加用户",
+  "zh-MY": "",
+  "zh-TW": "新增使用者"
  },
  {
+  "en": "",
+  "en-US": "Account (Employee ID)",
   "key": "admin.Account.addModalFormAccountLabel",
-  "zh-CN": "账号(工号)"
+  "th-TH": "บัญชี (รหัสพนักงาน)",
+  "vi-VN": "",
+  "zh-CN": "账号(工号)",
+  "zh-MY": "",
+  "zh-TW": "帳號(工號)"
  },
  {
+  "en": "",
+  "en-US": "Please enter account",
   "key": "admin.Account.addModalFormAccountPlaceholder",
-  "zh-CN": "请输入账号"
+  "th-TH": "โปรดป้อนบัญชี",
+  "vi-VN": "",
+  "zh-CN": "请输入账号",
+  "zh-MY": "",
+  "zh-TW": "請輸入帳號"
  },
  {
+  "en": "",
+  "en-US": "Account length should be 6-20 characters.",
   "key": "admin.Account.addModalFormAccountRules",
-  "zh-CN": "账号长度应为 6-20 个字符"
+  "th-TH": "ความยาวของบัญชีควรเป็น 6-20 ตัวอักษร",
+  "vi-VN": "",
+  "zh-CN": "账号长度应为 6-20 个字符",
+  "zh-MY": "",
+  "zh-TW": "帳號長度應為 6-20 個字元"
  },
  {
+  "en": "",
+  "en-US": "Account supports English letters and numbers only.",
   "key": "admin.Account.addModalFormAccountExtra",
-  "zh-CN": "账号仅支持英文、数字"
+  "th-TH": "บัญชีรองรับเฉพาะตัวอักษรภาษาอังกฤษและตัวเลขเท่านั้น",
+  "vi-VN": "",
+  "zh-CN": "账号仅支持英文、数字",
+  "zh-MY": "",
+  "zh-TW": "帳號僅支援英文、數字"
  },
  {
+  "en": "",
+  "en-US": "Username",
   "key": "admin.Account.addModalFormNicknameLabel",
-  "zh-CN": "用户名"
+  "th-TH": "ชื่อผู้ใช้",
+  "vi-VN": "",
+  "zh-CN": "用户名",
+  "zh-MY": "",
+  "zh-TW": "使用者名稱"
  },
  {
+  "en": "",
+  "en-US": "Please enter username (optional)",
   "key": "admin.Account.addModalFormNicknamePlaceholder",
-  "zh-CN": "请输入用户名（选填）"
+  "th-TH": "โปรดป้อนชื่อผู้ใช้ (ไม่บังคับ)",
+  "vi-VN": "",
+  "zh-CN": "请输入用户名（选填）",
+  "zh-MY": "",
+  "zh-TW": "請輸入使用者名稱（選填）"
  },
  {
+  "en": "",
+  "en-US": "Username length should be 2-20 characters.",
   "key": "admin.Account.addModalFormNicknameRules",
-  "zh-CN": "用户名长度应为 2-20 个字符"
+  "th-TH": "ความยาวของชื่อผู้ใช้ควรเป็น 2-20 ตัวอักษร",
+  "vi-VN": "",
+  "zh-CN": "用户名长度应为 2-20 个字符",
+  "zh-MY": "",
+  "zh-TW": "使用者名稱長度應為 2-20 個字元"
  },
  {
+  "en": "",
+  "en-US": "Username supports Chinese, English letters, numbers, and some special characters.",
   "key": "admin.Account.addModalFormNicknameExtra",
-  "zh-CN": "用户名支持中文、英文、数字及部分特殊字符"
+  "th-TH": "ชื่อผู้ใช้รองรับภาษาจีน, อังกฤษ, ตัวเลข และอักขระพิเศษบางส่วน",
+  "vi-VN": "",
+  "zh-CN": "用户名支持中文、英文、数字及部分特殊字符",
+  "zh-MY": "",
+  "zh-TW": "使用者名稱支援中文、英文、數字及部分特殊字元"
  },
  {
+  "en": "",
+  "en-US": "Role",
   "key": "admin.Account.addModalFormRoleLabel",
-  "zh-CN": "角色"
+  "th-TH": "บทบาท",
+  "vi-VN": "",
+  "zh-CN": "角色",
+  "zh-MY": "",
+  "zh-TW": "角色"
  },
  {
+  "en": "",
+  "en-US": "Please select role",
   "key": "admin.Account.addModalFormRolePlaceholder",
-  "zh-CN": "请选择角色"
+  "th-TH": "โปรดเลือกบทบาท",
+  "vi-VN": "",
+  "zh-CN": "请选择角色",
+  "zh-MY": "",
+  "zh-TW": "請選擇角色"
  },
  {
+  "en": "",
+  "en-US": "Modify Role",
   "key": "admin.Account.modifyModalTitle",
-  "zh-CN": "修改角色"
+  "th-TH": "แก้ไขบทบาท",
+  "vi-VN": "",
+  "zh-CN": "修改角色",
+  "zh-MY": "",
+  "zh-TW": "修改角色"
  },
  {
+  "en": "",
+  "en-US": "User Role",
   "key": "admin.Account.modifyModalFormRoleLabel",
-  "zh-CN": "用户角色"
+  "th-TH": "บทบาทผู้ใช้",
+  "vi-VN": "",
+  "zh-CN": "用户角色",
+  "zh-MY": "",
+  "zh-TW": "使用者角色"
  },
  {
+  "en": "",
+  "en-US": "Please select role",
   "key": "admin.Account.modifyModalFormRolePlaceholder",
-  "zh-CN": "请选择角色"
+  "th-TH": "โปรดเลือกบทบาท",
+  "vi-VN": "",
+  "zh-CN": "请选择角色",
+  "zh-MY": "",
+  "zh-TW": "請選擇角色"
  },
  {
+  "en": "",
+  "en-US": "Reset Password",
   "key": "admin.Account.confirmModalTitle",
-  "zh-CN": "重置密码"
+  "th-TH": "รีเซ็ตรหัสผ่าน",
+  "vi-VN": "",
+  "zh-CN": "重置密码",
+  "zh-MY": "",
+  "zh-TW": "重設密碼"
  },
  {
+  "en": "",
+  "en-US": "After resetting, the password will be the initial password \"000000\". Confirm password reset?",
   "key": "admin.Account.confirmModalContent",
-  "zh-CN": "重置密码后，密码为初始密码000000，是否确认重置密码？"
+  "th-TH": "หลังจากรีเซ็ตรหัสผ่าน, รหัสผ่านจะถูกตั้งค่าเป็น 000000 ซึ่งเป็นรหัสผ่านเริ่มต้น, คุณต้องการยืนยันการรีเซ็ตรหัสผ่านหรือไม่?",
+  "vi-VN": "",
+  "zh-CN": "重置密码后，密码为初始密码000000，是否确认重置密码？",
+  "zh-MY": "",
+  "zh-TW": "重設密碼後，密碼為初始密碼000000，是否確認重設密碼？"
  },
  {
+  "en": "",
+  "en-US": "Password reset successfully",
   "key": "admin.Account.confirmModalSuccessMessage",
-  "zh-CN": "密码重置成功"
+  "th-TH": "รีเซ็ตรหัสผ่านสำเร็จ",
+  "vi-VN": "",
+  "zh-CN": "密码重置成功",
+  "zh-MY": "",
+  "zh-TW": "密碼重設成功"
  },
  {
+  "en": "",
+  "en-US": "Confirm Resignation",
   "key": "admin.Account.resignModalTitle",
-  "zh-CN": "离职确认"
+  "th-TH": "ยืนยันการลาออก",
+  "vi-VN": "",
+  "zh-CN": "离职确认",
+  "zh-MY": "",
+  "zh-TW": "離職確認"
  },
  {
+  "en": "",
+  "en-US": "Cannot be recovered after resignation. Please proceed with caution!",
   "key": "admin.Account.resignModalContent",
-  "zh-CN": "离职后无法恢复，请谨慎操作！"
+  "th-TH": "ไม่สามารถกู้คืนได้หลังจากลาออก โปรดดำเนินการด้วยความระมัดระวัง!",
+  "vi-VN": "",
+  "zh-CN": "离职后无法恢复，请谨慎操作！",
+  "zh-MY": "",
+  "zh-TW": "離職後無法恢復，請謹慎操作！"
  },
  {
+  "en": "",
+  "en-US": "Operation successful",
   "key": "admin.Account.resignModalSuccessMessage",
-  "zh-CN": "操作成功"
+  "th-TH": "ดำเนินการสำเร็จ",
+  "vi-VN": "",
+  "zh-CN": "操作成功",
+  "zh-MY": "",
+  "zh-TW": "操作成功"
  },
  {
+  "en": "",
+  "en-US": "Role modified successfully",
   "key": "admin.Account.modifyModalSuccessMessage",
-  "zh-CN": "角色修改成功"
+  "th-TH": "แก้ไขบทบาทสำเร็จ",
+  "vi-VN": "",
+  "zh-CN": "角色修改成功",
+  "zh-MY": "",
+  "zh-TW": "角色修改成功"
  },
  {
+  "en": "",
+  "en-US": "No.",
   "key": "admin.Account.tableColIndex",
-  "zh-CN": "序号"
+  "th-TH": "ลำดับ",
+  "vi-VN": "",
+  "zh-CN": "序号",
+  "zh-MY": "",
+  "zh-TW": "序號"
  },
  {
+  "en": "",
+  "en-US": "Account (Employee ID)",
   "key": "admin.Account.tableColUsername",
-  "zh-CN": "账户（工号）"
+  "th-TH": "บัญชี (รหัสพนักงาน)",
+  "vi-VN": "",
+  "zh-CN": "账户（工号）",
+  "zh-MY": "",
+  "zh-TW": "帳戶（工號）"
  },
  {
+  "en": "",
+  "en-US": "Username",
   "key": "admin.Account.tableColNickname",
-  "zh-CN": "用户名"
+  "th-TH": "ชื่อผู้ใช้",
+  "vi-VN": "",
+  "zh-CN": "用户名",
+  "zh-MY": "",
+  "zh-TW": "使用者名稱"
  },
  {
+  "en": "",
+  "en-US": "Role",
   "key": "admin.Account.tableColRole",
-  "zh-CN": "角色"
+  "th-TH": "บทบาท",
+  "vi-VN": "",
+  "zh-CN": "角色",
+  "zh-MY": "",
+  "zh-TW": "角色"
  },
  {
+  "en": "",
+  "en-US": "Status",
   "key": "admin.Account.tableColStatus",
-  "zh-CN": "状态"
+  "th-TH": "สถานะ",
+  "vi-VN": "",
+  "zh-CN": "状态",
+  "zh-MY": "",
+  "zh-TW": "狀態"
  },
  {
+  "en": "",
+  "en-US": "Creation Time",
   "key": "admin.Account.tableColCreateTime",
-  "zh-CN": "创建时间"
+  "th-TH": "เวลาสร้าง",
+  "vi-VN": "",
+  "zh-CN": "创建时间",
+  "zh-MY": "",
+  "zh-TW": "建立時間"
  },
  {
+  "en": "",
+  "en-US": "Action",
   "key": "admin.Account.tableColAction",
-  "zh-CN": "操作"
+  "th-TH": "การดำเนินการ",
+  "vi-VN": "",
+  "zh-CN": "操作",
+  "zh-MY": "",
+  "zh-TW": "操作"
  },
  {
+  "en": "",
+  "en-US": "Modify Role",
   "key": "admin.Account.tableColBtnEditRole",
-  "zh-CN": "修改角色"
+  "th-TH": "แก้ไขบทบาท",
+  "vi-VN": "",
+  "zh-CN": "修改角色",
+  "zh-MY": "",
+  "zh-TW": "修改角色"
  },
  {
+  "en": "",
+  "en-US": "Reset Password",
   "key": "admin.Account.tableColBtnResetPassword",
-  "zh-CN": "重置密码"
+  "th-TH": "รีเซ็ตรหัสผ่าน",
+  "vi-VN": "",
+  "zh-CN": "重置密码",
+  "zh-MY": "",
+  "zh-TW": "重設密碼"
  },
  {
+  "en": "",
+  "en-US": "Resign",
   "key": "admin.Account.tableColBtnResign",
-  "zh-CN": "离职"
+  "th-TH": "ลาออก",
+  "vi-VN": "",
+  "zh-CN": "离职",
+  "zh-MY": "",
+  "zh-TW": "離職"
  },
  {
+  "en": "",
+  "en-US": "Account added successfully",
   "key": "admin.Account.addModalSuccessMessage",
-  "zh-CN": "账户添加成功"
+  "th-TH": "เพิ่มบัญชีสำเร็จแล้ว",
+  "vi-VN": "",
+  "zh-CN": "账户添加成功",
+  "zh-MY": "",
+  "zh-TW": "帳戶新增成功"
  },
  {
+  "en": "",
+  "en-US": "Account already added!",
   "key": "admin.Account.addModalErrorMessage",
-  "zh-CN": "该账号已添加！"
+  "th-TH": "บัญชีนี้ถูกเพิ่มแล้ว!",
+  "vi-VN": "",
+  "zh-CN": "该账号已添加！",
+  "zh-MY": "",
+  "zh-TW": "該帳號已新增！"
  },
  {
+  "en": "",
+  "en-US": "Update successful",
   "key": "admin.DefectLabel.updateTagSuccessMessage",
-  "zh-CN": "更新成功"
+  "th-TH": "อัปเดตสำเร็จ",
+  "vi-VN": "",
+  "zh-CN": "更新成功",
+  "zh-MY": "",
+  "zh-TW": "更新成功"
  },
  {
+  "en": "",
+  "en-US": "Update failed",
   "key": "admin.DefectLabel.updateTagErrorMessage",
-  "zh-CN": "更新失败"
+  "th-TH": "อัปเดตล้มเหลว",
+  "vi-VN": "",
+  "zh-CN": "更新失败",
+  "zh-MY": "",
+  "zh-TW": "更新失敗"
  },
  {
+  "en": "",
+  "en-US": "Please fill in complete tag information.",
   "key": "admin.DefectLabel.completeFormErrorMessage",
-  "zh-CN": "请填写完整标签信息"
+  "th-TH": "โปรดกรอกข้อมูลป้ายกำกับให้ครบถ้วน",
+  "vi-VN": "",
+  "zh-CN": "请填写完整标签信息",
+  "zh-MY": "",
+  "zh-TW": "請填寫完整標籤資訊"
  },
  {
+  "en": "",
+  "en-US": "Sort Priority",
   "key": "admin.DefectLabel.tableColPrioritySort",
-  "zh-CN": "排序优先级"
+  "th-TH": "ลำดับความสำคัญในการเรียงลำดับ",
+  "vi-VN": "",
+  "zh-CN": "排序优先级",
+  "zh-MY": "",
+  "zh-TW": "排序優先級"
  },
  {
+  "en": "",
+  "en-US": "Tag Name",
   "key": "admin.DefectLabel.tableColTagName",
-  "zh-CN": "标签名"
+  "th-TH": "ชื่อป้ายกำกับ",
+  "vi-VN": "",
+  "zh-CN": "标签名",
+  "zh-MY": "",
+  "zh-TW": "標籤名稱"
  },
  {
+  "en": "",
+  "en-US": "Please enter tag name",
   "key": "admin.DefectLabel.tableColTagNamePlaceholder",
-  "zh-CN": "请输入标签名"
+  "th-TH": "โปรดป้อนชื่อป้ายกำกับ",
+  "vi-VN": "",
+  "zh-CN": "请输入标签名",
+  "zh-MY": "",
+  "zh-TW": "請輸入標籤名稱"
  },
  {
+  "en": "",
+  "en-US": "Tag Color",
   "key": "admin.DefectLabel.tableColTagColor",
-  "zh-CN": "标签颜色"
+  "th-TH": "สีป้ายกำกับ",
+  "vi-VN": "",
+  "zh-CN": "标签颜色",
+  "zh-MY": "",
+  "zh-TW": "標籤顏色"
  },
  {
+  "en": "",
+  "en-US": "Tag Type",
   "key": "admin.DefectLabel.tableColTagType",
-  "zh-CN": "标签类型"
+  "th-TH": "ประเภทป้ายกำกับ",
+  "vi-VN": "",
+  "zh-CN": "标签类型",
+  "zh-MY": "",
+  "zh-TW": "標籤類型"
  },
  {
+  "en": "",
+  "en-US": "Shortcut Key",
   "key": "admin.DefectLabel.tableColShortcutKey",
-  "zh-CN": "快捷键"
+  "th-TH": "ปุ่มลัด",
+  "vi-VN": "",
+  "zh-CN": "快捷键",
+  "zh-MY": "",
+  "zh-TW": "快捷鍵"
  },
  {
+  "en": "",
+  "en-US": "Action",
   "key": "admin.DefectLabel.tableColAction",
-  "zh-CN": "操作"
+  "th-TH": "การดำเนินการ",
+  "vi-VN": "",
+  "zh-CN": "操作",
+  "zh-MY": "",
+  "zh-TW": "操作"
  },
  {
+  "en": "",
+  "en-US": "Delete",
   "key": "admin.DefectLabel.tableColBtnDel",
-  "zh-CN": "删除"
+  "th-TH": "ลบ",
+  "vi-VN": "",
+  "zh-CN": "删除",
+  "zh-MY": "",
+  "zh-TW": "刪除"
  },
  {
+  "en": "",
+  "en-US": "Category Tags",
   "key": "admin.DefectLabel.tabCategory",
-  "zh-CN": "分类标签"
+  "th-TH": "ป้ายกำกับหมวดหมู่",
+  "vi-VN": "",
+  "zh-CN": "分类标签",
+  "zh-MY": "",
+  "zh-TW": "分類標籤"
  },
  {
+  "en": "",
+  "en-US": "Detection Tags",
   "key": "admin.DefectLabel.tabDetection",
-  "zh-CN": "检测标签"
+  "th-TH": "ป้ายกำกับตรวจจับ",
+  "vi-VN": "",
+  "zh-CN": "检测标签",
+  "zh-MY": "",
+  "zh-TW": "偵測標籤"
  },
  {
+  "en": "",
+  "en-US": "Update",
   "key": "admin.DefectLabel.btnUpdate",
-  "zh-CN": "更新"
+  "th-TH": "อัปเดต",
+  "vi-VN": "",
+  "zh-CN": "更新",
+  "zh-MY": "",
+  "zh-TW": "更新"
  },
  {
+  "en": "",
+  "en-US": "Add New Tag",
   "key": "admin.DefectLabel.popoverContent",
-  "zh-CN": "新增标签"
+  "th-TH": "เพิ่มป้ายกำกับใหม่",
+  "vi-VN": "",
+  "zh-CN": "新增标签",
+  "zh-MY": "",
+  "zh-TW": "新增標籤"
  },
  {
+  "en": "",
+  "en-US": "Role Management",
   "key": "admin.Role.title",
-  "zh-CN": "角色管理"
+  "th-TH": "การจัดการบทบาท",
+  "vi-VN": "",
+  "zh-CN": "角色管理",
+  "zh-MY": "",
+  "zh-TW": "角色管理"
  },
  {
+  "en": "",
+  "en-US": "Confirm Deletion",
   "key": "admin.Role.deleteConfirmModalTitle",
-  "zh-CN": "确认删除"
+  "th-TH": "ยืนยันการลบ",
+  "vi-VN": "",
+  "zh-CN": "确认删除",
+  "zh-MY": "",
+  "zh-TW": "確認刪除"
  },
  {
+  "en": "",
+  "en-US": "Are you sure you want to delete this role?",
   "key": "admin.Role.deleteConfirmModalContent",
-  "zh-CN": "您确定要删除该角色吗？"
+  "th-TH": "คุณแน่ใจหรือไม่ว่าต้องการลบบทบาทนี้?",
+  "vi-VN": "",
+  "zh-CN": "您确定要删除该角色吗？",
+  "zh-MY": "",
+  "zh-TW": "您確定要刪除該角色嗎？"
  },
  {
+  "en": "",
+  "en-US": "Role deleted successfully",
   "key": "admin.Role.deleteConfirmModalSuccessMessage",
-  "zh-CN": "角色删除成功"
+  "th-TH": "ลบบทบาทสำเร็จ",
+  "vi-VN": "",
+  "zh-CN": "角色删除成功",
+  "zh-MY": "",
+  "zh-TW": "角色刪除成功"
  },
  {
+  "en": "",
+  "en-US": "Update successful",
   "key": "admin.Role.updateSuccessMessage",
-  "zh-CN": "更新成功"
+  "th-TH": "อัปเดตสำเร็จ",
+  "vi-VN": "",
+  "zh-CN": "更新成功",
+  "zh-MY": "",
+  "zh-TW": "更新成功"
  },
  {
+  "en": "",
+  "en-US": "Created successfully",
   "key": "admin.Role.createSuccessMessage",
-  "zh-CN": "创建成功"
+  "th-TH": "สร้างสำเร็จ",
+  "vi-VN": "",
+  "zh-CN": "创建成功",
+  "zh-MY": "",
+  "zh-TW": "建立成功"
  },
  {
+  "en": "",
+  "en-US": "Please select a role first.",
   "key": "admin.Role.selectRoleMessage",
-  "zh-CN": "请先选择一个角色"
+  "th-TH": "โปรดเลือกบทบาทก่อน",
+  "vi-VN": "",
+  "zh-CN": "请先选择一个角色",
+  "zh-MY": "",
+  "zh-TW": "請先選擇一個角色"
  },
  {
+  "en": "",
+  "en-US": "Permissions updated successfully",
   "key": "admin.Role.updatePermissionSuccessMessage",
-  "zh-CN": "权限更新成功"
+  "th-TH": "อัปเดตสิทธิ์สำเร็จ",
+  "vi-VN": "",
+  "zh-CN": "权限更新成功",
+  "zh-MY": "",
+  "zh-TW": "權限更新成功"
  },
  {
+  "en": "",
+  "en-US": "Add Role",
   "key": "admin.Role.btnCreateRole",
-  "zh-CN": "新增角色"
+  "th-TH": "เพิ่มบทบาทใหม่",
+  "vi-VN": "",
+  "zh-CN": "新增角色",
+  "zh-MY": "",
+  "zh-TW": "新增角色"
  },
  {
+  "en": "",
+  "en-US": "Edit Name",
   "key": "admin.Role.btnEditRole",
-  "zh-CN": "修改名称"
+  "th-TH": "แก้ไขชื่อ",
+  "vi-VN": "",
+  "zh-CN": "修改名称",
+  "zh-MY": "",
+  "zh-TW": "修改名稱"
  },
  {
+  "en": "",
+  "en-US": "Delete Role",
   "key": "admin.Role.btnDeleteRole",
-  "zh-CN": "删除角色"
+  "th-TH": "ลบบทบาท",
+  "vi-VN": "",
+  "zh-CN": "删除角色",
+  "zh-MY": "",
+  "zh-TW": "刪除角色"
  },
  {
+  "en": "",
+  "en-US": "Role Details",
   "key": "admin.Role.tabRole",
-  "zh-CN": "角色详情"
+  "th-TH": "รายละเอียดบทบาท",
+  "vi-VN": "",
+  "zh-CN": "角色详情",
+  "zh-MY": "",
+  "zh-TW": "角色詳情"
  },
  {
+  "en": "",
+  "en-US": "Role Permissions",
   "key": "admin.Role.tabPermission",
-  "zh-CN": "角色权限"
+  "th-TH": "สิทธิ์บทบาท",
+  "vi-VN": "",
+  "zh-CN": "角色权限",
+  "zh-MY": "",
+  "zh-TW": "角色權限"
  },
  {
+  "en": "",
+  "en-US": "Role Name",
   "key": "admin.Role.roleName",
-  "zh-CN": "角色名称"
+  "th-TH": "ชื่อบทบาท",
+  "vi-VN": "",
+  "zh-CN": "角色名称",
+  "zh-MY": "",
+  "zh-TW": "角色名稱"
  },
  {
+  "en": "",
+  "en-US": "Creation Time",
   "key": "admin.Role.roleCreateTime",
-  "zh-CN": "创建时间"
+  "th-TH": "เวลาสร้าง",
+  "vi-VN": "",
+  "zh-CN": "创建时间",
+  "zh-MY": "",
+  "zh-TW": "建立時間"
  },
  {
+  "en": "",
+  "en-US": "Update Time",
   "key": "admin.Role.roleUpdateTime",
-  "zh-CN": "更新时间"
+  "th-TH": "เวลาอัปเดต",
+  "vi-VN": "",
+  "zh-CN": "更新时间",
+  "zh-MY": "",
+  "zh-TW": "更新時間"
  },
  {
+  "en": "",
+  "en-US": "Permission Count",
   "key": "admin.Role.rolePermissionCount",
-  "zh-CN": "权限数量"
+  "th-TH": "จำนวนสิทธิ์",
+  "vi-VN": "",
+  "zh-CN": "权限数量",
+  "zh-MY": "",
+  "zh-TW": "權限數量"
  },
  {
+  "en": "",
+  "en-US": "Cancel",
   "key": "admin.Role.btnCancelPermission",
-  "zh-CN": "取消"
+  "th-TH": "ยกเลิก",
+  "vi-VN": "",
+  "zh-CN": "取消",
+  "zh-MY": "",
+  "zh-TW": "取消"
  },
  {
+  "en": "",
+  "en-US": "Confirm",
   "key": "admin.Role.btnConfirmPermission",
-  "zh-CN": "确定"
+  "th-TH": "ยืนยัน",
+  "vi-VN": "",
+  "zh-CN": "确定",
+  "zh-MY": "",
+  "zh-TW": "確定"
  },
  {
+  "en": "",
+  "en-US": "Add Role",
   "key": "admin.Role.addModalTitle",
-  "zh-CN": "新增角色"
+  "th-TH": "เพิ่มบทบาทใหม่",
+  "vi-VN": "",
+  "zh-CN": "新增角色",
+  "zh-MY": "",
+  "zh-TW": "新增角色"
  },
  {
+  "en": "",
+  "en-US": "Edit Role",
   "key": "admin.Role.modifyModalTitle",
-  "zh-CN": "编辑角色"
+  "th-TH": "แก้ไขบทบาท",
+  "vi-VN": "",
+  "zh-CN": "编辑角色",
+  "zh-MY": "",
+  "zh-TW": "編輯角色"
  },
  {
+  "en": "",
+  "en-US": "Role Name",
   "key": "admin.Role.modalRoleName",
-  "zh-CN": "角色名称"
+  "th-TH": "ชื่อบทบาท",
+  "vi-VN": "",
+  "zh-CN": "角色名称",
+  "zh-MY": "",
+  "zh-TW": "角色名稱"
  },
  {
+  "en": "",
+  "en-US": "Please enter role name",
   "key": "admin.Role.modalRoleNamePlaceholder",
-  "zh-CN": "请输入角色名称"
+  "th-TH": "โปรดป้อนชื่อบทบาท",
+  "vi-VN": "",
+  "zh-CN": "请输入角色名称",
+  "zh-MY": "",
+  "zh-TW": "請輸入角色名稱"
  },
  {
+  "en": "",
+  "en-US": "Service Monitoring",
   "key": "admin.Server.title",
-  "zh-CN": "服务监控"
+  "th-TH": "การตรวจสอบบริการ",
+  "vi-VN": "",
+  "zh-CN": "服务监控",
+  "zh-MY": "",
+  "zh-TW": "服務監控"
  },
  {
+  "en": "",
+  "en-US": "Attribute",
   "key": "admin.Server.cpuLabel",
-  "zh-CN": "属性"
+  "th-TH": "คุณสมบัติ",
+  "vi-VN": "",
+  "zh-CN": "属性",
+  "zh-MY": "",
+  "zh-TW": "屬性"
  },
  {
+  "en": "",
+  "en-US": "Value",
   "key": "admin.Server.cpuValue",
-  "zh-CN": "值"
+  "th-TH": "ค่า",
+  "vi-VN": "",
+  "zh-CN": "值",
+  "zh-MY": "",
+  "zh-TW": "值"
  },
  {
+  "en": "",
+  "en-US": "Memory",
   "key": "admin.Server.memTitle",
-  "zh-CN": "内存"
+  "th-TH": "หน่วยความจำ",
+  "vi-VN": "",
+  "zh-CN": "内存",
+  "zh-MY": "",
+  "zh-TW": "記憶體"
  },
  {
+  "en": "",
+  "en-US": "Attribute",
   "key": "admin.Server.memLabel",
-  "zh-CN": "属性"
+  "th-TH": "คุณสมบัติ",
+  "vi-VN": "",
+  "zh-CN": "属性",
+  "zh-MY": "",
+  "zh-TW": "屬性"
  },
  {
+  "en": "",
+  "en-US": "",
   "key": "admin.Server.memValue",
-  "zh-CN": "内存"
+  "th-TH": "หน่วยความจำ",
+  "vi-VN": "",
+  "zh-CN": "内存",
+  "zh-MY": "",
+  "zh-TW": "記憶體"
  },
  {
+  "en": "",
+  "en-US": "Server Information",
   "key": "admin.Server.sysTitle",
-  "zh-CN": "服务器信息"
+  "th-TH": "ข้อมูลเซิร์ฟเวอร์",
+  "vi-VN": "",
+  "zh-CN": "服务器信息",
+  "zh-MY": "",
+  "zh-TW": "伺服器資訊"
  },
  {
+  "en": "",
+  "en-US": "Server Name",
   "key": "admin.Server.sysName",
-  "zh-CN": "服务器名称"
+  "th-TH": "ชื่อเซิร์ฟเวอร์",
+  "vi-VN": "",
+  "zh-CN": "服务器名称",
+  "zh-MY": "",
+  "zh-TW": "伺服器名稱"
  },
  {
+  "en": "",
+  "en-US": "Server IP",
   "key": "admin.Server.sysIp",
-  "zh-CN": "服务器IP"
+  "th-TH": "IP เซิร์ฟเวอร์",
+  "vi-VN": "",
+  "zh-CN": "服务器IP",
+  "zh-MY": "",
+  "zh-TW": "伺服器 IP"
  },
  {
+  "en": "",
+  "en-US": "Operating System",
   "key": "admin.Server.sysOs",
-  "zh-CN": "操作系统"
+  "th-TH": "ระบบปฏิบัติการ",
+  "vi-VN": "",
+  "zh-CN": "操作系统",
+  "zh-MY": "",
+  "zh-TW": "作業系統"
  },
  {
+  "en": "",
+  "en-US": "System Architecture",
   "key": "admin.Server.sysArch",
-  "zh-CN": "系统架构"
+  "th-TH": "สถาปัตยกรรมระบบ",
+  "vi-VN": "",
+  "zh-CN": "系统架构",
+  "zh-MY": "",
+  "zh-TW": "系統架構"
  },
  {
+  "en": "",
+  "en-US": "Java Virtual Machine Information",
   "key": "admin.Server.jvmTitle",
-  "zh-CN": "Java虚拟机信息"
+  "th-TH": "ข้อมูล Java Virtual Machine",
+  "vi-VN": "",
+  "zh-CN": "Java虚拟机信息",
+  "zh-MY": "",
+  "zh-TW": "Java 虛擬機器資訊"
  },
  {
+  "en": "",
+  "en-US": "Java Name",
   "key": "admin.Server.jvmName",
-  "zh-CN": "Java名称"
+  "th-TH": "ชื่อ Java",
+  "vi-VN": "",
+  "zh-CN": "Java名称",
+  "zh-MY": "",
+  "zh-TW": "Java 名稱"
  },
  {
+  "en": "",
+  "en-US": "Version",
   "key": "admin.Server.jvmVersion",
-  "zh-CN": "版本"
+  "th-TH": "เวอร์ชัน",
+  "vi-VN": "",
+  "zh-CN": "版本",
+  "zh-MY": "",
+  "zh-TW": "版本"
  },
  {
+  "en": "",
+  "en-US": "Start Time",
   "key": "admin.Server.jvmStartTime",
-  "zh-CN": "启动时间"
+  "th-TH": "เวลาเริ่มต้น",
+  "vi-VN": "",
+  "zh-CN": "启动时间",
+  "zh-MY": "",
+  "zh-TW": "啟動時間"
  },
  {
+  "en": "",
+  "en-US": "Runtime",
   "key": "admin.Server.jvmRunTime",
-  "zh-CN": "运行时间"
+  "th-TH": "เวลาทำงาน",
+  "vi-VN": "",
+  "zh-CN": "运行时间",
+  "zh-MY": "",
+  "zh-TW": "執行時間"
  },
  {
+  "en": "",
+  "en-US": "Installation Path",
   "key": "admin.Server.jvmHome",
-  "zh-CN": "安装路径"
+  "th-TH": "พาธการติดตั้ง",
+  "vi-VN": "",
+  "zh-CN": "安装路径",
+  "zh-MY": "",
+  "zh-TW": "安裝路徑"
  },
  {
+  "en": "",
+  "en-US": "Project Path",
   "key": "admin.Server.jvmInputArgs",
-  "zh-CN": "项目路径"
+  "th-TH": "พาธโครงการ",
+  "vi-VN": "",
+  "zh-CN": "项目路径",
+  "zh-MY": "",
+  "zh-TW": "專案路徑"
  },
  {
+  "en": "",
+  "en-US": "Disk Status",
   "key": "admin.Server.diskTitle",
-  "zh-CN": "磁盘状态"
+  "th-TH": "สถานะดิสก์",
+  "vi-VN": "",
+  "zh-CN": "磁盘状态",
+  "zh-MY": "",
+  "zh-TW": "磁碟狀態"
  },
  {
+  "en": "",
+  "en-US": "Drive Path",
   "key": "admin.Server.diskPath",
-  "zh-CN": "盘符路径"
+  "th-TH": "พาธไดรฟ์",
+  "vi-VN": "",
+  "zh-CN": "盘符路径",
+  "zh-MY": "",
+  "zh-TW": "磁碟機路徑"
  },
  {
+  "en": "",
+  "en-US": "File System",
   "key": "admin.Server.diskSysType",
-  "zh-CN": "文件系统"
+  "th-TH": "ระบบไฟล์",
+  "vi-VN": "",
+  "zh-CN": "文件系统",
+  "zh-MY": "",
+  "zh-TW": "檔案系統"
  },
  {
+  "en": "",
+  "en-US": "Drive Type",
   "key": "admin.Server.diskType",
-  "zh-CN": "盘符类型"
+  "th-TH": "ประเภทไดรฟ์",
+  "vi-VN": "",
+  "zh-CN": "盘符类型",
+  "zh-MY": "",
+  "zh-TW": "磁碟機類型"
  },
  {
+  "en": "",
+  "en-US": "Total Size",
   "key": "admin.Server.diskTotal",
-  "zh-CN": "总大小"
+  "th-TH": "ขนาดรวม",
+  "vi-VN": "",
+  "zh-CN": "总大小",
+  "zh-MY": "",
+  "zh-TW": "總大小"
  },
  {
+  "en": "",
+  "en-US": "Available Size",
   "key": "admin.Server.diskFree",
-  "zh-CN": "可用大小"
+  "th-TH": "พื้นที่ว่าง",
+  "vi-VN": "",
+  "zh-CN": "可用大小",
+  "zh-MY": "",
+  "zh-TW": "可用大小"
  },
  {
+  "en": "",
+  "en-US": "Used Size",
   "key": "admin.Server.diskUsed",
-  "zh-CN": "已用大小"
+  "th-TH": "ขนาดที่ใช้ไป",
+  "vi-VN": "",
+  "zh-CN": "已用大小",
+  "zh-MY": "",
+  "zh-TW": "已用大小"
  },
  {
+  "en": "",
+  "en-US": "Used Percentage",
   "key": "admin.Server.diskUsage",
-  "zh-CN": "已用百分比"
+  "th-TH": "เปอร์เซ็นต์ที่ใช้ไป",
+  "vi-VN": "",
+  "zh-CN": "已用百分比",
+  "zh-MY": "",
+  "zh-TW": "已用百分比"
  }
 ]
