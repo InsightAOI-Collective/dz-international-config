@@ -1,9 +1,5 @@
 [
  {
-  "key": "adjudicationStation.GridLayout.confirmUnsavedMessage",
-  "zh-CN": "您有未保存的修改，确认要离开吗？"
- },
- {
   "en-US": "Please select a component, defect, or light source first.",
   "key": "adjudicationStation.GridLayout.selectObjectMessage",
   "th-TH": "กรุณาเลือกส่วนประกอบ ข้อบกพร่อง หรือแหล่งกำเนิดแสงก่อน",
