@@ -1,5 +1,15 @@
 [
  {
+  "en": "You have unsaved changes. Are you sure you want to leave?",
+  "en-US": "You have unsaved changes. Are you sure you want to leave?",
+  "key": "adjudicationStation.GridLayout.confirmUnsavedMessage",
+  "th-TH": "คุณมีการเปลี่ยนแปลงที่ยังไม่ได้บันทึก, ยืนยันที่จะออกหรือไม่",
+  "vi-VN": "Bạn có những thay đổi chưa được lưu, xác nhận muốn rời đi không?",
+  "zh-CN": "您有未保存的修改，确认要离开吗",
+  "zh-MY": "您有未保存的修改，确认要离开吗",
+  "zh-TW": "您有未儲存的修改，確認要離開嗎"
+ },
+ {
   "en": "Please select a component, defect, or light source first",
   "en-US": "Please select a component, defect, or light source first.",
   "key": "adjudicationStation.GridLayout.selectObjectMessage",
