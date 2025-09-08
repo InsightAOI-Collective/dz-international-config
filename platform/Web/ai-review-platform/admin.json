@@ -1,6 +1,11 @@
 [
  {
-  "key": "admin.Account.title"
+  "en-US": "Account Management",
+  "key": "admin.Account.title",
+  "th-TH": "การจัดการบัญชี",
+  "vi-VN": "Quản lý tài khoản",
+  "zh-CN": "账户管理",
+  "zh-TW": "帳戶管理"
  },
  {
   "en": "",
