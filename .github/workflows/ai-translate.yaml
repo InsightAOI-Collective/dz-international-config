@@ -31,14 +31,16 @@ jobs:
       # Checkout dz-international-config (文本库)
       - uses: actions/checkout@v4
         with:
-          ssh-key: ${{ secrets.DZ_SSH_KEY_1 }}
+          # ssh-key: ${{ secrets.DZ_SSH_KEY_1 }}
+          token: ${{ secrets.DZ_GH_TOKEN }}
 
       # Checkout dz_ai_translation (工具服务)
       - uses: actions/checkout@v4
         with:
           repository: InsightAOI-Collective/dz_ai_translation
           path: dz_ai_translation
-          ssh-key: ${{ secrets.DZ_SSH_KEY }}
+          # ssh-key: ${{ secrets.DZ_SSH_KEY }}
+          token: ${{ secrets.DZ_GH_TOKEN }}
 
       # Go 安装和依赖缓存
       - uses: actions/setup-go@v5
@@ -133,14 +135,16 @@ jobs:
       # Checkout dz-international-config (文本库)
       - uses: actions/checkout@v4
         with:
-          ssh-key: ${{ secrets.DZ_SSH_KEY_1 }}
+          # ssh-key: ${{ secrets.DZ_SSH_KEY_1 }}
+          token: ${{ secrets.DZ_GH_TOKEN }}
 
       # Checkout dz_ai_translation (工具服务)
       - uses: actions/checkout@v4
         with:
           repository: InsightAOI-Collective/dz_ai_translation
           path: dz_ai_translation
-          ssh-key: ${{ secrets.DZ_SSH_KEY }}
+          # ssh-key: ${{ secrets.DZ_SSH_KEY }}
+          token: ${{ secrets.DZ_GH_TOKEN }}
 
       # Go 安装和依赖缓存
       - uses: actions/setup-go@v5
