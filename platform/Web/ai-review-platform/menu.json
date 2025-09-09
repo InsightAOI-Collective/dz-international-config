@@ -1,1 +1,178 @@
-[{"key":"menu.management","en-US":"Management Dashboard","th-TH":"การจัดการระบบ","vi-VN":"Quản lý hệ thống","zh-CN":"管理后台","zh-TW":"管理後台"},{"key":"menu.management.account","en-US":"Account Management","th-TH":"การจัดการบัญชี","vi-VN":"Quản lý tài khoản","zh-CN":"账户管理","zh-TW":"帳戶管理"},{"key":"menu.management.role","en-US":"Role Management","th-TH":"การจัดการบทบาท","vi-VN":"Quản lý vai trò","zh-CN":"角色管理","zh-TW":"角色管理"},{"key":"menu.management.defectLabel","en-US":"Label Management","th-TH":"การจัดการป้ายกำกับ","vi-VN":"Quản lý nhãn","zh-CN":"标签管理","zh-TW":"標籤管理"},{"key":"menu.serverMonitoring","en-US":"Server Monitoring","th-TH":"การตรวจสอบเซิร์ฟเวอร์","vi-VN":"Giám sát dịch vụ","zh-CN":"服务监控","zh-TW":"服務監控"},{"key":"menu.modelCenter","en-US":"Model Center","th-TH":"ศูนย์โมเดล","vi-VN":"Trung tâm mô hình","zh-CN":"模型中心","zh-TW":"模型中心"},{"key":"menu.modelCenter.trainingDetails","en-US":"Training Details","th-TH":"รายละเอียดการฝึกอบรม","vi-VN":"Chi tiết huấn luyện","zh-CN":"训练详情","zh-TW":"訓練詳情"},{"key":"menu.annotation","en-US":"Annotation Platform","th-TH":"แพลตฟอร์มการใส่คำอธิบาย","vi-VN":"Nền tảng gắn nhãn","zh-CN":"标注平台","zh-TW":"標注平台"},{"key":"menu.annotation.annotation","en-US":"Annotation Platform","th-TH":"แพลตฟอร์มการใส่คำอธิบาย","vi-VN":"Nền tảng gắn nhãn","zh-CN":"标注平台","zh-TW":"標注平台"},{"key":"menu.adjudicationStation","en-US":"Review Station","th-TH":"สถานีพิจารณาคดี","vi-VN":"Trạm xét duyệt","zh-CN":"复判站","zh-TW":"複判站"},{"key":"menu.dataManagement","en-US":"Data Management","th-TH":"การจัดการข้อมูล","vi-VN":"Quản lý dữ liệu","zh-CN":"数据管理","zh-TW":"數據管理"},{"key":"menu.dataManagement.managementList","en-US":"Management List","th-TH":"รายการจัดการ","vi-VN":"Danh sách quản lý","zh-CN":"管理列表","zh-TW":"管理列表"},{"key":"menu.dataManagement.annotationList","en-US":"Annotation List","th-TH":"รายการคำอธิบาย","vi-VN":"Danh sách gắn nhãn","zh-CN":"标注列表","zh-TW":"標注列表"},{"key":"menu.dataManagement.auditList","en-US":"Audit List","th-TH":"รายการตรวจสอบ","vi-VN":"Danh sách kiểm duyệt","zh-CN":"审核列表","zh-TW":"審核列表"},{"key":"menu.dataManagement.imageList","en-US":"Image List","th-TH":"รายการรูปภาพ","vi-VN":"Danh sách hình ảnh","zh-CN":"图片列表","zh-TW":"圖片列表"},{"key":"menu.markPlatform","en-US":"Annotation Platform","th-TH":"แพลตฟอร์มการใส่คำอธิบาย","vi-VN":"Nền tảng gắn nhãn","zh-CN":"标注平台","zh-TW":"標注平台"},{"key":"menu.aoiTpl","en-US":"Inspection Template","th-TH":"เทมเพลตการตรวจสอบ","vi-VN":"Mẫu kiểm tra","zh-CN":"检测模版","zh-TW":"檢測模板"},{"key":"menu.aoiTpl.aoiTplList","en-US":"Template List","th-TH":"รายการเทมเพลต","vi-VN":"Danh sách mẫu","zh-CN":"模版列表","zh-TW":"模板列表"},{"key":"menu.aoiTpl.aoiTplNew","en-US":"Create Template","th-TH":"สร้างเทมเพลตใหม่","vi-VN":"Tạo mẫu mới","zh-CN":"新建模版","zh-TW":"新建模板"},{"key":"menu.aoiTpl.aoiTplEdit","en-US":"Edit Template","th-TH":"แก้ไขเทมเพลต","vi-VN":"Chỉnh sửa mẫu","zh-CN":"编辑模版","zh-TW":"編輯模板"},{"key":"menu.aoiTpl.boardProgramming","en-US":"Golden Board Programming","th-TH":"การเขียนโปรแกรมบอร์ดทอง","vi-VN":"Lập trình bảng vàng","zh-CN":"金板编程","zh-TW":"金板程式設計"},{"key":"menu.lowCode","en-US":"Designer","th-TH":"ตัวออกแบบ","vi-VN":"Thiết kế","zh-CN":"设计器","zh-TW":"設計器"}]
+[
+    {
+        "key": "menu.management",
+        "en-US": "Management Dashboard",
+        "th-TH": "การจัดการระบบ",
+        "vi-VN": "Quản lý hệ thống",
+        "zh-CN": "管理后台",
+        "zh-TW": "管理後台"
+    },
+    {
+        "key": "menu.management.account",
+        "en-US": "Account Management",
+        "th-TH": "การจัดการบัญชี",
+        "vi-VN": "Quản lý tài khoản",
+        "zh-CN": "账户管理",
+        "zh-TW": "帳戶管理"
+    },
+    {
+        "key": "menu.management.role",
+        "en-US": "Role Management",
+        "th-TH": "การจัดการบทบาท",
+        "vi-VN": "Quản lý vai trò",
+        "zh-CN": "角色管理",
+        "zh-TW": "角色管理"
+    },
+    {
+        "key": "menu.management.defectLabel",
+        "en-US": "Label Management",
+        "th-TH": "การจัดการป้ายกำกับ",
+        "vi-VN": "Quản lý nhãn",
+        "zh-CN": "标签管理",
+        "zh-TW": "標籤管理"
+    },
+    {
+        "key": "menu.serverMonitoring",
+        "en-US": "Server Monitoring",
+        "th-TH": "การตรวจสอบเซิร์ฟเวอร์",
+        "vi-VN": "Giám sát dịch vụ",
+        "zh-CN": "服务监控",
+        "zh-TW": "服務監控"
+    },
+    {
+        "key": "menu.modelCenter",
+        "en-US": "Model Center",
+        "th-TH": "ศูนย์โมเดล",
+        "vi-VN": "Trung tâm mô hình",
+        "zh-CN": "模型中心",
+        "zh-TW": "模型中心"
+    },
+    {
+        "key": "menu.modelCenter.trainingDetails",
+        "en-US": "Training Details",
+        "th-TH": "รายละเอียดการฝึกอบรม",
+        "vi-VN": "Chi tiết huấn luyện",
+        "zh-CN": "训练详情",
+        "zh-TW": "訓練詳情"
+    },
+    {
+        "key": "menu.annotation",
+        "en-US": "Annotation Platform",
+        "th-TH": "แพลตฟอร์มการใส่คำอธิบาย",
+        "vi-VN": "Nền tảng gắn nhãn",
+        "zh-CN": "标注平台",
+        "zh-TW": "標注平台"
+    },
+    {
+        "key": "menu.annotation.annotation",
+        "en-US": "Annotation Platform",
+        "th-TH": "แพลตฟอร์มการใส่คำอธิบาย",
+        "vi-VN": "Nền tảng gắn nhãn",
+        "zh-CN": "标注平台",
+        "zh-TW": "標注平台"
+    },
+    {
+        "key": "menu.adjudicationStation",
+        "en-US": "Review Station",
+        "th-TH": "สถานีพิจารณาคดี",
+        "vi-VN": "Trạm xét duyệt",
+        "zh-CN": "复判站",
+        "zh-TW": "複判站"
+    },
+    {
+        "key": "menu.dataManagement",
+        "en-US": "Data Management",
+        "th-TH": "การจัดการข้อมูล",
+        "vi-VN": "Quản lý dữ liệu",
+        "zh-CN": "数据管理",
+        "zh-TW": "數據管理"
+    },
+    {
+        "key": "menu.dataManagement.managementList",
+        "en-US": "Management List",
+        "th-TH": "รายการจัดการ",
+        "vi-VN": "Danh sách quản lý",
+        "zh-CN": "管理列表",
+        "zh-TW": "管理列表"
+    },
+    {
+        "key": "menu.dataManagement.annotationList",
+        "en-US": "Annotation List",
+        "th-TH": "รายการคำอธิบาย",
+        "vi-VN": "Danh sách gắn nhãn",
+        "zh-CN": "标注列表",
+        "zh-TW": "標注列表"
+    },
+    {
+        "key": "menu.dataManagement.auditList",
+        "en-US": "Audit List",
+        "th-TH": "รายการตรวจสอบ",
+        "vi-VN": "Danh sách kiểm duyệt",
+        "zh-CN": "审核列表",
+        "zh-TW": "審核列表"
+    },
+    {
+        "key": "menu.dataManagement.imageList",
+        "en-US": "Image List",
+        "th-TH": "รายการรูปภาพ",
+        "vi-VN": "Danh sách hình ảnh",
+        "zh-CN": "图片列表",
+        "zh-TW": "圖片列表"
+    },
+    {
+        "key": "menu.markPlatform",
+        "en-US": "Annotation Platform",
+        "th-TH": "แพลตฟอร์มการใส่คำอธิบาย",
+        "vi-VN": "Nền tảng gắn nhãn",
+        "zh-CN": "标注平台",
+        "zh-TW": "標注平台"
+    },
+    {
+        "key": "menu.aoiTpl",
+        "en-US": "Inspection Template",
+        "th-TH": "เทมเพลตการตรวจสอบ",
+        "vi-VN": "Mẫu kiểm tra",
+        "zh-CN": "检测模版",
+        "zh-TW": "檢測模板"
+    },
+    {
+        "key": "menu.aoiTpl.aoiTplList",
+        "en-US": "Template List",
+        "th-TH": "รายการเทมเพลต",
+        "vi-VN": "Danh sách mẫu",
+        "zh-CN": "模版列表",
+        "zh-TW": "模板列表"
+    },
+    {
+        "key": "menu.aoiTpl.aoiTplNew",
+        "en-US": "Create Template",
+        "th-TH": "สร้างเทมเพลตใหม่",
+        "vi-VN": "Tạo mẫu mới",
+        "zh-CN": "新建模版",
+        "zh-TW": "新建模板"
+    },
+    {
+        "key": "menu.aoiTpl.aoiTplEdit",
+        "en-US": "Edit Template",
+        "th-TH": "แก้ไขเทมเพลต",
+        "vi-VN": "Chỉnh sửa mẫu",
+        "zh-CN": "编辑模版",
+        "zh-TW": "編輯模板"
+    },
+    {
+        "key": "menu.aoiTpl.boardProgramming",
+        "en-US": "Golden Board Programming",
+        "th-TH": "การเขียนโปรแกรมบอร์ดทอง",
+        "vi-VN": "Lập trình bảng vàng",
+        "zh-CN": "金板编程",
+        "zh-TW": "金板程式設計"
+    },
+    {
+        "key": "menu.lowCode",
+        "en-US": "Designer",
+        "th-TH": "ตัวออกแบบ",
+        "vi-VN": "Thiết kế",
+        "zh-CN": "设计器",
+        "zh-TW": "設計器"
+    }
+]
