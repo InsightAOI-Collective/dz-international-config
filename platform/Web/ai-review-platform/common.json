@@ -1,1 +1,362 @@
-[{"key":"common.constant.adjudicationStationUnidentified","en-US":"Unidentified: Fallback","th-TH":"ไม่ระบุ: สำรอง","vi-VN":"Không xác định: Dự phòng","zh-CN":"未识别：兜底","zh-TW":"未識別：兜底"},{"key":"common.constant.adjudicationStationArtificial","en-US":"Manually unreviewed","th-TH":"ยังไม่ได้ตรวจสอบด้วยตนเอง","vi-VN":"Chưa đánh giá thủ công","zh-CN":"人工未复判","zh-TW":"人工未複判"},{"key":"common.constant.adjudicationStationProactive","en-US":"Manually proactively skipped","th-TH":"ข้ามโดยการดำเนินการด้วยตนเอง","vi-VN":"Bỏ qua chủ động thủ công","zh-CN":"人工主动跳过","zh-TW":"人工主動跳過"},{"key":"common.hooks.useDictErrorMessage","en-US":"Failed to get dictionary data","th-TH":"ไม่สามารถรับข้อมูลพจนานุกรมได้","vi-VN":"Không lấy được dữ liệu từ điển","zh-CN":"获取字典数据失败","zh-TW":"獲取字典資料失敗"},{"key":"common.components.carouselLabel","en-US":"Go to slide","th-TH":"ไปที่สไลด์","vi-VN":"Đi đến trang chiếu","zh-CN":"转到幻灯片","zh-TW":"轉到幻燈片"},{"key":"common.components.footerCopyright","en-US":"2025 Beijing DeZhi Matrix Technology Co., Ltd. All Rights Reserved. Users have read and agreed to the 'Service Agreement' and 'Privacy Policy'.","th-TH":"2025 Beijing DeZhi Matrix Technology Co., Ltd. สงวนลิขสิทธิ์ทั้งหมด ผู้ใช้ได้อ่านและยอมรับ 'ข้อตกลงการบริการ' และ 'นโยบายความเป็นส่วนตัว' แล้ว","vi-VN":"2025 Beijing DeZhi Matrix Technology Co., Ltd. Bảo lưu mọi quyền. Người dùng đã đọc và đồng ý với 'Điều khoản dịch vụ' và 'Chính sách quyền riêng tư'.","zh-CN":"2025 北京德智矩阵科技有限公司 版权所有 用户已阅读并同意《服务协议》及《隐私政策》","zh-TW":"2025 北京德智矩陣科技有限公司 版權所有 用戶已閱讀並同意《服務協議》及《隱私政策》"},{"key":"common.components.leaveConfirmGuardMessage","en-US":"You have unsaved changes, are you sure you want to leave?","th-TH":"คุณมีการเปลี่ยนแปลงที่ยังไม่ได้บันทึก คุณแน่ใจหรือไม่ว่าต้องการออก?","vi-VN":"Bạn có những thay đổi chưa được lưu, bạn có chắc chắn muốn rời đi không?","zh-CN":"您有未保存的修改，确认要离开吗","zh-TW":"您有未保存的修改，確認要離開嗎"},{"key":"common.models.adjudicationStationDefect","en-US":"Defect Image","th-TH":"รูปภาพข้อบกพร่อง","vi-VN":"Hình ảnh lỗi","zh-CN":"缺陷图","zh-TW":"缺陷圖"},{"key":"common.models.adjudicationStationBoardList","en-US":"Board List","th-TH":"รายการบอร์ด","vi-VN":"Danh sách bảng","zh-CN":"板卡列表","zh-TW":"板卡列表"},{"key":"common.models.adjudicationStationDeviceList","en-US":"Device List","th-TH":"รายการอุปกรณ์","vi-VN":"Danh sách thiết bị","zh-CN":"器件列表","zh-TW":"器件列表"},{"key":"common.models.adjudicationStationFullPageImage","en-US":"Full Page Image","th-TH":"รูปภาพเต็มหน้า","vi-VN":"Hình ảnh toàn trang","zh-CN":"整版图","zh-TW":"整版圖"},{"key":"common.models.adjudicationStationDefectComparison","en-US":"Reference Component","th-TH":"ส่วนประกอบอ้างอิง","vi-VN":"Thành phần tham chiếu","zh-CN":"参考器件","zh-TW":"參考器件"},{"key":"common.models.adjudicationStationDefectList","en-US":"Defect List","th-TH":"รายการข้อบกพร่อง","vi-VN":"Danh sách lỗi","zh-CN":"缺陷列表","zh-TW":"缺陷列表"},{"key":"common.models.adjudicationStationDetectionImage","en-US":"Detected Image","th-TH":"รูปภาพที่ตรวจพบ","vi-VN":"Hình ảnh được phát hiện","zh-CN":"被检测","zh-TW":"被檢測"},{"key":"common.models.adjudicationStationLightSourceList","en-US":"Light Source List","th-TH":"รายการแหล่งกำเนิดแสง","vi-VN":"Danh sách nguồn sáng","zh-CN":"光源列表","zh-TW":"光源列表"},{"key":"common.models.serverStoreCpuNum","en-US":"Core Count","th-TH":"จำนวนคอร์","vi-VN":"Số lõi","zh-CN":"核心数","zh-TW":"核心數"},{"key":"common.models.serverStoreCpuUsed","en-US":"User Usage","th-TH":"การใช้งานของผู้ใช้","vi-VN":"Mức sử dụng của người dùng","zh-CN":"用户使用率","zh-TW":"用戶使用率"},{"key":"common.models.serverStoreCpuSys","en-US":"System Usage","th-TH":"การใช้งานระบบ","vi-VN":"Mức sử dụng hệ thống","zh-CN":"系统使用率","zh-TW":"系統使用率"},{"key":"common.models.serverStoreCpuFree","en-US":"Current Idle Rate","th-TH":"อัตราการว่างปัจจุบัน","vi-VN":"Tỷ lệ nhàn rỗi hiện tại","zh-CN":"当前空闲率","zh-TW":"當前空閒率"},{"key":"common.models.serverStoreMemTotal","en-US":"Total Memory","th-TH":"หน่วยความจำทั้งหมด","vi-VN":"Tổng bộ nhớ","zh-CN":"总内存","zh-TW":"總記憶體"},{"key":"common.models.serverStoreMemUsed","en-US":"Used Memory","th-TH":"หน่วยความจำที่ใช้ไป","vi-VN":"Bộ nhớ đã dùng","zh-CN":"已用内存","zh-TW":"已用記憶體"},{"key":"common.models.serverStoreMemFree","en-US":"Free Memory","th-TH":"หน่วยความจำที่ว่าง","vi-VN":"Bộ nhớ trống","zh-CN":"剩余内存","zh-TW":"剩餘記憶體"},{"key":"common.models.serverStoreMemUsage","en-US":"Usage","th-TH":"การใช้งาน","vi-VN":"Mức sử dụng","zh-CN":"使用率","zh-TW":"使用率"},{"key":"common.requestErrorConfig.loginExpiredMessage","en-US":"Login expired","th-TH":"การเข้าสู่ระบบหมดอายุ","vi-VN":"Phiên đăng nhập đã hết hạn","zh-CN":"登录过期","zh-TW":"登錄過期"},{"key":"common.requestErrorConfig.requestFailedMessage","en-US":"Request failed","th-TH":"คำขอไม่สำเร็จ","vi-VN":"Yêu cầu thất bại","zh-CN":"请求失败","zh-TW":"請求失敗"},{"key":"common.login.updatePwdModalTitle","en-US":"Password Update Reminder","th-TH":"การแจ้งเตือนให้อัปเดตรหัสผ่าน","vi-VN":"Nhắc nhở cập nhật mật khẩu","zh-CN":"密码更新提醒","zh-TW":"密碼更新提醒"},{"key":"common.login.updatePwdModalContent","en-US":"To ensure account security, it is recommended that you update your password.","th-TH":"เพื่อความปลอดภัยของบัญชี ขอแนะนำให้คุณอัปเดตรหัสผ่านของคุณ","vi-VN":"Để đảm bảo an toàn tài khoản, bạn nên cập nhật mật khẩu của mình.","zh-CN":"为确保账户安全，建议您更新密码。","zh-TW":"為確保帳戶安全，建議您更新密碼。"},{"key":"common.login.btnConfirm","en-US":"Confirm","th-TH":"ยืนยัน","vi-VN":"Xác nhận","zh-CN":"确定","zh-TW":"確定"},{"key":"common.login.btnCancel","en-US":"Cancel","th-TH":"ยกเลิก","vi-VN":"Hủy","zh-CN":"取消","zh-TW":"取消"},{"key":"common.login.loginSuccessMessage","en-US":"Login successful!","th-TH":"เข้าสู่ระบบสำเร็จ!","vi-VN":"Đăng nhập thành công!","zh-CN":"登录成功！","zh-TW":"登錄成功！"},{"key":"common.login.title","en-US":"DeZhi Matrix","th-TH":"DeZhi Matrix","vi-VN":"DeZhi Matrix","zh-CN":"德智矩阵","zh-TW":"德智矩陣"},{"key":"common.login.formUsername","en-US":"Please enter account (employee ID)","th-TH":"กรุณาป้อนบัญชี (รหัสพนักงาน)","vi-VN":"Vui lòng nhập tài khoản (mã nhân viên)","zh-CN":"请输入账号（工号）","zh-TW":"請輸入帳號（工號）"},{"key":"common.login.formPassword","en-US":"Please enter password","th-TH":"กรุณาป้อนรหัสผ่าน","vi-VN":"Vui lòng nhập mật khẩu","zh-CN":"请输入密码","zh-TW":"請輸入密碼"},{"key":"common.login.autoLoginMessage","en-US":"Auto login","th-TH":"เข้าสู่ระบบอัตโนมัติ","vi-VN":"Đăng nhập tự động","zh-CN":"自动登录","zh-TW":"自動登錄"},{"key":"common.register.registerSuccessMessage","en-US":"Registration successful","th-TH":"ลงทะเบียนสำเร็จ","vi-VN":"Đăng ký thành công","zh-CN":"注册成功","zh-TW":"註冊成功"},{"key":"common.register.title","en-US":"Register","th-TH":"ลงทะเบียน","vi-VN":"Đăng ký","zh-CN":"注册","zh-TW":"註冊"},{"key":"common.register.formUsernameLabel","en-US":"Username","th-TH":"ชื่อผู้ใช้","vi-VN":"Tên người dùng","zh-CN":"用户名","zh-TW":"用戶名"},{"key":"common.register.formUsernamePlaceholder","en-US":"Please enter username!","th-TH":"กรุณาป้อนชื่อผู้ใช้!","vi-VN":"Vui lòng nhập tên người dùng!","zh-CN":"请输入用户名!","zh-TW":"請輸入用戶名!"},{"key":"common.register.formPasswordLabel","en-US":"Password","th-TH":"รหัสผ่าน","vi-VN":"Mật khẩu","zh-CN":"密码","zh-TW":"密碼"},{"key":"common.register.formPasswordPlaceholder","en-US":"Please enter password!","th-TH":"กรุณาป้อนรหัสผ่าน!","vi-VN":"Vui lòng nhập mật khẩu!","zh-CN":"请输入密码!","zh-TW":"請輸入密碼!"},{"key":"common.register.formConfirmPasswordLabel","en-US":"Confirm Password","th-TH":"ยืนยันรหัสผ่าน","vi-VN":"Xác nhận mật khẩu","zh-CN":"确认密码","zh-TW":"確認密碼"},{"key":"common.register.formConfirmPasswordPlaceholder","en-US":"Please confirm password!","th-TH":"กรุณายืนยันรหัสผ่าน!","vi-VN":"Vui lòng xác nhận mật khẩu!","zh-CN":"请确认密码!","zh-TW":"請確認密碼!"},{"key":"common.register.formConfirmPasswordMismatch","en-US":"The two passwords you entered do not match!","th-TH":"รหัสผ่านที่คุณป้อนไม่ตรงกัน!","vi-VN":"Hai mật khẩu bạn đã nhập không khớp!","zh-CN":"两次输入的密码不一致!","zh-TW":"兩次輸入的密碼不一致!"},{"key":"common.register.btnRegister","en-US":"Register","th-TH":"ลงทะเบียน","vi-VN":"Đăng ký","zh-CN":"注册","zh-TW":"註冊"},{"key":"common.register.btnLogin","en-US":"Login","th-TH":"เข้าสู่ระบบ","vi-VN":"Đăng nhập","zh-CN":"登录","zh-TW":"登錄"}]
+[
+    {
+        "key": "common.constant.adjudicationStationUnidentified",
+        "en-US": "Unidentified: Fallback",
+        "th-TH": "ไม่ระบุ: สำรอง",
+        "vi-VN": "Không xác định: Dự phòng",
+        "zh-CN": "未识别：兜底",
+        "zh-TW": "未識別：兜底"
+    },
+    {
+        "key": "common.constant.adjudicationStationArtificial",
+        "en-US": "Manually unreviewed",
+        "th-TH": "ยังไม่ได้ตรวจสอบด้วยตนเอง",
+        "vi-VN": "Chưa đánh giá thủ công",
+        "zh-CN": "人工未复判",
+        "zh-TW": "人工未複判"
+    },
+    {
+        "key": "common.constant.adjudicationStationProactive",
+        "en-US": "Manually proactively skipped",
+        "th-TH": "ข้ามโดยการดำเนินการด้วยตนเอง",
+        "vi-VN": "Bỏ qua chủ động thủ công",
+        "zh-CN": "人工主动跳过",
+        "zh-TW": "人工主動跳過"
+    },
+    {
+        "key": "common.hooks.useDictErrorMessage",
+        "en-US": "Failed to get dictionary data",
+        "th-TH": "ไม่สามารถรับข้อมูลพจนานุกรมได้",
+        "vi-VN": "Không lấy được dữ liệu từ điển",
+        "zh-CN": "获取字典数据失败",
+        "zh-TW": "獲取字典資料失敗"
+    },
+    {
+        "key": "common.components.carouselLabel",
+        "en-US": "Go to slide",
+        "th-TH": "ไปที่สไลด์",
+        "vi-VN": "Đi đến trang chiếu",
+        "zh-CN": "转到幻灯片",
+        "zh-TW": "轉到幻燈片"
+    },
+    {
+        "key": "common.components.footerCopyright",
+        "en-US": "2025 Beijing DeZhi Matrix Technology Co., Ltd. All Rights Reserved. Users have read and agreed to the 'Service Agreement' and 'Privacy Policy'.",
+        "th-TH": "2025 Beijing DeZhi Matrix Technology Co., Ltd. สงวนลิขสิทธิ์ทั้งหมด ผู้ใช้ได้อ่านและยอมรับ 'ข้อตกลงการบริการ' และ 'นโยบายความเป็นส่วนตัว' แล้ว",
+        "vi-VN": "2025 Beijing DeZhi Matrix Technology Co., Ltd. Bảo lưu mọi quyền. Người dùng đã đọc và đồng ý với 'Điều khoản dịch vụ' và 'Chính sách quyền riêng tư'.",
+        "zh-CN": "2025 北京德智矩阵科技有限公司 版权所有 用户已阅读并同意《服务协议》及《隐私政策》",
+        "zh-TW": "2025 北京德智矩陣科技有限公司 版權所有 用戶已閱讀並同意《服務協議》及《隱私政策》"
+    },
+    {
+        "key": "common.components.leaveConfirmGuardMessage",
+        "en-US": "You have unsaved changes, are you sure you want to leave?",
+        "th-TH": "คุณมีการเปลี่ยนแปลงที่ยังไม่ได้บันทึก คุณแน่ใจหรือไม่ว่าต้องการออก?",
+        "vi-VN": "Bạn có những thay đổi chưa được lưu, bạn có chắc chắn muốn rời đi không?",
+        "zh-CN": "您有未保存的修改，确认要离开吗",
+        "zh-TW": "您有未保存的修改，確認要離開嗎"
+    },
+    {
+        "key": "common.models.adjudicationStationDefect",
+        "en-US": "Defect Image",
+        "th-TH": "รูปภาพข้อบกพร่อง",
+        "vi-VN": "Hình ảnh lỗi",
+        "zh-CN": "缺陷图",
+        "zh-TW": "缺陷圖"
+    },
+    {
+        "key": "common.models.adjudicationStationBoardList",
+        "en-US": "Board List",
+        "th-TH": "รายการบอร์ด",
+        "vi-VN": "Danh sách bảng",
+        "zh-CN": "板卡列表",
+        "zh-TW": "板卡列表"
+    },
+    {
+        "key": "common.models.adjudicationStationDeviceList",
+        "en-US": "Device List",
+        "th-TH": "รายการอุปกรณ์",
+        "vi-VN": "Danh sách thiết bị",
+        "zh-CN": "器件列表",
+        "zh-TW": "器件列表"
+    },
+    {
+        "key": "common.models.adjudicationStationFullPageImage",
+        "en-US": "Full Page Image",
+        "th-TH": "รูปภาพเต็มหน้า",
+        "vi-VN": "Hình ảnh toàn trang",
+        "zh-CN": "整版图",
+        "zh-TW": "整版圖"
+    },
+    {
+        "key": "common.models.adjudicationStationDefectComparison",
+        "en-US": "Reference Component",
+        "th-TH": "ส่วนประกอบอ้างอิง",
+        "vi-VN": "Thành phần tham chiếu",
+        "zh-CN": "参考器件",
+        "zh-TW": "參考器件"
+    },
+    {
+        "key": "common.models.adjudicationStationDefectList",
+        "en-US": "Defect List",
+        "th-TH": "รายการข้อบกพร่อง",
+        "vi-VN": "Danh sách lỗi",
+        "zh-CN": "缺陷列表",
+        "zh-TW": "缺陷列表"
+    },
+    {
+        "key": "common.models.adjudicationStationDetectionImage",
+        "en-US": "Detected Image",
+        "th-TH": "รูปภาพที่ตรวจพบ",
+        "vi-VN": "Hình ảnh được phát hiện",
+        "zh-CN": "被检测",
+        "zh-TW": "被檢測"
+    },
+    {
+        "key": "common.models.adjudicationStationLightSourceList",
+        "en-US": "Light Source List",
+        "th-TH": "รายการแหล่งกำเนิดแสง",
+        "vi-VN": "Danh sách nguồn sáng",
+        "zh-CN": "光源列表",
+        "zh-TW": "光源列表"
+    },
+    {
+        "key": "common.models.serverStoreCpuNum",
+        "en-US": "Core Count",
+        "th-TH": "จำนวนคอร์",
+        "vi-VN": "Số lõi",
+        "zh-CN": "核心数",
+        "zh-TW": "核心數"
+    },
+    {
+        "key": "common.models.serverStoreCpuUsed",
+        "en-US": "User Usage",
+        "th-TH": "การใช้งานของผู้ใช้",
+        "vi-VN": "Mức sử dụng của người dùng",
+        "zh-CN": "用户使用率",
+        "zh-TW": "用戶使用率"
+    },
+    {
+        "key": "common.models.serverStoreCpuSys",
+        "en-US": "System Usage",
+        "th-TH": "การใช้งานระบบ",
+        "vi-VN": "Mức sử dụng hệ thống",
+        "zh-CN": "系统使用率",
+        "zh-TW": "系統使用率"
+    },
+    {
+        "key": "common.models.serverStoreCpuFree",
+        "en-US": "Current Idle Rate",
+        "th-TH": "อัตราการว่างปัจจุบัน",
+        "vi-VN": "Tỷ lệ nhàn rỗi hiện tại",
+        "zh-CN": "当前空闲率",
+        "zh-TW": "當前空閒率"
+    },
+    {
+        "key": "common.models.serverStoreMemTotal",
+        "en-US": "Total Memory",
+        "th-TH": "หน่วยความจำทั้งหมด",
+        "vi-VN": "Tổng bộ nhớ",
+        "zh-CN": "总内存",
+        "zh-TW": "總記憶體"
+    },
+    {
+        "key": "common.models.serverStoreMemUsed",
+        "en-US": "Used Memory",
+        "th-TH": "หน่วยความจำที่ใช้ไป",
+        "vi-VN": "Bộ nhớ đã dùng",
+        "zh-CN": "已用内存",
+        "zh-TW": "已用記憶體"
+    },
+    {
+        "key": "common.models.serverStoreMemFree",
+        "en-US": "Free Memory",
+        "th-TH": "หน่วยความจำที่ว่าง",
+        "vi-VN": "Bộ nhớ trống",
+        "zh-CN": "剩余内存",
+        "zh-TW": "剩餘記憶體"
+    },
+    {
+        "key": "common.models.serverStoreMemUsage",
+        "en-US": "Usage",
+        "th-TH": "การใช้งาน",
+        "vi-VN": "Mức sử dụng",
+        "zh-CN": "使用率",
+        "zh-TW": "使用率"
+    },
+    {
+        "key": "common.requestErrorConfig.loginExpiredMessage",
+        "en-US": "Login expired",
+        "th-TH": "การเข้าสู่ระบบหมดอายุ",
+        "vi-VN": "Phiên đăng nhập đã hết hạn",
+        "zh-CN": "登录过期",
+        "zh-TW": "登錄過期"
+    },
+    {
+        "key": "common.requestErrorConfig.requestFailedMessage",
+        "en-US": "Request failed",
+        "th-TH": "คำขอไม่สำเร็จ",
+        "vi-VN": "Yêu cầu thất bại",
+        "zh-CN": "请求失败",
+        "zh-TW": "請求失敗"
+    },
+    {
+        "key": "common.login.updatePwdModalTitle",
+        "en-US": "Password Update Reminder",
+        "th-TH": "การแจ้งเตือนให้อัปเดตรหัสผ่าน",
+        "vi-VN": "Nhắc nhở cập nhật mật khẩu",
+        "zh-CN": "密码更新提醒",
+        "zh-TW": "密碼更新提醒"
+    },
+    {
+        "key": "common.login.updatePwdModalContent",
+        "en-US": "To ensure account security, it is recommended that you update your password.",
+        "th-TH": "เพื่อความปลอดภัยของบัญชี ขอแนะนำให้คุณอัปเดตรหัสผ่านของคุณ",
+        "vi-VN": "Để đảm bảo an toàn tài khoản, bạn nên cập nhật mật khẩu của mình.",
+        "zh-CN": "为确保账户安全，建议您更新密码。",
+        "zh-TW": "為確保帳戶安全，建議您更新密碼。"
+    },
+    {
+        "key": "common.login.btnConfirm",
+        "en-US": "Confirm",
+        "th-TH": "ยืนยัน",
+        "vi-VN": "Xác nhận",
+        "zh-CN": "确定",
+        "zh-TW": "確定"
+    },
+    {
+        "key": "common.login.btnCancel",
+        "en-US": "Cancel",
+        "th-TH": "ยกเลิก",
+        "vi-VN": "Hủy",
+        "zh-CN": "取消",
+        "zh-TW": "取消"
+    },
+    {
+        "key": "common.login.loginSuccessMessage",
+        "en-US": "Login successful!",
+        "th-TH": "เข้าสู่ระบบสำเร็จ!",
+        "vi-VN": "Đăng nhập thành công!",
+        "zh-CN": "登录成功！",
+        "zh-TW": "登錄成功！"
+    },
+    {
+        "key": "common.login.title",
+        "en-US": "DeZhi Matrix",
+        "th-TH": "DeZhi Matrix",
+        "vi-VN": "DeZhi Matrix",
+        "zh-CN": "德智矩阵",
+        "zh-TW": "德智矩陣"
+    },
+    {
+        "key": "common.login.formUsername",
+        "en-US": "Please enter account (employee ID)",
+        "th-TH": "กรุณาป้อนบัญชี (รหัสพนักงาน)",
+        "vi-VN": "Vui lòng nhập tài khoản (mã nhân viên)",
+        "zh-CN": "请输入账号（工号）",
+        "zh-TW": "請輸入帳號（工號）"
+    },
+    {
+        "key": "common.login.formPassword",
+        "en-US": "Please enter password",
+        "th-TH": "กรุณาป้อนรหัสผ่าน",
+        "vi-VN": "Vui lòng nhập mật khẩu",
+        "zh-CN": "请输入密码",
+        "zh-TW": "請輸入密碼"
+    },
+    {
+        "key": "common.login.autoLoginMessage",
+        "en-US": "Auto login",
+        "th-TH": "เข้าสู่ระบบอัตโนมัติ",
+        "vi-VN": "Đăng nhập tự động",
+        "zh-CN": "自动登录",
+        "zh-TW": "自動登錄"
+    },
+    {
+        "key": "common.register.registerSuccessMessage",
+        "en-US": "Registration successful",
+        "th-TH": "ลงทะเบียนสำเร็จ",
+        "vi-VN": "Đăng ký thành công",
+        "zh-CN": "注册成功",
+        "zh-TW": "註冊成功"
+    },
+    {
+        "key": "common.register.title",
+        "en-US": "Register",
+        "th-TH": "ลงทะเบียน",
+        "vi-VN": "Đăng ký",
+        "zh-CN": "注册",
+        "zh-TW": "註冊"
+    },
+    {
+        "key": "common.register.formUsernameLabel",
+        "en-US": "Username",
+        "th-TH": "ชื่อผู้ใช้",
+        "vi-VN": "Tên người dùng",
+        "zh-CN": "用户名",
+        "zh-TW": "用戶名"
+    },
+    {
+        "key": "common.register.formUsernamePlaceholder",
+        "en-US": "Please enter username!",
+        "th-TH": "กรุณาป้อนชื่อผู้ใช้!",
+        "vi-VN": "Vui lòng nhập tên người dùng!",
+        "zh-CN": "请输入用户名!",
+        "zh-TW": "請輸入用戶名!"
+    },
+    {
+        "key": "common.register.formPasswordLabel",
+        "en-US": "Password",
+        "th-TH": "รหัสผ่าน",
+        "vi-VN": "Mật khẩu",
+        "zh-CN": "密码",
+        "zh-TW": "密碼"
+    },
+    {
+        "key": "common.register.formPasswordPlaceholder",
+        "en-US": "Please enter password!",
+        "th-TH": "กรุณาป้อนรหัสผ่าน!",
+        "vi-VN": "Vui lòng nhập mật khẩu!",
+        "zh-CN": "请输入密码!",
+        "zh-TW": "請輸入密碼!"
+    },
+    {
+        "key": "common.register.formConfirmPasswordLabel",
+        "en-US": "Confirm Password",
+        "th-TH": "ยืนยันรหัสผ่าน",
+        "vi-VN": "Xác nhận mật khẩu",
+        "zh-CN": "确认密码",
+        "zh-TW": "確認密碼"
+    },
+    {
+        "key": "common.register.formConfirmPasswordPlaceholder",
+        "en-US": "Please confirm password!",
+        "th-TH": "กรุณายืนยันรหัสผ่าน!",
+        "vi-VN": "Vui lòng xác nhận mật khẩu!",
+        "zh-CN": "请确认密码!",
+        "zh-TW": "請確認密碼!"
+    },
+    {
+        "key": "common.register.formConfirmPasswordMismatch",
+        "en-US": "The two passwords you entered do not match!",
+        "th-TH": "รหัสผ่านที่คุณป้อนไม่ตรงกัน!",
+        "vi-VN": "Hai mật khẩu bạn đã nhập không khớp!",
+        "zh-CN": "两次输入的密码不一致!",
+        "zh-TW": "兩次輸入的密碼不一致!"
+    },
+    {
+        "key": "common.register.btnRegister",
+        "en-US": "Register",
+        "th-TH": "ลงทะเบียน",
+        "vi-VN": "Đăng ký",
+        "zh-CN": "注册",
+        "zh-TW": "註冊"
+    },
+    {
+        "key": "common.register.btnLogin",
+        "en-US": "Login",
+        "th-TH": "เข้าสู่ระบบ",
+        "vi-VN": "Đăng nhập",
+        "zh-CN": "登录",
+        "zh-TW": "登錄"
+    }
+]
