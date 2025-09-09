@@ -1,1 +1,922 @@
-[{"key":"dataManagement.managementList.title","en-US":"Management List","th-TH":"รายการการจัดการ","vi-VN":"Danh sách quản lý","zh-CN":"管理列表","zh-TW":"管理列表"},{"key":"dataManagement.annotationList.title","en-US":"Annotation List","th-TH":"รายการคำอธิบายประกอบ","vi-VN":"Danh sách chú thích","zh-CN":"标注列表","zh-TW":"標註列表"},{"key":"dataManagement.auditList.title","en-US":"Audit List","th-TH":"รายการตรวจสอบ","vi-VN":"Danh sách kiểm duyệt","zh-CN":"审核列表","zh-TW":"審核列表"},{"key":"dataManagement.list.searchBatchNameLabel","en-US":"Batch Name","th-TH":"ชื่อชุดงาน","vi-VN":"Tên lô","zh-CN":"批次名","zh-TW":"批次名稱"},{"key":"dataManagement.list.searchBatchNamePlaceholder","en-US":"Please enter batch name","th-TH":"โปรดป้อนชื่อชุดงาน","vi-VN":"Vui lòng nhập tên lô","zh-CN":"请输入批次名","zh-TW":"請輸入批次名稱"},{"key":"dataManagement.list.searchBatchStatusLabel","en-US":"Batch Status","th-TH":"สถานะชุดงาน","vi-VN":"Trạng thái lô","zh-CN":"批次状态","zh-TW":"批次狀態"},{"key":"dataManagement.list.searchBatchStatusPlaceholder","en-US":"Please select batch status","th-TH":"โปรดเลือกสถานะชุดงาน","vi-VN":"Vui lòng chọn trạng thái lô","zh-CN":"请选择批次状态","zh-TW":"請選擇批次狀態"},{"key":"dataManagement.list.searchCreateTimeLabel","en-US":"Create Time","th-TH":"เวลาสร้าง","vi-VN":"Thời gian tạo","zh-CN":"创建时间","zh-TW":"建立時間"},{"key":"dataManagement.list.searchStartCreateTimePlaceholder","en-US":"Start Time","th-TH":"เวลาเริ่มต้น","vi-VN":"Thời gian bắt đầu","zh-CN":"开始时间","zh-TW":"開始時間"},{"key":"dataManagement.list.searchEndCreateTimePlaceholder","en-US":"End Time","th-TH":"เวลาสิ้นสุด","vi-VN":"Thời gian kết thúc","zh-CN":"结束时间","zh-TW":"結束時間"},{"key":"dataManagement.list.searchCreateUserIdLabel","en-US":"Creator","th-TH":"ผู้สร้าง","vi-VN":"Người tạo","zh-CN":"创建人","zh-TW":"建立人"},{"key":"dataManagement.list.searchCreateUserIdPlaceholder","en-US":"Please select creator","th-TH":"โปรดเลือกผู้สร้าง","vi-VN":"Vui lòng chọn người tạo","zh-CN":"请选择创建人","zh-TW":"請選擇建立人"},{"key":"dataManagement.list.searchMarkUserIdLabel","en-US":"Marker","th-TH":"ผู้ทำเครื่องหมาย","vi-VN":"Người chú thích","zh-CN":"标注人","zh-TW":"標註人"},{"key":"dataManagement.list.searchMarkUserIdPlaceholder","en-US":"Please select marker","th-TH":"โปรดเลือกผู้ทำเครื่องหมาย","vi-VN":"Vui lòng chọn người chú thích","zh-CN":"请选择标注人","zh-TW":"請選擇標註人"},{"key":"dataManagement.list.searchAuditUserIdLabel","en-US":"Auditor","th-TH":"ผู้ตรวจสอบ","vi-VN":"Người kiểm duyệt","zh-CN":"审核人","zh-TW":"審核人"},{"key":"dataManagement.list.searchAuditUserIdPlaceholder","en-US":"Please select auditor","th-TH":"โปรดเลือกผู้ตรวจสอบ","vi-VN":"Vui lòng chọn người kiểm duyệt","zh-CN":"请选择审核人","zh-TW":"請選擇審核人"},{"key":"dataManagement.list.searchButton","en-US":"Search","th-TH":"ค้นหา","vi-VN":"Tìm kiếm","zh-CN":"查询","zh-TW":"查詢"},{"key":"dataManagement.list.searchBtnReset","en-US":"Reset","th-TH":"รีเซ็ต","vi-VN":"Đặt lại","zh-CN":"重置","zh-TW":"重置"},{"key":"dataManagement.list.createBatchSuccessMessage","en-US":"Batch created successfully","th-TH":"สร้างชุดงานสำเร็จแล้ว","vi-VN":"Tạo lô thành công","zh-CN":"批次创建成功","zh-TW":"批次建立成功"},{"key":"dataManagement.list.submitBatchSuccessMessage","en-US":"Batch submitted for audit successfully","th-TH":"ส่งชุดงานเพื่อตรวจสอบสำเร็จแล้ว","vi-VN":"Gửi lô để kiểm duyệt thành công","zh-CN":"批次提交审核成功","zh-TW":"批次提交審核成功"},{"key":"dataManagement.list.auditBatchSuccessMessage","en-US":"Batch audit approved successfully","th-TH":"การตรวจสอบเป็นชุดได้รับการอนุมัติสำเร็จแล้ว","vi-VN":"Đã chấp thuận kiểm duyệt lô thành công","zh-CN":"批次审核通过成功","zh-TW":"批次審核通過成功"},{"key":"dataManagement.list.auditBatchFailedMessage","en-US":"Batch audit rejected successfully","th-TH":"การตรวจสอบเป็นชุดถูกปฏิเสธสำเร็จแล้ว","vi-VN":"Đã từ chối kiểm duyệt lô thành công","zh-CN":"批次审核驳回成功","zh-TW":"批次審核駁回成功"},{"key":"dataManagement.list.delBatchSuccessMessage","en-US":"Batch deleted successfully","th-TH":"ลบชุดงานสำเร็จแล้ว","vi-VN":"Xóa lô thành công","zh-CN":"批次删除成功","zh-TW":"批次刪除成功"},{"key":"dataManagement.list.auditBatchWarningMessage","en-US":"Please select at least one batch for audit","th-TH":"โปรดเลือกชุดงานอย่างน้อยหนึ่งชุดเพื่อตรวจสอบ","vi-VN":"Vui lòng chọn ít nhất một lô để kiểm duyệt","zh-CN":"请至少选择一个批次进行审核","zh-TW":"請至少選擇一個批次進行審核"},{"key":"dataManagement.list.submitBatchWarningMessage","en-US":"Please select at least one batch for submission","th-TH":"โปรดเลือกชุดงานอย่างน้อยหนึ่งชุดเพื่อส่ง","vi-VN":"Vui lòng chọn ít nhất một lô để gửi","zh-CN":"请至少选择一个批次进行提交","zh-TW":"請至少選擇一個批次進行提交"},{"key":"dataManagement.list.btnDel","en-US":"Delete","th-TH":"ลบ","vi-VN":"Xóa","zh-CN":"删除","zh-TW":"刪除"},{"key":"dataManagement.list.btnPass","en-US":"Pass","th-TH":"ผ่าน","vi-VN":"Duyệt","zh-CN":"通过","zh-TW":"通過"},{"key":"dataManagement.list.btnReject","en-US":"Reject","th-TH":"ปฏิเสธ","vi-VN":"Từ chối","zh-CN":"驳回","zh-TW":"駁回"},{"key":"dataManagement.list.btnSubmit","en-US":"Submit for Audit","th-TH":"ส่งเพื่อตรวจสอบ","vi-VN":"Gửi để kiểm duyệt","zh-CN":"提交审核","zh-TW":"提交審核"},{"key":"dataManagement.list.updateSuccessMessage","en-US":"Update successful","th-TH":"อัปเดตสำเร็จ","vi-VN":"Cập nhật thành công","zh-CN":"更新成功","zh-TW":"更新成功"},{"key":"dataManagement.list.tableColBatchName","en-US":"Batch Name","th-TH":"ชื่อชุดงาน","vi-VN":"Tên lô","zh-CN":"批次名","zh-TW":"批次名稱"},{"key":"dataManagement.list.tableColCreateUser","en-US":"Creator","th-TH":"ผู้สร้าง","vi-VN":"Người tạo","zh-CN":"创建人","zh-TW":"建立人"},{"key":"dataManagement.list.tableColImageCount","en-US":"Image Count","th-TH":"จำนวนรูปภาพ","vi-VN":"Số lượng ảnh","zh-CN":"图片数量","zh-TW":"圖片數量"},{"key":"dataManagement.list.tableColBatchStatus","en-US":"Batch Status","th-TH":"สถานะชุดงาน","vi-VN":"Trạng thái lô","zh-CN":"批次状态","zh-TW":"批次狀態"},{"key":"dataManagement.list.tableColMarkUser","en-US":"Marker","th-TH":"ผู้ทำเครื่องหมาย","vi-VN":"Người chú thích","zh-CN":"标注人","zh-TW":"標註人"},{"key":"dataManagement.list.tableColMarkUserPlaceholder","en-US":"Please select marker","th-TH":"โปรดเลือกผู้ทำเครื่องหมาย","vi-VN":"Vui lòng chọn người chú thích","zh-CN":"请选择标注人","zh-TW":"請選擇標註人"},{"key":"dataManagement.list.tableColAuditUser","en-US":"Auditor","th-TH":"ผู้ตรวจสอบ","vi-VN":"Người kiểm duyệt","zh-CN":"审核人","zh-TW":"審核人"},{"key":"dataManagement.list.tableColAuditUserPlaceholder","en-US":"Please select auditor","th-TH":"โปรดเลือกผู้ตรวจสอบ","vi-VN":"Vui lòng chọn người kiểm duyệt","zh-CN":"请选择审核人","zh-TW":"請選擇審核人"},{"key":"dataManagement.list.tableColTagType","en-US":"Tag Type","th-TH":"ประเภทแท็ก","vi-VN":"Loại nhãn","zh-CN":"标签类型","zh-TW":"標籤類型"},{"key":"dataManagement.list.tableColTagTypePlaceholder","en-US":"Please select tag type","th-TH":"โปรดเลือกประเภทแท็ก","vi-VN":"Vui lòng chọn loại nhãn","zh-CN":"请选择标签类型","zh-TW":"請選擇標籤類型"},{"key":"dataManagement.list.tableColTagTypeOption1","en-US":"Detection Tag","th-TH":"แท็กการตรวจจับ","vi-VN":"Nhãn phát hiện","zh-CN":"检测标签","zh-TW":"偵測標籤"},{"key":"dataManagement.list.tableColTagTypeOption2","en-US":"Classification Tag","th-TH":"แท็กการจัดหมวดหมู่","vi-VN":"Nhãn phân loại","zh-CN":"分类标签","zh-TW":"分類標籤"},{"key":"dataManagement.list.tableColCreateTime","en-US":"Create Time","th-TH":"เวลาสร้าง","vi-VN":"Thời gian tạo","zh-CN":"创建时间","zh-TW":"建立時間"},{"key":"dataManagement.list.tableColOperation","en-US":"Operation","th-TH":"การดำเนินการ","vi-VN":"Thao tác","zh-CN":"操作","zh-TW":"操作"},{"key":"dataManagement.list.btnDetail","en-US":"Details","th-TH":"รายละเอียด","vi-VN":"Chi tiết","zh-CN":"详情","zh-TW":"詳情"},{"key":"dataManagement.list.delBatchWarningMessage","en-US":"Please select at least one batch for deletion","th-TH":"โปรดเลือกชุดงานอย่างน้อยหนึ่งชุดเพื่อลบ","vi-VN":"Vui lòng chọn ít nhất một lô để xóa","zh-CN":"请至少选择一个批次进行删除","zh-TW":"請至少選擇一個批次進行刪除"},{"key":"dataManagement.list.tableShowTotal","en-US":"Total {total} records","th-TH":"รวม {total} รายการ","vi-VN":"Tổng {total} bản ghi","zh-CN":"共 {total} 条记录","zh-TW":"共 {total} 條記錄"},{"key":"dataManagement.list.delBatchConfirmMessage","en-US":"Confirm to delete selected batches?","th-TH":"ยืนยันที่จะลบชุดงานที่เลือกหรือไม่","vi-VN":"Xác nhận xóa các lô đã chọn?","zh-CN":"确认要删除选中的批次吗？","zh-TW":"確認要刪除選定的批次嗎？"},{"key":"dataManagement.list.delBatchConfirmMessageDetail","en-US":"Cannot be recovered after deletion, please operate with caution!","th-TH":"ไม่สามารถกู้คืนได้หลังจากลบ โปรดดำเนินการด้วยความระมัดระวัง!","vi-VN":"Không thể phục hồi sau khi xóa, vui lòng thao tác cẩn thận!","zh-CN":"删除后将无法恢复，请谨慎操作!","zh-TW":"刪除後將無法恢復，請謹慎操作！"},{"key":"dataManagement.list.btnCancel","en-US":"Cancel","th-TH":"ยกเลิก","vi-VN":"Hủy","zh-CN":"取消","zh-TW":"取消"},{"key":"dataManagement.list.btnConfirm","en-US":"Confirm","th-TH":"ยืนยัน","vi-VN":"Xác nhận","zh-CN":"确认","zh-TW":"確認"},{"key":"dataManagement.imageList.searchDatasetOption1","en-US":"Test Set","th-TH":"ชุดทดสอบ","vi-VN":"Tập dữ liệu kiểm thử","zh-CN":"测试集","zh-TW":"測試集"},{"key":"dataManagement.imageList.searchDatasetOption2","en-US":"Non-Test Set","th-TH":"ชุดที่ไม่ใช่การทดสอบ","vi-VN":"Tập dữ liệu không kiểm thử","zh-CN":"非测试集","zh-TW":"非測試集"},{"key":"dataManagement.imageList.searchMarkTimeLabel","en-US":"Mark Time","th-TH":"เวลาทำเครื่องหมาย","vi-VN":"Thời gian chú thích","zh-CN":"标注时间","zh-TW":"標註時間"},{"key":"dataManagement.imageList.searchStartMarkTimePlaceholder","en-US":"Start Time","th-TH":"เวลาเริ่มต้น","vi-VN":"Thời gian bắt đầu","zh-CN":"开始时间","zh-TW":"開始時間"},{"key":"dataManagement.imageList.searchEndMarkTimePlaceholder","en-US":"End Time","th-TH":"เวลาสิ้นสุด","vi-VN":"Thời gian kết thúc","zh-CN":"结束时间","zh-TW":"結束時間"},{"key":"dataManagement.imageList.searchAuditTimeLabel","en-US":"Audit Time","th-TH":"เวลาตรวจสอบ","vi-VN":"Thời gian kiểm duyệt","zh-CN":"审核时间","zh-TW":"審核時間"},{"key":"dataManagement.imageList.searchStartAuditTimePlaceholder","en-US":"Start Time","th-TH":"เวลาเริ่มต้น","vi-VN":"Thời gian bắt đầu","zh-CN":"开始时间","zh-TW":"開始時間"},{"key":"dataManagement.imageList.searchEndAuditTimePlaceholder","en-US":"End Time","th-TH":"เวลาสิ้นสุด","vi-VN":"Thời gian kết thúc","zh-CN":"结束时间","zh-TW":"結束時間"},{"key":"dataManagement.imageList.searchMarkStatusLabel","en-US":"Mark Status","th-TH":"สถานะการทำเครื่องหมาย","vi-VN":"Trạng thái chú thích","zh-CN":"标注状态","zh-TW":"標註狀態"},{"key":"dataManagement.imageList.searchMarkStatusPlaceholder","en-US":"Please select mark status","th-TH":"โปรดเลือกสถานะการทำเครื่องหมาย","vi-VN":"Vui lòng chọn trạng thái chú thích","zh-CN":"请选择标注状态","zh-TW":"請選擇標註狀態"},{"key":"dataManagement.imageList.searchAuditStatusLabel","en-US":"Audit Status","th-TH":"สถานะการตรวจสอบ","vi-VN":"Trạng thái kiểm duyệt","zh-CN":"审核状态","zh-TW":"審核狀態"},{"key":"dataManagement.imageList.searchAuditStatusPlaceholder","en-US":"Please select audit status","th-TH":"โปรดเลือกสถานะการตรวจสอบ","vi-VN":"Vui lòng chọn trạng thái kiểm duyệt","zh-CN":"请选择审核状态","zh-TW":"請選擇審核狀態"},{"key":"dataManagement.imageList.searchDatasetTypeLabel","en-US":"Dataset Type","th-TH":"ประเภทชุดข้อมูล","vi-VN":"Loại tập dữ liệu","zh-CN":"数据集类型","zh-TW":"數據集類型"},{"key":"dataManagement.imageList.searchDatasetTypePlaceholder","en-US":"Please select dataset type","th-TH":"โปรดเลือกประเภทชุดข้อมูล","vi-VN":"Vui lòng chọn loại tập dữ liệu","zh-CN":"请选择数据集类型","zh-TW":"請選擇數據集類型"},{"key":"dataManagement.imageList.searchButton","en-US":"Search","th-TH":"ค้นหา","vi-VN":"Tìm kiếm","zh-CN":"查询","zh-TW":"查詢"},{"key":"dataManagement.imageList.searchBtnReset","en-US":"Reset","th-TH":"รีเซ็ต","vi-VN":"Đặt lại","zh-CN":"重置","zh-TW":"重置"},{"key":"dataManagement.imageList.uploadFileFormatMessage","en-US":"Only supports png/jpg/jpeg image formats","th-TH":"รองรับเฉพาะไฟล์รูปภาพรูปแบบ png/jpg/jpeg เท่านั้น","vi-VN":"Chỉ hỗ trợ định dạng ảnh png/jpg/jpeg","zh-CN":"仅支持png/jpg/jpeg格式的图片","zh-TW":"僅支援png/jpg/jpeg格式的圖片"},{"key":"dataManagement.imageList.delDuplicateImagesMessage","en-US":"Duplicate images deleted","th-TH":"ลบรูปภาพที่ซ้ำกันแล้ว","vi-VN":"Đã xóa ảnh trùng lặp","zh-CN":"已删除重复图片","zh-TW":"已刪除重複圖片"},{"key":"dataManagement.imageList.uploadSuccessMessage","en-US":"Upload successful, {count} images in total{failCount > 0 ? `, ${failCount} failed` : ''}","th-TH":"อัปโหลดสำเร็จ, รูปภาพรวม {count} รูป{failCount > 0 ? `, ล้มเหลว ${failCount} รูป` : ''}","vi-VN":"Tải lên thành công, tổng cộng {count} ảnh{failCount > 0 ? `, ${failCount} thất bại` : ''}","zh-CN":"上传成功，共{count}张{failCount > 0 ? `，失败${failCount}张` : ''}","zh-TW":"上傳成功，共{count}張{failCount > 0 ? `，失敗${failCount}張` : ''}"},{"key":"dataManagement.imageList.btnBatchDelete","en-US":"Batch Delete","th-TH":"ลบเป็นชุด","vi-VN":"Xóa hàng loạt","zh-CN":"批量删除","zh-TW":"批次刪除"},{"key":"dataManagement.imageList.uploadButton","en-US":"Upload","th-TH":"อัปโหลด","vi-VN":"Tải lên","zh-CN":"上传","zh-TW":"上傳"},{"key":"dataManagement.imageList.btnBatchAudit","en-US":"Batch Audit","th-TH":"ตรวจสอบเป็นชุด","vi-VN":"Kiểm duyệt hàng loạt","zh-CN":"批量审核","zh-TW":"批次審核"},{"key":"dataManagement.imageList.btnBatchMark","en-US":"Batch Mark","th-TH":"ทำเครื่องหมายเป็นชุด","vi-VN":"Chú thích hàng loạt","zh-CN":"批量标注","zh-TW":"批次標註"},{"key":"dataManagement.imageList.tableColImageName","en-US":"Image Name","th-TH":"ชื่อรูปภาพ","vi-VN":"Tên ảnh","zh-CN":"图片名称","zh-TW":"圖片名稱"},{"key":"dataManagement.imageList.tableColIsDuplicate","en-US":"Is Duplicate","th-TH":"ซ้ำกันหรือไม่","vi-VN":"Có trùng lặp","zh-CN":"是否重复","zh-TW":"是否重複"},{"key":"dataManagement.imageList.tableColIsDuplicateYes","en-US":"Duplicate","th-TH":"ซ้ำกัน","vi-VN":"Trùng lặp","zh-CN":"重复","zh-TW":"重複"},{"key":"dataManagement.imageList.tableColIsDuplicateNo","en-US":"Not Duplicate","th-TH":"ไม่ซ้ำกัน","vi-VN":"Không trùng lặp","zh-CN":"未重复","zh-TW":"未重複"},{"key":"dataManagement.imageList.tableColOperation","en-US":"Operation","th-TH":"การดำเนินการ","vi-VN":"Thao tác","zh-CN":"操作","zh-TW":"操作"},{"key":"dataManagement.imageList.tableColOperationDelete","en-US":"Delete","th-TH":"ลบ","vi-VN":"Xóa","zh-CN":"删除","zh-TW":"刪除"},{"key":"dataManagement.imageList.title","en-US":"Image List","th-TH":"รายการรูปภาพ","vi-VN":"Danh sách ảnh","zh-CN":"图片列表","zh-TW":"圖片列表"},{"key":"dataManagement.imageList.uploadModalTitle","en-US":"Image Upload","th-TH":"อัปโหลดรูปภาพ","vi-VN":"Tải lên ảnh","zh-CN":"图片上传","zh-TW":"圖片上傳"},{"key":"dataManagement.imageList.uploadModalFilesLabel","en-US":"Upload Images","th-TH":"อัปโหลดรูปภาพ","vi-VN":"Tải lên ảnh","zh-CN":"上传图片","zh-TW":"上傳圖片"},{"key":"dataManagement.imageList.uploadModalFilesErrorMessage","en-US":"Please enter batch name prefix","th-TH":"โปรดป้อนคำนำหน้าชื่อชุดงาน","vi-VN":"Vui lòng nhập tiền tố tên lô","zh-CN":"请输入批次名前缀","zh-TW":"請輸入批次名稱前綴"},{"key":"dataManagement.imageList.uploadModalBtnChooseImage","en-US":"Choose Image","th-TH":"เลือกรูปภาพ","vi-VN":"Chọn ảnh","zh-CN":"选择图片","zh-TW":"選擇圖片"},{"key":"dataManagement.imageList.uploadModalBtnChooseFolder","en-US":"Choose Folder","th-TH":"เลือกโฟลเดอร์","vi-VN":"Chọn thư mục","zh-CN":"选择文件夹","zh-TW":"選擇資料夾"},{"key":"dataManagement.imageList.uploadModalDuplicateTip","en-US":"Tip: Duplicate images exist in current upload, click here","th-TH":"คำแนะนำ: มีรูปภาพที่ซ้ำกันในการอัปโหลดปัจจุบัน คลิกที่นี่","vi-VN":"Mẹo: Có ảnh trùng lặp trong lần tải lên hiện tại, nhấp vào đây","zh-CN":"提示：当前上传存在重复图片，点此","zh-TW":"提示：目前上傳存在重複圖片，點此"},{"key":"dataManagement.imageList.uploadModalDuplicateTipLink","en-US":"One-click Delete","th-TH":"ลบด้วยคลิกเดียว","vi-VN":"Xóa bằng một cú nhấp","zh-CN":"一键删除","zh-TW":"一鍵刪除"},{"key":"dataManagement.imageList.uploadModalDuplicateTipDescription","en-US":"Layer duplicate images","th-TH":"รูปภาพเลเยอร์ที่ซ้ำกัน","vi-VN":"Ảnh trùng lặp lớp","zh-CN":"图层重复图片","zh-TW":"圖層重複圖片"},{"key":"dataManagement.imageList.uploadModalDuplicateTipSummary","en-US":"{length} images selected, {duplicateCount} duplicates","th-TH":"เลือกรูปภาพ {length} รูป, ซ้ำกัน {duplicateCount} รูป","vi-VN":"Đã chọn {length} ảnh, {duplicateCount} ảnh trùng lặp","zh-CN":"已选择 {length} 张图片，{duplicateCount}张重复","zh-TW":"已選擇 {length} 張圖片，{duplicateCount}張重複"},{"key":"dataManagement.imageList.uploadModalBtnCancel","en-US":"Cancel","th-TH":"ยกเลิก","vi-VN":"Hủy","zh-CN":"取消","zh-TW":"取消"},{"key":"dataManagement.imageList.uploadModalBtnUpload","en-US":"Start Upload","th-TH":"เริ่มอัปโหลด","vi-VN":"Bắt đầu tải lên","zh-CN":"开始上传","zh-TW":"開始上傳"},{"key":"dataManagement.batchListAction.btnDeleteBatch","zh-CN":"批量删除"},{"key":"dataManagement.batchListAction.btnCreateBatch","zh-CN":"创建批次"},{"key":"dataManagement.batchListAction.btnRejectAudit","zh-CN":"驳回审核"},{"key":"dataManagement.batchListAction.btnPassAudit","zh-CN":"通过审核"},{"key":"dataManagement.batchListAction.btnSubmit","zh-CN":"提交审核"},{"key":"dataManagement.batchListAction.title","zh-CN":"批次列表"},{"key":"dataManagement.batchListAction.modalTitle","zh-CN":"创建批次"},{"key":"dataManagement.batchListAction.modalBatchLabel","zh-CN":"批次名前缀"},{"key":"dataManagement.batchListAction.modalBatchMessage","zh-CN":"请输入批次名前缀"},{"key":"dataManagement.batchListAction.modalBatchPlaceholder","zh-CN":"请输入批次名前缀，例如：0718_电阻_多锡"},{"key":"dataManagement.batchListAction.modalBtnCancel","zh-CN":"取消"},{"key":"dataManagement.batchListAction.modalBtnConfirm","zh-CN":"创建"},{"key":"dataManagement.imageList.delImageSuccessMessage","zh-CN":"图片删除成功"},{"key":"dataManagement.imageList.setImageSuccessMessage","zh-CN":"设置成功"},{"key":"dataManagement.imageList.btnSetTestCollection","zh-CN":"设置测试集"},{"key":"dataManagement.imageList.btnDel","zh-CN":"删除"},{"key":"dataManagement.imageList.btnAudit","zh-CN":"审核"},{"key":"dataManagement.imageList.btnMark","zh-CN":"标注"},{"key":"dataManagement.imageList.listTableColImageName","zh-CN":"图片名称"},{"key":"dataManagement.imageList.listTableColUploadUser","zh-CN":"上传人"},{"key":"dataManagement.imageList.listTableColMarkStatus","zh-CN":"标注状态"},{"key":"dataManagement.imageList.listTableColAuditStatus","zh-CN":"审核状态"},{"key":"dataManagement.imageList.listTableColMarkTime","zh-CN":"标注时间"},{"key":"dataManagement.imageList.listTableColAuditTime","zh-CN":"审核时间"},{"key":"dataManagement.imageList.listTableColDatasetType","zh-CN":"数据集类型"},{"key":"dataManagement.imageList.listTableColDatasetTypeOption1","zh-CN":"测试集"},{"key":"dataManagement.imageList.listTableColOperation","zh-CN":"操作"},{"key":"dataManagement.imageList.delWarningMessage","zh-CN":"请至少选择1张图片进行删除"},{"key":"dataManagement.imageList.auditWarningMessage","zh-CN":"请至少选择1张图片进行审核"},{"key":"dataManagement.imageList.markWarningMessage","zh-CN":"请至少选择1张图片进行标注"},{"key":"dataManagement.imageList.tableShowTotal","zh-CN":"共{total}记录"},{"key":"dataManagement.imageList.btnBack","zh-CN":"返回上一级"},{"key":"dataManagement.imageList.delModalTitle","zh-CN":"确认要删除选中的图片吗？"},{"key":"dataManagement.imageList.delModalContent","zh-CN":"删除后将无法恢复，请谨慎操作!"},{"key":"dataManagement.imageList.delModalCancel","zh-CN":"取消"},{"key":"dataManagement.imageList.delModalConfirm","zh-CN":"确认"}]
+[
+ {
+  "en": "Management List",
+  "en-US": "Management List",
+  "key": "dataManagement.managementList.title",
+  "th-TH": "รายการการจัดการ",
+  "vi-VN": "",
+  "zh-CN": "管理列表",
+  "zh-MY": "Senarai Pengurusan",
+  "zh-TW": "管理列表"
+ },
+ {
+  "en": "Annotation List",
+  "en-US": "Annotation List",
+  "key": "dataManagement.annotationList.title",
+  "th-TH": "รายการคำอธิบายประกอบ",
+  "vi-VN": "",
+  "zh-CN": "标注列表",
+  "zh-MY": "Senarai Anotasi",
+  "zh-TW": "標註列表"
+ },
+ {
+  "en": "Audit List",
+  "en-US": "Audit List",
+  "key": "dataManagement.auditList.title",
+  "th-TH": "รายการตรวจสอบ",
+  "vi-VN": "",
+  "zh-CN": "审核列表",
+  "zh-MY": "Senarai Audit",
+  "zh-TW": "審核列表"
+ },
+ {
+  "en": "Batch Name",
+  "en-US": "Batch Name",
+  "key": "dataManagement.list.searchBatchNameLabel",
+  "th-TH": "ชื่อชุด",
+  "vi-VN": "",
+  "zh-CN": "批次名",
+  "zh-MY": "Nama Kumpulan",
+  "zh-TW": "批次名"
+ },
+ {
+  "en": "Please enter batch name",
+  "en-US": "Please enter batch name",
+  "key": "dataManagement.list.searchBatchNamePlaceholder",
+  "th-TH": "กรุณากรอกชื่อชุด",
+  "vi-VN": "",
+  "zh-CN": "请输入批次名",
+  "zh-MY": "Sila masukkan nama kumpulan",
+  "zh-TW": "請輸入批次名"
+ },
+ {
+  "en": "Batch Status",
+  "en-US": "Batch Status",
+  "key": "dataManagement.list.searchBatchStatusLabel",
+  "th-TH": "สถานะชุด",
+  "vi-VN": "",
+  "zh-CN": "批次状态",
+  "zh-MY": "Status Kumpulan",
+  "zh-TW": "批次狀態"
+ },
+ {
+  "en": "Please select batch status",
+  "en-US": "Please select batch status",
+  "key": "dataManagement.list.searchBatchStatusPlaceholder",
+  "th-TH": "กรุณาเลือกสถานะชุด",
+  "vi-VN": "",
+  "zh-CN": "请选择批次状态",
+  "zh-MY": "Sila pilih status kumpulan",
+  "zh-TW": "請選擇批次狀態"
+ },
+ {
+  "en": "Creation Time",
+  "en-US": "Creation Time",
+  "key": "dataManagement.list.searchCreateTimeLabel",
+  "th-TH": "เวลาสร้าง",
+  "vi-VN": "",
+  "zh-CN": "创建时间",
+  "zh-MY": "Masa Penciptaan",
+  "zh-TW": "建立時間"
+ },
+ {
+  "en": "Start Time",
+  "en-US": "Start Time",
+  "key": "dataManagement.list.searchStartCreateTimePlaceholder",
+  "th-TH": "เวลาเริ่มต้น",
+  "vi-VN": "",
+  "zh-CN": "开始时间",
+  "zh-MY": "Masa Mula",
+  "zh-TW": "開始時間"
+ },
+ {
+  "en": "End Time",
+  "en-US": "End Time",
+  "key": "dataManagement.list.searchEndCreateTimePlaceholder",
+  "th-TH": "เวลาสิ้นสุด",
+  "vi-VN": "",
+  "zh-CN": "结束时间",
+  "zh-MY": "Masa Tamat",
+  "zh-TW": "結束時間"
+ },
+ {
+  "en": "Creator",
+  "en-US": "Creator",
+  "key": "dataManagement.list.searchCreateUserIdLabel",
+  "th-TH": "ผู้สร้าง",
+  "vi-VN": "",
+  "zh-CN": "创建人",
+  "zh-MY": "Pencipta",
+  "zh-TW": "建立人"
+ },
+ {
+  "en": "Please select creator",
+  "en-US": "Please select creator",
+  "key": "dataManagement.list.searchCreateUserIdPlaceholder",
+  "th-TH": "กรุณาเลือกผู้สร้าง",
+  "vi-VN": "",
+  "zh-CN": "请选择创建人",
+  "zh-MY": "Sila pilih pencipta",
+  "zh-TW": "請選擇建立人"
+ },
+ {
+  "en": "Marker",
+  "en-US": "Marker",
+  "key": "dataManagement.list.searchMarkUserIdLabel",
+  "th-TH": "ผู้กำหนดป้ายกำกับ",
+  "vi-VN": "",
+  "zh-CN": "标注人",
+  "zh-MY": "Penganotasi",
+  "zh-TW": "標註人"
+ },
+ {
+  "en": "Please select marker",
+  "en-US": "Please select marker",
+  "key": "dataManagement.list.searchMarkUserIdPlaceholder",
+  "th-TH": "กรุณาเลือกผู้กำหนดป้ายกำกับ",
+  "vi-VN": "",
+  "zh-CN": "请选择标注人",
+  "zh-MY": "Sila pilih penganotasi",
+  "zh-TW": "請選擇標註人"
+ },
+ {
+  "en": "Auditor",
+  "en-US": "Auditor",
+  "key": "dataManagement.list.searchAuditUserIdLabel",
+  "th-TH": "ผู้ตรวจสอบ",
+  "vi-VN": "",
+  "zh-CN": "审核人",
+  "zh-MY": "Pengaudit",
+  "zh-TW": "審核人"
+ },
+ {
+  "en": "Please select auditor",
+  "en-US": "Please select auditor",
+  "key": "dataManagement.list.searchAuditUserIdPlaceholder",
+  "th-TH": "กรุณาเลือกผู้ตรวจสอบ",
+  "vi-VN": "",
+  "zh-CN": "请选择审核人",
+  "zh-MY": "Sila pilih pengaudit",
+  "zh-TW": "請選擇審核人"
+ },
+ {
+  "en": "Search",
+  "en-US": "Search",
+  "key": "dataManagement.list.searchButton",
+  "th-TH": "ค้นหา",
+  "vi-VN": "",
+  "zh-CN": "查询",
+  "zh-MY": "Cari",
+  "zh-TW": "查詢"
+ },
+ {
+  "en": "Reset",
+  "en-US": "Reset",
+  "key": "dataManagement.list.searchBtnReset",
+  "th-TH": "รีเซ็ต",
+  "vi-VN": "",
+  "zh-CN": "重置",
+  "zh-MY": "Tetapkan Semula",
+  "zh-TW": "重置"
+ },
+ {
+  "en": "Batch successfully created",
+  "en-US": "Batch created successfully",
+  "key": "dataManagement.list.createBatchSuccessMessage",
+  "th-TH": "สร้างชุดสำเร็จแล้ว",
+  "vi-VN": "",
+  "zh-CN": "批次创建成功",
+  "zh-MY": "Kumpulan berjaya dicipta",
+  "zh-TW": "批次建立成功"
+ },
+ {
+  "en": "Batch successfully submitted for audit",
+  "en-US": "Batch submitted for audit successfully",
+  "key": "dataManagement.list.submitBatchSuccessMessage",
+  "th-TH": "ส่งชุดเพื่อตรวจสอบสำเร็จแล้ว",
+  "vi-VN": "",
+  "zh-CN": "批次提交审核成功",
+  "zh-MY": "Kumpulan berjaya diserahkan untuk audit",
+  "zh-TW": "批次提交審核成功"
+ },
+ {
+  "en": "Batch audit successfully passed",
+  "en-US": "Batch audit approved successfully",
+  "key": "dataManagement.list.auditBatchSuccessMessage",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "批次审核通过成功",
+  "zh-MY": "Audit kumpulan berjaya diluluskan",
+  "zh-TW": "批次審核通過成功"
+ },
+ {
+  "en": "Batch audit successfully rejected",
+  "en-US": "Batch audit rejected successfully",
+  "key": "dataManagement.list.auditBatchFailedMessage",
+  "th-TH": "ปฏิเสธการตรวจสอบเป็นชุดสำเร็จแล้ว",
+  "vi-VN": "",
+  "zh-CN": "批次审核驳回成功",
+  "zh-MY": "Audit kumpulan berjaya ditolak",
+  "zh-TW": "批次審核駁回成功"
+ },
+ {
+  "en": "Batch successfully deleted",
+  "en-US": "Batch deleted successfully",
+  "key": "dataManagement.list.delBatchSuccessMessage",
+  "th-TH": "ลบชุดสำเร็จแล้ว",
+  "vi-VN": "",
+  "zh-CN": "批次删除成功",
+  "zh-MY": "Kumpulan berjaya dipadam",
+  "zh-TW": "批次刪除成功"
+ },
+ {
+  "en": "Please select at least one batch for audit",
+  "en-US": "Please select at least one batch to audit",
+  "key": "dataManagement.list.auditBatchWarningMessage",
+  "th-TH": "กรุณาเลือกอย่างน้อยหนึ่งชุดเพื่อตรวจสอบ",
+  "vi-VN": "",
+  "zh-CN": "请至少选择一个批次进行审核",
+  "zh-MY": "Sila pilih sekurang-kurangnya satu kumpulan untuk audit",
+  "zh-TW": "請至少選擇一個批次進行審核"
+ },
+ {
+  "en": "Please select at least one batch for submission",
+  "en-US": "Please select at least one batch to submit",
+  "key": "dataManagement.list.submitBatchWarningMessage",
+  "th-TH": "กรุณาเลือกอย่างน้อยหนึ่งชุดเพื่อส่ง",
+  "vi-VN": "",
+  "zh-CN": "请至少选择一个批次进行提交",
+  "zh-MY": "Sila pilih sekurang-kurangnya satu kumpulan untuk diserahkan",
+  "zh-TW": "請至少選擇一個批次進行提交"
+ },
+ {
+  "en": "Delete",
+  "en-US": "Delete",
+  "key": "dataManagement.list.btnDel",
+  "th-TH": "ลบ",
+  "vi-VN": "",
+  "zh-CN": "删除",
+  "zh-MY": "Padam",
+  "zh-TW": "刪除"
+ },
+ {
+  "en": "Pass",
+  "en-US": "Pass",
+  "key": "dataManagement.list.btnPass",
+  "th-TH": "อนุมัติ",
+  "vi-VN": "",
+  "zh-CN": "通过",
+  "zh-MY": "Lulus",
+  "zh-TW": "通過"
+ },
+ {
+  "en": "Reject",
+  "en-US": "Reject",
+  "key": "dataManagement.list.btnReject",
+  "th-TH": "ปฏิเสธ",
+  "vi-VN": "",
+  "zh-CN": "驳回",
+  "zh-MY": "Tolak",
+  "zh-TW": "駁回"
+ },
+ {
+  "en": "Submit for Audit",
+  "en-US": "Submit for Audit",
+  "key": "dataManagement.list.btnSubmit",
+  "th-TH": "ส่งเพื่อตรวจสอบ",
+  "vi-VN": "",
+  "zh-CN": "提交审核",
+  "zh-MY": "Serah untuk Audit",
+  "zh-TW": "提交審核"
+ },
+ {
+  "en": "Update successful",
+  "en-US": "Update successful",
+  "key": "dataManagement.list.updateSuccessMessage",
+  "th-TH": "อัปเดตสำเร็จแล้ว",
+  "vi-VN": "",
+  "zh-CN": "更新成功",
+  "zh-MY": "Berjaya dikemas kini",
+  "zh-TW": "更新成功"
+ },
+ {
+  "en": "Batch Name",
+  "en-US": "Batch Name",
+  "key": "dataManagement.list.tableColBatchName",
+  "th-TH": "ชื่อชุด",
+  "vi-VN": "",
+  "zh-CN": "批次名",
+  "zh-MY": "Nama Kumpulan",
+  "zh-TW": "批次名"
+ },
+ {
+  "en": "Creator",
+  "en-US": "Creator",
+  "key": "dataManagement.list.tableColCreateUser",
+  "th-TH": "ผู้สร้าง",
+  "vi-VN": "",
+  "zh-CN": "创建人",
+  "zh-MY": "Pencipta",
+  "zh-TW": "建立人"
+ },
+ {
+  "en": "Image Count",
+  "en-US": "Image Count",
+  "key": "dataManagement.list.tableColImageCount",
+  "th-TH": "จำนวนรูปภาพ",
+  "vi-VN": "",
+  "zh-CN": "图片数量",
+  "zh-MY": "Bilangan Imej",
+  "zh-TW": "圖片數量"
+ },
+ {
+  "en": "Batch Status",
+  "en-US": "Batch Status",
+  "key": "dataManagement.list.tableColBatchStatus",
+  "th-TH": "สถานะชุด",
+  "vi-VN": "",
+  "zh-CN": "批次状态",
+  "zh-MY": "Status Kumpulan",
+  "zh-TW": "批次狀態"
+ },
+ {
+  "en": "Marker",
+  "en-US": "Marker",
+  "key": "dataManagement.list.tableColMarkUser",
+  "th-TH": "ผู้กำหนดป้ายกำกับ",
+  "vi-VN": "",
+  "zh-CN": "标注人",
+  "zh-MY": "Penganotasi",
+  "zh-TW": "標註人"
+ },
+ {
+  "en": "Please select marker",
+  "en-US": "Please select marker",
+  "key": "dataManagement.list.tableColMarkUserPlaceholder",
+  "th-TH": "กรุณาเลือกผู้กำหนดป้ายกำกับ",
+  "vi-VN": "",
+  "zh-CN": "请选择标注人",
+  "zh-MY": "Sila pilih penganotasi",
+  "zh-TW": "請選擇標註人"
+ },
+ {
+  "en": "Auditor",
+  "en-US": "Auditor",
+  "key": "dataManagement.list.tableColAuditUser",
+  "th-TH": "ผู้ตรวจสอบ",
+  "vi-VN": "",
+  "zh-CN": "审核人",
+  "zh-MY": "Pengaudit",
+  "zh-TW": "審核人"
+ },
+ {
+  "en": "Please select auditor",
+  "en-US": "Please select auditor",
+  "key": "dataManagement.list.tableColAuditUserPlaceholder",
+  "th-TH": "กรุณาเลือกผู้ตรวจสอบ",
+  "vi-VN": "",
+  "zh-CN": "请选择审核人",
+  "zh-MY": "Sila pilih pengaudit",
+  "zh-TW": "請選擇審核人"
+ },
+ {
+  "en": "Tag Type",
+  "en-US": "Tag Type",
+  "key": "dataManagement.list.tableColTagType",
+  "th-TH": "ประเภทแท็ก",
+  "vi-VN": "",
+  "zh-CN": "标签类型",
+  "zh-MY": "Jenis Tag",
+  "zh-TW": "標籤類型"
+ },
+ {
+  "en": "Please select tag type",
+  "en-US": "Please select tag type",
+  "key": "dataManagement.list.tableColTagTypePlaceholder",
+  "th-TH": "กรุณาเลือกประเภทแท็ก",
+  "vi-VN": "",
+  "zh-CN": "请选择标签类型",
+  "zh-MY": "Sila pilih jenis tag",
+  "zh-TW": "請選擇標籤類型"
+ },
+ {
+  "en": "Detection Tag",
+  "en-US": "Detection Tag",
+  "key": "dataManagement.list.tableColTagTypeOption1",
+  "th-TH": "แท็กตรวจจับ",
+  "vi-VN": "",
+  "zh-CN": "检测标签",
+  "zh-MY": "Tag Pengesanan",
+  "zh-TW": "檢測標籤"
+ },
+ {
+  "en": "Classification Tag",
+  "en-US": "Classification Tag",
+  "key": "dataManagement.list.tableColTagTypeOption2",
+  "th-TH": "แท็กการจัดหมวดหมู่",
+  "vi-VN": "",
+  "zh-CN": "分类标签",
+  "zh-MY": "Tag Klasifikasi",
+  "zh-TW": "分類標籤"
+ },
+ {
+  "en": "Creation Time",
+  "en-US": "Creation Time",
+  "key": "dataManagement.list.tableColCreateTime",
+  "th-TH": "เวลาสร้าง",
+  "vi-VN": "",
+  "zh-CN": "创建时间",
+  "zh-MY": "Masa Penciptaan",
+  "zh-TW": "建立時間"
+ },
+ {
+  "en": "Operation",
+  "en-US": "Operation",
+  "key": "dataManagement.list.tableColOperation",
+  "th-TH": "การดำเนินการ",
+  "vi-VN": "",
+  "zh-CN": "操作",
+  "zh-MY": "Operasi",
+  "zh-TW": "操作"
+ },
+ {
+  "en": "Details",
+  "en-US": "Details",
+  "key": "dataManagement.list.btnDetail",
+  "th-TH": "รายละเอียด",
+  "vi-VN": "",
+  "zh-CN": "详情",
+  "zh-MY": "Butiran",
+  "zh-TW": "詳情"
+ },
+ {
+  "en": "Please select at least one batch for deletion",
+  "en-US": "Please select at least one batch to delete",
+  "key": "dataManagement.list.delBatchWarningMessage",
+  "th-TH": "กรุณาเลือกอย่างน้อยหนึ่งชุดเพื่อลบ",
+  "vi-VN": "",
+  "zh-CN": "请至少选择一个批次进行删除",
+  "zh-MY": "Sila pilih sekurang-kurangnya satu kumpulan untuk dipadam",
+  "zh-TW": "請至少選擇一個批次進行刪除"
+ },
+ {
+  "en": "Total {total} records",
+  "en-US": "Total {total} entries",
+  "key": "dataManagement.list.tableShowTotal",
+  "th-TH": "รวม {total} รายการ",
+  "vi-VN": "",
+  "zh-CN": "共 {total} 条记录",
+  "zh-MY": "Jumlah {total} rekod",
+  "zh-TW": "共 {total} 筆記錄"
+ },
+ {
+  "en": "Are you sure you want to delete the selected batches?",
+  "en-US": "Are you sure you want to delete the selected batch(es)?",
+  "key": "dataManagement.list.delBatchConfirmMessage",
+  "th-TH": "ยืนยันที่จะลบชุดที่เลือกหรือไม่",
+  "vi-VN": "",
+  "zh-CN": "确认要删除选中的批次吗？",
+  "zh-MY": "Sahkan untuk memadam kumpulan yang dipilih?",
+  "zh-TW": "確認要刪除選中的批次嗎？"
+ },
+ {
+  "en": "This action cannot be undone. Please proceed with caution!",
+  "en-US": "Deleted batches cannot be recovered. Please proceed with caution!",
+  "key": "dataManagement.list.delBatchConfirmMessageDetail",
+  "th-TH": "ไม่สามารถกู้คืนได้หลังจากลบแล้ว กรุณาดำเนินการด้วยความระมัดระวัง!",
+  "vi-VN": "",
+  "zh-CN": "删除后将无法恢复，请谨慎操作!",
+  "zh-MY": "Tidak dapat dipulihkan selepas dipadam, sila beroperasi dengan berhati-hati!",
+  "zh-TW": "刪除後將無法恢復，請謹慎操作!"
+ },
+ {
+  "en": "Cancel",
+  "en-US": "Cancel",
+  "key": "dataManagement.list.btnCancel",
+  "th-TH": "ยกเลิก",
+  "vi-VN": "",
+  "zh-CN": "取消",
+  "zh-MY": "Batal",
+  "zh-TW": "取消"
+ },
+ {
+  "en": "Confirm",
+  "en-US": "Confirm",
+  "key": "dataManagement.list.btnConfirm",
+  "th-TH": "ยืนยัน",
+  "vi-VN": "",
+  "zh-CN": "确认",
+  "zh-MY": "Sahkan",
+  "zh-TW": "確認"
+ },
+ {
+  "en": "Test Set",
+  "en-US": "Test Set",
+  "key": "dataManagement.imageList.searchDatasetOption1",
+  "th-TH": "ชุดทดสอบ",
+  "vi-VN": "",
+  "zh-CN": "测试集",
+  "zh-MY": "Set Data Ujian",
+  "zh-TW": "測試集"
+ },
+ {
+  "en": "Non-test Set",
+  "en-US": "Non-Test Set",
+  "key": "dataManagement.imageList.searchDatasetOption2",
+  "th-TH": "ชุดที่ไม่ใช่ชุดทดสอบ",
+  "vi-VN": "",
+  "zh-CN": "非测试集",
+  "zh-MY": "Set Data Bukan Ujian",
+  "zh-TW": "非測試集"
+ },
+ {
+  "en": "Mark Time",
+  "en-US": "Mark Time",
+  "key": "dataManagement.imageList.searchMarkTimeLabel",
+  "th-TH": "เวลาการกำหนดป้ายกำกับ",
+  "vi-VN": "",
+  "zh-CN": "标注时间",
+  "zh-MY": "Masa Anotasi",
+  "zh-TW": "標註時間"
+ },
+ {
+  "en": "Start Time",
+  "en-US": "Start Time",
+  "key": "dataManagement.imageList.searchStartMarkTimePlaceholder",
+  "th-TH": "เวลาเริ่มต้น",
+  "vi-VN": "",
+  "zh-CN": "开始时间",
+  "zh-MY": "Masa Mula",
+  "zh-TW": "開始時間"
+ },
+ {
+  "en": "End Time",
+  "en-US": "End Time",
+  "key": "dataManagement.imageList.searchEndMarkTimePlaceholder",
+  "th-TH": "เวลาสิ้นสุด",
+  "vi-VN": "",
+  "zh-CN": "结束时间",
+  "zh-MY": "Masa Tamat",
+  "zh-TW": "結束時間"
+ },
+ {
+  "en": "Audit Time",
+  "en-US": "Audit Time",
+  "key": "dataManagement.imageList.searchAuditTimeLabel",
+  "th-TH": "เวลาตรวจสอบ",
+  "vi-VN": "",
+  "zh-CN": "审核时间",
+  "zh-MY": "Masa Audit",
+  "zh-TW": "審核時間"
+ },
+ {
+  "en": "Start Time",
+  "en-US": "Start Time",
+  "key": "dataManagement.imageList.searchStartAuditTimePlaceholder",
+  "th-TH": "เวลาเริ่มต้น",
+  "vi-VN": "",
+  "zh-CN": "开始时间",
+  "zh-MY": "Masa Mula",
+  "zh-TW": "開始時間"
+ },
+ {
+  "en": "End Time",
+  "en-US": "End Time",
+  "key": "dataManagement.imageList.searchEndAuditTimePlaceholder",
+  "th-TH": "เวลาสิ้นสุด",
+  "vi-VN": "",
+  "zh-CN": "结束时间",
+  "zh-MY": "Masa Tamat",
+  "zh-TW": "結束時間"
+ },
+ {
+  "en": "Mark Status",
+  "en-US": "Mark Status",
+  "key": "dataManagement.imageList.searchMarkStatusLabel",
+  "th-TH": "สถานะการกำหนดป้ายกำกับ",
+  "vi-VN": "",
+  "zh-CN": "标注状态",
+  "zh-MY": "Status Anotasi",
+  "zh-TW": "標註狀態"
+ },
+ {
+  "en": "Please select mark status",
+  "en-US": "Please select mark status",
+  "key": "dataManagement.imageList.searchMarkStatusPlaceholder",
+  "th-TH": "กรุณาเลือกสถานะการกำหนดป้ายกำกับ",
+  "vi-VN": "",
+  "zh-CN": "请选择标注状态",
+  "zh-MY": "Sila pilih status anotasi",
+  "zh-TW": "請選擇標註狀態"
+ },
+ {
+  "en": "Audit Status",
+  "en-US": "Audit Status",
+  "key": "dataManagement.imageList.searchAuditStatusLabel",
+  "th-TH": "สถานะการตรวจสอบ",
+  "vi-VN": "",
+  "zh-CN": "审核状态",
+  "zh-MY": "Status Audit",
+  "zh-TW": "審核狀態"
+ },
+ {
+  "en": "Please select audit status",
+  "en-US": "Please select audit status",
+  "key": "dataManagement.imageList.searchAuditStatusPlaceholder",
+  "th-TH": "กรุณาเลือกสถานะการตรวจสอบ",
+  "vi-VN": "",
+  "zh-CN": "请选择审核状态",
+  "zh-MY": "Sila pilih status audit",
+  "zh-TW": "請選擇審核狀態"
+ },
+ {
+  "en": "Dataset Type",
+  "en-US": "Dataset Type",
+  "key": "dataManagement.imageList.searchDatasetTypeLabel",
+  "th-TH": "ประเภทชุดข้อมูล",
+  "vi-VN": "",
+  "zh-CN": "数据集类型",
+  "zh-MY": "Jenis Set Data",
+  "zh-TW": "資料集類型"
+ },
+ {
+  "en": "Please select dataset type",
+  "en-US": "Please select dataset type",
+  "key": "dataManagement.imageList.searchDatasetTypePlaceholder",
+  "th-TH": "กรุณาเลือกประเภทชุดข้อมูล",
+  "vi-VN": "",
+  "zh-CN": "请选择数据集类型",
+  "zh-MY": "Sila pilih jenis set data",
+  "zh-TW": "請選擇資料集類型"
+ },
+ {
+  "en": "Search",
+  "en-US": "Search",
+  "key": "dataManagement.imageList.searchButton",
+  "th-TH": "ค้นหา",
+  "vi-VN": "",
+  "zh-CN": "查询",
+  "zh-MY": "Cari",
+  "zh-TW": "查詢"
+ },
+ {
+  "en": "Reset",
+  "en-US": "Reset",
+  "key": "dataManagement.imageList.searchBtnReset",
+  "th-TH": "รีเซ็ต",
+  "vi-VN": "",
+  "zh-CN": "重置",
+  "zh-MY": "Tetapkan Semula",
+  "zh-TW": "重置"
+ },
+ {
+  "en": "Only PNG/JPG/JPEG image formats are supported",
+  "en-US": "Only PNG/JPG/JPEG image formats are supported",
+  "key": "dataManagement.imageList.uploadFileFormatMessage",
+  "th-TH": "รองรับเฉพาะรูปภาพในรูปแบบ png/jpg/jpeg เท่านั้น",
+  "vi-VN": "",
+  "zh-CN": "仅支持png/jpg/jpeg格式的图片",
+  "zh-MY": "Hanya menyokong format imej png/jpg/jpeg",
+  "zh-TW": "僅支援png/jpg/jpeg格式的圖片"
+ },
+ {
+  "en": "Duplicate images deleted",
+  "en-US": "Duplicate images deleted",
+  "key": "dataManagement.imageList.delDuplicateImagesMessage",
+  "th-TH": "ลบรูปภาพที่ซ้ำกันแล้ว",
+  "vi-VN": "",
+  "zh-CN": "已删除重复图片",
+  "zh-MY": "Imej pendua telah dipadamkan",
+  "zh-TW": "已刪除重複圖片"
+ },
+ {
+  "en": "Upload successful, total {count} images{failCount \u003e 0 ? `, ${failCount} failed` : ''}",
+  "en-US": "Upload successful, {count} images in total{failCount \u003e 0 ? `, ${failCount} failed` : ''}",
+  "key": "dataManagement.imageList.uploadSuccessMessage",
+  "th-TH": "อัปโหลดสำเร็จแล้ว ทั้งหมด {count} รูปภาพ{failCount \u003e 0 ? ` ล้มเหลว ${failCount} รูปภาพ` : ''}",
+  "vi-VN": "",
+  "zh-CN": "上传成功，共{count}张{failCount \u003e 0 ? `，失败${failCount}张` : ''}",
+  "zh-MY": "Berjaya dimuat naik, sejumlah {count} imej{failCount \u003e 0 ? `, ${failCount} gagal` : ''}",
+  "zh-TW": "上傳成功，共{count}張{failCount \u003e 0 ? `，失敗${failCount}張` : ''}"
+ },
+ {
+  "en": "Batch Delete",
+  "en-US": "Batch Delete",
+  "key": "dataManagement.imageList.btnBatchDelete",
+  "th-TH": "ลบเป็นชุด",
+  "vi-VN": "",
+  "zh-CN": "批量删除",
+  "zh-MY": "Padam Pukal",
+  "zh-TW": "批量刪除"
+ },
+ {
+  "en": "Upload",
+  "en-US": "Upload",
+  "key": "dataManagement.imageList.uploadButton",
+  "th-TH": "อัปโหลด",
+  "vi-VN": "",
+  "zh-CN": "上传",
+  "zh-MY": "Muat Naik",
+  "zh-TW": "上傳"
+ },
+ {
+  "en": "Batch Audit",
+  "en-US": "Batch Audit",
+  "key": "dataManagement.imageList.btnBatchAudit",
+  "th-TH": "ตรวจสอบเป็นชุด",
+  "vi-VN": "",
+  "zh-CN": "批量审核",
+  "zh-MY": "Audit Pukal",
+  "zh-TW": "批量審核"
+ },
+ {
+  "en": "Batch Mark",
+  "en-US": "Batch Mark",
+  "key": "dataManagement.imageList.btnBatchMark",
+  "th-TH": "กำหนดป้ายกำกับเป็นชุด",
+  "vi-VN": "",
+  "zh-CN": "批量标注",
+  "zh-MY": "Anotasi Pukal",
+  "zh-TW": "批量標註"
+ },
+ {
+  "en": "Image Name",
+  "en-US": "Image Name",
+  "key": "dataManagement.imageList.tableColImageName",
+  "th-TH": "ชื่อรูปภาพ",
+  "vi-VN": "",
+  "zh-CN": "图片名称",
+  "zh-MY": "Nama Imej",
+  "zh-TW": "圖片名稱"
+ },
+ {
+  "en": "Is Duplicate",
+  "en-US": "Is Duplicate",
+  "key": "dataManagement.imageList.tableColIsDuplicate",
+  "th-TH": "ซ้ำกันหรือไม่",
+  "vi-VN": "",
+  "zh-CN": "是否重复",
+  "zh-MY": "Adakah Pendua",
+  "zh-TW": "是否重複"
+ },
+ {
+  "en": "Duplicate",
+  "en-US": "Duplicate",
+  "key": "dataManagement.imageList.tableColIsDuplicateYes",
+  "th-TH": "ซ้ำกัน",
+  "vi-VN": "",
+  "zh-CN": "重复",
+  "zh-MY": "Pendua",
+  "zh-TW": "重複"
+ },
+ {
+  "en": "Not Duplicate",
+  "en-US": "Not Duplicate",
+  "key": "dataManagement.imageList.tableColIsDuplicateNo",
+  "th-TH": "ไม่ซ้ำกัน",
+  "vi-VN": "",
+  "zh-CN": "未重复",
+  "zh-MY": "Bukan Pendua",
+  "zh-TW": "未重複"
+ },
+ {
+  "en": "Operation",
+  "en-US": "Operation",
+  "key": "dataManagement.imageList.tableColOperation",
+  "th-TH": "การดำเนินการ",
+  "vi-VN": "",
+  "zh-CN": "操作",
+  "zh-MY": "Operasi",
+  "zh-TW": "操作"
+ },
+ {
+  "en": "Delete",
+  "en-US": "Delete",
+  "key": "dataManagement.imageList.tableColOperationDelete",
+  "th-TH": "ลบ",
+  "vi-VN": "",
+  "zh-CN": "删除",
+  "zh-MY": "Padam",
+  "zh-TW": "刪除"
+ },
+ {
+  "en": "Image List",
+  "en-US": "Image List",
+  "key": "dataManagement.imageList.title",
+  "th-TH": "รายการรูปภาพ",
+  "vi-VN": "",
+  "zh-CN": "图片列表",
+  "zh-MY": "Senarai Imej",
+  "zh-TW": "圖片列表"
+ },
+ {
+  "en": "Image Upload",
+  "en-US": "Image Upload",
+  "key": "dataManagement.imageList.uploadModalTitle",
+  "th-TH": "อัปโหลดรูปภาพ",
+  "vi-VN": "",
+  "zh-CN": "图片上传",
+  "zh-MY": "Muat Naik Imej",
+  "zh-TW": "圖片上傳"
+ },
+ {
+  "en": "Upload Images",
+  "en-US": "Upload Images",
+  "key": "dataManagement.imageList.uploadModalFilesLabel",
+  "th-TH": "อัปโหลดรูปภาพ",
+  "vi-VN": "",
+  "zh-CN": "上传图片",
+  "zh-MY": "Muat Naik Imej",
+  "zh-TW": "上傳圖片"
+ },
+ {
+  "en": "Please enter batch name prefix",
+  "en-US": "Please enter batch name prefix",
+  "key": "dataManagement.imageList.uploadModalFilesErrorMessage",
+  "th-TH": "กรุณากรอกคำนำหน้าชื่อแบทช์",
+  "vi-VN": "",
+  "zh-CN": "请输入批次名前缀",
+  "zh-MY": "Sila masukkan awalan nama kumpulan",
+  "zh-TW": "請輸入批次名前綴"
+ },
+ {
+  "en": "Choose Image",
+  "en-US": "Select Image",
+  "key": "dataManagement.imageList.uploadModalBtnChooseImage",
+  "th-TH": "เลือกรูปภาพ",
+  "vi-VN": "",
+  "zh-CN": "选择图片",
+  "zh-MY": "Pilih Imej",
+  "zh-TW": "選擇圖片"
+ },
+ {
+  "en": "Choose Folder",
+  "en-US": "Select Folder",
+  "key": "dataManagement.imageList.uploadModalBtnChooseFolder",
+  "th-TH": "เลือกโฟลเดอร์",
+  "vi-VN": "",
+  "zh-CN": "选择文件夹",
+  "zh-MY": "Pilih Folder",
+  "zh-TW": "選擇資料夾"
+ },
+ {
+  "en": "Tip: Duplicate images detected in current upload, click here to ",
+  "en-US": "Tip: There are duplicate images in the current upload. Click here to",
+  "key": "dataManagement.imageList.uploadModalDuplicateTip",
+  "th-TH": "คำแนะนำ: การอัปโหลดปัจจุบันมีรูปภาพที่ซ้ำกัน คลิกที่นี่",
+  "vi-VN": "",
+  "zh-CN": "提示：当前上传存在重复图片，点此",
+  "zh-MY": "Petua: Muat naik semasa mengandungi imej pendua, klik di sini",
+  "zh-TW": "提示：目前上傳存在重複圖片，點此"
+ },
+ {
+  "en": "One-click delete",
+  "en-US": "delete all",
+  "key": "dataManagement.imageList.uploadModalDuplicateTipLink",
+  "th-TH": "ลบทั้งหมดในคลิกเดียว",
+  "vi-VN": "",
+  "zh-CN": "一键删除",
+  "zh-MY": "Padam Sekali Klik",
+  "zh-TW": "一鍵刪除"
+ },
+ {
+  "en": "Layer duplicate images",
+  "en-US": "",
+  "key": "dataManagement.imageList.uploadModalDuplicateTipDescription",
+  "th-TH": "รูปภาพซ้ำซ้อนในเลเยอร์",
+  "vi-VN": "",
+  "zh-CN": "图层重复图片",
+  "zh-MY": "Imej pendua lapisan",
+  "zh-TW": "圖層重複圖片"
+ },
+ {
+  "en": "Selected {length} images, {duplicateCount} duplicates",
+  "en-US": "{length} images selected, {duplicateCount} duplicates",
+  "key": "dataManagement.imageList.uploadModalDuplicateTipSummary",
+  "th-TH": "เลือกรูปภาพแล้ว {length} ภาพ, ซ้ำกัน {duplicateCount} ภาพ",
+  "vi-VN": "",
+  "zh-CN": "已选择 {length} 张图片，{duplicateCount}张重复",
+  "zh-MY": "{length} imej telah dipilih, {duplicateCount} pendua",
+  "zh-TW": "已選擇 {length} 張圖片，{duplicateCount}張重複"
+ },
+ {
+  "en": "Cancel",
+  "en-US": "Cancel",
+  "key": "dataManagement.imageList.uploadModalBtnCancel",
+  "th-TH": "ยกเลิก",
+  "vi-VN": "",
+  "zh-CN": "取消",
+  "zh-MY": "Batal",
+  "zh-TW": "取消"
+ },
+ {
+  "en": "Start Upload",
+  "en-US": "Start Upload",
+  "key": "dataManagement.imageList.uploadModalBtnUpload",
+  "th-TH": "เริ่มอัปโหลด",
+  "vi-VN": "",
+  "zh-CN": "开始上传",
+  "zh-MY": "Mula Muat Naik",
+  "zh-TW": "開始上傳"
+ }
+]

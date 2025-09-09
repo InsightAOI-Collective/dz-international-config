@@ -1,1 +1,1122 @@
-[{"key":"modelCenter.list.statusQueue","en-US":"In Queue","th-TH":"อยู่ในคิว","vi-VN":"Đang chờ","zh-CN":"模型中心","zh-TW":"模型中心"},{"key":"modelCenter.list.statusTraining","en-US":"Training","th-TH":"กำลังฝึกอบรม","vi-VN":"Đang huấn luyện","zh-CN":"训练中","zh-TW":"訓練中"},{"key":"modelCenter.list.statusCompleted","en-US":"Completed","th-TH":"เสร็จสมบูรณ์แล้ว","vi-VN":"Đã hoàn thành","zh-CN":"已完成","zh-TW":"已完成"},{"key":"modelCenter.list.statusFailed","en-US":"Failed","th-TH":"ล้มเหลว","vi-VN":"Thất bại","zh-CN":"失败","zh-TW":"失敗"},{"key":"modelCenter.list.modelTypeClassify","en-US":"Classification","th-TH":"การจัดประเภท","vi-VN":"Phân loại","zh-CN":"分类","zh-TW":"分類"},{"key":"modelCenter.list.modelTypePositive","en-US":"Positive Sample","th-TH":"ตัวอย่างเชิงบวก","vi-VN":"Mẫu dương","zh-CN":"正样本","zh-TW":"正樣本"},{"key":"modelCenter.list.modelTypePackage","en-US":"Package","th-TH":"แพ็คเกจ","vi-VN":"Gói","zh-CN":"封装","zh-TW":"封裝"},{"key":"modelCenter.list.fetchFailed","en-US":"Failed to fetch model list","th-TH":"ไม่สามารถดึงรายการโมเดลได้","vi-VN":"Không thể tải danh sách mô hình","zh-CN":"获取模型列表失败","zh-TW":"獲取模型列表失敗"},{"key":"modelCenter.list.tableColThumbnail","en-US":"Thumbnail","th-TH":"รูปตัวอย่าง","vi-VN":"Ảnh thu nhỏ","zh-CN":"缩略图","zh-TW":"縮略圖"},{"key":"modelCenter.list.tableColName","en-US":"Version Number","th-TH":"หมายเลขเวอร์ชัน","vi-VN":"Số phiên bản","zh-CN":"版本号","zh-TW":"版本號"},{"key":"modelCenter.list.tableColType","en-US":"Model Type","th-TH":"ประเภทโมเดล","vi-VN":"Loại mô hình","zh-CN":"模型类型","zh-TW":"模型類型"},{"key":"modelCenter.list.tableColAccuracy","en-US":"Accuracy","th-TH":"ความแม่นยำ","vi-VN":"Độ chính xác","zh-CN":"准确率","zh-TW":"準確率"},{"key":"modelCenter.list.tableColRecall","en-US":"Recall Rate","th-TH":"อัตราการเรียกกลับ","vi-VN":"Tỷ lệ thu hồi","zh-CN":"召回率","zh-TW":"召回率"},{"key":"modelCenter.list.tableColDataCount","en-US":"Data Volume","th-TH":"ปริมาณข้อมูล","vi-VN":"Lượng dữ liệu","zh-CN":"数据量","zh-TW":"數據量"},{"key":"modelCenter.list.tableColStatus","en-US":"Training Status","th-TH":"สถานะการฝึกอบรม","vi-VN":"Trạng thái huấn luyện","zh-CN":"训练状态","zh-TW":"訓練狀態"},{"key":"modelCenter.list.tableColTrainTime","en-US":"Training Time","th-TH":"เวลาฝึกอบรม","vi-VN":"Thời gian huấn luyện","zh-CN":"训练时间","zh-TW":"訓練時間"},{"key":"modelCenter.list.tableColTrainUser","en-US":"Trainer","th-TH":"ผู้ฝึกอบรม","vi-VN":"Người huấn luyện","zh-CN":"训练人","zh-TW":"訓練人"},{"key":"modelCenter.list.tableColActions","en-US":"Actions","th-TH":"การดำเนินการ","vi-VN":"Thao tác","zh-CN":"操作","zh-TW":"操作"},{"key":"modelCenter.list.tableColBtnDetails","en-US":"Details","th-TH":"รายละเอียด","vi-VN":"Chi tiết","zh-CN":"详情","zh-TW":"詳情"},{"key":"modelCenter.list.formVersionLabel","en-US":"Version Number","th-TH":"หมายเลขเวอร์ชัน","vi-VN":"Số phiên bản","zh-CN":"版本号","zh-TW":"版本號"},{"key":"modelCenter.list.formVersionPlaceholder","en-US":"Please enter version number","th-TH":"โปรดระบุหมายเลขเวอร์ชัน","vi-VN":"Vui lòng nhập số phiên bản","zh-CN":"请输入版本号","zh-TW":"請輸入版本號"},{"key":"modelCenter.list.formModelTypeLabel","en-US":"Model Type","th-TH":"ประเภทโมเดล","vi-VN":"Loại mô hình","zh-CN":"模型分类","zh-TW":"模型分類"},{"key":"modelCenter.list.formSelectPlaceholder","en-US":"Please select","th-TH":"โปรดเลือก","vi-VN":"Vui lòng chọn","zh-CN":"请选择","zh-TW":"請選擇"},{"key":"modelCenter.list.formTrainStatusLabel","en-US":"Training Status","th-TH":"สถานะการฝึกอบรม","vi-VN":"Trạng thái huấn luyện","zh-CN":"训练状态","zh-TW":"訓練狀態"},{"key":"modelCenter.list.formTrainUserLabel","en-US":"Trainer","th-TH":"ผู้ฝึกอบรม","vi-VN":"Người huấn luyện","zh-CN":"训练人","zh-TW":"訓練人"},{"key":"modelCenter.list.formTrainUserPlaceholder","en-US":"Please enter trainer","th-TH":"โปรดระบุผู้ฝึกอบรม","vi-VN":"Vui lòng nhập người huấn luyện","zh-CN":"请输入训练人","zh-TW":"請輸入訓練人"},{"key":"modelCenter.list.formTrainTimeLabel","en-US":"Training Time","th-TH":"เวลาฝึกอบรม","vi-VN":"Thời gian huấn luyện","zh-CN":"训练时间","zh-TW":"訓練時間"},{"key":"modelCenter.list.formBtnSearch","en-US":"Search","th-TH":"ค้นหา","vi-VN":"Tìm kiếm","zh-CN":"查询","zh-TW":"查詢"},{"key":"modelCenter.list.formBtnReset","en-US":"Reset","th-TH":"รีเซ็ต","vi-VN":"Đặt lại","zh-CN":"重置","zh-TW":"重置"},{"key":"modelCenter.list.title","en-US":"Model List","th-TH":"รายการโมเดล","vi-VN":"Danh sách mô hình","zh-CN":"模型列表","zh-TW":"模型列表"},{"key":"modelCenter.trainingResults.failedMessage","en-US":"Current model training failed, please retrain.","th-TH":"การฝึกอบรมโมเดลปัจจุบันล้มเหลว โปรดฝึกอบรมใหม่","vi-VN":"Huấn luyện mô hình hiện tại thất bại, vui lòng huấn luyện lại.","zh-CN":"当前模型训练失败，请重新训练","zh-TW":"當前模型訓練失敗，請重新訓練"},{"key":"modelCenter.trainingResults.startInferenceMessage","en-US":"Start Inference","th-TH":"เริ่มการอนุมาน","vi-VN":"Bắt đầu suy luận","zh-CN":"开始推理","zh-TW":"開始推理"},{"key":"modelCenter.trainingResults.maxModelLimitMessage","en-US":"Up to 5 models can be added.","th-TH":"สามารถเพิ่มโมเดลได้สูงสุด 5 โมเดล","vi-VN":"Có thể thêm tối đa 5 mô hình.","zh-CN":"最多添加5个模型","zh-TW":"最多添加5個模型"},{"key":"modelCenter.trainingResults.lastModelDeleteWarning","en-US":"This is the last model, it cannot be deleted. If you need to replace it, please return to the Model Center.","th-TH":"นี่คือโมเดลสุดท้าย ไม่สามารถลบได้ หากต้องการเปลี่ยน โปรดกลับไปที่ศูนย์รวมโมเดล","vi-VN":"Đây là mô hình cuối cùng, không thể xóa. Nếu bạn cần thay thế, vui lòng quay lại Trung tâm mô hình.","zh-CN":"最后一个模型，无法删除，如需更换请返回模型中心","zh-TW":"最後一個模型，無法刪除，如需更換請返回模型中心"},{"key":"modelCenter.trainingResults.currentModelExists","en-US":"Current model already exists","th-TH":"โมเดลปัจจุบันมีอยู่แล้ว","vi-VN":"Mô hình hiện tại đã tồn tại","zh-CN":"当前模型已存在","zh-TW":"當前模型已存在"},{"key":"modelCenter.trainingResults.imageCountLabel","en-US":"Image Count","th-TH":"จำนวนรูปภาพ","vi-VN":"Số lượng hình ảnh","zh-CN":"图像数量","zh-TW":"圖像數量"},{"key":"modelCenter.trainingResults.trainSetLabel","en-US":"Training Set","th-TH":"ชุดข้อมูลฝึกอบรม","vi-VN":"Tập huấn luyện","zh-CN":"训练集","zh-TW":"訓練集"},{"key":"modelCenter.trainingResults.validationSetLabel","en-US":"Validation Set","th-TH":"ชุดข้อมูลตรวจสอบ","vi-VN":"Tập xác thực","zh-CN":"验证集","zh-TW":"驗證集"},{"key":"modelCenter.trainingResults.modelVersionOption","en-US":"Model Version","th-TH":"เวอร์ชันโมเดล","vi-VN":"Phiên bản mô hình","zh-CN":"模型版本","zh-TW":"模型版本"},{"key":"modelCenter.trainingResults.inferenceResultOption","en-US":"Inference Result","th-TH":"ผลลัพธ์การอนุมาน","vi-VN":"Kết quả suy luận","zh-CN":"推理结果","zh-TW":"推理結果"},{"key":"modelCenter.trainingResults.modalListTitle","en-US":"Model List","th-TH":"รายการโมเดล","vi-VN":"Danh sách mô hình","zh-CN":"模型列表","zh-TW":"模型列表"},{"key":"modelCenter.trainingResults.ImageSelectModalMarkStatusUntagged","en-US":"Untagged","th-TH":"ยังไม่ได้ระบุป้ายกำกับ","vi-VN":"Chưa gắn thẻ","zh-CN":"未标注","zh-TW":"未標註"},{"key":"modelCenter.trainingResults.ImageSelectModalMarkStatusTagged","en-US":"Tagged","th-TH":"ระบุป้ายกำกับแล้ว","vi-VN":"Đã gắn thẻ","zh-CN":"已标注","zh-TW":"已標註"},{"key":"modelCenter.trainingResults.ImageSelectModalAuditStatusPending","en-US":"Pending Review","th-TH":"รอการตรวจสอบ","vi-VN":"Đang chờ duyệt","zh-CN":"待审核","zh-TW":"待審核"},{"key":"modelCenter.trainingResults.ImageSelectModalAuditStatusApproved","en-US":"Approved","th-TH":"อนุมัติแล้ว","vi-VN":"Đã duyệt","zh-CN":"通过","zh-TW":"通過"},{"key":"modelCenter.trainingResults.ImageSelectModalAuditStatusRejected","en-US":"Rejected","th-TH":"ไม่ผ่านการอนุมัติ","vi-VN":"Từ chối","zh-CN":"未通过","zh-TW":"未通過"},{"key":"modelCenter.trainingResults.ImageSelectModalTableColThumbnail","en-US":"Thumbnail","th-TH":"รูปตัวอย่าง","vi-VN":"Ảnh thu nhỏ","zh-CN":"缩略图","zh-TW":"縮略圖"},{"key":"modelCenter.trainingResults.ImageSelectModalTableColName","en-US":"Image Name","th-TH":"ชื่อรูปภาพ","vi-VN":"Tên hình ảnh","zh-CN":"图片名称","zh-TW":"圖片名稱"},{"key":"modelCenter.trainingResults.ImageSelectModalTableColBatchName","en-US":"Batch Name","th-TH":"ชื่อชุดข้อมูล","vi-VN":"Tên lô","zh-CN":"批次名","zh-TW":"批次名"},{"key":"modelCenter.trainingResults.ImageSelectModalTableColUploadUser","en-US":"Uploader","th-TH":"ผู้อัปโหลด","vi-VN":"Người tải lên","zh-CN":"上传人","zh-TW":"上傳人"},{"key":"modelCenter.trainingResults.ImageSelectModalTableColMarkStatus","en-US":"Mark Status","th-TH":"สถานะการระบุป้ายกำกับ","vi-VN":"Trạng thái gắn thẻ","zh-CN":"标注状态","zh-TW":"標註狀態"},{"key":"modelCenter.trainingResults.ImageSelectModalTableColAuditStatus","en-US":"Audit Status","th-TH":"สถานะการตรวจสอบ","vi-VN":"Trạng thái duyệt","zh-CN":"审核状态","zh-TW":"審核狀態"},{"key":"modelCenter.trainingResults.ImageSelectModalTableColMarkTime","en-US":"Mark Time","th-TH":"เวลาระบุป้ายกำกับ","vi-VN":"Thời gian gắn thẻ","zh-CN":"标注时间","zh-TW":"標註時間"},{"key":"modelCenter.trainingResults.ImageSelectModalTableColAuditTime","en-US":"Audit Time","th-TH":"เวลาตรวจสอบ","vi-VN":"Thời gian duyệt","zh-CN":"审核时间","zh-TW":"審核時間"},{"key":"modelCenter.trainingResults.ImageSelectModalAddSuccessMessage","en-US":"Added successfully","th-TH":"เพิ่มสำเร็จแล้ว","vi-VN":"Thêm thành công","zh-CN":"添加成功","zh-TW":"添加成功"},{"key":"modelCenter.trainingResults.ImageSelectModalTitle","en-US":"Add Images","th-TH":"เพิ่มรูปภาพ","vi-VN":"Thêm hình ảnh","zh-CN":"添加图片","zh-TW":"添加圖片"},{"key":"modelCenter.trainingResults.ImageSelectModalBtnConfirmText","en-US":"Add to Model","th-TH":"เพิ่มไปยังโมเดล","vi-VN":"Thêm vào mô hình","zh-CN":"添加到模型","zh-TW":"添加到模型"},{"key":"modelCenter.trainingResults.ImageSelectModalBtnCancelText","en-US":"Cancel","th-TH":"ยกเลิก","vi-VN":"Hủy","zh-CN":"取消","zh-TW":"取消"},{"key":"modelCenter.trainingResults.ImageSelectModalTip","en-US":"To evaluate the model's generalization ability, the dataset needs to be divided into training and test sets. The division strategy can also be manually adjusted later.","th-TH":"ในการประเมินความสามารถในการวางนัยทั่วไปของโมเดล ชุดข้อมูลจะต้องถูกแบ่งออกเป็นชุดข้อมูลสำหรับฝึกอบรมและชุดข้อมูลทดสอบ สามารถปรับกลยุทธ์การแบ่งได้ด้วยตนเองในภายหลัง","vi-VN":"Để đánh giá khả năng tổng quát hóa của mô hình, tập dữ liệu cần được chia thành tập huấn luyện và tập kiểm tra. Chiến lược chia có thể được điều chỉnh thủ công sau này.","zh-CN":"为评估模型泛化能力，需先将数据集划分为训练集和测试集。后续也可手动调整划分策略。","zh-TW":"為評估模型泛化能力，需先將數據集劃分為訓練集和測試集。後續也可手動調整劃分策略。"},{"key":"modelCenter.trainingResults.ImageSelectModalRatioLabel","en-US":"Data Split Ratio","th-TH":"อัตราส่วนการแบ่งข้อมูล","vi-VN":"Tỷ lệ chia dữ liệu","zh-CN":"数据划分比例","zh-TW":"數據劃分比例"},{"key":"modelCenter.trainingResults.ImageSelectModalRatioAllToValidationOption","en-US":"Set all as validation set","th-TH":"ตั้งค่าทั้งหมดเป็นชุดข้อมูลตรวจสอบ","vi-VN":"Đặt tất cả làm tập xác thực","zh-CN":"全部设为验证集","zh-TW":"全部設為驗證集"},{"key":"modelCenter.trainingResults.ImageSelectModalTotalCount","en-US":"Total ${total} items","th-TH":"รวม ${total} รายการ","vi-VN":"Tổng ${total} mục","zh-CN":"共 ${total} 条","zh-TW":"共 ${total} 條"},{"key":"modelCenter.trainingResults.ImageSelectModalFormMarkTimeLabel","en-US":"Mark Time","th-TH":"เวลาระบุป้ายกำกับ","vi-VN":"Thời gian gắn thẻ","zh-CN":"标注时间","zh-TW":"標註時間"},{"key":"modelCenter.trainingResults.ImageSelectModalFormAuditTimeLabel","en-US":"Audit Time","th-TH":"เวลาตรวจสอบ","vi-VN":"Thời gian duyệt","zh-CN":"审核时间","zh-TW":"審核時間"},{"key":"modelCenter.trainingResults.ImageSelectModalFormBatchNameLabel","en-US":"Batch Name","th-TH":"ชื่อชุดข้อมูล","vi-VN":"Tên lô","zh-CN":"批次名","zh-TW":"批次名"},{"key":"modelCenter.trainingResults.ImageSelectModalFormBatchNamePlaceholder","en-US":"Please enter batch name","th-TH":"โปรดระบุชื่อชุดข้อมูล","vi-VN":"Vui lòng nhập tên lô","zh-CN":"请输入批次名","zh-TW":"請輸入批次名"},{"key":"modelCenter.trainingResults.ImageSelectModalFormBtnSearch","en-US":"Search","th-TH":"ค้นหา","vi-VN":"Tìm kiếm","zh-CN":"搜索","zh-TW":"搜索"},{"key":"modelCenter.trainingResults.ImageSelectModalFormBtnReset","en-US":"Reset","th-TH":"รีเซ็ต","vi-VN":"Đặt lại","zh-CN":"重置","zh-TW":"重置"},{"key":"modelCenter.trainingResults.DonutChartErrorPredictionOption","en-US":"Incorrect Prediction","th-TH":"การคาดการณ์ที่ไม่ถูกต้อง","vi-VN":"Dự đoán không chính xác","zh-CN":"错误预测","zh-TW":"錯誤預測"},{"key":"modelCenter.trainingResults.DonutChartCorrectPredictionOption","en-US":"Correct Prediction","th-TH":"การคาดการณ์ที่ถูกต้อง","vi-VN":"Dự đoán chính xác","zh-CN":"正确预测","zh-TW":"正確預測"},{"key":"modelCenter.trainingResults.HeaderItemTrainTooltip","en-US":"Start Training","th-TH":"เริ่มการฝึกอบรม","vi-VN":"Bắt đầu huấn luyện","zh-CN":"开始训练","zh-TW":"開始訓練"},{"key":"modelCenter.trainingResults.HeaderItemInferenceTooltip","en-US":"Start Inference","th-TH":"เริ่มการอนุมาน","vi-VN":"Bắt đầu suy luận","zh-CN":"开始推理","zh-TW":"開始推理"},{"key":"modelCenter.trainingResults.HeaderItemAddModelTooltip","en-US":"Add Model","th-TH":"เพิ่มโมเดล","vi-VN":"Thêm mô hình","zh-CN":"添加模型","zh-TW":"添加模型"},{"key":"modelCenter.trainingResults.HeaderItemDeleteModelTooltip","en-US":"Delete Model","th-TH":"ลบโมเดล","vi-VN":"Xóa mô hình","zh-CN":"删除模型","zh-TW":"刪除模型"},{"key":"modelCenter.trainingResults.ModelListTrainingMessage","en-US":"Model is training...","th-TH":"โมเดลกำลังฝึกอบรม...","vi-VN":"Mô hình đang huấn luyện...","zh-CN":"模型训练中...","zh-TW":"模型訓練中..."},{"key":"modelCenter.trainingResults.ModelListRecallRateLabel","en-US":"Recall Rate","th-TH":"อัตราการเรียกกลับ","vi-VN":"Tỷ lệ thu hồi","zh-CN":"召回率","zh-TW":"召回率"},{"key":"modelCenter.trainingResults.ModelListPrecisionRateLabel","en-US":"Accuracy","th-TH":"ความแม่นยำ","vi-VN":"Độ chính xác","zh-CN":"准确率","zh-TW":"準確率"},{"key":"modelCenter.trainingResults.ModelListDataVolumeLabel","en-US":"Data Volume","th-TH":"ปริมาณข้อมูล","vi-VN":"Lượng dữ liệu","zh-CN":"数据量","zh-TW":"數據量"},{"key":"modelCenter.trainingResults.ModelListCurrentModelExistsMessage","en-US":"Current model already exists","th-TH":"โมเดลปัจจุบันมีอยู่แล้ว","vi-VN":"Mô hình hiện tại đã tồn tại","zh-CN":"当前模型已存在","zh-TW":"當前模型已存在"},{"key":"modelCenter.trainingResults.ModelListBtnCurrentVersion","en-US":"Current Version","th-TH":"เวอร์ชันปัจจุบัน","vi-VN":"Phiên bản hiện tại","zh-CN":"当前版本","zh-TW":"當前版本"},{"key":"modelCenter.trainingResults.ModelListBtnQueue","en-US":"In Queue","th-TH":"อยู่ในคิว","vi-VN":"Trong hàng đợi","zh-CN":"队列中","zh-TW":"佇列中"},{"key":"modelCenter.trainingResults.ModelListBtnTraining","en-US":"Training","th-TH":"กำลังฝึกอบรม","vi-VN":"Đang huấn luyện","zh-CN":"训练中","zh-TW":"訓練中"},{"key":"modelCenter.trainingResults.ModelListBtnRestartTrain","en-US":"Retrain","th-TH":"ฝึกอบรมใหม่","vi-VN":"Huấn luyện lại","zh-CN":"重新训练","zh-TW":"重新訓練"},{"key":"modelCenter.trainingResults.ModelListBtnSwitchToCurrentVersion","en-US":"Switch to Current Version","th-TH":"สลับไปใช้เวอร์ชันปัจจุบัน","vi-VN":"Chuyển sang phiên bản hiện tại","zh-CN":"切换到当前版本","zh-TW":"切換到當前版本"},{"key":"modelCenter.trainingResults.ModelListTrainingFailedMessage","en-US":"Training failed","th-TH":"การฝึกอบรมล้มเหลว","vi-VN":"Huấn luyện thất bại","zh-CN":"训练失败","zh-TW":"訓練失敗"},{"key":"modelCenter.trainingResults.PreviewAreaTitle","en-US":"Annotation Results","th-TH":"ผลลัพธ์การระบุป้ายกำกับ","vi-VN":"Kết quả gán nhãn","zh-CN":"标注结果","zh-TW":"標註結果"},{"key":"modelCenter.trainingResults.PreviewAreaInferenceTitle","en-US":"Inference Results","th-TH":"ผลลัพธ์การอนุมาน","vi-VN":"Kết quả suy luận","zh-CN":"推理结果","zh-TW":"推理結果"},{"key":"modelCenter.trainingResults.PrismaContentTypeLabel","en-US":"Type","th-TH":"ประเภท","vi-VN":"Loại","zh-CN":"类型","zh-TW":"類型"},{"key":"modelCenter.trainingResults.PrismaContentCenterLabel","en-US":"Center","th-TH":"ศูนย์กลาง","vi-VN":"Trung tâm","zh-CN":"中心","zh-TW":"中心"},{"key":"modelCenter.trainingResults.PrismaContentAreaLabel","en-US":"Area","th-TH":"พื้นที่","vi-VN":"Diện tích","zh-CN":"面积","zh-TW":"面積"},{"key":"modelCenter.trainingResults.PrismaContentLongSideLabel","en-US":"Long Side","th-TH":"ด้านยาว","vi-VN":"Cạnh dài","zh-CN":"长边","zh-TW":"長邊"},{"key":"modelCenter.trainingResults.PrismaContentShortSideLabel","en-US":"Short Side","th-TH":"ด้านสั้น","vi-VN":"Cạnh ngắn","zh-CN":"短边","zh-TW":"短邊"},{"key":"modelCenter.trainingResults.PrismaContentEmptyMessage","en-US":"No data available","th-TH":"ไม่มีข้อมูล","vi-VN":"Không có dữ liệu","zh-CN":"暂无数据","zh-TW":"暫無數據"},{"key":"modelCenter.trainingResults.StatisticsPanelTableColInspectionCount","en-US":"Inspection Count","th-TH":"จำนวนที่ผ่านการตรวจสอบ","vi-VN":"Số lượt kiểm tra đạt","zh-CN":"过检数","zh-TW":"過檢數"},{"key":"modelCenter.trainingResults.StatisticsPanelTableColMissedCount","en-US":"Missed Count","th-TH":"จำนวนที่ตรวจไม่พบ","vi-VN":"Số lượng bỏ sót","zh-CN":"漏检数","zh-TW":"漏檢數"},{"key":"modelCenter.trainingResults.StatisticsPanelTitle","en-US":"Confusion Matrix","th-TH":"เมทริกซ์ความสับสน","vi-VN":"Ma trận nhầm lẫn","zh-CN":"混淆矩阵","zh-TW":"混淆矩陣"},{"key":"modelCenter.trainingResults.StatisticsPanelTableTitle","en-US":"Inference Results","th-TH":"ผลลัพธ์การอนุมาน","vi-VN":"Kết quả suy luận","zh-CN":"推理结果","zh-TW":"推理結果"},{"key":"modelCenter.trainingResults.StatisticsPanelMarkLabel","en-US":"Manual Annotation","th-TH":"การระบุป้ายกำกับด้วยตนเอง","vi-VN":"Gán nhãn thủ công","zh-CN":"人工标注","zh-TW":"人工標註"},{"key":"modelCenter.trainingResults.StatisticsPanelCategoryTitle","en-US":"Category Overview","th-TH":"ภาพรวมหมวดหมู่","vi-VN":"Tổng quan danh mục","zh-CN":"类别概览","zh-TW":"類別概覽"},{"key":"modelCenter.trainingResults.ThumbnailDelLabel","en-US":"Delete","th-TH":"ลบ","vi-VN":"Xóa","zh-CN":"删除","zh-TW":"刪除"},{"key":"modelCenter.trainingResults.ThumbnailAddToTrainLabel","en-US":"Add to Training Set","th-TH":"เพิ่มไปยังชุดข้อมูลฝึกอบรม","vi-VN":"Thêm vào tập huấn luyện","zh-CN":"加入训练集","zh-TW":"加入訓練集"},{"key":"modelCenter.trainingResults.ThumbnailRemoveFromTrainLabel","en-US":"Remove from Training Set","th-TH":"นำออกจากชุดข้อมูลฝึกอบรม","vi-VN":"Xóa khỏi tập huấn luyện","zh-CN":"移除训练集","zh-TW":"移除訓練集"},{"key":"modelCenter.trainingResults.ThumbnailAddToValidationLabel","en-US":"Add to Validation Set","th-TH":"เพิ่มไปยังชุดข้อมูลตรวจสอบ","vi-VN":"Thêm vào tập xác thực","zh-CN":"加入验证集","zh-TW":"加入驗證集"},{"key":"modelCenter.trainingResults.ThumbnailRemoveFromValidationLabel","en-US":"Remove from Validation Set","th-TH":"นำออกจากชุดข้อมูลตรวจสอบ","vi-VN":"Xóa khỏi tập xác thực","zh-CN":"移除验证集","zh-TW":"移除驗證集"},{"key":"modelCenter.trainingResults.ThumbnailRemoveLabel","en-US":"Remove","th-TH":"นำออก","vi-VN":"Xóa","zh-CN":"删除","zh-TW":"移除"},{"key":"modelCenter.trainingResults.ThumbnailValidationTag","en-US":"Validation Set","th-TH":"ชุดข้อมูลตรวจสอบ","vi-VN":"Tập xác thực","zh-CN":"验证集","zh-TW":"驗證集"},{"key":"modelCenter.trainingResults.ThumbnailTrainingTag","en-US":"Training Set","th-TH":"ชุดข้อมูลฝึกอบรม","vi-VN":"Tập huấn luyện","zh-CN":"训练集","zh-TW":"訓練集"},{"key":"modelCenter.trainingResults.ThumbnailAllFilter","en-US":"All","th-TH":"ทั้งหมด","vi-VN":"Tất cả","zh-CN":"全部","zh-TW":"全部"},{"key":"modelCenter.trainingResults.ThumbnailTrainSetFilter","en-US":"Training Set","th-TH":"ชุดข้อมูลฝึกอบรม","vi-VN":"Tập huấn luyện","zh-CN":"训练集","zh-TW":"訓練集"},{"key":"modelCenter.trainingResults.ThumbnailValidationSetFilter","en-US":"Validation Set","th-TH":"ชุดข้อมูลตรวจสอบ","vi-VN":"Tập xác thực","zh-CN":"验证集","zh-TW":"驗證集"},{"key":"modelCenter.trainingResults.ThumbnailBtnFilter","en-US":"Filter","th-TH":"กรอง","vi-VN":"Lọc","zh-CN":"筛选","zh-TW":"篩選"},{"key":"modelCenter.trainingResults.ThumbnailBtnAddImage","en-US":"Add Images","th-TH":"เพิ่มรูปภาพ","vi-VN":"Thêm hình ảnh","zh-CN":"添加图片","zh-TW":"添加圖片"},{"key":"modelCenter.annotation.ModalTitle","zh-CN":"确认删除"},{"key":"modelCenter.annotation.ModalContent","zh-CN":"确定清除当期帧画布吗？"},{"key":"modelCenter.annotation.BtnOk","zh-CN":"确认"},{"key":"modelCenter.annotation.BtnCancel","zh-CN":"取消"},{"key":"modelCenter.annotation.AnnotationHeaderOrigin","zh-CN":"原图"},{"key":"modelCenter.annotation.AnnotationHeaderUndo","zh-CN":"撤回"},{"key":"modelCenter.annotation.AnnotationHeaderZoomIn","zh-CN":"放大"},{"key":"modelCenter.annotation.AnnotationHeaderZoomOut","zh-CN":"缩小"},{"key":"modelCenter.annotation.AnnotationHeaderSave","zh-CN":"保存"},{"key":"modelCenter.annotation.AnnotationSidebarShowAll","zh-CN":"显示全部"},{"key":"modelCenter.annotation.AnnotationSidebarHideAll","zh-CN":"隐藏全部"},{"key":"modelCenter.annotation.DefectLabelSelectorBtnCancel","zh-CN":"取消"},{"key":"modelCenter.annotation.DefectLabelSelectorBtnConfirm","zh-CN":"确认"}]
+[
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.list.statusQueue",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "模型中心",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.list.statusTraining",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "训练中",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.list.statusCompleted",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "已完成",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.list.statusFailed",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "失败",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.list.modelTypeClassify",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "分类",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.list.modelTypePositive",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "正样本",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.list.modelTypePackage",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "封装",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.list.fetchFailed",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "获取模型列表失败",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.list.tableColThumbnail",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "缩略图",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.list.tableColName",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "版本号",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.list.tableColType",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "模型类型",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.list.tableColAccuracy",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "准确率",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.list.tableColRecall",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "召回率",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.list.tableColDataCount",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "数据量",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.list.tableColStatus",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "训练状态",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.list.tableColTrainTime",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "训练时间",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.list.tableColTrainUser",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "训练人",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.list.tableColActions",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "操作",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.list.tableColBtnDetails",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "详情",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.list.formVersionLabel",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "版本号",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.list.formVersionPlaceholder",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "请输入版本号",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.list.formModelTypeLabel",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "模型分类",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.list.formSelectPlaceholder",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "请选择",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.list.formTrainStatusLabel",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "训练状态",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.list.formTrainUserLabel",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "训练人",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.list.formTrainUserPlaceholder",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "请输入训练人",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.list.formTrainTimeLabel",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "训练时间",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.list.formBtnSearch",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "查询",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.list.formBtnReset",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "重置",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.list.title",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "模型列表",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.failedMessage",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "当前模型训练失败，请重新训练",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.startInferenceMessage",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "开始推理",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.maxModelLimitMessage",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "最多添加5个模型",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.lastModelDeleteWarning",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "最后一个模型，无法删除，如需更换请返回模型中心",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.currentModelExists",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "当前模型已存在",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.imageCountLabel",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "图像数量",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.trainSetLabel",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "训练集",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.validationSetLabel",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "验证集",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.modelVersionOption",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "模型版本",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.inferenceResultOption",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "推理结果",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.modalListTitle",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "模型列表",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ImageSelectModalMarkStatusUntagged",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "未标注",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ImageSelectModalMarkStatusTagged",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "已标注",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ImageSelectModalAuditStatusPending",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "待审核",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ImageSelectModalAuditStatusApproved",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "通过",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ImageSelectModalAuditStatusRejected",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "未通过",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ImageSelectModalTableColThumbnail",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "缩略图",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ImageSelectModalTableColName",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "图片名称",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ImageSelectModalTableColBatchName",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "批次名",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ImageSelectModalTableColUploadUser",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "上传人",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ImageSelectModalTableColMarkStatus",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "标注状态",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ImageSelectModalTableColAuditStatus",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "审核状态",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ImageSelectModalTableColMarkTime",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "标注时间",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ImageSelectModalTableColAuditTime",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "审核时间",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ImageSelectModalAddSuccessMessage",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "添加成功",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ImageSelectModalTitle",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "添加图片",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ImageSelectModalBtnConfirmText",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "添加到模型",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ImageSelectModalBtnCancelText",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "取消",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ImageSelectModalTip",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "为评估模型泛化能力，需先将数据集划分为训练集和测试集。后续也可手动调整划分策略。",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ImageSelectModalRatioLabel",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "数据划分比例",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ImageSelectModalRatioAllToValidationOption",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "全部设为验证集",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ImageSelectModalTotalCount",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "共 ${total} 条",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ImageSelectModalFormMarkTimeLabel",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "标注时间",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ImageSelectModalFormAuditTimeLabel",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "审核时间",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ImageSelectModalFormBatchNameLabel",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "批次名",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ImageSelectModalFormBatchNamePlaceholder",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "请输入批次名",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ImageSelectModalFormBtnSearch",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "搜索",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ImageSelectModalFormBtnReset",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "重置",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.DonutChartErrorPredictionOption",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "错误预测",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.DonutChartCorrectPredictionOption",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "正确预测",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.HeaderItemTrainTooltip",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "开始训练",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.HeaderItemInferenceTooltip",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "开始推理",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.HeaderItemAddModelTooltip",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "添加模型",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.HeaderItemDeleteModelTooltip",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "删除模型",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ModelListTrainingMessage",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "模型训练中...",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ModelListRecallRateLabel",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "召回率",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ModelListPrecisionRateLabel",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "准确率",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ModelListDataVolumeLabel",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "数据量",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ModelListCurrentModelExistsMessage",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "当前模型已存在",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ModelListBtnCurrentVersion",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "当前版本",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ModelListBtnQueue",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "队列中",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ModelListBtnTraining",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "训练中",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ModelListBtnRestartTrain",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "重新训练",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ModelListBtnSwitchToCurrentVersion",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "切换到当前版本",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ModelListTrainingFailedMessage",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "训练失败",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.PreviewAreaTitle",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "标注结果",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.PreviewAreaInferenceTitle",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "推理结果",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.PrismaContentTypeLabel",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "类型",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.PrismaContentCenterLabel",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "中心",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.PrismaContentAreaLabel",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "面积",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.PrismaContentLongSideLabel",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "长边",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.PrismaContentShortSideLabel",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "短边",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.PrismaContentEmptyMessage",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "暂无数据",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.StatisticsPanelTableColInspectionCount",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "过检数",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.StatisticsPanelTableColMissedCount",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "漏检数",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.StatisticsPanelTitle",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "混淆矩阵",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.StatisticsPanelTableTitle",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "推理结果",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.StatisticsPanelMarkLabel",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "人工标注",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.StatisticsPanelCategoryTitle",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "类别概览",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ThumbnailDelLabel",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "删除",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ThumbnailAddToTrainLabel",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "加入训练集",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ThumbnailRemoveFromTrainLabel",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "移除训练集",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ThumbnailAddToValidationLabel",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "加入验证集",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ThumbnailRemoveFromValidationLabel",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "移除验证集",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ThumbnailRemoveLabel",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "删除",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ThumbnailValidationTag",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "验证集",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ThumbnailTrainingTag",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "训练集",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ThumbnailAllFilter",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "全部",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ThumbnailTrainSetFilter",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "训练集",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ThumbnailValidationSetFilter",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "验证集",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ThumbnailBtnFilter",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "筛选",
+  "zh-MY": "",
+  "zh-TW": ""
+ },
+ {
+  "en": "",
+  "en-US": "",
+  "key": "modelCenter.trainingResults.ThumbnailBtnAddImage",
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "添加图片",
+  "zh-MY": "",
+  "zh-TW": ""
+ }
+]
