@@ -1,5 +1,9 @@
 [
  {
+  "key": "action",
+  "zh-CN": "操作"
+ },
+ {
   "en": "You have unsaved changes. Are you sure you want to leave?",
   "en-US": "You have unsaved changes. Are you sure you want to leave?",
   "key": "adjudicationStation.GridLayout.confirmUnsavedMessage",
