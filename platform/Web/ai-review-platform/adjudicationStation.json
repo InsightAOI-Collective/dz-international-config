@@ -1,405 +1,506 @@
 [
  {
+  "en-US": "",
   "key": "adjudicationStation.GridLayout.confirmUnsavedMessage",
   "zh-CN": "您有未保存的修改，确认要离开吗"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.GridLayout.selectObjectMessage",
   "zh-CN": "请先选择一个器件或缺陷或光源"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.GridLayout.currentPcbNotFoundMessage",
   "zh-CN": "当前板卡数据不存在"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.GridLayout.saveSuccessMessage",
   "zh-CN": "保存成功"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.Drawer.title",
   "zh-CN": "组件列表"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.Drawer.label",
   "zh-CN": "打开侧边抽屉"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.Drawer.addWidgetErrorMessage",
   "zh-CN": "当前组件无法添加，超出最大行数限制"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.Drawer.addedTag",
   "zh-CN": "已添加"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.Drawer.notAddedTag",
   "zh-CN": "未添加"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.PcbDefectTable.lightOption",
   "zh-CN": "白光"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.PcbDefectTable.tableColId",
   "zh-CN": "缺陷框编号"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.PcbDefectTable.tableColJudgeActual",
   "zh-CN": "检测值"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.PcbDefectTable.tableColJudgeOk",
   "zh-CN": "目标值"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.PcbDefectTable.tableColLightIndex",
   "zh-CN": "光源"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.PcbDefectTable.tableColResultAoi",
   "zh-CN": "AOI检测结果"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.PcbDefectTable.tableColResultOperator",
   "zh-CN": "人工复判结果"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.PcbDefectTable.tableColResultOperatorTime",
   "zh-CN": "人工复判时间"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.PcbDefectTable.tableColAIId",
   "zh-CN": "缺陷框编号"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.PcbDefectTable.tableColAIResultAoi",
   "zh-CN": "AI检测结果"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.PcbDefectTable.tableColAIResultOperator",
   "zh-CN": "AI复判结果"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.PcbDefectTable.tableColAIResultOperatorTime",
   "zh-CN": "AI复判时间"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.PcbLightTable.lightOption",
   "zh-CN": "白光"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.PcbLightTable.tableColLightIndex",
   "zh-CN": "光源"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.PcbLightTable.tableColNgIdList",
   "zh-CN": "缺陷框编号"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.PcbLightTable.tableColAIResultAiList",
   "zh-CN": "AI复判结果"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.PcbLightTable.tableColAIResultOperator",
   "zh-CN": "人工复判结果"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.PcbLightTable.tableColAIResultOperatorTime",
   "zh-CN": "人工复判时间"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.PcbPartTable.tableColPartName",
   "zh-CN": "位置号ID"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.PcbPartTable.tableColResultAoi",
   "zh-CN": "AOI检测结果"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.PcbPartTable.tableColResultAi",
   "zh-CN": "AI复判结果"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.PcbPartTable.tableColResultOperator",
   "zh-CN": "人工复判结果"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.PcbPartTable.tableColResultOperatorTime",
   "zh-CN": "人工复判时间"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.PcbPartTable.tableColLotName",
   "zh-CN": "料号"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.PcbPartTable.tableColAngle",
   "zh-CN": "角度"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.PcbPartTable.tableColOperation",
   "zh-CN": "操作"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.PcbPartTable.tableColOperationTitle",
   "zh-CN": "调整当前器件检测参数"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.PcbPartTable.tableColOperationText",
   "zh-CN": "参数优化"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.PcbTable.tableColMaterialId",
   "zh-CN": "板卡ID"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.PcbTable.tableColResultAoi",
   "zh-CN": "AOI检测结果"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.PcbTable.tableColResultAi",
   "zh-CN": "AI复判结果"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.PcbTable.tableColResultOperator",
   "zh-CN": "人工复判结果"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.PcbTable.tableColResultOperatorTime",
   "zh-CN": "人工复判时间"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.PcbTable.tableColCreateTime",
   "zh-CN": "添加时间"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.PcbTable.tableColOrderNumber",
   "zh-CN": "工单"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.PcbTable.tableColMachineLine",
   "zh-CN": "产线"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.PcbTable.tableColMachineStation",
   "zh-CN": "设备号"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.PcbTable.tableColOperatorId",
   "zh-CN": "质检员"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.PcbTable.formMaterialIdLabel",
   "zh-CN": "板卡ID"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.PcbTable.formOrderNumberLabel",
   "zh-CN": "工单"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.PcbTable.formMachineLineLabel",
   "zh-CN": "产线"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.PcbTable.formMachineStationLabel",
   "zh-CN": "设备号"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.PcbTable.formOperatorIdLabel",
   "zh-CN": "质检员"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.PcbTable.formBtnSearch",
   "zh-CN": "搜索"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.PcbTable.formBtnReset",
   "zh-CN": "重置"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.utils.pleaseSelectPcbFirst",
   "zh-CN": "请先选择一个板卡"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.utils.pcbListEmptyMessage",
   "zh-CN": "板卡列表数据不存在"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.utils.currentPcbNotFoundMessage",
   "zh-CN": "未找到当前选中的板卡"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.utils.noUnJudgedPcbMessage",
   "zh-CN": "已经没有未复判的板卡了"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.utils.pleaseSelectDeviceFirst",
   "zh-CN": "请先选择一个器材"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.utils.deviceListEmptyMessage",
   "zh-CN": "器材列表数据为空"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.utils.currentDeviceNotFoundMessage",
   "zh-CN": "当前选中的器材不在列表中"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.utils.noUnJudgedDeviceMessage",
   "zh-CN": "已经没有未复判的器材了"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.utils.pleaseSelectDefectFirst",
   "zh-CN": "请先选择一个缺陷"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.utils.defectListEmptyMessage",
   "zh-CN": "缺陷列表数据为空"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.utils.currentDefectNotFoundMessage",
   "zh-CN": "当前选中的缺陷不在列表中"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.utils.noUnJudgedDefectMessage",
   "zh-CN": "已经没有未复判的缺陷了"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.utils.pleaseSelectLightFirst",
   "zh-CN": "请先选择一个光源"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.utils.lightListEmptyMessage",
   "zh-CN": "光源列表数据为空"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.utils.currentLightNotFoundMessage",
   "zh-CN": "当前选中的光源不在列表中"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.utils.noUnJudgedLightMessage",
   "zh-CN": "已经没有未复判的光源了"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.DefectDetails.typeLabel",
   "zh-CN": "类型"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.DefectDetails.centerLabel",
   "zh-CN": "中心"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.DefectDetails.widthLabel",
   "zh-CN": "宽度"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.DefectDetails.heightLabel",
   "zh-CN": "高度"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.DefectDetails.angleLabel",
   "zh-CN": "角度"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.DefectDetails.btnLabel",
   "zh-CN": "转到幻灯片"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.headerTool.warningEmptyMessage",
   "zh-CN": "请先选择一个对象"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.headerTool.warningCurrentPcbNotFoundMessage",
   "zh-CN": "当前板卡数据不存在"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.headerTool.warningCurrentDeviceNotFoundMessage",
   "zh-CN": "器材列表数据不存在"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.headerTool.uncheckedMessage",
   "zh-CN": "存在未复判器件"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.headerTool.warningPcbListEmptyMessage",
   "zh-CN": "板卡列表数据不存在"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.headerTool.confirmModalTitle",
   "zh-CN": "确认结束复判"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.headerTool.confirmModalContent",
   "zh-CN": "是否结束当前板卡的复判？"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.headerTool.confirmModalErrorMessage",
   "zh-CN": "板卡ID不存在"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.headerTool.confirmModalSuccessMessage",
   "zh-CN": "保存成功"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.headerTool.infoModalTitle",
   "zh-CN": "复判完成"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.headerTool.infoModalContent",
   "zh-CN": "所有板卡复判已完成"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.headerTool.btnPrev",
   "zh-CN": "上一个"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.headerTool.btnNext",
   "zh-CN": "下一个"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.headerTool.btnSkip",
   "zh-CN": "跳过"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.headerTool.btnSave",
   "zh-CN": "保存"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.HeaderToolBtnRadio.errorMessage",
   "zh-CN": "请先选择板卡数据"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.HeaderToolBtnRadio.RGBOption",
   "zh-CN": "RGB图"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.HeaderToolBtnRadio.WhiteOption",
   "zh-CN": "白图"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.ProgrammingPage.saveSuccessMessage",
   "zh-CN": "保存成功"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.ProgrammingPage.title",
   "zh-CN": "算法参数配置"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.ProgrammingPage.matchAlgorithm",
   "zh-CN": "匹配算法"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.ProgrammingPage.modelVersion",
   "zh-CN": "模型版本"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.ProgrammingPage.scope",
   "zh-CN": "生效范围"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.ProgrammingPage.btnSave",
   "zh-CN": "保存"
  },
  {
+  "en-US": "",
   "key": "adjudicationStation.HeaderToolBtnRadio.title",
   "zh-CN": "AI复判"
  }

@@ -1,521 +1,651 @@
 [
  {
+  "en-US": "Detection Template",
   "key": "aoi.list.title",
   "zh-CN": "检测模版"
  },
  {
+  "en-US": "Template Name",
   "key": "aoi.list.projectNameLabel",
   "zh-CN": "模版名称"
  },
  {
+  "en-US": "Please enter template name",
   "key": "aoi.list.projectNamePlaceholder",
   "zh-CN": "请输入模版名称"
  },
  {
+  "en-US": "Creation Time",
   "key": "aoi.list.createTimeLabel",
   "zh-CN": "创建时间"
  },
  {
+  "en-US": "Start Time",
   "key": "aoi.list.createTimeStartPlaceholder",
   "zh-CN": "开始时间"
  },
  {
+  "en-US": "End Time",
   "key": "aoi.list.createTimeEndPlaceholder",
   "zh-CN": "结束时间"
  },
  {
+  "en-US": "Search",
   "key": "aoi.list.btnSearch",
   "zh-CN": "搜索"
  },
  {
+  "en-US": "Reset",
   "key": "aoi.list.btnReset",
   "zh-CN": "重置"
  },
  {
+  "en-US": "Confirm Deletion?",
   "key": "aoi.list.delConfirmNodalTitle",
   "zh-CN": "确认删除？"
  },
  {
+  "en-US": "Deleted successfully!",
   "key": "aoi.list.delConfirmNodalSuccessMessage",
   "zh-CN": "删除成功！"
  },
  {
+  "en-US": "Thumbnail",
   "key": "aoi.list.tableColThumbnailUrl",
   "zh-CN": "缩略图"
  },
  {
+  "en-US": "Template Name",
   "key": "aoi.list.tableColProjectName",
   "zh-CN": "模版名称"
  },
  {
+  "en-US": "Panel (Rows*Columns)",
   "key": "aoi.list.tableColPanel",
   "zh-CN": "拼板(行*列)"
  },
  {
+  "en-US": "PCB Size (Length*Width)",
   "key": "aoi.list.tableColPcbSize",
   "zh-CN": "PCB尺寸(长*宽)"
  },
  {
+  "en-US": "BOM File",
   "key": "aoi.list.tableColBomFile",
   "zh-CN": "Bom文件"
  },
  {
+  "en-US": "Manufacturer",
   "key": "aoi.list.tableColManufacturer",
   "zh-CN": "制造商"
  },
  {
+  "en-US": "Created By",
   "key": "aoi.list.tableColCreateBy",
   "zh-CN": "创建人"
  },
  {
+  "en-US": "Creation Time",
   "key": "aoi.list.tableColCreateTime",
   "zh-CN": "创建时间"
  },
  {
+  "en-US": "Update Time",
   "key": "aoi.list.tableColUpdateTime",
   "zh-CN": "修改时间"
  },
  {
+  "en-US": "Action",
   "key": "aoi.list.tableColAction",
   "zh-CN": "操作"
  },
  {
+  "en-US": "Start Detection",
   "key": "aoi.list.tableBtnStartDetection",
   "zh-CN": "启动检测"
  },
  {
+  "en-US": "Edit",
   "key": "aoi.list.tableBtnEdit",
   "zh-CN": "编辑"
  },
  {
+  "en-US": "Delete",
   "key": "aoi.list.tableBtnDelete",
   "zh-CN": "删除"
  },
  {
+  "en-US": "Template List",
   "key": "aoi.list.tableTitle",
   "zh-CN": "模版列表"
  },
  {
+  "en-US": "New Template",
   "key": "aoi.list.btnAddTpl",
   "zh-CN": "新建模版"
  },
  {
+  "en-US": "Total {total} records",
   "key": "aoi.list.tableShowTotal",
   "zh-CN": "共 {total} 条记录"
  },
  {
+  "en-US": "New Template",
   "key": "aoi.edit.newTitle",
   "zh-CN": "新建模版"
  },
  {
+  "en-US": "Edit Template",
   "key": "aoi.edit.editTitle",
   "zh-CN": "编辑模版"
  },
  {
+  "en-US": "Custom Template",
   "key": "aoi.edit.basicInfoProjectName",
   "zh-CN": "自定义模版"
  },
  {
+  "en-US": "Please complete capture",
   "key": "aoi.edit.captureErrorMessage",
   "zh-CN": "请完成拍摄"
  },
  {
+  "en-US": "Algorithm is parsing, please wait",
   "key": "aoi.edit.captureParsingMessage",
   "zh-CN": "算法正在解析，请稍等"
  },
  {
+  "en-US": "Failed to save template, please try again later",
   "key": "aoi.edit.saveErrorMessage",
   "zh-CN": "保存模版失败，请稍后再试"
  },
  {
+  "en-US": "Basic Information",
   "key": "aoi.edit.basicInfoTitle",
   "zh-CN": "基本信息"
  },
  {
+  "en-US": "Import CAD",
   "key": "aoi.edit.cadInfoTitle",
   "zh-CN": "导入CAD"
  },
  {
+  "en-US": "Capture Gold Board",
   "key": "aoi.edit.cameraInfoTitle",
   "zh-CN": "拍摄金板"
  },
  {
+  "en-US": "Gold Board Parsing Progress",
   "key": "aoi.edit.goldBoardProgress",
   "zh-CN": "金板解析进度"
  },
  {
+  "en-US": "Gold Board Programming",
   "key": "aoi.edit.btnGoldBoardProgramming",
   "zh-CN": "金板编程"
  },
  {
+  "en-US": "Save Template",
   "key": "aoi.edit.btnSaveTemplate",
   "zh-CN": "保存模版"
  },
  {
+  "en-US": "Save successful",
   "key": "aoi.edit.saveModalTitle",
   "zh-CN": "保存成功"
  },
  {
+  "en-US": "Back to List",
   "key": "aoi.edit.btnBackToList",
   "zh-CN": "返回列表"
  },
  {
+  "en-US": "Start Detection",
   "key": "aoi.edit.btnModalStartDetection",
   "zh-CN": "启动检测"
  },
  {
+  "en-US": "Template Name",
   "key": "aoi.edit.basicInfoProjectNameLabel",
   "zh-CN": "模版名称"
  },
  {
+  "en-US": "Please enter template name",
   "key": "aoi.edit.basicInfoProjectNamePlaceholder",
   "zh-CN": "请输入模版名称"
  },
  {
+  "en-US": "PCB Type",
   "key": "aoi.edit.basicInfoPcbTypeLabel",
   "zh-CN": "PCB类型"
  },
  {
+  "en-US": "Please enter PCB type",
   "key": "aoi.edit.basicInfoPcbTypePlaceholder",
   "zh-CN": "请输入PCB类型"
  },
  {
+  "en-US": "Manufacturer",
   "key": "aoi.edit.basicInfoManufacturerLabel",
   "zh-CN": "生产商"
  },
  {
+  "en-US": "Please enter manufacturer name",
   "key": "aoi.edit.basicInfoManufacturerPlaceholder",
   "zh-CN": "请输入生产商名称"
  },
  {
+  "en-US": "Gold Board Length",
   "key": "aoi.edit.basicInfoGoldBoardLengthLabel",
   "zh-CN": "金板板长"
  },
  {
+  "en-US": "Please enter gold board length",
   "key": "aoi.edit.basicInfoGoldBoardLengthPlaceholder",
   "zh-CN": "请输入金板板长"
  },
  {
+  "en-US": "Gold Board Width",
   "key": "aoi.edit.basicInfoGoldBoardWidthLabel",
   "zh-CN": "金板板宽"
  },
  {
+  "en-US": "Please enter gold board width",
   "key": "aoi.edit.basicInfoGoldBoardWidthPlaceholder",
   "zh-CN": "请输入金板板宽"
  },
  {
+  "en-US": "BOM Information",
   "key": "aoi.edit.basicInfoBomFileLabel",
   "zh-CN": "BOM信息"
  },
  {
+  "en-US": "Please enter BOM information",
   "key": "aoi.edit.basicInfoBomFilePlaceholder",
   "zh-CN": "请输入BOM信息"
  },
  {
+  "en-US": "Panel Rows",
   "key": "aoi.edit.basicInfoPanelRowsLabel",
   "zh-CN": "拼板行数"
  },
  {
+  "en-US": "Please enter panel rows",
   "key": "aoi.edit.basicInfoPanelRowsPlaceholder",
   "zh-CN": "请输入拼板行数"
  },
  {
+  "en-US": "Panel Columns",
   "key": "aoi.edit.basicInfoPanelColumnsLabel",
   "zh-CN": "拼板列数"
  },
  {
+  "en-US": "Please enter panel columns",
   "key": "aoi.edit.basicInfoPanelColumnsPlaceholder",
   "zh-CN": "请输入拼板列数"
  },
  {
+  "en-US": "Additional Information",
   "key": "aoi.edit.basicInfoAdditionalInfoLabel",
   "zh-CN": "附加信息"
  },
  {
+  "en-US": "Please enter additional information",
   "key": "aoi.edit.basicInfoAdditionalInfoPlaceholder",
   "zh-CN": "请输入附加信息"
  },
  {
+  "en-US": "Gold board capture completed",
   "key": "aoi.edit.cameraInfoShootFinishMessage",
   "zh-CN": "金板拍摄完成"
  },
  {
+  "en-US": "Track Width / Gold Board Width",
   "key": "aoi.edit.cameraInfoGoldBoardWidthLabel",
   "zh-CN": "流道宽度/金板宽度"
  },
  {
+  "en-US": "Please enter track width / gold board width",
   "key": "aoi.edit.cameraInfoGoldBoardWidthPlaceholder",
   "zh-CN": "请输入流道宽度/金板宽度"
  },
  {
+  "en-US": "Apply",
   "key": "aoi.edit.cameraInfoBtnGoldBoardWidthApply",
   "zh-CN": "应用"
  },
  {
+  "en-US": "Gold Board In/Out",
   "key": "aoi.edit.cameraInfoGoldBoardInOutLabel",
   "zh-CN": "金板进出"
  },
  {
+  "en-US": "Gold Board In",
   "key": "aoi.edit.cameraInfoBtnGoldBoardIn",
   "zh-CN": "进板"
  },
  {
+  "en-US": "Gold Board Out",
   "key": "aoi.edit.cameraInfoBtnGoldBoardOut",
   "zh-CN": "出板"
  },
  {
+  "en-US": "Capture Gold Board Image",
   "key": "aoi.edit.cameraInfoCaptureGoldBoardLabel",
   "zh-CN": "拍摄金板图片"
  },
  {
+  "en-US": "Capture",
   "key": "aoi.edit.cameraInfoBtnCapture",
   "zh-CN": "拍摄"
  },
  {
+  "en-US": "Stop",
   "key": "aoi.edit.cameraInfoBtnStop",
   "zh-CN": "停止"
  },
  {
+  "en-US": "Index",
   "key": "aoi.edit.cadInfoTableColIndex",
   "zh-CN": "序号"
  },
  {
+  "en-US": "Center Point X",
   "key": "aoi.edit.cadInfoTableColCenterPointX",
   "zh-CN": "中心点X"
  },
  {
+  "en-US": "Center Point Y",
   "key": "aoi.edit.cadInfoTableColCenterPointY",
   "zh-CN": "中心点Y"
  },
  {
+  "en-US": "Rotation Angle",
   "key": "aoi.edit.cadInfoTableColRotationAngle",
   "zh-CN": "角度"
  },
  {
+  "en-US": "Component Code",
   "key": "aoi.edit.cadInfoTableColComponentCode",
   "zh-CN": "位置号"
  },
  {
+  "en-US": "Material Code",
   "key": "aoi.edit.cadInfoTableColMaterialCode",
   "zh-CN": "料号"
  },
  {
+  "en-US": "Panel",
   "key": "aoi.edit.cadInfoTableColPanel",
   "zh-CN": "拼板"
  },
  {
+  "en-US": "mm",
   "key": "aoi.edit.cadInfoUnitMMOption",
   "zh-CN": "毫米"
  },
  {
+  "en-US": "Inch",
   "key": "aoi.edit.cadInfoUnitINOption",
   "zh-CN": "英寸"
  },
  {
+  "en-US": "Mil",
   "key": "aoi.edit.cadInfoUnitMILOption",
   "zh-CN": "密耳"
  },
  {
+  "en-US": "Pending upload",
   "key": "aoi.edit.cadInfoParseStatus",
   "zh-CN": "待上传"
  },
  {
+  "en-US": "Uploading in progress",
   "key": "aoi.edit.cadInfoParseStatusUploading",
   "zh-CN": "上传中"
  },
  {
+  "en-US": "Parsing in progress",
   "key": "aoi.edit.cadInfoParseStatusParsing",
   "zh-CN": "解析中"
  },
  {
+  "en-US": "Parsing successful",
   "key": "aoi.edit.cadInfoParseStatusFinish",
   "zh-CN": "解析成功"
  },
  {
+  "en-US": "File size cannot exceed 100MB",
   "key": "aoi.edit.cadInfoFileSizeLimitMessage",
   "zh-CN": "文件大小不能超过100MB"
  },
  {
+  "en-US": "File type error",
   "key": "aoi.edit.cadInfoFileTypeErrorMessage",
   "zh-CN": "文件类型错误"
  },
  {
+  "en-US": "File parsing failed",
   "key": "aoi.edit.cadInfoFileParseErrorMessage",
   "zh-CN": "文件解析失败"
  },
  {
+  "en-US": "File upload failed",
   "key": "aoi.edit.cadInfoFileUploadErrorMessage",
   "zh-CN": "文件上传失败"
  },
  {
+  "en-US": "Please upload CAD file",
   "key": "aoi.edit.cadInfoFileUploadMessage",
   "zh-CN": "请上传CAD文件"
  },
  {
+  "en-US": "Drag file here or click to upload",
   "key": "aoi.edit.cadInfoFileDragTip",
   "zh-CN": "将文件拖到此处或点击上传"
  },
  {
+  "en-US": "Only txt/csv files can be uploaded, and the size must not exceed 100MB",
   "key": "aoi.edit.cadInfoFileSizeLimitTip",
   "zh-CN": "只能上传txt/csv文件，且不超过100MB"
  },
  {
+  "en-US": "File uploading in progress",
   "key": "aoi.edit.cadInfoFileUploadingStatus",
   "zh-CN": "文件上传中"
  },
  {
+  "en-US": "File parsing in progress",
   "key": "aoi.edit.cadInfoFileParsingStatus",
   "zh-CN": "文件解析中"
  },
  {
+  "en-US": "Reset",
   "key": "aoi.edit.cadInfoBtnReset",
   "zh-CN": "重置"
  },
  {
+  "en-US": "Import Settings",
   "key": "aoi.edit.cadInfoImportSettingsLabel",
   "zh-CN": "导入设置"
  },
  {
+  "en-US": "Select All Lines",
   "key": "aoi.edit.cadInfoSelectAllLines",
   "zh-CN": "选择全部行"
  },
  {
+  "en-US": "Start Line",
   "key": "aoi.edit.cadInfoStartLineLabel",
   "zh-CN": "开始行"
  },
  {
+  "en-US": "End Line",
   "key": "aoi.edit.cadInfoEndLineLabel",
   "zh-CN": "结束行"
  },
  {
+  "en-US": "Length Unit",
   "key": "aoi.edit.cadInfoLengthUnitLabel",
   "zh-CN": "设置单位"
  },
  {
+  "en-US": "Charset",
   "key": "aoi.edit.cadInfoCharsetLabel",
   "zh-CN": "编码"
  },
  {
+  "en-US": "Are you sure you want to leave this page?",
   "key": "aoi.edit.leaveConfirmTitle",
   "zh-CN": "确定离开当前页面？"
  },
  {
+  "en-US": "You have unsaved edits. Leaving this page will lose changes.",
   "key": "aoi.edit.leaveConfirmContent",
   "zh-CN": "您有未保存的编辑内容，离开页面将丢失更改"
  },
  {
+  "en-US": "Save successful",
   "key": "aoi.goldBoard.saveSuccessMessage",
   "zh-CN": "保存成功"
  },
  {
+  "en-US": "Save failed",
   "key": "aoi.goldBoard.saveErrorMessage",
   "zh-CN": "保存失败"
  },
  {
+  "en-US": "Toggle Light Source",
   "key": "aoi.goldBoard.AnnotationBtnLight",
   "zh-CN": "光源切换"
  },
  {
+  "en-US": "Save",
   "key": "aoi.goldBoard.AnnotationBtnSave",
   "zh-CN": "保存"
  },
  {
+  "en-US": "Enable",
   "key": "aoi.goldBoard.deviceTreeEnableOption",
   "zh-CN": "启用"
  },
  {
+  "en-US": "Disable",
   "key": "aoi.goldBoard.deviceTreeDisableOption",
   "zh-CN": "禁用"
  },
  {
+  "en-US": "Rename",
   "key": "aoi.goldBoard.deviceTreeRenameOption",
   "zh-CN": "重命名"
  },
  {
+  "en-US": "Duplicate node name",
   "key": "aoi.goldBoard.deviceTreeRenameErrorMessage",
   "zh-CN": "节点名称重复"
  },
  {
+  "en-US": "Rename successful",
   "key": "aoi.goldBoard.deviceTreeRenameSuccessMessage",
   "zh-CN": "重命名成功"
  },
  {
+  "en-US": "Other",
   "key": "aoi.goldBoard.deviceTreeOtherOption",
   "zh-CN": "其他"
  },
  {
+  "en-US": "Passed",
   "key": "aoi.goldBoard.deviceTreePassSuccessMessage",
   "zh-CN": "已通过"
  },
  {
+  "en-US": "Confirmation failed",
   "key": "aoi.goldBoard.deviceTreePassErrorMessage",
   "zh-CN": "确认失败"
  },
  {
+  "en-US": "No matching device ID found",
   "key": "aoi.goldBoard.deviceTreeNotFoundWarningMessage",
   "zh-CN": "未找到匹配的器件ID"
  },
  {
+  "en-US": "Please enter device ID to search",
   "key": "aoi.goldBoard.deviceTreeSearchPlaceholder",
   "zh-CN": "请输入器件ID搜索"
  },
  {
+  "en-US": "Rename",
   "key": "aoi.goldBoard.deviceTreeRenameModalTitle",
   "zh-CN": "重命名"
  },
  {
+  "en-US": "Name cannot be empty",
   "key": "aoi.goldBoard.deviceTreeRenameModalEmptyErrorMessage",
   "zh-CN": "名称不能为空"
  },
  {
+  "en-US": "Name not modified",
   "key": "aoi.goldBoard.deviceTreeRenameModalUnchangedMessage",
   "zh-CN": "名称未修改"
  },
  {
+  "en-US": "Please enter a new name",
   "key": "aoi.goldBoard.deviceTreeRenameModalInputPlaceholder",
   "zh-CN": "请输入新的名称"
  },
  {
+  "en-US": "Passed",
   "key": "aoi.statusMap.Pass",
   "zh-CN": "通过"
  },
  {
+  "en-US": "Not Passed",
   "key": "aoi.statusMap.NotPass",
   "zh-CN": "未通过"
  },
  {
+  "en-US": "Pending",
   "key": "aoi.statusMap.Pending",
   "zh-CN": "待确认"
  },
  {
+  "en-US": "Warning",
   "key": "aoi.statusMap.Warning",
   "zh-CN": "警告"
  },
  {
+  "en-US": "Undetected",
   "key": "aoi.statusMap.Undetected",
   "zh-CN": "未检出"
  },
  {
+  "en-US": "Disabled",
   "key": "aoi.statusMap.Disabled",
   "zh-CN": "不启用"
  },
  {
+  "en-US": "Shape Attributes",
   "key": "aoi.deviceMap.shapeAttributes",
   "zh-CN": "封装框"
  },
  {
+  "en-US": "Polarity Boxes",
   "key": "aoi.deviceMap.polarityBoxes",
   "zh-CN": "极性标"
  },
  {
+  "en-US": "Pad",
   "key": "aoi.deviceMap.pad",
   "zh-CN": "焊盘"
  },
  {
+  "en-US": "Pin",
   "key": "aoi.deviceMap.pin",
   "zh-CN": "引脚"
  },
  {
+  "en-US": "All",
   "key": "aoi.edit.annotationBottomBarAll",
   "zh-CN": "全部"
  }
