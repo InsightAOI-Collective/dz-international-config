@@ -1,6 +1,6 @@
 [
  {
-  "en-US": "",
+  "en-US": "Detection Template",
   "key": "aoi.list.title",
   "th-TH": "",
   "vi-VN": "",
@@ -8,7 +8,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Template Name",
   "key": "aoi.list.projectNameLabel",
   "th-TH": "",
   "vi-VN": "",
@@ -16,7 +16,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Please enter template name",
   "key": "aoi.list.projectNamePlaceholder",
   "th-TH": "",
   "vi-VN": "",
@@ -24,7 +24,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Creation Time",
   "key": "aoi.list.createTimeLabel",
   "th-TH": "",
   "vi-VN": "",
@@ -32,7 +32,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Start Time",
   "key": "aoi.list.createTimeStartPlaceholder",
   "th-TH": "",
   "vi-VN": "",
@@ -40,7 +40,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "End Time",
   "key": "aoi.list.createTimeEndPlaceholder",
   "th-TH": "",
   "vi-VN": "",
@@ -48,7 +48,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Search",
   "key": "aoi.list.btnSearch",
   "th-TH": "",
   "vi-VN": "",
@@ -56,7 +56,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Reset",
   "key": "aoi.list.btnReset",
   "th-TH": "",
   "vi-VN": "",
@@ -64,7 +64,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Confirm Deletion?",
   "key": "aoi.list.delConfirmNodalTitle",
   "th-TH": "",
   "vi-VN": "",
@@ -72,7 +72,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Deleted successfully!",
   "key": "aoi.list.delConfirmNodalSuccessMessage",
   "th-TH": "",
   "vi-VN": "",
@@ -80,7 +80,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Thumbnail",
   "key": "aoi.list.tableColThumbnailUrl",
   "th-TH": "",
   "vi-VN": "",
@@ -88,7 +88,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Template Name",
   "key": "aoi.list.tableColProjectName",
   "th-TH": "",
   "vi-VN": "",
@@ -96,7 +96,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Panel (Rows*Columns)",
   "key": "aoi.list.tableColPanel",
   "th-TH": "",
   "vi-VN": "",
@@ -104,7 +104,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "PCB Size (Length*Width)",
   "key": "aoi.list.tableColPcbSize",
   "th-TH": "",
   "vi-VN": "",
@@ -112,7 +112,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "BOM File",
   "key": "aoi.list.tableColBomFile",
   "th-TH": "",
   "vi-VN": "",
@@ -120,7 +120,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Manufacturer",
   "key": "aoi.list.tableColManufacturer",
   "th-TH": "",
   "vi-VN": "",
@@ -128,7 +128,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Created By",
   "key": "aoi.list.tableColCreateBy",
   "th-TH": "",
   "vi-VN": "",
@@ -136,7 +136,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Creation Time",
   "key": "aoi.list.tableColCreateTime",
   "th-TH": "",
   "vi-VN": "",
@@ -144,7 +144,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Update Time",
   "key": "aoi.list.tableColUpdateTime",
   "th-TH": "",
   "vi-VN": "",
@@ -152,7 +152,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Action",
   "key": "aoi.list.tableColAction",
   "th-TH": "",
   "vi-VN": "",
@@ -160,7 +160,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Start Detection",
   "key": "aoi.list.tableBtnStartDetection",
   "th-TH": "",
   "vi-VN": "",
@@ -168,7 +168,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Edit",
   "key": "aoi.list.tableBtnEdit",
   "th-TH": "",
   "vi-VN": "",
@@ -176,7 +176,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Delete",
   "key": "aoi.list.tableBtnDelete",
   "th-TH": "",
   "vi-VN": "",
@@ -184,7 +184,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Template List",
   "key": "aoi.list.tableTitle",
   "th-TH": "",
   "vi-VN": "",
@@ -192,7 +192,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "New Template",
   "key": "aoi.list.btnAddTpl",
   "th-TH": "",
   "vi-VN": "",
@@ -200,7 +200,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Total {total} records",
   "key": "aoi.list.tableShowTotal",
   "th-TH": "",
   "vi-VN": "",
@@ -208,7 +208,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "New Template",
   "key": "aoi.edit.newTitle",
   "th-TH": "",
   "vi-VN": "",
@@ -216,7 +216,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Edit Template",
   "key": "aoi.edit.editTitle",
   "th-TH": "",
   "vi-VN": "",
@@ -224,7 +224,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Custom Template",
   "key": "aoi.edit.basicInfoProjectName",
   "th-TH": "",
   "vi-VN": "",
@@ -232,7 +232,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Please complete capture",
   "key": "aoi.edit.captureErrorMessage",
   "th-TH": "",
   "vi-VN": "",
@@ -240,7 +240,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Algorithm is parsing, please wait",
   "key": "aoi.edit.captureParsingMessage",
   "th-TH": "",
   "vi-VN": "",
@@ -248,7 +248,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Failed to save template, please try again later",
   "key": "aoi.edit.saveErrorMessage",
   "th-TH": "",
   "vi-VN": "",
@@ -256,7 +256,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Basic Information",
   "key": "aoi.edit.basicInfoTitle",
   "th-TH": "",
   "vi-VN": "",
@@ -264,7 +264,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Import CAD",
   "key": "aoi.edit.cadInfoTitle",
   "th-TH": "",
   "vi-VN": "",
@@ -272,7 +272,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Capture Gold Board",
   "key": "aoi.edit.cameraInfoTitle",
   "th-TH": "",
   "vi-VN": "",
@@ -280,7 +280,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Gold Board Parsing Progress",
   "key": "aoi.edit.goldBoardProgress",
   "th-TH": "",
   "vi-VN": "",
@@ -288,7 +288,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Gold Board Programming",
   "key": "aoi.edit.btnGoldBoardProgramming",
   "th-TH": "",
   "vi-VN": "",
@@ -296,7 +296,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Save Template",
   "key": "aoi.edit.btnSaveTemplate",
   "th-TH": "",
   "vi-VN": "",
@@ -304,7 +304,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Save successful",
   "key": "aoi.edit.saveModalTitle",
   "th-TH": "",
   "vi-VN": "",
@@ -312,7 +312,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Back to List",
   "key": "aoi.edit.btnBackToList",
   "th-TH": "",
   "vi-VN": "",
@@ -320,7 +320,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Start Detection",
   "key": "aoi.edit.btnModalStartDetection",
   "th-TH": "",
   "vi-VN": "",
@@ -328,7 +328,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Template Name",
   "key": "aoi.edit.basicInfoProjectNameLabel",
   "th-TH": "",
   "vi-VN": "",
@@ -336,7 +336,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Please enter template name",
   "key": "aoi.edit.basicInfoProjectNamePlaceholder",
   "th-TH": "",
   "vi-VN": "",
@@ -344,7 +344,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "PCB Type",
   "key": "aoi.edit.basicInfoPcbTypeLabel",
   "th-TH": "",
   "vi-VN": "",
@@ -352,7 +352,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Please enter PCB type",
   "key": "aoi.edit.basicInfoPcbTypePlaceholder",
   "th-TH": "",
   "vi-VN": "",
@@ -360,7 +360,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Manufacturer",
   "key": "aoi.edit.basicInfoManufacturerLabel",
   "th-TH": "",
   "vi-VN": "",
@@ -368,7 +368,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Please enter manufacturer name",
   "key": "aoi.edit.basicInfoManufacturerPlaceholder",
   "th-TH": "",
   "vi-VN": "",
@@ -376,7 +376,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Gold Board Length",
   "key": "aoi.edit.basicInfoGoldBoardLengthLabel",
   "th-TH": "",
   "vi-VN": "",
@@ -384,7 +384,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Please enter gold board length",
   "key": "aoi.edit.basicInfoGoldBoardLengthPlaceholder",
   "th-TH": "",
   "vi-VN": "",
@@ -392,7 +392,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Gold Board Width",
   "key": "aoi.edit.basicInfoGoldBoardWidthLabel",
   "th-TH": "",
   "vi-VN": "",
@@ -400,7 +400,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Please enter gold board width",
   "key": "aoi.edit.basicInfoGoldBoardWidthPlaceholder",
   "th-TH": "",
   "vi-VN": "",
@@ -408,7 +408,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "BOM Information",
   "key": "aoi.edit.basicInfoBomFileLabel",
   "th-TH": "",
   "vi-VN": "",
@@ -416,7 +416,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Please enter BOM information",
   "key": "aoi.edit.basicInfoBomFilePlaceholder",
   "th-TH": "",
   "vi-VN": "",
@@ -424,7 +424,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Panel Rows",
   "key": "aoi.edit.basicInfoPanelRowsLabel",
   "th-TH": "",
   "vi-VN": "",
@@ -432,7 +432,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Please enter panel rows",
   "key": "aoi.edit.basicInfoPanelRowsPlaceholder",
   "th-TH": "",
   "vi-VN": "",
@@ -440,7 +440,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Panel Columns",
   "key": "aoi.edit.basicInfoPanelColumnsLabel",
   "th-TH": "",
   "vi-VN": "",
@@ -448,7 +448,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Please enter panel columns",
   "key": "aoi.edit.basicInfoPanelColumnsPlaceholder",
   "th-TH": "",
   "vi-VN": "",
@@ -456,7 +456,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Additional Information",
   "key": "aoi.edit.basicInfoAdditionalInfoLabel",
   "th-TH": "",
   "vi-VN": "",
@@ -464,7 +464,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Please enter additional information",
   "key": "aoi.edit.basicInfoAdditionalInfoPlaceholder",
   "th-TH": "",
   "vi-VN": "",
@@ -472,7 +472,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Gold board capture completed",
   "key": "aoi.edit.cameraInfoShootFinishMessage",
   "th-TH": "",
   "vi-VN": "",
@@ -480,7 +480,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Track Width / Gold Board Width",
   "key": "aoi.edit.cameraInfoGoldBoardWidthLabel",
   "th-TH": "",
   "vi-VN": "",
@@ -488,7 +488,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Please enter track width / gold board width",
   "key": "aoi.edit.cameraInfoGoldBoardWidthPlaceholder",
   "th-TH": "",
   "vi-VN": "",
@@ -496,7 +496,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Apply",
   "key": "aoi.edit.cameraInfoBtnGoldBoardWidthApply",
   "th-TH": "",
   "vi-VN": "",
@@ -504,7 +504,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Gold Board In/Out",
   "key": "aoi.edit.cameraInfoGoldBoardInOutLabel",
   "th-TH": "",
   "vi-VN": "",
@@ -512,7 +512,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Gold Board In",
   "key": "aoi.edit.cameraInfoBtnGoldBoardIn",
   "th-TH": "",
   "vi-VN": "",
@@ -520,7 +520,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Gold Board Out",
   "key": "aoi.edit.cameraInfoBtnGoldBoardOut",
   "th-TH": "",
   "vi-VN": "",
@@ -528,7 +528,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Capture Gold Board Image",
   "key": "aoi.edit.cameraInfoCaptureGoldBoardLabel",
   "th-TH": "",
   "vi-VN": "",
@@ -536,7 +536,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Capture",
   "key": "aoi.edit.cameraInfoBtnCapture",
   "th-TH": "",
   "vi-VN": "",
@@ -544,7 +544,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Stop",
   "key": "aoi.edit.cameraInfoBtnStop",
   "th-TH": "",
   "vi-VN": "",
@@ -552,7 +552,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Index",
   "key": "aoi.edit.cadInfoTableColIndex",
   "th-TH": "",
   "vi-VN": "",
@@ -560,7 +560,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Center Point X",
   "key": "aoi.edit.cadInfoTableColCenterPointX",
   "th-TH": "",
   "vi-VN": "",
@@ -568,7 +568,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Center Point Y",
   "key": "aoi.edit.cadInfoTableColCenterPointY",
   "th-TH": "",
   "vi-VN": "",
@@ -576,7 +576,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Rotation Angle",
   "key": "aoi.edit.cadInfoTableColRotationAngle",
   "th-TH": "",
   "vi-VN": "",
@@ -584,7 +584,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Component Code",
   "key": "aoi.edit.cadInfoTableColComponentCode",
   "th-TH": "",
   "vi-VN": "",
@@ -592,7 +592,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Material Code",
   "key": "aoi.edit.cadInfoTableColMaterialCode",
   "th-TH": "",
   "vi-VN": "",
@@ -600,7 +600,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Panel",
   "key": "aoi.edit.cadInfoTableColPanel",
   "th-TH": "",
   "vi-VN": "",
@@ -608,7 +608,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "mm",
   "key": "aoi.edit.cadInfoUnitMMOption",
   "th-TH": "",
   "vi-VN": "",
@@ -616,7 +616,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Inch",
   "key": "aoi.edit.cadInfoUnitINOption",
   "th-TH": "",
   "vi-VN": "",
@@ -624,7 +624,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Mil",
   "key": "aoi.edit.cadInfoUnitMILOption",
   "th-TH": "",
   "vi-VN": "",
@@ -632,7 +632,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Pending upload",
   "key": "aoi.edit.cadInfoParseStatus",
   "th-TH": "",
   "vi-VN": "",
@@ -640,7 +640,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Uploading in progress",
   "key": "aoi.edit.cadInfoParseStatusUploading",
   "th-TH": "",
   "vi-VN": "",
@@ -648,7 +648,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Parsing in progress",
   "key": "aoi.edit.cadInfoParseStatusParsing",
   "th-TH": "",
   "vi-VN": "",
@@ -656,7 +656,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Parsing successful",
   "key": "aoi.edit.cadInfoParseStatusFinish",
   "th-TH": "",
   "vi-VN": "",
@@ -664,7 +664,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "File size cannot exceed 100MB",
   "key": "aoi.edit.cadInfoFileSizeLimitMessage",
   "th-TH": "",
   "vi-VN": "",
@@ -672,7 +672,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "File type error",
   "key": "aoi.edit.cadInfoFileTypeErrorMessage",
   "th-TH": "",
   "vi-VN": "",
@@ -680,7 +680,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "File parsing failed",
   "key": "aoi.edit.cadInfoFileParseErrorMessage",
   "th-TH": "",
   "vi-VN": "",
@@ -688,7 +688,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "File upload failed",
   "key": "aoi.edit.cadInfoFileUploadErrorMessage",
   "th-TH": "",
   "vi-VN": "",
@@ -696,7 +696,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Please upload CAD file",
   "key": "aoi.edit.cadInfoFileUploadMessage",
   "th-TH": "",
   "vi-VN": "",
@@ -704,7 +704,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Drag file here or click to upload",
   "key": "aoi.edit.cadInfoFileDragTip",
   "th-TH": "",
   "vi-VN": "",
@@ -712,7 +712,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Only txt/csv files can be uploaded, and the size must not exceed 100MB",
   "key": "aoi.edit.cadInfoFileSizeLimitTip",
   "th-TH": "",
   "vi-VN": "",
@@ -720,7 +720,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "File uploading in progress",
   "key": "aoi.edit.cadInfoFileUploadingStatus",
   "th-TH": "",
   "vi-VN": "",
@@ -728,7 +728,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "File parsing in progress",
   "key": "aoi.edit.cadInfoFileParsingStatus",
   "th-TH": "",
   "vi-VN": "",
@@ -736,7 +736,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Reset",
   "key": "aoi.edit.cadInfoBtnReset",
   "th-TH": "",
   "vi-VN": "",
@@ -744,7 +744,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Import Settings",
   "key": "aoi.edit.cadInfoImportSettingsLabel",
   "th-TH": "",
   "vi-VN": "",
@@ -752,7 +752,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Select All Lines",
   "key": "aoi.edit.cadInfoSelectAllLines",
   "th-TH": "",
   "vi-VN": "",
@@ -760,7 +760,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Start Line",
   "key": "aoi.edit.cadInfoStartLineLabel",
   "th-TH": "",
   "vi-VN": "",
@@ -768,7 +768,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "End Line",
   "key": "aoi.edit.cadInfoEndLineLabel",
   "th-TH": "",
   "vi-VN": "",
@@ -776,7 +776,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Length Unit",
   "key": "aoi.edit.cadInfoLengthUnitLabel",
   "th-TH": "",
   "vi-VN": "",
@@ -784,7 +784,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Charset",
   "key": "aoi.edit.cadInfoCharsetLabel",
   "th-TH": "",
   "vi-VN": "",
@@ -792,7 +792,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Are you sure you want to leave this page?",
   "key": "aoi.edit.leaveConfirmTitle",
   "th-TH": "",
   "vi-VN": "",
@@ -800,7 +800,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "You have unsaved edits. Leaving this page will lose changes.",
   "key": "aoi.edit.leaveConfirmContent",
   "th-TH": "",
   "vi-VN": "",
@@ -808,7 +808,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Save successful",
   "key": "aoi.goldBoard.saveSuccessMessage",
   "th-TH": "",
   "vi-VN": "",
@@ -816,7 +816,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Save failed",
   "key": "aoi.goldBoard.saveErrorMessage",
   "th-TH": "",
   "vi-VN": "",
@@ -824,7 +824,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Toggle Light Source",
   "key": "aoi.goldBoard.AnnotationBtnLight",
   "th-TH": "",
   "vi-VN": "",
@@ -832,7 +832,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Save",
   "key": "aoi.goldBoard.AnnotationBtnSave",
   "th-TH": "",
   "vi-VN": "",
@@ -840,7 +840,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Enable",
   "key": "aoi.goldBoard.deviceTreeEnableOption",
   "th-TH": "",
   "vi-VN": "",
@@ -848,7 +848,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Disable",
   "key": "aoi.goldBoard.deviceTreeDisableOption",
   "th-TH": "",
   "vi-VN": "",
@@ -856,7 +856,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Rename",
   "key": "aoi.goldBoard.deviceTreeRenameOption",
   "th-TH": "",
   "vi-VN": "",
@@ -864,7 +864,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Duplicate node name",
   "key": "aoi.goldBoard.deviceTreeRenameErrorMessage",
   "th-TH": "",
   "vi-VN": "",
@@ -872,7 +872,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Rename successful",
   "key": "aoi.goldBoard.deviceTreeRenameSuccessMessage",
   "th-TH": "",
   "vi-VN": "",
@@ -880,7 +880,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Other",
   "key": "aoi.goldBoard.deviceTreeOtherOption",
   "th-TH": "",
   "vi-VN": "",
@@ -888,7 +888,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Passed",
   "key": "aoi.goldBoard.deviceTreePassSuccessMessage",
   "th-TH": "",
   "vi-VN": "",
@@ -896,7 +896,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Confirmation failed",
   "key": "aoi.goldBoard.deviceTreePassErrorMessage",
   "th-TH": "",
   "vi-VN": "",
@@ -904,7 +904,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "No matching device ID found",
   "key": "aoi.goldBoard.deviceTreeNotFoundWarningMessage",
   "th-TH": "",
   "vi-VN": "",
@@ -912,7 +912,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Please enter device ID to search",
   "key": "aoi.goldBoard.deviceTreeSearchPlaceholder",
   "th-TH": "",
   "vi-VN": "",
@@ -920,7 +920,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Rename",
   "key": "aoi.goldBoard.deviceTreeRenameModalTitle",
   "th-TH": "",
   "vi-VN": "",
@@ -928,7 +928,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Name cannot be empty",
   "key": "aoi.goldBoard.deviceTreeRenameModalEmptyErrorMessage",
   "th-TH": "",
   "vi-VN": "",
@@ -936,7 +936,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Name not modified",
   "key": "aoi.goldBoard.deviceTreeRenameModalUnchangedMessage",
   "th-TH": "",
   "vi-VN": "",
@@ -944,7 +944,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Please enter a new name",
   "key": "aoi.goldBoard.deviceTreeRenameModalInputPlaceholder",
   "th-TH": "",
   "vi-VN": "",
@@ -952,7 +952,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Passed",
   "key": "aoi.statusMap.Pass",
   "th-TH": "",
   "vi-VN": "",
@@ -960,7 +960,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Not Passed",
   "key": "aoi.statusMap.NotPass",
   "th-TH": "",
   "vi-VN": "",
@@ -968,7 +968,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Pending",
   "key": "aoi.statusMap.Pending",
   "th-TH": "",
   "vi-VN": "",
@@ -976,7 +976,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Warning",
   "key": "aoi.statusMap.Warning",
   "th-TH": "",
   "vi-VN": "",
@@ -984,7 +984,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Undetected",
   "key": "aoi.statusMap.Undetected",
   "th-TH": "",
   "vi-VN": "",
@@ -992,7 +992,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Disabled",
   "key": "aoi.statusMap.Disabled",
   "th-TH": "",
   "vi-VN": "",
@@ -1000,7 +1000,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Shape Attributes",
   "key": "aoi.deviceMap.shapeAttributes",
   "th-TH": "",
   "vi-VN": "",
@@ -1008,7 +1008,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Polarity Boxes",
   "key": "aoi.deviceMap.polarityBoxes",
   "th-TH": "",
   "vi-VN": "",
@@ -1016,7 +1016,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Pad",
   "key": "aoi.deviceMap.pad",
   "th-TH": "",
   "vi-VN": "",
@@ -1024,7 +1024,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Pin",
   "key": "aoi.deviceMap.pin",
   "th-TH": "",
   "vi-VN": "",
@@ -1032,7 +1032,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "All",
   "key": "aoi.edit.annotationBottomBarAll",
   "th-TH": "",
   "vi-VN": "",

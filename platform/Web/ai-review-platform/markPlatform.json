@@ -1,6 +1,6 @@
 [
  {
-  "en-US": "",
+  "en-US": "Exit Annotation Platform",
   "key": "markPlatform.exitModalTitle",
   "th-TH": "",
   "vi-VN": "",
@@ -8,7 +8,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Confirm",
   "key": "markPlatform.exitModalBtnConfirm",
   "th-TH": "",
   "vi-VN": "",
@@ -16,7 +16,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "No more data, exiting soon.",
   "key": "markPlatform.exitModalContent",
   "th-TH": "",
   "vi-VN": "",
@@ -24,7 +24,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Unsaved Changes",
   "key": "markPlatform.unSaveModalTitle",
   "th-TH": "",
   "vi-VN": "",
@@ -32,7 +32,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "You have unsaved changes. Are you sure you want to leave?",
   "key": "markPlatform.unSaveModalContent",
   "th-TH": "",
   "vi-VN": "",
@@ -40,7 +40,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Save successful",
   "key": "markPlatform.ButtonList.saveSuccessMessage",
   "th-TH": "",
   "vi-VN": "",
@@ -48,7 +48,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Audit completed",
   "key": "markPlatform.ButtonList.auditSuccessMessage",
   "th-TH": "",
   "vi-VN": "",
@@ -56,7 +56,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Reject",
   "key": "markPlatform.ButtonList.btnReject",
   "th-TH": "",
   "vi-VN": "",
@@ -64,7 +64,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Pass",
   "key": "markPlatform.ButtonList.btnPass",
   "th-TH": "",
   "vi-VN": "",
@@ -72,7 +72,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Skip",
   "key": "markPlatform.ButtonList.btnSkip",
   "th-TH": "",
   "vi-VN": "",
@@ -80,7 +80,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Save",
   "key": "markPlatform.ButtonList.btnSave",
   "th-TH": "",
   "vi-VN": "",
@@ -88,7 +88,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Confirm",
   "key": "markPlatform.ShapeList.btnConfirm",
   "th-TH": "",
   "vi-VN": "",
@@ -96,7 +96,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Current Tag",
   "key": "markPlatform.ShapeList.title",
   "th-TH": "",
   "vi-VN": "",
@@ -104,7 +104,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Tag Filter",
   "key": "markPlatform.ShapeList.filterTitle",
   "th-TH": "",
   "vi-VN": "",
@@ -112,7 +112,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Delete Annotations",
   "key": "markPlatform.ShapeList.delTitle",
   "th-TH": "",
   "vi-VN": "",
@@ -120,7 +120,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Delete all annotations?",
   "key": "markPlatform.ShapeList.delDescription",
   "th-TH": "",
   "vi-VN": "",
@@ -128,7 +128,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Confirm",
   "key": "markPlatform.ShapeList.delConfirm",
   "th-TH": "",
   "vi-VN": "",
@@ -136,7 +136,7 @@
   "zh-TW": ""
  },
  {
-  "en-US": "",
+  "en-US": "Cancel",
   "key": "markPlatform.ShapeList.delCancel",
   "th-TH": "",
   "vi-VN": "",
