@@ -1,7 +1,11 @@
 [
  {
+  "en-US": "Amount",
   "key": "Amount",
-  "zh-CN": "数量"
+  "th-TH": "จำนวน",
+  "vi-VN": "Số lượng",
+  "zh-CN": "数量",
+  "zh-TW": "數量"
  },
  {
   "en-US": "You have unsaved changes. Are you sure you want to leave?",
