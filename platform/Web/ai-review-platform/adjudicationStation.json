@@ -1,5 +1,9 @@
 [
  {
+  "key": "test",
+  "zh-CN": "测试"
+ },
+ {
   "key": "action",
   "zh-CN": "操作"
  },
