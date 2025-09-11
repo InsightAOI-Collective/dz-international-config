@@ -1,5 +1,9 @@
 [
  {
+  "key": "Amount",
+  "zh-CN": "数量"
+ },
+ {
   "en-US": "You have unsaved changes. Are you sure you want to leave?",
   "key": "adjudicationStation.GridLayout.confirmUnsavedMessage",
   "th-TH": "คุณมีการเปลี่ยนแปลงที่ยังไม่ได้บันทึก, ยืนยันที่จะออกหรือไม่",
