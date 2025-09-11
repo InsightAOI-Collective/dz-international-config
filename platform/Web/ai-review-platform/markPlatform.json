@@ -1,73 +1,91 @@
 [
  {
+  "en-US": "Exit Annotation Platform",
   "key": "markPlatform.exitModalTitle",
   "zh-CN": "退出标注平台"
  },
  {
+  "en-US": "Confirm",
   "key": "markPlatform.exitModalBtnConfirm",
   "zh-CN": "确定"
  },
  {
+  "en-US": "No more data, exiting soon.",
   "key": "markPlatform.exitModalContent",
   "zh-CN": "没有更多数据，即将退出"
  },
  {
+  "en-US": "Unsaved Changes",
   "key": "markPlatform.unSaveModalTitle",
   "zh-CN": "未保存"
  },
  {
+  "en-US": "You have unsaved changes. Are you sure you want to leave?",
   "key": "markPlatform.unSaveModalContent",
   "zh-CN": "你有未保存的修改，确认要离开吗？"
  },
  {
+  "en-US": "Save successful",
   "key": "markPlatform.ButtonList.saveSuccessMessage",
   "zh-CN": "保存成功"
  },
  {
+  "en-US": "Audit completed",
   "key": "markPlatform.ButtonList.auditSuccessMessage",
   "zh-CN": "审核完成"
  },
  {
+  "en-US": "Reject",
   "key": "markPlatform.ButtonList.btnReject",
   "zh-CN": "驳回"
  },
  {
+  "en-US": "Pass",
   "key": "markPlatform.ButtonList.btnPass",
   "zh-CN": "通过"
  },
  {
+  "en-US": "Skip",
   "key": "markPlatform.ButtonList.btnSkip",
   "zh-CN": "跳过"
  },
  {
+  "en-US": "Save",
   "key": "markPlatform.ButtonList.btnSave",
   "zh-CN": "保存"
  },
  {
+  "en-US": "Confirm",
   "key": "markPlatform.ShapeList.btnConfirm",
   "zh-CN": "确定"
  },
  {
+  "en-US": "Current Tag",
   "key": "markPlatform.ShapeList.title",
   "zh-CN": "当前标签"
  },
  {
+  "en-US": "Tag Filter",
   "key": "markPlatform.ShapeList.filterTitle",
   "zh-CN": "标签筛选"
  },
  {
+  "en-US": "Delete Annotations",
   "key": "markPlatform.ShapeList.delTitle",
   "zh-CN": "删除标注"
  },
  {
+  "en-US": "Delete all annotations?",
   "key": "markPlatform.ShapeList.delDescription",
   "zh-CN": "是否删除全部标注?"
  },
  {
+  "en-US": "Confirm",
   "key": "markPlatform.ShapeList.delConfirm",
   "zh-CN": "确定"
  },
  {
+  "en-US": "Cancel",
   "key": "markPlatform.ShapeList.delCancel",
   "zh-CN": "取消"
  }

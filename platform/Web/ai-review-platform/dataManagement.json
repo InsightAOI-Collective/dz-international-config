@@ -1,513 +1,641 @@
 [
  {
+  "en-US": "",
   "key": "dataManagement.managementList.title",
   "zh-CN": "管理列表"
  },
  {
+  "en-US": "",
   "key": "dataManagement.annotationList.title",
   "zh-CN": "标注列表"
  },
  {
+  "en-US": "",
   "key": "dataManagement.auditList.title",
   "zh-CN": "审核列表"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.searchBatchNameLabel",
   "zh-CN": "批次名"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.searchBatchNamePlaceholder",
   "zh-CN": "请输入批次名"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.searchBatchStatusLabel",
   "zh-CN": "批次状态"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.searchBatchStatusPlaceholder",
   "zh-CN": "请选择批次状态"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.searchCreateTimeLabel",
   "zh-CN": "创建时间"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.searchStartCreateTimePlaceholder",
   "zh-CN": "开始时间"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.searchEndCreateTimePlaceholder",
   "zh-CN": "结束时间"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.searchCreateUserIdLabel",
   "zh-CN": "创建人"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.searchCreateUserIdPlaceholder",
   "zh-CN": "请选择创建人"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.searchMarkUserIdLabel",
   "zh-CN": "标注人"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.searchMarkUserIdPlaceholder",
   "zh-CN": "请选择标注人"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.searchAuditUserIdLabel",
   "zh-CN": "审核人"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.searchAuditUserIdPlaceholder",
   "zh-CN": "请选择审核人"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.searchButton",
   "zh-CN": "查询"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.searchBtnReset",
   "zh-CN": "重置"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.createBatchSuccessMessage",
   "zh-CN": "批次创建成功"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.submitBatchSuccessMessage",
   "zh-CN": "批次提交审核成功"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.auditBatchSuccessMessage",
   "zh-CN": "批次审核通过成功"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.auditBatchFailedMessage",
   "zh-CN": "批次审核驳回成功"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.delBatchSuccessMessage",
   "zh-CN": "批次删除成功"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.auditBatchWarningMessage",
   "zh-CN": "请至少选择一个批次进行审核"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.submitBatchWarningMessage",
   "zh-CN": "请至少选择一个批次进行提交"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.btnDel",
   "zh-CN": "删除"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.btnPass",
   "zh-CN": "通过"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.btnReject",
   "zh-CN": "驳回"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.btnSubmit",
   "zh-CN": "提交审核"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.updateSuccessMessage",
   "zh-CN": "更新成功"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.tableColBatchName",
   "zh-CN": "批次名"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.tableColCreateUser",
   "zh-CN": "创建人"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.tableColImageCount",
   "zh-CN": "图片数量"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.tableColBatchStatus",
   "zh-CN": "批次状态"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.tableColMarkUser",
   "zh-CN": "标注人"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.tableColMarkUserPlaceholder",
   "zh-CN": "请选择标注人"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.tableColAuditUser",
   "zh-CN": "审核人"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.tableColAuditUserPlaceholder",
   "zh-CN": "请选择审核人"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.tableColTagType",
   "zh-CN": "标签类型"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.tableColTagTypePlaceholder",
   "zh-CN": "请选择标签类型"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.tableColTagTypeOption1",
   "zh-CN": "检测标签"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.tableColTagTypeOption2",
   "zh-CN": "分类标签"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.tableColCreateTime",
   "zh-CN": "创建时间"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.tableColOperation",
   "zh-CN": "操作"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.btnDetail",
   "zh-CN": "详情"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.delBatchWarningMessage",
   "zh-CN": "请至少选择一个批次进行删除"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.tableShowTotal",
   "zh-CN": "共 {total} 条记录"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.delBatchConfirmMessage",
   "zh-CN": "确认要删除选中的批次吗？"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.delBatchConfirmMessageDetail",
   "zh-CN": "删除后将无法恢复，请谨慎操作!"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.btnCancel",
   "zh-CN": "取消"
  },
  {
+  "en-US": "",
   "key": "dataManagement.list.btnConfirm",
   "zh-CN": "确认"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.searchDatasetOption1",
   "zh-CN": "测试集"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.searchDatasetOption2",
   "zh-CN": "非测试集"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.searchMarkTimeLabel",
   "zh-CN": "标注时间"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.searchStartMarkTimePlaceholder",
   "zh-CN": "开始时间"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.searchEndMarkTimePlaceholder",
   "zh-CN": "结束时间"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.searchAuditTimeLabel",
   "zh-CN": "审核时间"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.searchStartAuditTimePlaceholder",
   "zh-CN": "开始时间"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.searchEndAuditTimePlaceholder",
   "zh-CN": "结束时间"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.searchMarkStatusLabel",
   "zh-CN": "标注状态"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.searchMarkStatusPlaceholder",
   "zh-CN": "请选择标注状态"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.searchAuditStatusLabel",
   "zh-CN": "审核状态"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.searchAuditStatusPlaceholder",
   "zh-CN": "请选择审核状态"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.searchDatasetTypeLabel",
   "zh-CN": "数据集类型"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.searchDatasetTypePlaceholder",
   "zh-CN": "请选择数据集类型"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.searchButton",
   "zh-CN": "查询"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.searchBtnReset",
   "zh-CN": "重置"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.uploadFileFormatMessage",
   "zh-CN": "仅支持png/jpg/jpeg格式的图片"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.delDuplicateImagesMessage",
   "zh-CN": "已删除重复图片"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.uploadSuccessMessage",
   "zh-CN": "上传成功，共{count}张{failCount \u003e 0 ? `，失败${failCount}张` : ''}"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.btnBatchDelete",
   "zh-CN": "批量删除"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.uploadButton",
   "zh-CN": "上传"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.btnBatchAudit",
   "zh-CN": "批量审核"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.btnBatchMark",
   "zh-CN": "批量标注"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.tableColImageName",
   "zh-CN": "图片名称"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.tableColIsDuplicate",
   "zh-CN": "是否重复"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.tableColIsDuplicateYes",
   "zh-CN": "重复"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.tableColIsDuplicateNo",
   "zh-CN": "未重复"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.tableColOperation",
   "zh-CN": "操作"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.tableColOperationDelete",
   "zh-CN": "删除"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.title",
   "zh-CN": "图片列表"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.uploadModalTitle",
   "zh-CN": "图片上传"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.uploadModalFilesLabel",
   "zh-CN": "上传图片"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.uploadModalFilesErrorMessage",
   "zh-CN": "请输入批次名前缀"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.uploadModalBtnChooseImage",
   "zh-CN": "选择图片"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.uploadModalBtnChooseFolder",
   "zh-CN": "选择文件夹"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.uploadModalDuplicateTip",
   "zh-CN": "提示：当前上传存在重复图片，点此"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.uploadModalDuplicateTipLink",
   "zh-CN": "一键删除"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.uploadModalDuplicateTipDescription",
   "zh-CN": "图层重复图片"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.uploadModalDuplicateTipSummary",
   "zh-CN": "已选择 {length} 张图片，{duplicateCount}张重复"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.uploadModalBtnCancel",
   "zh-CN": "取消"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.uploadModalBtnUpload",
   "zh-CN": "开始上传"
  },
  {
+  "en-US": "",
   "key": "dataManagement.batchListAction.btnDeleteBatch",
   "zh-CN": "批量删除"
  },
  {
+  "en-US": "",
   "key": "dataManagement.batchListAction.btnCreateBatch",
   "zh-CN": "创建批次"
  },
  {
+  "en-US": "",
   "key": "dataManagement.batchListAction.btnRejectAudit",
   "zh-CN": "驳回审核"
  },
  {
+  "en-US": "",
   "key": "dataManagement.batchListAction.btnPassAudit",
   "zh-CN": "通过审核"
  },
  {
+  "en-US": "",
   "key": "dataManagement.batchListAction.btnSubmit",
   "zh-CN": "提交审核"
  },
  {
+  "en-US": "",
   "key": "dataManagement.batchListAction.title",
   "zh-CN": "批次列表"
  },
  {
+  "en-US": "",
   "key": "dataManagement.batchListAction.modalTitle",
   "zh-CN": "创建批次"
  },
  {
+  "en-US": "",
   "key": "dataManagement.batchListAction.modalBatchLabel",
   "zh-CN": "批次名前缀"
  },
  {
+  "en-US": "",
   "key": "dataManagement.batchListAction.modalBatchMessage",
   "zh-CN": "请输入批次名前缀"
  },
  {
+  "en-US": "",
   "key": "dataManagement.batchListAction.modalBatchPlaceholder",
   "zh-CN": "请输入批次名前缀，例如：0718_电阻_多锡"
  },
  {
+  "en-US": "",
   "key": "dataManagement.batchListAction.modalBtnCancel",
   "zh-CN": "取消"
  },
  {
+  "en-US": "",
   "key": "dataManagement.batchListAction.modalBtnConfirm",
   "zh-CN": "创建"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.delImageSuccessMessage",
   "zh-CN": "图片删除成功"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.setImageSuccessMessage",
   "zh-CN": "设置成功"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.btnSetTestCollection",
   "zh-CN": "设置测试集"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.btnDel",
   "zh-CN": "删除"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.btnAudit",
   "zh-CN": "审核"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.btnMark",
   "zh-CN": "标注"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.listTableColImageName",
   "zh-CN": "图片名称"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.listTableColUploadUser",
   "zh-CN": "上传人"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.listTableColMarkStatus",
   "zh-CN": "标注状态"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.listTableColAuditStatus",
   "zh-CN": "审核状态"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.listTableColMarkTime",
   "zh-CN": "标注时间"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.listTableColAuditTime",
   "zh-CN": "审核时间"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.listTableColDatasetType",
   "zh-CN": "数据集类型"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.listTableColDatasetTypeOption1",
   "zh-CN": "测试集"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.listTableColOperation",
   "zh-CN": "操作"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.delWarningMessage",
   "zh-CN": "请至少选择1张图片进行删除"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.auditWarningMessage",
   "zh-CN": "请至少选择1张图片进行审核"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.markWarningMessage",
   "zh-CN": "请至少选择1张图片进行标注"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.tableShowTotal",
   "zh-CN": "共{total}记录"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.btnBack",
   "zh-CN": "返回上一级"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.delModalTitle",
   "zh-CN": "确认要删除选中的图片吗？"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.delModalContent",
   "zh-CN": "删除后将无法恢复，请谨慎操作!"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.delModalCancel",
   "zh-CN": "取消"
  },
  {
+  "en-US": "",
   "key": "dataManagement.imageList.delModalConfirm",
   "zh-CN": "确认"
  }

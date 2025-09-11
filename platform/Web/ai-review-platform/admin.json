@@ -1,469 +1,586 @@
 [
  {
+  "en-US": "Account Management",
   "key": "admin.Account.title",
   "zh-CN": "账户管理"
  },
  {
+  "en-US": "Username",
   "key": "admin.Account.formNicknameLabel",
   "zh-CN": "用户名"
  },
  {
+  "en-US": "Please enter username",
   "key": "admin.Account.formNicknamePlaceholder",
   "zh-CN": "请输入用户名"
  },
  {
+  "en-US": "Account (Employee ID)",
   "key": "admin.Account.formUsernameLabel",
   "zh-CN": "账户（工号）"
  },
  {
+  "en-US": "Please enter account (employee ID)",
   "key": "admin.Account.formUsernamePlaceholder",
   "zh-CN": "请输入账户（工号）"
  },
  {
+  "en-US": "Role",
   "key": "admin.Account.formRoleLabel",
   "zh-CN": "角色"
  },
  {
+  "en-US": "Please select role",
   "key": "admin.Account.formRolePlaceholder",
   "zh-CN": "请选择角色"
  },
  {
+  "en-US": "Status",
   "key": "admin.Account.formStatusLabel",
   "zh-CN": "状态"
  },
  {
+  "en-US": "Please select status",
   "key": "admin.Account.formStatusPlaceholder",
   "zh-CN": "请选择状态"
  },
  {
+  "en-US": "Creation Time",
   "key": "admin.Account.formCreateTimeLabel",
   "zh-CN": "创建时间"
  },
  {
+  "en-US": "Start Time",
   "key": "admin.Account.formCreateTimeStartPlaceholder",
   "zh-CN": "开始时间"
  },
  {
+  "en-US": "End Time",
   "key": "admin.Account.formCreateTimeEndPlaceholder",
   "zh-CN": "结束时间"
  },
  {
+  "en-US": "Search",
   "key": "admin.Account.formBtnSearch",
   "zh-CN": "搜索"
  },
  {
+  "en-US": "Reset",
   "key": "admin.Account.formBtnReset",
   "zh-CN": "重置"
  },
  {
+  "en-US": "Account List",
   "key": "admin.Account.listTitle",
   "zh-CN": "账户列表"
  },
  {
+  "en-US": "Add",
   "key": "admin.Account.listBtnAdd",
   "zh-CN": "添加"
  },
  {
+  "en-US": "Total ${total} records",
   "key": "admin.Account.listTotal",
   "zh-CN": "共 ${total} 条记录"
  },
  {
+  "en-US": "Add User",
   "key": "admin.Account.addModalTitle",
   "zh-CN": "添加用户"
  },
  {
+  "en-US": "Account (Employee ID)",
   "key": "admin.Account.addModalFormAccountLabel",
   "zh-CN": "账号(工号)"
  },
  {
+  "en-US": "Please enter account",
   "key": "admin.Account.addModalFormAccountPlaceholder",
   "zh-CN": "请输入账号"
  },
  {
+  "en-US": "Account length should be 6-20 characters",
   "key": "admin.Account.addModalFormAccountRules",
   "zh-CN": "账号长度应为 6-20 个字符"
  },
  {
+  "en-US": "Account only supports English letters and numbers",
   "key": "admin.Account.addModalFormAccountExtra",
   "zh-CN": "账号仅支持英文、数字"
  },
  {
+  "en-US": "Username",
   "key": "admin.Account.addModalFormNicknameLabel",
   "zh-CN": "用户名"
  },
  {
+  "en-US": "Please enter username (optional)",
   "key": "admin.Account.addModalFormNicknamePlaceholder",
   "zh-CN": "请输入用户名（选填）"
  },
  {
+  "en-US": "Username length should be 2-20 characters",
   "key": "admin.Account.addModalFormNicknameRules",
   "zh-CN": "用户名长度应为 2-20 个字符"
  },
  {
+  "en-US": "Username supports Chinese, English, numbers, and some special characters",
   "key": "admin.Account.addModalFormNicknameExtra",
   "zh-CN": "用户名支持中文、英文、数字及部分特殊字符"
  },
  {
+  "en-US": "Role",
   "key": "admin.Account.addModalFormRoleLabel",
   "zh-CN": "角色"
  },
  {
+  "en-US": "Please select role",
   "key": "admin.Account.addModalFormRolePlaceholder",
   "zh-CN": "请选择角色"
  },
  {
+  "en-US": "Modify Role",
   "key": "admin.Account.modifyModalTitle",
   "zh-CN": "修改角色"
  },
  {
+  "en-US": "User Role",
   "key": "admin.Account.modifyModalFormRoleLabel",
   "zh-CN": "用户角色"
  },
  {
+  "en-US": "Please select role",
   "key": "admin.Account.modifyModalFormRolePlaceholder",
   "zh-CN": "请选择角色"
  },
  {
+  "en-US": "Reset Password",
   "key": "admin.Account.confirmModalTitle",
   "zh-CN": "重置密码"
  },
  {
+  "en-US": "After resetting, the password will be the initial password 000000. Do you confirm to reset the password?",
   "key": "admin.Account.confirmModalContent",
   "zh-CN": "重置密码后，密码为初始密码000000，是否确认重置密码？"
  },
  {
+  "en-US": "Password reset successfully",
   "key": "admin.Account.confirmModalSuccessMessage",
   "zh-CN": "密码重置成功"
  },
  {
+  "en-US": "Resignation Confirmation",
   "key": "admin.Account.resignModalTitle",
   "zh-CN": "离职确认"
  },
  {
+  "en-US": "Cannot be restored after resignation, please proceed with caution!",
   "key": "admin.Account.resignModalContent",
   "zh-CN": "离职后无法恢复，请谨慎操作！"
  },
  {
+  "en-US": "Operation successful",
   "key": "admin.Account.resignModalSuccessMessage",
   "zh-CN": "操作成功"
  },
  {
+  "en-US": "Role modified successfully",
   "key": "admin.Account.modifyModalSuccessMessage",
   "zh-CN": "角色修改成功"
  },
  {
+  "en-US": "No.",
   "key": "admin.Account.tableColIndex",
   "zh-CN": "序号"
  },
  {
+  "en-US": "Account (Employee ID)",
   "key": "admin.Account.tableColUsername",
   "zh-CN": "账户（工号）"
  },
  {
+  "en-US": "Username",
   "key": "admin.Account.tableColNickname",
   "zh-CN": "用户名"
  },
  {
+  "en-US": "Role",
   "key": "admin.Account.tableColRole",
   "zh-CN": "角色"
  },
  {
+  "en-US": "Status",
   "key": "admin.Account.tableColStatus",
   "zh-CN": "状态"
  },
  {
+  "en-US": "Creation Time",
   "key": "admin.Account.tableColCreateTime",
   "zh-CN": "创建时间"
  },
  {
+  "en-US": "Action",
   "key": "admin.Account.tableColAction",
   "zh-CN": "操作"
  },
  {
+  "en-US": "Modify Role",
   "key": "admin.Account.tableColBtnEditRole",
   "zh-CN": "修改角色"
  },
  {
+  "en-US": "Reset Password",
   "key": "admin.Account.tableColBtnResetPassword",
   "zh-CN": "重置密码"
  },
  {
+  "en-US": "Resign",
   "key": "admin.Account.tableColBtnResign",
   "zh-CN": "离职"
  },
  {
+  "en-US": "Account added successfully",
   "key": "admin.Account.addModalSuccessMessage",
   "zh-CN": "账户添加成功"
  },
  {
+  "en-US": "This account has already been added!",
   "key": "admin.Account.addModalErrorMessage",
   "zh-CN": "该账号已添加！"
  },
  {
+  "en-US": "Update successful",
   "key": "admin.DefectLabel.updateTagSuccessMessage",
   "zh-CN": "更新成功"
  },
  {
+  "en-US": "Update failed",
   "key": "admin.DefectLabel.updateTagErrorMessage",
   "zh-CN": "更新失败"
  },
  {
+  "en-US": "Please fill in complete tag information",
   "key": "admin.DefectLabel.completeFormErrorMessage",
   "zh-CN": "请填写完整标签信息"
  },
  {
+  "en-US": "Sort Priority",
   "key": "admin.DefectLabel.tableColPrioritySort",
   "zh-CN": "排序优先级"
  },
  {
+  "en-US": "Tag Name",
   "key": "admin.DefectLabel.tableColTagName",
   "zh-CN": "标签名"
  },
  {
+  "en-US": "Please enter tag name",
   "key": "admin.DefectLabel.tableColTagNamePlaceholder",
   "zh-CN": "请输入标签名"
  },
  {
+  "en-US": "Tag Color",
   "key": "admin.DefectLabel.tableColTagColor",
   "zh-CN": "标签颜色"
  },
  {
+  "en-US": "Tag Type",
   "key": "admin.DefectLabel.tableColTagType",
   "zh-CN": "标签类型"
  },
  {
+  "en-US": "Shortcut Key",
   "key": "admin.DefectLabel.tableColShortcutKey",
   "zh-CN": "快捷键"
  },
  {
+  "en-US": "Action",
   "key": "admin.DefectLabel.tableColAction",
   "zh-CN": "操作"
  },
  {
+  "en-US": "Delete",
   "key": "admin.DefectLabel.tableColBtnDel",
   "zh-CN": "删除"
  },
  {
+  "en-US": "Category Tags",
   "key": "admin.DefectLabel.tabCategory",
   "zh-CN": "分类标签"
  },
  {
+  "en-US": "Detection Tags",
   "key": "admin.DefectLabel.tabDetection",
   "zh-CN": "检测标签"
  },
  {
+  "en-US": "Update",
   "key": "admin.DefectLabel.btnUpdate",
   "zh-CN": "更新"
  },
  {
+  "en-US": "Add Tag",
   "key": "admin.DefectLabel.popoverContent",
   "zh-CN": "新增标签"
  },
  {
+  "en-US": "Role Management",
   "key": "admin.Role.title",
   "zh-CN": "角色管理"
  },
  {
+  "en-US": "Confirm Deletion",
   "key": "admin.Role.deleteConfirmModalTitle",
   "zh-CN": "确认删除"
  },
  {
+  "en-US": "Are you sure you want to delete this role?",
   "key": "admin.Role.deleteConfirmModalContent",
   "zh-CN": "您确定要删除该角色吗？"
  },
  {
+  "en-US": "Role deleted successfully",
   "key": "admin.Role.deleteConfirmModalSuccessMessage",
   "zh-CN": "角色删除成功"
  },
  {
+  "en-US": "Updated successfully",
   "key": "admin.Role.updateSuccessMessage",
   "zh-CN": "更新成功"
  },
  {
+  "en-US": "Created successfully",
   "key": "admin.Role.createSuccessMessage",
   "zh-CN": "创建成功"
  },
  {
+  "en-US": "Please select a role first",
   "key": "admin.Role.selectRoleMessage",
   "zh-CN": "请先选择一个角色"
  },
  {
+  "en-US": "Permissions updated successfully",
   "key": "admin.Role.updatePermissionSuccessMessage",
   "zh-CN": "权限更新成功"
  },
  {
+  "en-US": "Add Role",
   "key": "admin.Role.btnCreateRole",
   "zh-CN": "新增角色"
  },
  {
+  "en-US": "Edit Name",
   "key": "admin.Role.btnEditRole",
   "zh-CN": "修改名称"
  },
  {
+  "en-US": "Delete Role",
   "key": "admin.Role.btnDeleteRole",
   "zh-CN": "删除角色"
  },
  {
+  "en-US": "Role Details",
   "key": "admin.Role.tabRole",
   "zh-CN": "角色详情"
  },
  {
+  "en-US": "Role Permissions",
   "key": "admin.Role.tabPermission",
   "zh-CN": "角色权限"
  },
  {
+  "en-US": "Role Name",
   "key": "admin.Role.roleName",
   "zh-CN": "角色名称"
  },
  {
+  "en-US": "Creation Time",
   "key": "admin.Role.roleCreateTime",
   "zh-CN": "创建时间"
  },
  {
+  "en-US": "Update Time",
   "key": "admin.Role.roleUpdateTime",
   "zh-CN": "更新时间"
  },
  {
+  "en-US": "Number of Permissions",
   "key": "admin.Role.rolePermissionCount",
   "zh-CN": "权限数量"
  },
  {
+  "en-US": "Cancel",
   "key": "admin.Role.btnCancelPermission",
   "zh-CN": "取消"
  },
  {
+  "en-US": "Confirm",
   "key": "admin.Role.btnConfirmPermission",
   "zh-CN": "确定"
  },
  {
+  "en-US": "Add Role",
   "key": "admin.Role.addModalTitle",
   "zh-CN": "新增角色"
  },
  {
+  "en-US": "Edit Role",
   "key": "admin.Role.modifyModalTitle",
   "zh-CN": "编辑角色"
  },
  {
+  "en-US": "Role Name",
   "key": "admin.Role.modalRoleName",
   "zh-CN": "角色名称"
  },
  {
+  "en-US": "Please enter role name",
   "key": "admin.Role.modalRoleNamePlaceholder",
   "zh-CN": "请输入角色名称"
  },
  {
+  "en-US": "Service Monitoring",
   "key": "admin.Server.title",
   "zh-CN": "服务监控"
  },
  {
+  "en-US": "Property",
   "key": "admin.Server.cpuLabel",
   "zh-CN": "属性"
  },
  {
+  "en-US": "Value",
   "key": "admin.Server.cpuValue",
   "zh-CN": "值"
  },
  {
+  "en-US": "Memory",
   "key": "admin.Server.memTitle",
   "zh-CN": "内存"
  },
  {
+  "en-US": "Property",
   "key": "admin.Server.memLabel",
   "zh-CN": "属性"
  },
  {
+  "en-US": "Memory",
   "key": "admin.Server.memValue",
   "zh-CN": "内存"
  },
  {
+  "en-US": "Server Information",
   "key": "admin.Server.sysTitle",
   "zh-CN": "服务器信息"
  },
  {
+  "en-US": "Server Name",
   "key": "admin.Server.sysName",
   "zh-CN": "服务器名称"
  },
  {
+  "en-US": "Server IP",
   "key": "admin.Server.sysIp",
   "zh-CN": "服务器IP"
  },
  {
+  "en-US": "Operating System",
   "key": "admin.Server.sysOs",
   "zh-CN": "操作系统"
  },
  {
+  "en-US": "System Architecture",
   "key": "admin.Server.sysArch",
   "zh-CN": "系统架构"
  },
  {
+  "en-US": "Java Virtual Machine Information",
   "key": "admin.Server.jvmTitle",
   "zh-CN": "Java虚拟机信息"
  },
  {
+  "en-US": "Java Name",
   "key": "admin.Server.jvmName",
   "zh-CN": "Java名称"
  },
  {
+  "en-US": "Version",
   "key": "admin.Server.jvmVersion",
   "zh-CN": "版本"
  },
  {
+  "en-US": "Start Time",
   "key": "admin.Server.jvmStartTime",
   "zh-CN": "启动时间"
  },
  {
+  "en-US": "Uptime",
   "key": "admin.Server.jvmRunTime",
   "zh-CN": "运行时间"
  },
  {
+  "en-US": "Installation Path",
   "key": "admin.Server.jvmHome",
   "zh-CN": "安装路径"
  },
  {
+  "en-US": "Project Path",
   "key": "admin.Server.jvmInputArgs",
   "zh-CN": "项目路径"
  },
  {
+  "en-US": "Disk Status",
   "key": "admin.Server.diskTitle",
   "zh-CN": "磁盘状态"
  },
  {
+  "en-US": "Disk Path",
   "key": "admin.Server.diskPath",
   "zh-CN": "盘符路径"
  },
  {
+  "en-US": "File System",
   "key": "admin.Server.diskSysType",
   "zh-CN": "文件系统"
  },
  {
+  "en-US": "Disk Type",
   "key": "admin.Server.diskType",
   "zh-CN": "盘符类型"
  },
  {
+  "en-US": "Total Size",
   "key": "admin.Server.diskTotal",
   "zh-CN": "总大小"
  },
  {
+  "en-US": "Free Space",
   "key": "admin.Server.diskFree",
   "zh-CN": "可用大小"
  },
  {
+  "en-US": "Used Size",
   "key": "admin.Server.diskUsed",
   "zh-CN": "已用大小"
  },
  {
+  "en-US": "Usage Percentage",
   "key": "admin.Server.diskUsage",
   "zh-CN": "已用百分比"
  },
  {
+  "en-US": "Inactive",
   "key": "admin.Account.UserStatusMapInactive",
   "zh-CN": "未激活"
  },
  {
+  "en-US": "Active",
   "key": "admin.Account.UserStatusMapActive",
   "zh-CN": "已激活"
  },
  {
+  "en-US": "Resigned",
   "key": "admin.Account.UserStatusMapResigned",
   "zh-CN": "已离职"
  }
