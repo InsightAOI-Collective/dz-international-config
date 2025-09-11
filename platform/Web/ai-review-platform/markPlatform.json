@@ -1,146 +1,74 @@
 [
-    {
-        "key": "markPlatform.exitModalTitle",
-        "en-US": "Exit Annotation Platform",
-        "th-TH": "ออกจากแพลตฟอร์มคำอธิบายประกอบ",
-        "vi-VN": "Thoát nền tảng chú thích",
-        "zh-CN": "退出标注平台",
-        "zh-TW": "退出標註平台"
-    },
-    {
-        "key": "markPlatform.exitModalBtnConfirm",
-        "en-US": "Confirm",
-        "th-TH": "ยืนยัน",
-        "vi-VN": "Xác nhận",
-        "zh-CN": "确定",
-        "zh-TW": "確定"
-    },
-    {
-        "key": "markPlatform.exitModalContent",
-        "en-US": "No more data, exiting.",
-        "th-TH": "ไม่มีข้อมูลแล้ว กำลังจะออกจากระบบ",
-        "vi-VN": "Không còn dữ liệu, đang thoát.",
-        "zh-CN": "没有更多数据，即将退出",
-        "zh-TW": "沒有更多資料，即將退出"
-    },
-    {
-        "key": "markPlatform.unSaveModalTitle",
-        "en-US": "Unsaved Changes",
-        "th-TH": "การเปลี่ยนแปลงที่ยังไม่ได้บันทึก",
-        "vi-VN": "Thay đổi chưa lưu",
-        "zh-CN": "未保存",
-        "zh-TW": "未保存"
-    },
-    {
-        "key": "markPlatform.unSaveModalContent",
-        "en-US": "You have unsaved changes. Are you sure you want to leave?",
-        "th-TH": "คุณมีการเปลี่ยนแปลงที่ยังไม่ได้บันทึก คุณแน่ใจหรือไม่ว่าต้องการออก?",
-        "vi-VN": "Bạn có thay đổi chưa lưu. Bạn có chắc muốn rời đi không?",
-        "zh-CN": "你有未保存的修改，确认要离开吗？",
-        "zh-TW": "您有未保存的修改，確定要離開嗎？"
-    },
-    {
-        "key": "markPlatform.ButtonList.saveSuccessMessage",
-        "en-US": "Saved successfully",
-        "th-TH": "บันทึกสำเร็จ",
-        "vi-VN": "Lưu thành công",
-        "zh-CN": "保存成功",
-        "zh-TW": "保存成功"
-    },
-    {
-        "key": "markPlatform.ButtonList.auditSuccessMessage",
-        "en-US": "Audit completed",
-        "th-TH": "ตรวจสอบเสร็จสมบูรณ์",
-        "vi-VN": "Kiểm duyệt hoàn tất",
-        "zh-CN": "审核完成",
-        "zh-TW": "審核完成"
-    },
-    {
-        "key": "markPlatform.ButtonList.btnReject",
-        "en-US": "Reject",
-        "th-TH": "ปฏิเสธ",
-        "vi-VN": "Từ chối",
-        "zh-CN": "驳回",
-        "zh-TW": "駁回"
-    },
-    {
-        "key": "markPlatform.ButtonList.btnPass",
-        "en-US": "Pass",
-        "th-TH": "ผ่าน",
-        "vi-VN": "Duyệt",
-        "zh-CN": "通过",
-        "zh-TW": "通過"
-    },
-    {
-        "key": "markPlatform.ButtonList.btnSkip",
-        "en-US": "Skip",
-        "th-TH": "ข้าม",
-        "vi-VN": "Bỏ qua",
-        "zh-CN": "跳过",
-        "zh-TW": "跳過"
-    },
-    {
-        "key": "markPlatform.ButtonList.btnSave",
-        "en-US": "Save",
-        "th-TH": "บันทึก",
-        "vi-VN": "Lưu",
-        "zh-CN": "保存",
-        "zh-TW": "保存"
-    },
-    {
-        "key": "markPlatform.ShapeList.btnConfirm",
-        "en-US": "Confirm",
-        "th-TH": "ยืนยัน",
-        "vi-VN": "Xác nhận",
-        "zh-CN": "确定",
-        "zh-TW": "確定"
-    },
-    {
-        "key": "markPlatform.ShapeList.title",
-        "en-US": "Current Tags",
-        "th-TH": "แท็กปัจจุบัน",
-        "vi-VN": "Thẻ hiện tại",
-        "zh-CN": "当前标签",
-        "zh-TW": "目前標籤"
-    },
-    {
-        "key": "markPlatform.ShapeList.filterTitle",
-        "en-US": "Tag Filter",
-        "th-TH": "ตัวกรองแท็ก",
-        "vi-VN": "Lọc thẻ",
-        "zh-CN": "标签筛选",
-        "zh-TW": "標籤篩選"
-    },
-    {
-        "key": "markPlatform.ShapeList.delTitle",
-        "en-US": "Delete Annotations",
-        "th-TH": "ลบคำอธิบายประกอบ",
-        "vi-VN": "Xóa chú thích",
-        "zh-CN": "删除标注",
-        "zh-TW": "刪除標註"
-    },
-    {
-        "key": "markPlatform.ShapeList.delDescription",
-        "en-US": "Delete all annotations?",
-        "th-TH": "ลบคำอธิบายประกอบทั้งหมดหรือไม่?",
-        "vi-VN": "Xóa tất cả chú thích?",
-        "zh-CN": "是否删除全部标注?",
-        "zh-TW": "是否刪除全部標註?"
-    },
-    {
-        "key": "markPlatform.ShapeList.delConfirm",
-        "en-US": "Confirm",
-        "th-TH": "ยืนยัน",
-        "vi-VN": "Xác nhận",
-        "zh-CN": "确定",
-        "zh-TW": "確定"
-    },
-    {
-        "key": "markPlatform.ShapeList.delCancel",
-        "en-US": "Cancel",
-        "th-TH": "ยกเลิก",
-        "vi-VN": "Hủy",
-        "zh-CN": "取消",
-        "zh-TW": "取消"
-    }
+ {
+  "key": "markPlatform.exitModalTitle",
+  "zh-CN": "退出标注平台"
+ },
+ {
+  "key": "markPlatform.exitModalBtnConfirm",
+  "zh-CN": "确定"
+ },
+ {
+  "key": "markPlatform.exitModalContent",
+  "zh-CN": "没有更多数据，即将退出"
+ },
+ {
+  "key": "markPlatform.unSaveModalTitle",
+  "zh-CN": "未保存"
+ },
+ {
+  "key": "markPlatform.unSaveModalContent",
+  "zh-CN": "你有未保存的修改，确认要离开吗？"
+ },
+ {
+  "key": "markPlatform.ButtonList.saveSuccessMessage",
+  "zh-CN": "保存成功"
+ },
+ {
+  "key": "markPlatform.ButtonList.auditSuccessMessage",
+  "zh-CN": "审核完成"
+ },
+ {
+  "key": "markPlatform.ButtonList.btnReject",
+  "zh-CN": "驳回"
+ },
+ {
+  "key": "markPlatform.ButtonList.btnPass",
+  "zh-CN": "通过"
+ },
+ {
+  "key": "markPlatform.ButtonList.btnSkip",
+  "zh-CN": "跳过"
+ },
+ {
+  "key": "markPlatform.ButtonList.btnSave",
+  "zh-CN": "保存"
+ },
+ {
+  "key": "markPlatform.ShapeList.btnConfirm",
+  "zh-CN": "确定"
+ },
+ {
+  "key": "markPlatform.ShapeList.title",
+  "zh-CN": "当前标签"
+ },
+ {
+  "key": "markPlatform.ShapeList.filterTitle",
+  "zh-CN": "标签筛选"
+ },
+ {
+  "key": "markPlatform.ShapeList.delTitle",
+  "zh-CN": "删除标注"
+ },
+ {
+  "key": "markPlatform.ShapeList.delDescription",
+  "zh-CN": "是否删除全部标注?"
+ },
+ {
+  "key": "markPlatform.ShapeList.delConfirm",
+  "zh-CN": "确定"
+ },
+ {
+  "key": "markPlatform.ShapeList.delCancel",
+  "zh-CN": "取消"
+ }
 ]
