@@ -1,1042 +1,1042 @@
 [
-    {
-        "key": "aoi.list.title",
-        "en-US": "Detection Template",
-        "th-TH": "แม่แบบการตรวจสอบ",
-        "vi-VN": "Mẫu kiểm tra",
-        "zh-CN": "检测模版",
-        "zh-TW": "檢測模版"
-    },
-    {
-        "key": "aoi.list.projectNameLabel",
-        "en-US": "Template Name",
-        "th-TH": "ชื่อแม่แบบ",
-        "vi-VN": "Tên mẫu",
-        "zh-CN": "模版名称",
-        "zh-TW": "模版名稱"
-    },
-    {
-        "key": "aoi.list.projectNamePlaceholder",
-        "en-US": "Enter template name",
-        "th-TH": "ป้อนชื่อแม่แบบ",
-        "vi-VN": "Vui lòng nhập tên mẫu",
-        "zh-CN": "请输入模版名称",
-        "zh-TW": "請輸入模版名稱"
-    },
-    {
-        "key": "aoi.list.createTimeLabel",
-        "en-US": "Created Time",
-        "th-TH": "เวลาที่สร้าง",
-        "vi-VN": "Thời gian tạo",
-        "zh-CN": "创建时间",
-        "zh-TW": "建立時間"
-    },
-    {
-        "key": "aoi.list.createTimeStartPlaceholder",
-        "en-US": "Start Time",
-        "th-TH": "เวลาเริ่มต้น",
-        "vi-VN": "Thời gian bắt đầu",
-        "zh-CN": "开始时间",
-        "zh-TW": "開始時間"
-    },
-    {
-        "key": "aoi.list.createTimeEndPlaceholder",
-        "en-US": "End Time",
-        "th-TH": "เวลาสิ้นสุด",
-        "vi-VN": "Thời gian kết thúc",
-        "zh-CN": "结束时间",
-        "zh-TW": "結束時間"
-    },
-    {
-        "key": "aoi.list.btnSearch",
-        "en-US": "Search",
-        "th-TH": "ค้นหา",
-        "vi-VN": "Tìm kiếm",
-        "zh-CN": "搜索",
-        "zh-TW": "搜尋"
-    },
-    {
-        "key": "aoi.list.btnReset",
-        "en-US": "Reset",
-        "th-TH": "รีเซ็ต",
-        "vi-VN": "Đặt lại",
-        "zh-CN": "重置",
-        "zh-TW": "重設"
-    },
-    {
-        "key": "aoi.list.delConfirmNodalTitle",
-        "en-US": "Confirm Deletion?",
-        "th-TH": "ยืนยันการลบ?",
-        "vi-VN": "Xác nhận xóa?",
-        "zh-CN": "确认删除？",
-        "zh-TW": "確認刪除？"
-    },
-    {
-        "key": "aoi.list.delConfirmNodalSuccessMessage",
-        "en-US": "Successfully deleted!",
-        "th-TH": "ลบสำเร็จแล้ว!",
-        "vi-VN": "Xóa thành công!",
-        "zh-CN": "删除成功！",
-        "zh-TW": "刪除成功！"
-    },
-    {
-        "key": "aoi.list.tableColThumbnailUrl",
-        "en-US": "Thumbnail",
-        "th-TH": "ภาพขนาดย่อ",
-        "vi-VN": "Ảnh thu nhỏ",
-        "zh-CN": "缩略图",
-        "zh-TW": "縮圖"
-    },
-    {
-        "key": "aoi.list.tableColProjectName",
-        "en-US": "Template Name",
-        "th-TH": "ชื่อแม่แบบ",
-        "vi-VN": "Tên mẫu",
-        "zh-CN": "模版名称",
-        "zh-TW": "模版名稱"
-    },
-    {
-        "key": "aoi.list.tableColPanel",
-        "en-US": "Panel (Rows*Cols)",
-        "th-TH": "แผง (แถว*คอลัมน์)",
-        "vi-VN": "Ghép tấm (Hàng*Cột)",
-        "zh-CN": "拼板(行*列)",
-        "zh-TW": "拼板(行*列)"
-    },
-    {
-        "key": "aoi.list.tableColPcbSize",
-        "en-US": "PCB Size (Length*Width)",
-        "th-TH": "ขนาด PCB (ย*ก)",
-        "vi-VN": "Kích thước PCB (Dài*Rộng)",
-        "zh-CN": "PCB尺寸(长*宽)",
-        "zh-TW": "PCB尺寸(長*寬)"
-    },
-    {
-        "key": "aoi.list.tableColBomFile",
-        "en-US": "BOM File",
-        "th-TH": "ไฟล์ BOM",
-        "vi-VN": "Tệp BOM",
-        "zh-CN": "Bom文件",
-        "zh-TW": "BOM檔案"
-    },
-    {
-        "key": "aoi.list.tableColManufacturer",
-        "en-US": "Manufacturer",
-        "th-TH": "ผู้ผลิต",
-        "vi-VN": "Nhà sản xuất",
-        "zh-CN": "制造商",
-        "zh-TW": "製造商"
-    },
-    {
-        "key": "aoi.list.tableColCreateBy",
-        "en-US": "Created By",
-        "th-TH": "สร้างโดย",
-        "vi-VN": "Người tạo",
-        "zh-CN": "创建人",
-        "zh-TW": "建立者"
-    },
-    {
-        "key": "aoi.list.tableColCreateTime",
-        "en-US": "Created Time",
-        "th-TH": "เวลาที่สร้าง",
-        "vi-VN": "Thời gian tạo",
-        "zh-CN": "创建时间",
-        "zh-TW": "建立時間"
-    },
-    {
-        "key": "aoi.list.tableColUpdateTime",
-        "en-US": "Updated Time",
-        "th-TH": "เวลาที่อัปเดต",
-        "vi-VN": "Thời gian sửa đổi",
-        "zh-CN": "修改时间",
-        "zh-TW": "修改時間"
-    },
-    {
-        "key": "aoi.list.tableColAction",
-        "en-US": "Actions",
-        "th-TH": "การดำเนินการ",
-        "vi-VN": "Thao tác",
-        "zh-CN": "操作",
-        "zh-TW": "操作"
-    },
-    {
-        "key": "aoi.list.tableBtnStartDetection",
-        "en-US": "Start Detection",
-        "th-TH": "เริ่มการตรวจสอบ",
-        "vi-VN": "Bắt đầu kiểm tra",
-        "zh-CN": "启动检测",
-        "zh-TW": "啟動檢測"
-    },
-    {
-        "key": "aoi.list.tableBtnEdit",
-        "en-US": "Edit",
-        "th-TH": "แก้ไข",
-        "vi-VN": "Chỉnh sửa",
-        "zh-CN": "编辑",
-        "zh-TW": "編輯"
-    },
-    {
-        "key": "aoi.list.tableBtnDelete",
-        "en-US": "Delete",
-        "th-TH": "ลบ",
-        "vi-VN": "Xóa",
-        "zh-CN": "删除",
-        "zh-TW": "刪除"
-    },
-    {
-        "key": "aoi.list.tableTitle",
-        "en-US": "Template List",
-        "th-TH": "รายการแม่แบบ",
-        "vi-VN": "Danh sách mẫu",
-        "zh-CN": "模版列表",
-        "zh-TW": "模版列表"
-    },
-    {
-        "key": "aoi.list.btnAddTpl",
-        "en-US": "Add Template",
-        "th-TH": "แม่แบบใหม่",
-        "vi-VN": "Tạo mẫu mới",
-        "zh-CN": "新建模版",
-        "zh-TW": "新增模版"
-    },
-    {
-        "key": "aoi.list.tableShowTotal",
-        "en-US": "Total {total} records",
-        "th-TH": "ทั้งหมด {total} รายการ",
-        "vi-VN": "Tổng cộng {total} bản ghi",
-        "zh-CN": "共 {total} 条记录",
-        "zh-TW": "共 {total} 筆記錄"
-    },
-    {
-        "key": "aoi.edit.newTitle",
-        "en-US": "New Template",
-        "th-TH": "แม่แบบใหม่",
-        "vi-VN": "Tạo mẫu mới",
-        "zh-CN": "新建模版",
-        "zh-TW": "新增模版"
-    },
-    {
-        "key": "aoi.edit.editTitle",
-        "en-US": "Edit Template",
-        "th-TH": "แก้ไขแม่แบบ",
-        "vi-VN": "Chỉnh sửa mẫu",
-        "zh-CN": "编辑模版",
-        "zh-TW": "編輯模版"
-    },
-    {
-        "key": "aoi.edit.basicInfoProjectName",
-        "en-US": "Custom Template",
-        "th-TH": "แม่แบบกำหนดเอง",
-        "vi-VN": "Mẫu tùy chỉnh",
-        "zh-CN": "自定义模版",
-        "zh-TW": "自訂模版"
-    },
-    {
-        "key": "aoi.edit.captureErrorMessage",
-        "en-US": "Please complete capture",
-        "th-TH": "โปรดจับภาพให้สมบูรณ์",
-        "vi-VN": "Vui lòng hoàn tất chụp",
-        "zh-CN": "请完成拍摄",
-        "zh-TW": "請完成拍攝"
-    },
-    {
-        "key": "aoi.edit.captureParsingMessage",
-        "en-US": "Algorithm is parsing, please wait",
-        "th-TH": "อัลกอริทึมกำลังแยกวิเคราะห์ โปรดรอ",
-        "vi-VN": "Thuật toán đang phân tích, vui lòng chờ",
-        "zh-CN": "算法正在解析，请稍等",
-        "zh-TW": "演算法正在解析，請稍等"
-    },
-    {
-        "key": "aoi.edit.saveErrorMessage",
-        "en-US": "Failed to save template, please try again later",
-        "th-TH": "บันทึกแม่แบบล้มเหลว โปรดลองอีกครั้งในภายหลัง",
-        "vi-VN": "Lưu mẫu thất bại, vui lòng thử lại sau",
-        "zh-CN": "保存模版失败，请稍后再试",
-        "zh-TW": "儲存模版失敗，請稍後再試"
-    },
-    {
-        "key": "aoi.edit.basicInfoTitle",
-        "en-US": "Basic Information",
-        "th-TH": "ข้อมูลพื้นฐาน",
-        "vi-VN": "Thông tin cơ bản",
-        "zh-CN": "基本信息",
-        "zh-TW": "基本資訊"
-    },
-    {
-        "key": "aoi.edit.cadInfoTitle",
-        "en-US": "Import CAD",
-        "th-TH": "นำเข้า CAD",
-        "vi-VN": "Nhập CAD",
-        "zh-CN": "导入CAD",
-        "zh-TW": "匯入CAD"
-    },
-    {
-        "key": "aoi.edit.cameraInfoTitle",
-        "en-US": "Capture Gold Board",
-        "th-TH": "จับภาพแผ่นทอง",
-        "vi-VN": "Chụp mẫu chuẩn",
-        "zh-CN": "拍摄金板",
-        "zh-TW": "拍攝金板"
-    },
-    {
-        "key": "aoi.edit.goldBoardProgress",
-        "en-US": "Gold Board Parsing Progress",
-        "th-TH": "ความคืบหน้าการแยกวิเคราะห์แผ่นทอง",
-        "vi-VN": "Tiến độ phân tích mẫu chuẩn",
-        "zh-CN": "金板解析进度",
-        "zh-TW": "金板解析進度"
-    },
-    {
-        "key": "aoi.edit.btnGoldBoardProgramming",
-        "en-US": "Gold Board Programming",
-        "th-TH": "การเขียนโปรแกรมแผ่นทอง",
-        "vi-VN": "Lập trình mẫu chuẩn",
-        "zh-CN": "金板编程",
-        "zh-TW": "金板程式設計"
-    },
-    {
-        "key": "aoi.edit.btnSaveTemplate",
-        "en-US": "Save Template",
-        "th-TH": "บันทึกแม่แบบ",
-        "vi-VN": "Lưu mẫu",
-        "zh-CN": "保存模版",
-        "zh-TW": "儲存模版"
-    },
-    {
-        "key": "aoi.edit.saveModalTitle",
-        "en-US": "Save Successful",
-        "th-TH": "บันทึกสำเร็จ",
-        "vi-VN": "Lưu thành công",
-        "zh-CN": "保存成功",
-        "zh-TW": "儲存成功"
-    },
-    {
-        "key": "aoi.edit.btnBackToList",
-        "en-US": "Back to List",
-        "th-TH": "กลับสู่รายการ",
-        "vi-VN": "Trở về danh sách",
-        "zh-CN": "返回列表",
-        "zh-TW": "返回列表"
-    },
-    {
-        "key": "aoi.edit.btnModalStartDetection",
-        "en-US": "Start Detection",
-        "th-TH": "เริ่มการตรวจสอบ",
-        "vi-VN": "Bắt đầu kiểm tra",
-        "zh-CN": "启动检测",
-        "zh-TW": "啟動檢測"
-    },
-    {
-        "key": "aoi.edit.basicInfoProjectNameLabel",
-        "en-US": "Template Name",
-        "th-TH": "ชื่อแม่แบบ",
-        "vi-VN": "Tên mẫu",
-        "zh-CN": "模版名称",
-        "zh-TW": "模版名稱"
-    },
-    {
-        "key": "aoi.edit.basicInfoProjectNamePlaceholder",
-        "en-US": "Enter template name",
-        "th-TH": "ป้อนชื่อแม่แบบ",
-        "vi-VN": "Vui lòng nhập tên mẫu",
-        "zh-CN": "请输入模版名称",
-        "zh-TW": "請輸入模版名稱"
-    },
-    {
-        "key": "aoi.edit.basicInfoPcbTypeLabel",
-        "en-US": "PCB Type",
-        "th-TH": "ประเภท PCB",
-        "vi-VN": "Loại PCB",
-        "zh-CN": "PCB类型",
-        "zh-TW": "PCB類型"
-    },
-    {
-        "key": "aoi.edit.basicInfoPcbTypePlaceholder",
-        "en-US": "Enter PCB type",
-        "th-TH": "ป้อนประเภท PCB",
-        "vi-VN": "Vui lòng nhập loại PCB",
-        "zh-CN": "请输入PCB类型",
-        "zh-TW": "請輸入PCB類型"
-    },
-    {
-        "key": "aoi.edit.basicInfoManufacturerLabel",
-        "en-US": "Manufacturer",
-        "th-TH": "ผู้ผลิต",
-        "vi-VN": "Nhà sản xuất",
-        "zh-CN": "生产商",
-        "zh-TW": "生產商"
-    },
-    {
-        "key": "aoi.edit.basicInfoManufacturerPlaceholder",
-        "en-US": "Enter manufacturer name",
-        "th-TH": "ป้อนชื่อผู้ผลิต",
-        "vi-VN": "Vui lòng nhập tên nhà sản xuất",
-        "zh-CN": "请输入生产商名称",
-        "zh-TW": "請輸入生產商名稱"
-    },
-    {
-        "key": "aoi.edit.basicInfoGoldBoardLengthLabel",
-        "en-US": "Gold Board Length",
-        "th-TH": "ความยาวแผ่นทอง",
-        "vi-VN": "Chiều dài mẫu chuẩn",
-        "zh-CN": "金板板长",
-        "zh-TW": "金板板長"
-    },
-    {
-        "key": "aoi.edit.basicInfoGoldBoardLengthPlaceholder",
-        "en-US": "Enter gold board length",
-        "th-TH": "ป้อนความยาวแผ่นทอง",
-        "vi-VN": "Vui lòng nhập chiều dài mẫu chuẩn",
-        "zh-CN": "请输入金板板长",
-        "zh-TW": "請輸入金板板長"
-    },
-    {
-        "key": "aoi.edit.basicInfoGoldBoardWidthLabel",
-        "en-US": "Gold Board Width",
-        "th-TH": "ความกว้างแผ่นทอง",
-        "vi-VN": "Chiều rộng mẫu chuẩn",
-        "zh-CN": "金板板宽",
-        "zh-TW": "金板板寬"
-    },
-    {
-        "key": "aoi.edit.basicInfoGoldBoardWidthPlaceholder",
-        "en-US": "Enter gold board width",
-        "th-TH": "ป้อนความกว้างแผ่นทอง",
-        "vi-VN": "Vui lòng nhập chiều rộng mẫu chuẩn",
-        "zh-CN": "请输入金板板宽",
-        "zh-TW": "請輸入金板板寬"
-    },
-    {
-        "key": "aoi.edit.basicInfoBomFileLabel",
-        "en-US": "BOM Information",
-        "th-TH": "ข้อมูล BOM",
-        "vi-VN": "Thông tin BOM",
-        "zh-CN": "BOM信息",
-        "zh-TW": "BOM資訊"
-    },
-    {
-        "key": "aoi.edit.basicInfoBomFilePlaceholder",
-        "en-US": "Enter BOM information",
-        "th-TH": "ป้อนข้อมูล BOM",
-        "vi-VN": "Vui lòng nhập thông tin BOM",
-        "zh-CN": "请输入BOM信息",
-        "zh-TW": "請輸入BOM資訊"
-    },
-    {
-        "key": "aoi.edit.basicInfoPanelRowsLabel",
-        "en-US": "Panel Rows",
-        "th-TH": "แถวแผงวงจร",
-        "vi-VN": "Số hàng panel",
-        "zh-CN": "拼板行数",
-        "zh-TW": "拼板行數"
-    },
-    {
-        "key": "aoi.edit.basicInfoPanelRowsPlaceholder",
-        "en-US": "Enter panel rows",
-        "th-TH": "ป้อนจำนวนแถวแผงวงจร",
-        "vi-VN": "Vui lòng nhập số hàng panel",
-        "zh-CN": "请输入拼板行数",
-        "zh-TW": "請輸入拼板行數"
-    },
-    {
-        "key": "aoi.edit.basicInfoPanelColumnsLabel",
-        "en-US": "Panel Columns",
-        "th-TH": "คอลัมน์แผงวงจร",
-        "vi-VN": "Số cột panel",
-        "zh-CN": "拼板列数",
-        "zh-TW": "拼板列數"
-    },
-    {
-        "key": "aoi.edit.basicInfoPanelColumnsPlaceholder",
-        "en-US": "Enter panel columns",
-        "th-TH": "ป้อนจำนวนคอลัมน์แผงวงจร",
-        "vi-VN": "Vui lòng nhập số cột panel",
-        "zh-CN": "请输入拼板列数",
-        "zh-TW": "請輸入拼板列數"
-    },
-    {
-        "key": "aoi.edit.basicInfoAdditionalInfoLabel",
-        "en-US": "Additional Information",
-        "th-TH": "ข้อมูลเพิ่มเติม",
-        "vi-VN": "Thông tin bổ sung",
-        "zh-CN": "附加信息",
-        "zh-TW": "附加資訊"
-    },
-    {
-        "key": "aoi.edit.basicInfoAdditionalInfoPlaceholder",
-        "en-US": "Enter additional information",
-        "th-TH": "ป้อนข้อมูลเพิ่มเติม",
-        "vi-VN": "Vui lòng nhập thông tin bổ sung",
-        "zh-CN": "请输入附加信息",
-        "zh-TW": "請輸入附加資訊"
-    },
-    {
-        "key": "aoi.edit.cameraInfoShootFinishMessage",
-        "en-US": "Gold board capture complete",
-        "th-TH": "การจับภาพแผ่นทองเสร็จสมบูรณ์",
-        "vi-VN": "Chụp mẫu chuẩn hoàn tất",
-        "zh-CN": "金板拍摄完成",
-        "zh-TW": "金板拍攝完成"
-    },
-    {
-        "key": "aoi.edit.cameraInfoGoldBoardWidthLabel",
-        "en-US": "Flow Channel Width / Gold Board Width",
-        "th-TH": "ความกว้างช่องทางการไหล / ความกว้างแผ่นทอง",
-        "vi-VN": "Chiều rộng đường dẫn/Chiều rộng mẫu chuẩn",
-        "zh-CN": "流道宽度/金板宽度",
-        "zh-TW": "流道寬度/金板寬度"
-    },
-    {
-        "key": "aoi.edit.cameraInfoGoldBoardWidthPlaceholder",
-        "en-US": "Enter flow channel width/gold board width",
-        "th-TH": "ป้อนความกว้างช่องทางการไหล / ความกว้างแผ่นทอง",
-        "vi-VN": "Vui lòng nhập chiều rộng đường dẫn/chiều rộng mẫu chuẩn",
-        "zh-CN": "请输入流道宽度/金板宽度",
-        "zh-TW": "請輸入流道寬度/金板寬度"
-    },
-    {
-        "key": "aoi.edit.cameraInfoBtnGoldBoardWidthApply",
-        "en-US": "Apply",
-        "th-TH": "ใช้",
-        "vi-VN": "Áp dụng",
-        "zh-CN": "应用",
-        "zh-TW": "套用"
-    },
-    {
-        "key": "aoi.edit.cameraInfoGoldBoardInOutLabel",
-        "en-US": "Gold Board In/Out",
-        "th-TH": "แผ่นทองเข้า/ออก",
-        "vi-VN": "Vào/Ra mẫu chuẩn",
-        "zh-CN": "金板进出",
-        "zh-TW": "金板進出"
-    },
-    {
-        "key": "aoi.edit.cameraInfoBtnGoldBoardIn",
-        "en-US": "Board In",
-        "th-TH": "ใส่บอร์ด",
-        "vi-VN": "Đặt mẫu vào",
-        "zh-CN": "进板",
-        "zh-TW": "進板"
-    },
-    {
-        "key": "aoi.edit.cameraInfoBtnGoldBoardOut",
-        "en-US": "Board Out",
-        "th-TH": "เอาบอร์ดออก",
-        "vi-VN": "Lấy mẫu ra",
-        "zh-CN": "出板",
-        "zh-TW": "出板"
-    },
-    {
-        "key": "aoi.edit.cameraInfoCaptureGoldBoardLabel",
-        "en-US": "Capture Gold Board Image",
-        "th-TH": "จับภาพแผ่นทอง",
-        "vi-VN": "Chụp ảnh mẫu chuẩn",
-        "zh-CN": "拍摄金板图片",
-        "zh-TW": "拍攝金板圖片"
-    },
-    {
-        "key": "aoi.edit.cameraInfoBtnCapture",
-        "en-US": "Capture",
-        "th-TH": "จับภาพ",
-        "vi-VN": "Chụp",
-        "zh-CN": "拍摄",
-        "zh-TW": "拍攝"
-    },
-    {
-        "key": "aoi.edit.cameraInfoBtnStop",
-        "en-US": "Stop",
-        "th-TH": "หยุด",
-        "vi-VN": "Dừng",
-        "zh-CN": "停止",
-        "zh-TW": "停止"
-    },
-    {
-        "key": "aoi.edit.cadInfoTableColIndex",
-        "en-US": "Index",
-        "th-TH": "ลำดับ",
-        "vi-VN": "Số thứ tự",
-        "zh-CN": "序号",
-        "zh-TW": "序號"
-    },
-    {
-        "key": "aoi.edit.cadInfoTableColCenterPointX",
-        "en-US": "Center Point X",
-        "th-TH": "จุดศูนย์กลาง X",
-        "vi-VN": "Tâm X",
-        "zh-CN": "中心点X",
-        "zh-TW": "中心點X"
-    },
-    {
-        "key": "aoi.edit.cadInfoTableColCenterPointY",
-        "en-US": "Center Point Y",
-        "th-TH": "จุดศูนย์กลาง Y",
-        "vi-VN": "Tâm Y",
-        "zh-CN": "中心点Y",
-        "zh-TW": "中心點Y"
-    },
-    {
-        "key": "aoi.edit.cadInfoTableColRotationAngle",
-        "en-US": "Rotation Angle",
-        "th-TH": "มุมการหมุน",
-        "vi-VN": "Góc xoay",
-        "zh-CN": "角度",
-        "zh-TW": "角度"
-    },
-    {
-        "key": "aoi.edit.cadInfoTableColComponentCode",
-        "en-US": "Component Code",
-        "th-TH": "รหัสส่วนประกอบ",
-        "vi-VN": "Mã vị trí",
-        "zh-CN": "位置号",
-        "zh-TW": "位置號"
-    },
-    {
-        "key": "aoi.edit.cadInfoTableColMaterialCode",
-        "en-US": "Material Code",
-        "th-TH": "รหัสวัสดุ",
-        "vi-VN": "Mã vật liệu",
-        "zh-CN": "料号",
-        "zh-TW": "料號"
-    },
-    {
-        "key": "aoi.edit.cadInfoTableColPanel",
-        "en-US": "Panel",
-        "th-TH": "แผง",
-        "vi-VN": "Ghép tấm",
-        "zh-CN": "拼板",
-        "zh-TW": "拼板"
-    },
-    {
-        "key": "aoi.edit.cadInfoUnitMMOption",
-        "en-US": "mm",
-        "th-TH": "มิลลิเมตร",
-        "vi-VN": "Milimet",
-        "zh-CN": "毫米",
-        "zh-TW": "毫米"
-    },
-    {
-        "key": "aoi.edit.cadInfoUnitINOption",
-        "en-US": "in",
-        "th-TH": "นิ้ว",
-        "vi-VN": "Inch",
-        "zh-CN": "英寸",
-        "zh-TW": "英吋"
-    },
-    {
-        "key": "aoi.edit.cadInfoUnitMILOption",
-        "en-US": "Mil",
-        "th-TH": "มิล",
-        "vi-VN": "Mil",
-        "zh-CN": "密耳",
-        "zh-TW": "密耳"
-    },
-    {
-        "key": "aoi.edit.cadInfoParseStatus",
-        "en-US": "Pending Upload",
-        "th-TH": "รอการอัปโหลด",
-        "vi-VN": "Chờ tải lên",
-        "zh-CN": "待上传",
-        "zh-TW": "待上傳"
-    },
-    {
-        "key": "aoi.edit.cadInfoParseStatusUploading",
-        "en-US": "Uploading",
-        "th-TH": "กำลังอัปโหลด",
-        "vi-VN": "Đang tải lên",
-        "zh-CN": "上传中",
-        "zh-TW": "上傳中"
-    },
-    {
-        "key": "aoi.edit.cadInfoParseStatusParsing",
-        "en-US": "Parsing",
-        "th-TH": "กำลังแยกวิเคราะห์",
-        "vi-VN": "Đang phân tích",
-        "zh-CN": "解析中",
-        "zh-TW": "解析中"
-    },
-    {
-        "key": "aoi.edit.cadInfoParseStatusFinish",
-        "en-US": "Parsing Successful",
-        "th-TH": "แยกวิเคราะห์สำเร็จ",
-        "vi-VN": "Phân tích thành công",
-        "zh-CN": "解析成功",
-        "zh-TW": "解析成功"
-    },
-    {
-        "key": "aoi.edit.cadInfoFileSizeLimitMessage",
-        "en-US": "File size cannot exceed 100MB",
-        "th-TH": "ขนาดไฟล์ต้องไม่เกิน 100MB",
-        "vi-VN": "Kích thước tệp không được vượt quá 100MB",
-        "zh-CN": "文件大小不能超过100MB",
-        "zh-TW": "檔案大小不能超過100MB"
-    },
-    {
-        "key": "aoi.edit.cadInfoFileTypeErrorMessage",
-        "en-US": "File type error",
-        "th-TH": "ข้อผิดพลาดประเภทไฟล์",
-        "vi-VN": "Lỗi loại tệp",
-        "zh-CN": "文件类型错误",
-        "zh-TW": "檔案類型錯誤"
-    },
-    {
-        "key": "aoi.edit.cadInfoFileParseErrorMessage",
-        "en-US": "File parsing failed",
-        "th-TH": "การแยกวิเคราะห์ไฟล์ล้มเหลว",
-        "vi-VN": "Phân tích tệp thất bại",
-        "zh-CN": "文件解析失败",
-        "zh-TW": "檔案解析失敗"
-    },
-    {
-        "key": "aoi.edit.cadInfoFileUploadErrorMessage",
-        "en-US": "File upload failed",
-        "th-TH": "การอัปโหลดไฟล์ล้มเหลว",
-        "vi-VN": "Tải tệp lên thất bại",
-        "zh-CN": "文件上传失败",
-        "zh-TW": "檔案上傳失敗"
-    },
-    {
-        "key": "aoi.edit.cadInfoFileUploadMessage",
-        "en-US": "Please upload CAD file",
-        "th-TH": "โปรดอัปโหลดไฟล์ CAD",
-        "vi-VN": "Vui lòng tải tệp CAD lên",
-        "zh-CN": "请上传CAD文件",
-        "zh-TW": "請上傳CAD檔案"
-    },
-    {
-        "key": "aoi.edit.cadInfoFileDragTip",
-        "en-US": "Drag file here or click to upload",
-        "th-TH": "ลากไฟล์มาที่นี่หรือคลิกเพื่ออัปโหลด",
-        "vi-VN": "Kéo tệp vào đây hoặc nhấp để tải lên",
-        "zh-CN": "将文件拖到此处或点击上传",
-        "zh-TW": "將檔案拖曳至此或點擊上傳"
-    },
-    {
-        "key": "aoi.edit.cadInfoFileSizeLimitTip",
-        "en-US": "Only TXT/CSV files, not exceeding 100MB",
-        "th-TH": "สามารถอัปโหลดได้เฉพาะไฟล์ txt/csv ที่มีขนาดไม่เกิน 100MB",
-        "vi-VN": "Chỉ có thể tải lên tệp txt/csv, và không quá 100MB",
-        "zh-CN": "只能上传txt/csv文件，且不超过100MB",
-        "zh-TW": "只能上傳txt/csv檔案，且不超過100MB"
-    },
-    {
-        "key": "aoi.edit.cadInfoFileUploadingStatus",
-        "en-US": "File uploading",
-        "th-TH": "กำลังอัปโหลดไฟล์",
-        "vi-VN": "Đang tải tệp lên",
-        "zh-CN": "文件上传中",
-        "zh-TW": "檔案上傳中"
-    },
-    {
-        "key": "aoi.edit.cadInfoFileParsingStatus",
-        "en-US": "File parsing",
-        "th-TH": "กำลังแยกวิเคราะห์ไฟล์",
-        "vi-VN": "Đang phân tích tệp",
-        "zh-CN": "文件解析中",
-        "zh-TW": "檔案解析中"
-    },
-    {
-        "key": "aoi.edit.cadInfoBtnReset",
-        "en-US": "Reset",
-        "th-TH": "รีเซ็ต",
-        "vi-VN": "Đặt lại",
-        "zh-CN": "重置",
-        "zh-TW": "重設"
-    },
-    {
-        "key": "aoi.edit.cadInfoImportSettingsLabel",
-        "en-US": "Import Settings",
-        "th-TH": "การตั้งค่านำเข้า",
-        "vi-VN": "Cài đặt nhập",
-        "zh-CN": "导入设置",
-        "zh-TW": "匯入設定"
-    },
-    {
-        "key": "aoi.edit.cadInfoSelectAllLines",
-        "en-US": "Select All Lines",
-        "th-TH": "เลือกทุกบรรทัด",
-        "vi-VN": "Chọn tất cả các dòng",
-        "zh-CN": "选择全部行",
-        "zh-TW": "選取所有行"
-    },
-    {
-        "key": "aoi.edit.cadInfoStartLineLabel",
-        "en-US": "Start Line",
-        "th-TH": "บรรทัดเริ่มต้น",
-        "vi-VN": "Dòng bắt đầu",
-        "zh-CN": "开始行",
-        "zh-TW": "開始行"
-    },
-    {
-        "key": "aoi.edit.cadInfoEndLineLabel",
-        "en-US": "End Line",
-        "th-TH": "บรรทัดสิ้นสุด",
-        "vi-VN": "Dòng kết thúc",
-        "zh-CN": "结束行",
-        "zh-TW": "結束行"
-    },
-    {
-        "key": "aoi.edit.cadInfoLengthUnitLabel",
-        "en-US": "Length Unit",
-        "th-TH": "หน่วยความยาว",
-        "vi-VN": "Thiết lập đơn vị",
-        "zh-CN": "设置单位",
-        "zh-TW": "設定單位"
-    },
-    {
-        "key": "aoi.edit.cadInfoCharsetLabel",
-        "en-US": "Charset",
-        "th-TH": "ชุดอักขระ",
-        "vi-VN": "Mã hóa",
-        "zh-CN": "编码",
-        "zh-TW": "編碼"
-    },
-    {
-        "key": "aoi.edit.leaveConfirmTitle",
-        "en-US": "Confirm leaving current page?",
-        "th-TH": "ยืนยันการออกจากหน้าปัจจุบันหรือไม่?",
-        "vi-VN": "Xác nhận rời khỏi trang hiện tại?",
-        "zh-CN": "确定离开当前页面？",
-        "zh-TW": "確定離開目前頁面？"
-    },
-    {
-        "key": "aoi.edit.leaveConfirmContent",
-        "en-US": "You have unsaved edits, leaving the page will discard changes.",
-        "th-TH": "คุณมีการแก้ไขที่ยังไม่ได้บันทึก การออกจากหน้าจะทำให้ข้อมูลสูญหาย",
-        "vi-VN": "Bạn có nội dung chỉnh sửa chưa lưu, rời khỏi trang sẽ làm mất các thay đổi",
-        "zh-CN": "您有未保存的编辑内容，离开页面将丢失更改",
-        "zh-TW": "您有未儲存的編輯內容，離開頁面將遺失變更"
-    },
-    {
-        "key": "aoi.goldBoard.saveSuccessMessage",
-        "en-US": "Save successful",
-        "th-TH": "บันทึกสำเร็จ",
-        "vi-VN": "Lưu thành công",
-        "zh-CN": "保存成功",
-        "zh-TW": "儲存成功"
-    },
-    {
-        "key": "aoi.goldBoard.saveErrorMessage",
-        "en-US": "Save failed",
-        "th-TH": "บันทึกไม่สำเร็จ",
-        "vi-VN": "Lưu thất bại",
-        "zh-CN": "保存失败",
-        "zh-TW": "儲存失敗"
-    },
-    {
-        "key": "aoi.goldBoard.AnnotationBtnLight",
-        "en-US": "Light Source Toggle",
-        "th-TH": "สลับแหล่งกำเนิดแสง",
-        "vi-VN": "Chuyển đổi nguồn sáng",
-        "zh-CN": "光源切换",
-        "zh-TW": "光源切換"
-    },
-    {
-        "key": "aoi.goldBoard.AnnotationBtnSave",
-        "en-US": "Save",
-        "th-TH": "บันทึก",
-        "vi-VN": "Lưu",
-        "zh-CN": "保存",
-        "zh-TW": "儲存"
-    },
-    {
-        "key": "aoi.goldBoard.deviceTreeEnableOption",
-        "en-US": "Enable",
-        "th-TH": "เปิดใช้งาน",
-        "vi-VN": "Bật",
-        "zh-CN": "启用",
-        "zh-TW": "啟用"
-    },
-    {
-        "key": "aoi.goldBoard.deviceTreeDisableOption",
-        "en-US": "Disable",
-        "th-TH": "ปิดใช้งาน",
-        "vi-VN": "Tắt",
-        "zh-CN": "禁用",
-        "zh-TW": "停用"
-    },
-    {
-        "key": "aoi.goldBoard.deviceTreeRenameOption",
-        "en-US": "Rename",
-        "th-TH": "เปลี่ยนชื่อ",
-        "vi-VN": "Đổi tên",
-        "zh-CN": "重命名",
-        "zh-TW": "重新命名"
-    },
-    {
-        "key": "aoi.goldBoard.deviceTreeRenameErrorMessage",
-        "en-US": "Duplicate node name",
-        "th-TH": "ชื่อโหนดซ้ำ",
-        "vi-VN": "Tên nút bị trùng lặp",
-        "zh-CN": "节点名称重复",
-        "zh-TW": "節點名稱重複"
-    },
-    {
-        "key": "aoi.goldBoard.deviceTreeRenameSuccessMessage",
-        "en-US": "Rename successful",
-        "th-TH": "เปลี่ยนชื่อสำเร็จ",
-        "vi-VN": "Đổi tên thành công",
-        "zh-CN": "重命名成功",
-        "zh-TW": "重新命名成功"
-    },
-    {
-        "key": "aoi.goldBoard.deviceTreeOtherOption",
-        "en-US": "Other",
-        "th-TH": "อื่นๆ",
-        "vi-VN": "Khác",
-        "zh-CN": "其他",
-        "zh-TW": "其他"
-    },
-    {
-        "key": "aoi.goldBoard.deviceTreePassSuccessMessage",
-        "en-US": "Passed",
-        "th-TH": "ผ่านแล้ว",
-        "vi-VN": "Đã đạt",
-        "zh-CN": "已通过",
-        "zh-TW": "已通過"
-    },
-    {
-        "key": "aoi.goldBoard.deviceTreePassErrorMessage",
-        "en-US": "Confirmation failed",
-        "th-TH": "ยืนยันไม่สำเร็จ",
-        "vi-VN": "Xác nhận thất bại",
-        "zh-CN": "确认失败",
-        "zh-TW": "確認失敗"
-    },
-    {
-        "key": "aoi.goldBoard.deviceTreeNotFoundWarningMessage",
-        "en-US": "No matching device ID found",
-        "th-TH": "ไม่พบรหัสอุปกรณ์ที่ตรงกัน",
-        "vi-VN": "Không tìm thấy ID thiết bị phù hợp",
-        "zh-CN": "未找到匹配的器件ID",
-        "zh-TW": "未找到符合的器件ID"
-    },
-    {
-        "key": "aoi.goldBoard.deviceTreeSearchPlaceholder",
-        "en-US": "Enter device ID to search",
-        "th-TH": "ป้อนรหัสอุปกรณ์เพื่อค้นหา",
-        "vi-VN": "Vui lòng nhập ID thiết bị để tìm kiếm",
-        "zh-CN": "请输入器件ID搜索",
-        "zh-TW": "請輸入器件ID搜尋"
-    },
-    {
-        "key": "aoi.goldBoard.deviceTreeRenameModalTitle",
-        "en-US": "Rename",
-        "th-TH": "เปลี่ยนชื่อ",
-        "vi-VN": "Đổi tên",
-        "zh-CN": "重命名",
-        "zh-TW": "重新命名"
-    },
-    {
-        "key": "aoi.goldBoard.deviceTreeRenameModalEmptyErrorMessage",
-        "en-US": "Name cannot be empty",
-        "th-TH": "ชื่อต้องไม่ว่างเปล่า",
-        "vi-VN": "Tên không được để trống",
-        "zh-CN": "名称不能为空",
-        "zh-TW": "名稱不能為空"
-    },
-    {
-        "key": "aoi.goldBoard.deviceTreeRenameModalUnchangedMessage",
-        "en-US": "Name unchanged",
-        "th-TH": "ชื่อไม่เปลี่ยนแปลง",
-        "vi-VN": "Tên chưa được sửa đổi",
-        "zh-CN": "名称未修改",
-        "zh-TW": "名稱未修改"
-    },
-    {
-        "key": "aoi.goldBoard.deviceTreeRenameModalInputPlaceholder",
-        "en-US": "Enter new name",
-        "th-TH": "ป้อนชื่อใหม่",
-        "vi-VN": "Vui lòng nhập tên mới",
-        "zh-CN": "请输入新的名称",
-        "zh-TW": "請輸入新的名稱"
-    },
-    {
-        "key": "aoi.statusMap.Pass",
-        "en-US": "Pass",
-        "th-TH": "ผ่าน",
-        "vi-VN": "Đạt",
-        "zh-CN": "通过",
-        "zh-TW": "通過"
-    },
-    {
-        "key": "aoi.statusMap.NotPass",
-        "en-US": "Not Pass",
-        "th-TH": "ไม่ผ่าน",
-        "vi-VN": "Không đạt",
-        "zh-CN": "未通过",
-        "zh-TW": "未通過"
-    },
-    {
-        "key": "aoi.statusMap.Pending",
-        "en-US": "Pending Confirmation",
-        "th-TH": "รอการยืนยัน",
-        "vi-VN": "Chờ xác nhận",
-        "zh-CN": "待确认",
-        "zh-TW": "待確認"
-    },
-    {
-        "key": "aoi.statusMap.Warning",
-        "en-US": "Warning",
-        "th-TH": "คำเตือน",
-        "vi-VN": "Cảnh báo",
-        "zh-CN": "警告",
-        "zh-TW": "警告"
-    },
-    {
-        "key": "aoi.statusMap.Undetected",
-        "en-US": "Undetected",
-        "th-TH": "ไม่ถูกตรวจพบ",
-        "vi-VN": "Không phát hiện",
-        "zh-CN": "未检出",
-        "zh-TW": "未檢出"
-    },
-    {
-        "key": "aoi.statusMap.Disabled",
-        "en-US": "Disabled",
-        "th-TH": "ปิดใช้งาน",
-        "vi-VN": "Đã tắt",
-        "zh-CN": "不启用",
-        "zh-TW": "未啟用"
-    },
-    {
-        "key": "aoi.deviceMap.shapeAttributes",
-        "en-US": "Shape Attributes",
-        "th-TH": "คุณสมบัติรูปร่าง",
-        "vi-VN": "Thuộc tính hình dạng",
-        "zh-CN": "封装框",
-        "zh-TW": "封裝框"
-    },
-    {
-        "key": "aoi.deviceMap.polarityBoxes",
-        "en-US": "Polarity Boxes",
-        "th-TH": "กล่องระบุขั้ว",
-        "vi-VN": "Dấu cực tính",
-        "zh-CN": "极性标",
-        "zh-TW": "極性標"
-    },
-    {
-        "key": "aoi.deviceMap.pad",
-        "en-US": "Pad",
-        "th-TH": "แพด",
-        "vi-VN": "Điểm hàn",
-        "zh-CN": "焊盘",
-        "zh-TW": "焊盤"
-    },
-    {
-        "key": "aoi.deviceMap.pin",
-        "en-US": "Pin",
-        "th-TH": "พิน",
-        "vi-VN": "Chân linh kiện",
-        "zh-CN": "引脚",
-        "zh-TW": "引腳"
-    },
-    {
-        "key": "aoi.edit.annotationBottomBarAll",
-        "en-US": "All",
-        "zh-CN": "全部",
-        "zh-TW": "全部",
-        "th-TH": "ทั้งหมด",
-        "vi-VN": "Tất cả"
-    }
+ {
+  "en-US": "Detection Template",
+  "key": "aoi.list.title",
+  "th-TH": "แม่แบบการตรวจสอบ",
+  "vi-VN": "Mẫu kiểm tra",
+  "zh-CN": "检测模版",
+  "zh-TW": "檢測模版"
+ },
+ {
+  "en-US": "Template Name",
+  "key": "aoi.list.projectNameLabel",
+  "th-TH": "ชื่อแม่แบบ",
+  "vi-VN": "Tên mẫu",
+  "zh-CN": "模版名称",
+  "zh-TW": "模版名稱"
+ },
+ {
+  "en-US": "Enter template name",
+  "key": "aoi.list.projectNamePlaceholder",
+  "th-TH": "ป้อนชื่อแม่แบบ",
+  "vi-VN": "Vui lòng nhập tên mẫu",
+  "zh-CN": "请输入模版名称",
+  "zh-TW": "請輸入模版名稱"
+ },
+ {
+  "en-US": "Created Time",
+  "key": "aoi.list.createTimeLabel",
+  "th-TH": "เวลาที่สร้าง",
+  "vi-VN": "Thời gian tạo",
+  "zh-CN": "创建时间",
+  "zh-TW": "建立時間"
+ },
+ {
+  "en-US": "Start Time",
+  "key": "aoi.list.createTimeStartPlaceholder",
+  "th-TH": "เวลาเริ่มต้น",
+  "vi-VN": "Thời gian bắt đầu",
+  "zh-CN": "开始时间",
+  "zh-TW": "開始時間"
+ },
+ {
+  "en-US": "End Time",
+  "key": "aoi.list.createTimeEndPlaceholder",
+  "th-TH": "เวลาสิ้นสุด",
+  "vi-VN": "Thời gian kết thúc",
+  "zh-CN": "结束时间",
+  "zh-TW": "結束時間"
+ },
+ {
+  "en-US": "Search",
+  "key": "aoi.list.btnSearch",
+  "th-TH": "ค้นหา",
+  "vi-VN": "Tìm kiếm",
+  "zh-CN": "搜索",
+  "zh-TW": "搜尋"
+ },
+ {
+  "en-US": "Reset",
+  "key": "aoi.list.btnReset",
+  "th-TH": "รีเซ็ต",
+  "vi-VN": "Đặt lại",
+  "zh-CN": "重置",
+  "zh-TW": "重設"
+ },
+ {
+  "en-US": "Confirm Deletion?",
+  "key": "aoi.list.delConfirmNodalTitle",
+  "th-TH": "ยืนยันการลบ?",
+  "vi-VN": "Xác nhận xóa?",
+  "zh-CN": "确认删除？",
+  "zh-TW": "確認刪除？"
+ },
+ {
+  "en-US": "Successfully deleted!",
+  "key": "aoi.list.delConfirmNodalSuccessMessage",
+  "th-TH": "ลบสำเร็จแล้ว!",
+  "vi-VN": "Xóa thành công!",
+  "zh-CN": "删除成功！",
+  "zh-TW": "刪除成功！"
+ },
+ {
+  "en-US": "Thumbnail",
+  "key": "aoi.list.tableColThumbnailUrl",
+  "th-TH": "ภาพขนาดย่อ",
+  "vi-VN": "Ảnh thu nhỏ",
+  "zh-CN": "缩略图",
+  "zh-TW": "縮圖"
+ },
+ {
+  "en-US": "Template Name",
+  "key": "aoi.list.tableColProjectName",
+  "th-TH": "ชื่อแม่แบบ",
+  "vi-VN": "Tên mẫu",
+  "zh-CN": "模版名称",
+  "zh-TW": "模版名稱"
+ },
+ {
+  "en-US": "Panel (Rows*Cols)",
+  "key": "aoi.list.tableColPanel",
+  "th-TH": "แผง (แถว*คอลัมน์)",
+  "vi-VN": "Ghép tấm (Hàng*Cột)",
+  "zh-CN": "拼板(行*列)",
+  "zh-TW": "拼板(行*列)"
+ },
+ {
+  "en-US": "PCB Size (Length*Width)",
+  "key": "aoi.list.tableColPcbSize",
+  "th-TH": "ขนาด PCB (ย*ก)",
+  "vi-VN": "Kích thước PCB (Dài*Rộng)",
+  "zh-CN": "PCB尺寸(长*宽)",
+  "zh-TW": "PCB尺寸(長*寬)"
+ },
+ {
+  "en-US": "BOM File",
+  "key": "aoi.list.tableColBomFile",
+  "th-TH": "ไฟล์ BOM",
+  "vi-VN": "Tệp BOM",
+  "zh-CN": "Bom文件",
+  "zh-TW": "BOM檔案"
+ },
+ {
+  "en-US": "Manufacturer",
+  "key": "aoi.list.tableColManufacturer",
+  "th-TH": "ผู้ผลิต",
+  "vi-VN": "Nhà sản xuất",
+  "zh-CN": "制造商",
+  "zh-TW": "製造商"
+ },
+ {
+  "en-US": "Created By",
+  "key": "aoi.list.tableColCreateBy",
+  "th-TH": "สร้างโดย",
+  "vi-VN": "Người tạo",
+  "zh-CN": "创建人",
+  "zh-TW": "建立者"
+ },
+ {
+  "en-US": "Created Time",
+  "key": "aoi.list.tableColCreateTime",
+  "th-TH": "เวลาที่สร้าง",
+  "vi-VN": "Thời gian tạo",
+  "zh-CN": "创建时间",
+  "zh-TW": "建立時間"
+ },
+ {
+  "en-US": "Updated Time",
+  "key": "aoi.list.tableColUpdateTime",
+  "th-TH": "เวลาที่อัปเดต",
+  "vi-VN": "Thời gian sửa đổi",
+  "zh-CN": "修改时间",
+  "zh-TW": "修改時間"
+ },
+ {
+  "en-US": "Actions",
+  "key": "aoi.list.tableColAction",
+  "th-TH": "การดำเนินการ",
+  "vi-VN": "Thao tác",
+  "zh-CN": "操作",
+  "zh-TW": "操作"
+ },
+ {
+  "en-US": "Start Detection",
+  "key": "aoi.list.tableBtnStartDetection",
+  "th-TH": "เริ่มการตรวจสอบ",
+  "vi-VN": "Bắt đầu kiểm tra",
+  "zh-CN": "启动检测",
+  "zh-TW": "啟動檢測"
+ },
+ {
+  "en-US": "Edit",
+  "key": "aoi.list.tableBtnEdit",
+  "th-TH": "แก้ไข",
+  "vi-VN": "Chỉnh sửa",
+  "zh-CN": "编辑",
+  "zh-TW": "編輯"
+ },
+ {
+  "en-US": "Delete",
+  "key": "aoi.list.tableBtnDelete",
+  "th-TH": "ลบ",
+  "vi-VN": "Xóa",
+  "zh-CN": "删除",
+  "zh-TW": "刪除"
+ },
+ {
+  "en-US": "Template List",
+  "key": "aoi.list.tableTitle",
+  "th-TH": "รายการแม่แบบ",
+  "vi-VN": "Danh sách mẫu",
+  "zh-CN": "模版列表",
+  "zh-TW": "模版列表"
+ },
+ {
+  "en-US": "Add Template",
+  "key": "aoi.list.btnAddTpl",
+  "th-TH": "แม่แบบใหม่",
+  "vi-VN": "Tạo mẫu mới",
+  "zh-CN": "新建模版",
+  "zh-TW": "新增模版"
+ },
+ {
+  "en-US": "Total {total} records",
+  "key": "aoi.list.tableShowTotal",
+  "th-TH": "ทั้งหมด {total} รายการ",
+  "vi-VN": "Tổng cộng {total} bản ghi",
+  "zh-CN": "共 {total} 条记录",
+  "zh-TW": "共 {total} 筆記錄"
+ },
+ {
+  "en-US": "New Template",
+  "key": "aoi.edit.newTitle",
+  "th-TH": "แม่แบบใหม่",
+  "vi-VN": "Tạo mẫu mới",
+  "zh-CN": "新建模版",
+  "zh-TW": "新增模版"
+ },
+ {
+  "en-US": "Edit Template",
+  "key": "aoi.edit.editTitle",
+  "th-TH": "แก้ไขแม่แบบ",
+  "vi-VN": "Chỉnh sửa mẫu",
+  "zh-CN": "编辑模版",
+  "zh-TW": "編輯模版"
+ },
+ {
+  "en-US": "Custom Template",
+  "key": "aoi.edit.basicInfoProjectName",
+  "th-TH": "แม่แบบกำหนดเอง",
+  "vi-VN": "Mẫu tùy chỉnh",
+  "zh-CN": "自定义模版",
+  "zh-TW": "自訂模版"
+ },
+ {
+  "en-US": "Please complete capture",
+  "key": "aoi.edit.captureErrorMessage",
+  "th-TH": "โปรดจับภาพให้สมบูรณ์",
+  "vi-VN": "Vui lòng hoàn tất chụp",
+  "zh-CN": "请完成拍摄",
+  "zh-TW": "請完成拍攝"
+ },
+ {
+  "en-US": "Algorithm is parsing, please wait",
+  "key": "aoi.edit.captureParsingMessage",
+  "th-TH": "อัลกอริทึมกำลังแยกวิเคราะห์ โปรดรอ",
+  "vi-VN": "Thuật toán đang phân tích, vui lòng chờ",
+  "zh-CN": "算法正在解析，请稍等",
+  "zh-TW": "演算法正在解析，請稍等"
+ },
+ {
+  "en-US": "Failed to save template, please try again later",
+  "key": "aoi.edit.saveErrorMessage",
+  "th-TH": "บันทึกแม่แบบล้มเหลว โปรดลองอีกครั้งในภายหลัง",
+  "vi-VN": "Lưu mẫu thất bại, vui lòng thử lại sau",
+  "zh-CN": "保存模版失败，请稍后再试",
+  "zh-TW": "儲存模版失敗，請稍後再試"
+ },
+ {
+  "en-US": "Basic Information",
+  "key": "aoi.edit.basicInfoTitle",
+  "th-TH": "ข้อมูลพื้นฐาน",
+  "vi-VN": "Thông tin cơ bản",
+  "zh-CN": "基本信息",
+  "zh-TW": "基本資訊"
+ },
+ {
+  "en-US": "Import CAD",
+  "key": "aoi.edit.cadInfoTitle",
+  "th-TH": "นำเข้า CAD",
+  "vi-VN": "Nhập CAD",
+  "zh-CN": "导入CAD",
+  "zh-TW": "匯入CAD"
+ },
+ {
+  "en-US": "Capture Gold Board",
+  "key": "aoi.edit.cameraInfoTitle",
+  "th-TH": "จับภาพแผ่นทอง",
+  "vi-VN": "Chụp mẫu chuẩn",
+  "zh-CN": "拍摄金板",
+  "zh-TW": "拍攝金板"
+ },
+ {
+  "en-US": "Gold Board Parsing Progress",
+  "key": "aoi.edit.goldBoardProgress",
+  "th-TH": "ความคืบหน้าการแยกวิเคราะห์แผ่นทอง",
+  "vi-VN": "Tiến độ phân tích mẫu chuẩn",
+  "zh-CN": "金板解析进度",
+  "zh-TW": "金板解析進度"
+ },
+ {
+  "en-US": "Gold Board Programming",
+  "key": "aoi.edit.btnGoldBoardProgramming",
+  "th-TH": "การเขียนโปรแกรมแผ่นทอง",
+  "vi-VN": "Lập trình mẫu chuẩn",
+  "zh-CN": "金板编程",
+  "zh-TW": "金板程式設計"
+ },
+ {
+  "en-US": "Save Template",
+  "key": "aoi.edit.btnSaveTemplate",
+  "th-TH": "บันทึกแม่แบบ",
+  "vi-VN": "Lưu mẫu",
+  "zh-CN": "保存模版",
+  "zh-TW": "儲存模版"
+ },
+ {
+  "en-US": "Save Successful",
+  "key": "aoi.edit.saveModalTitle",
+  "th-TH": "บันทึกสำเร็จ",
+  "vi-VN": "Lưu thành công",
+  "zh-CN": "保存成功",
+  "zh-TW": "儲存成功"
+ },
+ {
+  "en-US": "Back to List",
+  "key": "aoi.edit.btnBackToList",
+  "th-TH": "กลับสู่รายการ",
+  "vi-VN": "Trở về danh sách",
+  "zh-CN": "返回列表",
+  "zh-TW": "返回列表"
+ },
+ {
+  "en-US": "Start Detection",
+  "key": "aoi.edit.btnModalStartDetection",
+  "th-TH": "เริ่มการตรวจสอบ",
+  "vi-VN": "Bắt đầu kiểm tra",
+  "zh-CN": "启动检测",
+  "zh-TW": "啟動檢測"
+ },
+ {
+  "en-US": "Template Name",
+  "key": "aoi.edit.basicInfoProjectNameLabel",
+  "th-TH": "ชื่อแม่แบบ",
+  "vi-VN": "Tên mẫu",
+  "zh-CN": "模版名称",
+  "zh-TW": "模版名稱"
+ },
+ {
+  "en-US": "Enter template name",
+  "key": "aoi.edit.basicInfoProjectNamePlaceholder",
+  "th-TH": "ป้อนชื่อแม่แบบ",
+  "vi-VN": "Vui lòng nhập tên mẫu",
+  "zh-CN": "请输入模版名称",
+  "zh-TW": "請輸入模版名稱"
+ },
+ {
+  "en-US": "PCB Type",
+  "key": "aoi.edit.basicInfoPcbTypeLabel",
+  "th-TH": "ประเภท PCB",
+  "vi-VN": "Loại PCB",
+  "zh-CN": "PCB类型",
+  "zh-TW": "PCB類型"
+ },
+ {
+  "en-US": "Enter PCB type",
+  "key": "aoi.edit.basicInfoPcbTypePlaceholder",
+  "th-TH": "ป้อนประเภท PCB",
+  "vi-VN": "Vui lòng nhập loại PCB",
+  "zh-CN": "请输入PCB类型",
+  "zh-TW": "請輸入PCB類型"
+ },
+ {
+  "en-US": "Manufacturer",
+  "key": "aoi.edit.basicInfoManufacturerLabel",
+  "th-TH": "ผู้ผลิต",
+  "vi-VN": "Nhà sản xuất",
+  "zh-CN": "生产商",
+  "zh-TW": "生產商"
+ },
+ {
+  "en-US": "Enter manufacturer name",
+  "key": "aoi.edit.basicInfoManufacturerPlaceholder",
+  "th-TH": "ป้อนชื่อผู้ผลิต",
+  "vi-VN": "Vui lòng nhập tên nhà sản xuất",
+  "zh-CN": "请输入生产商名称",
+  "zh-TW": "請輸入生產商名稱"
+ },
+ {
+  "en-US": "Gold Board Length",
+  "key": "aoi.edit.basicInfoGoldBoardLengthLabel",
+  "th-TH": "ความยาวแผ่นทอง",
+  "vi-VN": "Chiều dài mẫu chuẩn",
+  "zh-CN": "金板板长",
+  "zh-TW": "金板板長"
+ },
+ {
+  "en-US": "Enter gold board length",
+  "key": "aoi.edit.basicInfoGoldBoardLengthPlaceholder",
+  "th-TH": "ป้อนความยาวแผ่นทอง",
+  "vi-VN": "Vui lòng nhập chiều dài mẫu chuẩn",
+  "zh-CN": "请输入金板板长",
+  "zh-TW": "請輸入金板板長"
+ },
+ {
+  "en-US": "Gold Board Width",
+  "key": "aoi.edit.basicInfoGoldBoardWidthLabel",
+  "th-TH": "ความกว้างแผ่นทอง",
+  "vi-VN": "Chiều rộng mẫu chuẩn",
+  "zh-CN": "金板板宽",
+  "zh-TW": "金板板寬"
+ },
+ {
+  "en-US": "Enter gold board width",
+  "key": "aoi.edit.basicInfoGoldBoardWidthPlaceholder",
+  "th-TH": "ป้อนความกว้างแผ่นทอง",
+  "vi-VN": "Vui lòng nhập chiều rộng mẫu chuẩn",
+  "zh-CN": "请输入金板板宽",
+  "zh-TW": "請輸入金板板寬"
+ },
+ {
+  "en-US": "BOM Information",
+  "key": "aoi.edit.basicInfoBomFileLabel",
+  "th-TH": "ข้อมูล BOM",
+  "vi-VN": "Thông tin BOM",
+  "zh-CN": "BOM信息",
+  "zh-TW": "BOM資訊"
+ },
+ {
+  "en-US": "Enter BOM information",
+  "key": "aoi.edit.basicInfoBomFilePlaceholder",
+  "th-TH": "ป้อนข้อมูล BOM",
+  "vi-VN": "Vui lòng nhập thông tin BOM",
+  "zh-CN": "请输入BOM信息",
+  "zh-TW": "請輸入BOM資訊"
+ },
+ {
+  "en-US": "Panel Rows",
+  "key": "aoi.edit.basicInfoPanelRowsLabel",
+  "th-TH": "แถวแผงวงจร",
+  "vi-VN": "Số hàng panel",
+  "zh-CN": "拼板行数",
+  "zh-TW": "拼板行數"
+ },
+ {
+  "en-US": "Enter panel rows",
+  "key": "aoi.edit.basicInfoPanelRowsPlaceholder",
+  "th-TH": "ป้อนจำนวนแถวแผงวงจร",
+  "vi-VN": "Vui lòng nhập số hàng panel",
+  "zh-CN": "请输入拼板行数",
+  "zh-TW": "請輸入拼板行數"
+ },
+ {
+  "en-US": "Panel Columns",
+  "key": "aoi.edit.basicInfoPanelColumnsLabel",
+  "th-TH": "คอลัมน์แผงวงจร",
+  "vi-VN": "Số cột panel",
+  "zh-CN": "拼板列数",
+  "zh-TW": "拼板列數"
+ },
+ {
+  "en-US": "Enter panel columns",
+  "key": "aoi.edit.basicInfoPanelColumnsPlaceholder",
+  "th-TH": "ป้อนจำนวนคอลัมน์แผงวงจร",
+  "vi-VN": "Vui lòng nhập số cột panel",
+  "zh-CN": "请输入拼板列数",
+  "zh-TW": "請輸入拼板列數"
+ },
+ {
+  "en-US": "Additional Information",
+  "key": "aoi.edit.basicInfoAdditionalInfoLabel",
+  "th-TH": "ข้อมูลเพิ่มเติม",
+  "vi-VN": "Thông tin bổ sung",
+  "zh-CN": "附加信息",
+  "zh-TW": "附加資訊"
+ },
+ {
+  "en-US": "Enter additional information",
+  "key": "aoi.edit.basicInfoAdditionalInfoPlaceholder",
+  "th-TH": "ป้อนข้อมูลเพิ่มเติม",
+  "vi-VN": "Vui lòng nhập thông tin bổ sung",
+  "zh-CN": "请输入附加信息",
+  "zh-TW": "請輸入附加資訊"
+ },
+ {
+  "en-US": "Gold board capture complete",
+  "key": "aoi.edit.cameraInfoShootFinishMessage",
+  "th-TH": "การจับภาพแผ่นทองเสร็จสมบูรณ์",
+  "vi-VN": "Chụp mẫu chuẩn hoàn tất",
+  "zh-CN": "金板拍摄完成",
+  "zh-TW": "金板拍攝完成"
+ },
+ {
+  "en-US": "Flow Channel Width / Gold Board Width",
+  "key": "aoi.edit.cameraInfoGoldBoardWidthLabel",
+  "th-TH": "ความกว้างช่องทางการไหล / ความกว้างแผ่นทอง",
+  "vi-VN": "Chiều rộng đường dẫn/Chiều rộng mẫu chuẩn",
+  "zh-CN": "流道宽度/金板宽度",
+  "zh-TW": "流道寬度/金板寬度"
+ },
+ {
+  "en-US": "Enter flow channel width/gold board width",
+  "key": "aoi.edit.cameraInfoGoldBoardWidthPlaceholder",
+  "th-TH": "ป้อนความกว้างช่องทางการไหล / ความกว้างแผ่นทอง",
+  "vi-VN": "Vui lòng nhập chiều rộng đường dẫn/chiều rộng mẫu chuẩn",
+  "zh-CN": "请输入流道宽度/金板宽度",
+  "zh-TW": "請輸入流道寬度/金板寬度"
+ },
+ {
+  "en-US": "Apply",
+  "key": "aoi.edit.cameraInfoBtnGoldBoardWidthApply",
+  "th-TH": "ใช้",
+  "vi-VN": "Áp dụng",
+  "zh-CN": "应用",
+  "zh-TW": "套用"
+ },
+ {
+  "en-US": "Gold Board In/Out",
+  "key": "aoi.edit.cameraInfoGoldBoardInOutLabel",
+  "th-TH": "แผ่นทองเข้า/ออก",
+  "vi-VN": "Vào/Ra mẫu chuẩn",
+  "zh-CN": "金板进出",
+  "zh-TW": "金板進出"
+ },
+ {
+  "en-US": "Board In",
+  "key": "aoi.edit.cameraInfoBtnGoldBoardIn",
+  "th-TH": "ใส่บอร์ด",
+  "vi-VN": "Đặt mẫu vào",
+  "zh-CN": "进板",
+  "zh-TW": "進板"
+ },
+ {
+  "en-US": "Board Out",
+  "key": "aoi.edit.cameraInfoBtnGoldBoardOut",
+  "th-TH": "เอาบอร์ดออก",
+  "vi-VN": "Lấy mẫu ra",
+  "zh-CN": "出板",
+  "zh-TW": "出板"
+ },
+ {
+  "en-US": "Capture Gold Board Image",
+  "key": "aoi.edit.cameraInfoCaptureGoldBoardLabel",
+  "th-TH": "จับภาพแผ่นทอง",
+  "vi-VN": "Chụp ảnh mẫu chuẩn",
+  "zh-CN": "拍摄金板图片",
+  "zh-TW": "拍攝金板圖片"
+ },
+ {
+  "en-US": "Capture",
+  "key": "aoi.edit.cameraInfoBtnCapture",
+  "th-TH": "จับภาพ",
+  "vi-VN": "Chụp",
+  "zh-CN": "拍摄",
+  "zh-TW": "拍攝"
+ },
+ {
+  "en-US": "Stop",
+  "key": "aoi.edit.cameraInfoBtnStop",
+  "th-TH": "หยุด",
+  "vi-VN": "Dừng",
+  "zh-CN": "停止",
+  "zh-TW": "停止"
+ },
+ {
+  "en-US": "Index",
+  "key": "aoi.edit.cadInfoTableColIndex",
+  "th-TH": "ลำดับ",
+  "vi-VN": "Số thứ tự",
+  "zh-CN": "序号",
+  "zh-TW": "序號"
+ },
+ {
+  "en-US": "Center Point X",
+  "key": "aoi.edit.cadInfoTableColCenterPointX",
+  "th-TH": "จุดศูนย์กลาง X",
+  "vi-VN": "Tâm X",
+  "zh-CN": "中心点X",
+  "zh-TW": "中心點X"
+ },
+ {
+  "en-US": "Center Point Y",
+  "key": "aoi.edit.cadInfoTableColCenterPointY",
+  "th-TH": "จุดศูนย์กลาง Y",
+  "vi-VN": "Tâm Y",
+  "zh-CN": "中心点Y",
+  "zh-TW": "中心點Y"
+ },
+ {
+  "en-US": "Rotation Angle",
+  "key": "aoi.edit.cadInfoTableColRotationAngle",
+  "th-TH": "มุมการหมุน",
+  "vi-VN": "Góc xoay",
+  "zh-CN": "角度",
+  "zh-TW": "角度"
+ },
+ {
+  "en-US": "Component Code",
+  "key": "aoi.edit.cadInfoTableColComponentCode",
+  "th-TH": "รหัสส่วนประกอบ",
+  "vi-VN": "Mã vị trí",
+  "zh-CN": "位置号",
+  "zh-TW": "位置號"
+ },
+ {
+  "en-US": "Material Code",
+  "key": "aoi.edit.cadInfoTableColMaterialCode",
+  "th-TH": "รหัสวัสดุ",
+  "vi-VN": "Mã vật liệu",
+  "zh-CN": "料号",
+  "zh-TW": "料號"
+ },
+ {
+  "en-US": "Panel",
+  "key": "aoi.edit.cadInfoTableColPanel",
+  "th-TH": "แผง",
+  "vi-VN": "Ghép tấm",
+  "zh-CN": "拼板",
+  "zh-TW": "拼板"
+ },
+ {
+  "en-US": "mm",
+  "key": "aoi.edit.cadInfoUnitMMOption",
+  "th-TH": "มิลลิเมตร",
+  "vi-VN": "Milimet",
+  "zh-CN": "毫米",
+  "zh-TW": "毫米"
+ },
+ {
+  "en-US": "in",
+  "key": "aoi.edit.cadInfoUnitINOption",
+  "th-TH": "นิ้ว",
+  "vi-VN": "Inch",
+  "zh-CN": "英寸",
+  "zh-TW": "英吋"
+ },
+ {
+  "en-US": "Mil",
+  "key": "aoi.edit.cadInfoUnitMILOption",
+  "th-TH": "มิล",
+  "vi-VN": "Mil",
+  "zh-CN": "密耳",
+  "zh-TW": "密耳"
+ },
+ {
+  "en-US": "Pending Upload",
+  "key": "aoi.edit.cadInfoParseStatus",
+  "th-TH": "รอการอัปโหลด",
+  "vi-VN": "Chờ tải lên",
+  "zh-CN": "待上传",
+  "zh-TW": "待上傳"
+ },
+ {
+  "en-US": "Uploading",
+  "key": "aoi.edit.cadInfoParseStatusUploading",
+  "th-TH": "กำลังอัปโหลด",
+  "vi-VN": "Đang tải lên",
+  "zh-CN": "上传中",
+  "zh-TW": "上傳中"
+ },
+ {
+  "en-US": "Parsing",
+  "key": "aoi.edit.cadInfoParseStatusParsing",
+  "th-TH": "กำลังแยกวิเคราะห์",
+  "vi-VN": "Đang phân tích",
+  "zh-CN": "解析中",
+  "zh-TW": "解析中"
+ },
+ {
+  "en-US": "Parsing Successful",
+  "key": "aoi.edit.cadInfoParseStatusFinish",
+  "th-TH": "แยกวิเคราะห์สำเร็จ",
+  "vi-VN": "Phân tích thành công",
+  "zh-CN": "解析成功",
+  "zh-TW": "解析成功"
+ },
+ {
+  "en-US": "File size cannot exceed 100MB",
+  "key": "aoi.edit.cadInfoFileSizeLimitMessage",
+  "th-TH": "ขนาดไฟล์ต้องไม่เกิน 100MB",
+  "vi-VN": "Kích thước tệp không được vượt quá 100MB",
+  "zh-CN": "文件大小不能超过100MB",
+  "zh-TW": "檔案大小不能超過100MB"
+ },
+ {
+  "en-US": "File type error",
+  "key": "aoi.edit.cadInfoFileTypeErrorMessage",
+  "th-TH": "ข้อผิดพลาดประเภทไฟล์",
+  "vi-VN": "Lỗi loại tệp",
+  "zh-CN": "文件类型错误",
+  "zh-TW": "檔案類型錯誤"
+ },
+ {
+  "en-US": "File parsing failed",
+  "key": "aoi.edit.cadInfoFileParseErrorMessage",
+  "th-TH": "การแยกวิเคราะห์ไฟล์ล้มเหลว",
+  "vi-VN": "Phân tích tệp thất bại",
+  "zh-CN": "文件解析失败",
+  "zh-TW": "檔案解析失敗"
+ },
+ {
+  "en-US": "File upload failed",
+  "key": "aoi.edit.cadInfoFileUploadErrorMessage",
+  "th-TH": "การอัปโหลดไฟล์ล้มเหลว",
+  "vi-VN": "Tải tệp lên thất bại",
+  "zh-CN": "文件上传失败",
+  "zh-TW": "檔案上傳失敗"
+ },
+ {
+  "en-US": "Please upload CAD file",
+  "key": "aoi.edit.cadInfoFileUploadMessage",
+  "th-TH": "โปรดอัปโหลดไฟล์ CAD",
+  "vi-VN": "Vui lòng tải tệp CAD lên",
+  "zh-CN": "请上传CAD文件",
+  "zh-TW": "請上傳CAD檔案"
+ },
+ {
+  "en-US": "Drag file here or click to upload",
+  "key": "aoi.edit.cadInfoFileDragTip",
+  "th-TH": "ลากไฟล์มาที่นี่หรือคลิกเพื่ออัปโหลด",
+  "vi-VN": "Kéo tệp vào đây hoặc nhấp để tải lên",
+  "zh-CN": "将文件拖到此处或点击上传",
+  "zh-TW": "將檔案拖曳至此或點擊上傳"
+ },
+ {
+  "en-US": "Only TXT/CSV files, not exceeding 100MB",
+  "key": "aoi.edit.cadInfoFileSizeLimitTip",
+  "th-TH": "สามารถอัปโหลดได้เฉพาะไฟล์ txt/csv ที่มีขนาดไม่เกิน 100MB",
+  "vi-VN": "Chỉ có thể tải lên tệp txt/csv, và không quá 100MB",
+  "zh-CN": "只能上传txt/csv文件，且不超过100MB",
+  "zh-TW": "只能上傳txt/csv檔案，且不超過100MB"
+ },
+ {
+  "en-US": "File uploading",
+  "key": "aoi.edit.cadInfoFileUploadingStatus",
+  "th-TH": "กำลังอัปโหลดไฟล์",
+  "vi-VN": "Đang tải tệp lên",
+  "zh-CN": "文件上传中",
+  "zh-TW": "檔案上傳中"
+ },
+ {
+  "en-US": "File parsing",
+  "key": "aoi.edit.cadInfoFileParsingStatus",
+  "th-TH": "กำลังแยกวิเคราะห์ไฟล์",
+  "vi-VN": "Đang phân tích tệp",
+  "zh-CN": "文件解析中",
+  "zh-TW": "檔案解析中"
+ },
+ {
+  "en-US": "Reset",
+  "key": "aoi.edit.cadInfoBtnReset",
+  "th-TH": "รีเซ็ต",
+  "vi-VN": "Đặt lại",
+  "zh-CN": "重置",
+  "zh-TW": "重設"
+ },
+ {
+  "en-US": "Import Settings",
+  "key": "aoi.edit.cadInfoImportSettingsLabel",
+  "th-TH": "การตั้งค่านำเข้า",
+  "vi-VN": "Cài đặt nhập",
+  "zh-CN": "导入设置",
+  "zh-TW": "匯入設定"
+ },
+ {
+  "en-US": "Select All Lines",
+  "key": "aoi.edit.cadInfoSelectAllLines",
+  "th-TH": "เลือกทุกบรรทัด",
+  "vi-VN": "Chọn tất cả các dòng",
+  "zh-CN": "选择全部行",
+  "zh-TW": "選取所有行"
+ },
+ {
+  "en-US": "Start Line",
+  "key": "aoi.edit.cadInfoStartLineLabel",
+  "th-TH": "บรรทัดเริ่มต้น",
+  "vi-VN": "Dòng bắt đầu",
+  "zh-CN": "开始行",
+  "zh-TW": "開始行"
+ },
+ {
+  "en-US": "End Line",
+  "key": "aoi.edit.cadInfoEndLineLabel",
+  "th-TH": "บรรทัดสิ้นสุด",
+  "vi-VN": "Dòng kết thúc",
+  "zh-CN": "结束行",
+  "zh-TW": "結束行"
+ },
+ {
+  "en-US": "Length Unit",
+  "key": "aoi.edit.cadInfoLengthUnitLabel",
+  "th-TH": "หน่วยความยาว",
+  "vi-VN": "Thiết lập đơn vị",
+  "zh-CN": "设置单位",
+  "zh-TW": "設定單位"
+ },
+ {
+  "en-US": "Charset",
+  "key": "aoi.edit.cadInfoCharsetLabel",
+  "th-TH": "ชุดอักขระ",
+  "vi-VN": "Mã hóa",
+  "zh-CN": "编码",
+  "zh-TW": "編碼"
+ },
+ {
+  "en-US": "Confirm leaving current page?",
+  "key": "aoi.edit.leaveConfirmTitle",
+  "th-TH": "ยืนยันการออกจากหน้าปัจจุบันหรือไม่?",
+  "vi-VN": "Xác nhận rời khỏi trang hiện tại?",
+  "zh-CN": "确定离开当前页面？",
+  "zh-TW": "確定離開目前頁面？"
+ },
+ {
+  "en-US": "You have unsaved edits, leaving the page will discard changes.",
+  "key": "aoi.edit.leaveConfirmContent",
+  "th-TH": "คุณมีการแก้ไขที่ยังไม่ได้บันทึก การออกจากหน้าจะทำให้ข้อมูลสูญหาย",
+  "vi-VN": "Bạn có nội dung chỉnh sửa chưa lưu, rời khỏi trang sẽ làm mất các thay đổi",
+  "zh-CN": "您有未保存的编辑内容，离开页面将丢失更改",
+  "zh-TW": "您有未儲存的編輯內容，離開頁面將遺失變更"
+ },
+ {
+  "en-US": "Save successful",
+  "key": "aoi.goldBoard.saveSuccessMessage",
+  "th-TH": "บันทึกสำเร็จ",
+  "vi-VN": "Lưu thành công",
+  "zh-CN": "保存成功",
+  "zh-TW": "儲存成功"
+ },
+ {
+  "en-US": "Save failed",
+  "key": "aoi.goldBoard.saveErrorMessage",
+  "th-TH": "บันทึกไม่สำเร็จ",
+  "vi-VN": "Lưu thất bại",
+  "zh-CN": "保存失败",
+  "zh-TW": "儲存失敗"
+ },
+ {
+  "en-US": "Light Source Toggle",
+  "key": "aoi.goldBoard.AnnotationBtnLight",
+  "th-TH": "สลับแหล่งกำเนิดแสง",
+  "vi-VN": "Chuyển đổi nguồn sáng",
+  "zh-CN": "光源切换",
+  "zh-TW": "光源切換"
+ },
+ {
+  "en-US": "Save",
+  "key": "aoi.goldBoard.AnnotationBtnSave",
+  "th-TH": "บันทึก",
+  "vi-VN": "Lưu",
+  "zh-CN": "保存",
+  "zh-TW": "儲存"
+ },
+ {
+  "en-US": "Enable",
+  "key": "aoi.goldBoard.deviceTreeEnableOption",
+  "th-TH": "เปิดใช้งาน",
+  "vi-VN": "Bật",
+  "zh-CN": "启用",
+  "zh-TW": "啟用"
+ },
+ {
+  "en-US": "Disable",
+  "key": "aoi.goldBoard.deviceTreeDisableOption",
+  "th-TH": "ปิดใช้งาน",
+  "vi-VN": "Tắt",
+  "zh-CN": "禁用",
+  "zh-TW": "停用"
+ },
+ {
+  "en-US": "Rename",
+  "key": "aoi.goldBoard.deviceTreeRenameOption",
+  "th-TH": "เปลี่ยนชื่อ",
+  "vi-VN": "Đổi tên",
+  "zh-CN": "重命名",
+  "zh-TW": "重新命名"
+ },
+ {
+  "en-US": "Duplicate node name",
+  "key": "aoi.goldBoard.deviceTreeRenameErrorMessage",
+  "th-TH": "ชื่อโหนดซ้ำ",
+  "vi-VN": "Tên nút bị trùng lặp",
+  "zh-CN": "节点名称重复",
+  "zh-TW": "節點名稱重複"
+ },
+ {
+  "en-US": "Rename successful",
+  "key": "aoi.goldBoard.deviceTreeRenameSuccessMessage",
+  "th-TH": "เปลี่ยนชื่อสำเร็จ",
+  "vi-VN": "Đổi tên thành công",
+  "zh-CN": "重命名成功",
+  "zh-TW": "重新命名成功"
+ },
+ {
+  "en-US": "Other",
+  "key": "aoi.goldBoard.deviceTreeOtherOption",
+  "th-TH": "อื่นๆ",
+  "vi-VN": "Khác",
+  "zh-CN": "其他",
+  "zh-TW": "其他"
+ },
+ {
+  "en-US": "Passed",
+  "key": "aoi.goldBoard.deviceTreePassSuccessMessage",
+  "th-TH": "ผ่านแล้ว",
+  "vi-VN": "Đã đạt",
+  "zh-CN": "已通过",
+  "zh-TW": "已通過"
+ },
+ {
+  "en-US": "Confirmation failed",
+  "key": "aoi.goldBoard.deviceTreePassErrorMessage",
+  "th-TH": "ยืนยันไม่สำเร็จ",
+  "vi-VN": "Xác nhận thất bại",
+  "zh-CN": "确认失败",
+  "zh-TW": "確認失敗"
+ },
+ {
+  "en-US": "No matching device ID found",
+  "key": "aoi.goldBoard.deviceTreeNotFoundWarningMessage",
+  "th-TH": "ไม่พบรหัสอุปกรณ์ที่ตรงกัน",
+  "vi-VN": "Không tìm thấy ID thiết bị phù hợp",
+  "zh-CN": "未找到匹配的器件ID",
+  "zh-TW": "未找到符合的器件ID"
+ },
+ {
+  "en-US": "Enter device ID to search",
+  "key": "aoi.goldBoard.deviceTreeSearchPlaceholder",
+  "th-TH": "ป้อนรหัสอุปกรณ์เพื่อค้นหา",
+  "vi-VN": "Vui lòng nhập ID thiết bị để tìm kiếm",
+  "zh-CN": "请输入器件ID搜索",
+  "zh-TW": "請輸入器件ID搜尋"
+ },
+ {
+  "en-US": "Rename",
+  "key": "aoi.goldBoard.deviceTreeRenameModalTitle",
+  "th-TH": "เปลี่ยนชื่อ",
+  "vi-VN": "Đổi tên",
+  "zh-CN": "重命名",
+  "zh-TW": "重新命名"
+ },
+ {
+  "en-US": "Name cannot be empty",
+  "key": "aoi.goldBoard.deviceTreeRenameModalEmptyErrorMessage",
+  "th-TH": "ชื่อต้องไม่ว่างเปล่า",
+  "vi-VN": "Tên không được để trống",
+  "zh-CN": "名称不能为空",
+  "zh-TW": "名稱不能為空"
+ },
+ {
+  "en-US": "Name unchanged",
+  "key": "aoi.goldBoard.deviceTreeRenameModalUnchangedMessage",
+  "th-TH": "ชื่อไม่เปลี่ยนแปลง",
+  "vi-VN": "Tên chưa được sửa đổi",
+  "zh-CN": "名称未修改",
+  "zh-TW": "名稱未修改"
+ },
+ {
+  "en-US": "Enter new name",
+  "key": "aoi.goldBoard.deviceTreeRenameModalInputPlaceholder",
+  "th-TH": "ป้อนชื่อใหม่",
+  "vi-VN": "Vui lòng nhập tên mới",
+  "zh-CN": "请输入新的名称",
+  "zh-TW": "請輸入新的名稱"
+ },
+ {
+  "en-US": "Pass",
+  "key": "aoi.statusMap.Pass",
+  "th-TH": "ผ่าน",
+  "vi-VN": "Đạt",
+  "zh-CN": "通过",
+  "zh-TW": "通過"
+ },
+ {
+  "en-US": "Not Pass",
+  "key": "aoi.statusMap.NotPass",
+  "th-TH": "ไม่ผ่าน",
+  "vi-VN": "Không đạt",
+  "zh-CN": "未通过",
+  "zh-TW": "未通過"
+ },
+ {
+  "en-US": "Pending Confirmation",
+  "key": "aoi.statusMap.Pending",
+  "th-TH": "รอการยืนยัน",
+  "vi-VN": "Chờ xác nhận",
+  "zh-CN": "待确认",
+  "zh-TW": "待確認"
+ },
+ {
+  "en-US": "Warning",
+  "key": "aoi.statusMap.Warning",
+  "th-TH": "คำเตือน",
+  "vi-VN": "Cảnh báo",
+  "zh-CN": "警告",
+  "zh-TW": "警告"
+ },
+ {
+  "en-US": "Undetected",
+  "key": "aoi.statusMap.Undetected",
+  "th-TH": "ไม่ถูกตรวจพบ",
+  "vi-VN": "Không phát hiện",
+  "zh-CN": "未检出",
+  "zh-TW": "未檢出"
+ },
+ {
+  "en-US": "Disabled",
+  "key": "aoi.statusMap.Disabled",
+  "th-TH": "ปิดใช้งาน",
+  "vi-VN": "Đã tắt",
+  "zh-CN": "不启用",
+  "zh-TW": "未啟用"
+ },
+ {
+  "en-US": "Shape Attributes",
+  "key": "aoi.deviceMap.shapeAttributes",
+  "th-TH": "คุณสมบัติรูปร่าง",
+  "vi-VN": "Thuộc tính hình dạng",
+  "zh-CN": "封装框",
+  "zh-TW": "封裝框"
+ },
+ {
+  "en-US": "Polarity Boxes",
+  "key": "aoi.deviceMap.polarityBoxes",
+  "th-TH": "กล่องระบุขั้ว",
+  "vi-VN": "Dấu cực tính",
+  "zh-CN": "极性标",
+  "zh-TW": "極性標"
+ },
+ {
+  "en-US": "Pad",
+  "key": "aoi.deviceMap.pad",
+  "th-TH": "แพด",
+  "vi-VN": "Điểm hàn",
+  "zh-CN": "焊盘",
+  "zh-TW": "焊盤"
+ },
+ {
+  "en-US": "Pin",
+  "key": "aoi.deviceMap.pin",
+  "th-TH": "พิน",
+  "vi-VN": "Chân linh kiện",
+  "zh-CN": "引脚",
+  "zh-TW": "引腳"
+ },
+ {
+  "en-US": "All",
+  "key": "aoi.edit.annotationBottomBarAll",
+  "th-TH": "ทั้งหมด",
+  "vi-VN": "Tất cả",
+  "zh-CN": "全部",
+  "zh-TW": "全部"
+ }
 ]
