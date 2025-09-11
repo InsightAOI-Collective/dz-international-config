@@ -1,470 +1,938 @@
 [
  {
+  "en-US": "",
   "key": "admin.Account.title",
-  "zh-CN": "账户管理"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "账户管理",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.formNicknameLabel",
-  "zh-CN": "用户名"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "用户名",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.formNicknamePlaceholder",
-  "zh-CN": "请输入用户名"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "请输入用户名",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.formUsernameLabel",
-  "zh-CN": "账户（工号）"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "账户（工号）",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.formUsernamePlaceholder",
-  "zh-CN": "请输入账户（工号）"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "请输入账户（工号）",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.formRoleLabel",
-  "zh-CN": "角色"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "角色",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.formRolePlaceholder",
-  "zh-CN": "请选择角色"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "请选择角色",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.formStatusLabel",
-  "zh-CN": "状态"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "状态",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.formStatusPlaceholder",
-  "zh-CN": "请选择状态"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "请选择状态",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.formCreateTimeLabel",
-  "zh-CN": "创建时间"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "创建时间",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.formCreateTimeStartPlaceholder",
-  "zh-CN": "开始时间"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "开始时间",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.formCreateTimeEndPlaceholder",
-  "zh-CN": "结束时间"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "结束时间",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.formBtnSearch",
-  "zh-CN": "搜索"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "搜索",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.formBtnReset",
-  "zh-CN": "重置"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "重置",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.listTitle",
-  "zh-CN": "账户列表"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "账户列表",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.listBtnAdd",
-  "zh-CN": "添加"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "添加",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.listTotal",
-  "zh-CN": "共 ${total} 条记录"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "共 ${total} 条记录",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.addModalTitle",
-  "zh-CN": "添加用户"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "添加用户",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.addModalFormAccountLabel",
-  "zh-CN": "账号(工号)"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "账号(工号)",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.addModalFormAccountPlaceholder",
-  "zh-CN": "请输入账号"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "请输入账号",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.addModalFormAccountRules",
-  "zh-CN": "账号长度应为 6-20 个字符"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "账号长度应为 6-20 个字符",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.addModalFormAccountExtra",
-  "zh-CN": "账号仅支持英文、数字"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "账号仅支持英文、数字",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.addModalFormNicknameLabel",
-  "zh-CN": "用户名"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "用户名",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.addModalFormNicknamePlaceholder",
-  "zh-CN": "请输入用户名（选填）"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "请输入用户名（选填）",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.addModalFormNicknameRules",
-  "zh-CN": "用户名长度应为 2-20 个字符"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "用户名长度应为 2-20 个字符",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.addModalFormNicknameExtra",
-  "zh-CN": "用户名支持中文、英文、数字及部分特殊字符"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "用户名支持中文、英文、数字及部分特殊字符",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.addModalFormRoleLabel",
-  "zh-CN": "角色"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "角色",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.addModalFormRolePlaceholder",
-  "zh-CN": "请选择角色"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "请选择角色",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.modifyModalTitle",
-  "zh-CN": "修改角色"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "修改角色",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.modifyModalFormRoleLabel",
-  "zh-CN": "用户角色"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "用户角色",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.modifyModalFormRolePlaceholder",
-  "zh-CN": "请选择角色"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "请选择角色",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.confirmModalTitle",
-  "zh-CN": "重置密码"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "重置密码",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.confirmModalContent",
-  "zh-CN": "重置密码后，密码为初始密码000000，是否确认重置密码？"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "重置密码后，密码为初始密码000000，是否确认重置密码？",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.confirmModalSuccessMessage",
-  "zh-CN": "密码重置成功"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "密码重置成功",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.resignModalTitle",
-  "zh-CN": "离职确认"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "离职确认",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.resignModalContent",
-  "zh-CN": "离职后无法恢复，请谨慎操作！"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "离职后无法恢复，请谨慎操作！",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.resignModalSuccessMessage",
-  "zh-CN": "操作成功"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "操作成功",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.modifyModalSuccessMessage",
-  "zh-CN": "角色修改成功"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "角色修改成功",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.tableColIndex",
-  "zh-CN": "序号"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "序号",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.tableColUsername",
-  "zh-CN": "账户（工号）"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "账户（工号）",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.tableColNickname",
-  "zh-CN": "用户名"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "用户名",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.tableColRole",
-  "zh-CN": "角色"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "角色",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.tableColStatus",
-  "zh-CN": "状态"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "状态",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.tableColCreateTime",
-  "zh-CN": "创建时间"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "创建时间",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.tableColAction",
-  "zh-CN": "操作"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "操作",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.tableColBtnEditRole",
-  "zh-CN": "修改角色"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "修改角色",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.tableColBtnResetPassword",
-  "zh-CN": "重置密码"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "重置密码",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.tableColBtnResign",
-  "zh-CN": "离职"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "离职",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.addModalSuccessMessage",
-  "zh-CN": "账户添加成功"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "账户添加成功",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.addModalErrorMessage",
-  "zh-CN": "该账号已添加！"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "该账号已添加！",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.DefectLabel.updateTagSuccessMessage",
-  "zh-CN": "更新成功"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "更新成功",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.DefectLabel.updateTagErrorMessage",
-  "zh-CN": "更新失败"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "更新失败",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.DefectLabel.completeFormErrorMessage",
-  "zh-CN": "请填写完整标签信息"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "请填写完整标签信息",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.DefectLabel.tableColPrioritySort",
-  "zh-CN": "排序优先级"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "排序优先级",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.DefectLabel.tableColTagName",
-  "zh-CN": "标签名"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "标签名",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.DefectLabel.tableColTagNamePlaceholder",
-  "zh-CN": "请输入标签名"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "请输入标签名",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.DefectLabel.tableColTagColor",
-  "zh-CN": "标签颜色"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "标签颜色",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.DefectLabel.tableColTagType",
-  "zh-CN": "标签类型"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "标签类型",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.DefectLabel.tableColShortcutKey",
-  "zh-CN": "快捷键"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "快捷键",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.DefectLabel.tableColAction",
-  "zh-CN": "操作"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "操作",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.DefectLabel.tableColBtnDel",
-  "zh-CN": "删除"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "删除",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.DefectLabel.tabCategory",
-  "zh-CN": "分类标签"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "分类标签",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.DefectLabel.tabDetection",
-  "zh-CN": "检测标签"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "检测标签",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.DefectLabel.btnUpdate",
-  "zh-CN": "更新"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "更新",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.DefectLabel.popoverContent",
-  "zh-CN": "新增标签"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "新增标签",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Role.title",
-  "zh-CN": "角色管理"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "角色管理",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Role.deleteConfirmModalTitle",
-  "zh-CN": "确认删除"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "确认删除",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Role.deleteConfirmModalContent",
-  "zh-CN": "您确定要删除该角色吗？"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "您确定要删除该角色吗？",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Role.deleteConfirmModalSuccessMessage",
-  "zh-CN": "角色删除成功"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "角色删除成功",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Role.updateSuccessMessage",
-  "zh-CN": "更新成功"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "更新成功",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Role.createSuccessMessage",
-  "zh-CN": "创建成功"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "创建成功",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Role.selectRoleMessage",
-  "zh-CN": "请先选择一个角色"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "请先选择一个角色",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Role.updatePermissionSuccessMessage",
-  "zh-CN": "权限更新成功"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "权限更新成功",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Role.btnCreateRole",
-  "zh-CN": "新增角色"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "新增角色",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Role.btnEditRole",
-  "zh-CN": "修改名称"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "修改名称",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Role.btnDeleteRole",
-  "zh-CN": "删除角色"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "删除角色",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Role.tabRole",
-  "zh-CN": "角色详情"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "角色详情",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Role.tabPermission",
-  "zh-CN": "角色权限"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "角色权限",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Role.roleName",
-  "zh-CN": "角色名称"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "角色名称",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Role.roleCreateTime",
-  "zh-CN": "创建时间"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "创建时间",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Role.roleUpdateTime",
-  "zh-CN": "更新时间"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "更新时间",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Role.rolePermissionCount",
-  "zh-CN": "权限数量"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "权限数量",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Role.btnCancelPermission",
-  "zh-CN": "取消"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "取消",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Role.btnConfirmPermission",
-  "zh-CN": "确定"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "确定",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Role.addModalTitle",
-  "zh-CN": "新增角色"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "新增角色",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Role.modifyModalTitle",
-  "zh-CN": "编辑角色"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "编辑角色",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Role.modalRoleName",
-  "zh-CN": "角色名称"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "角色名称",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Role.modalRoleNamePlaceholder",
-  "zh-CN": "请输入角色名称"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "请输入角色名称",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Server.title",
-  "zh-CN": "服务监控"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "服务监控",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Server.cpuLabel",
-  "zh-CN": "属性"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "属性",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Server.cpuValue",
-  "zh-CN": "值"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "值",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Server.memTitle",
-  "zh-CN": "内存"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "内存",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Server.memLabel",
-  "zh-CN": "属性"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "属性",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Server.memValue",
-  "zh-CN": "内存"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "内存",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Server.sysTitle",
-  "zh-CN": "服务器信息"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "服务器信息",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Server.sysName",
-  "zh-CN": "服务器名称"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "服务器名称",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Server.sysIp",
-  "zh-CN": "服务器IP"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "服务器IP",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Server.sysOs",
-  "zh-CN": "操作系统"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "操作系统",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Server.sysArch",
-  "zh-CN": "系统架构"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "系统架构",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Server.jvmTitle",
-  "zh-CN": "Java虚拟机信息"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "Java虚拟机信息",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Server.jvmName",
-  "zh-CN": "Java名称"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "Java名称",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Server.jvmVersion",
-  "zh-CN": "版本"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "版本",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Server.jvmStartTime",
-  "zh-CN": "启动时间"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "启动时间",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Server.jvmRunTime",
-  "zh-CN": "运行时间"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "运行时间",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Server.jvmHome",
-  "zh-CN": "安装路径"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "安装路径",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Server.jvmInputArgs",
-  "zh-CN": "项目路径"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "项目路径",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Server.diskTitle",
-  "zh-CN": "磁盘状态"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "磁盘状态",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Server.diskPath",
-  "zh-CN": "盘符路径"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "盘符路径",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Server.diskSysType",
-  "zh-CN": "文件系统"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "文件系统",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Server.diskType",
-  "zh-CN": "盘符类型"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "盘符类型",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Server.diskTotal",
-  "zh-CN": "总大小"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "总大小",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Server.diskFree",
-  "zh-CN": "可用大小"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "可用大小",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Server.diskUsed",
-  "zh-CN": "已用大小"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "已用大小",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Server.diskUsage",
-  "zh-CN": "已用百分比"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "已用百分比",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.UserStatusMapInactive",
-  "zh-CN": "未激活"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "未激活",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.UserStatusMapActive",
-  "zh-CN": "已激活"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "已激活",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "admin.Account.UserStatusMapResigned",
-  "zh-CN": "已离职"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "已离职",
+  "zh-TW": ""
  }
 ]

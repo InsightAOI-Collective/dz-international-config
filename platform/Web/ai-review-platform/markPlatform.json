@@ -1,74 +1,146 @@
 [
  {
+  "en-US": "",
   "key": "markPlatform.exitModalTitle",
-  "zh-CN": "退出标注平台"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "退出标注平台",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "markPlatform.exitModalBtnConfirm",
-  "zh-CN": "确定"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "确定",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "markPlatform.exitModalContent",
-  "zh-CN": "没有更多数据，即将退出"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "没有更多数据，即将退出",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "markPlatform.unSaveModalTitle",
-  "zh-CN": "未保存"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "未保存",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "markPlatform.unSaveModalContent",
-  "zh-CN": "你有未保存的修改，确认要离开吗？"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "你有未保存的修改，确认要离开吗？",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "markPlatform.ButtonList.saveSuccessMessage",
-  "zh-CN": "保存成功"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "保存成功",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "markPlatform.ButtonList.auditSuccessMessage",
-  "zh-CN": "审核完成"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "审核完成",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "markPlatform.ButtonList.btnReject",
-  "zh-CN": "驳回"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "驳回",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "markPlatform.ButtonList.btnPass",
-  "zh-CN": "通过"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "通过",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "markPlatform.ButtonList.btnSkip",
-  "zh-CN": "跳过"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "跳过",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "markPlatform.ButtonList.btnSave",
-  "zh-CN": "保存"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "保存",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "markPlatform.ShapeList.btnConfirm",
-  "zh-CN": "确定"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "确定",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "markPlatform.ShapeList.title",
-  "zh-CN": "当前标签"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "当前标签",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "markPlatform.ShapeList.filterTitle",
-  "zh-CN": "标签筛选"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "标签筛选",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "markPlatform.ShapeList.delTitle",
-  "zh-CN": "删除标注"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "删除标注",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "markPlatform.ShapeList.delDescription",
-  "zh-CN": "是否删除全部标注?"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "是否删除全部标注?",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "markPlatform.ShapeList.delConfirm",
-  "zh-CN": "确定"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "确定",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "markPlatform.ShapeList.delCancel",
-  "zh-CN": "取消"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "取消",
+  "zh-TW": ""
  }
 ]

@@ -1,522 +1,1042 @@
 [
  {
+  "en-US": "",
   "key": "aoi.list.title",
-  "zh-CN": "检测模版"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "检测模版",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.list.projectNameLabel",
-  "zh-CN": "模版名称"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "模版名称",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.list.projectNamePlaceholder",
-  "zh-CN": "请输入模版名称"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "请输入模版名称",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.list.createTimeLabel",
-  "zh-CN": "创建时间"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "创建时间",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.list.createTimeStartPlaceholder",
-  "zh-CN": "开始时间"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "开始时间",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.list.createTimeEndPlaceholder",
-  "zh-CN": "结束时间"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "结束时间",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.list.btnSearch",
-  "zh-CN": "搜索"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "搜索",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.list.btnReset",
-  "zh-CN": "重置"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "重置",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.list.delConfirmNodalTitle",
-  "zh-CN": "确认删除？"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "确认删除？",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.list.delConfirmNodalSuccessMessage",
-  "zh-CN": "删除成功！"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "删除成功！",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.list.tableColThumbnailUrl",
-  "zh-CN": "缩略图"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "缩略图",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.list.tableColProjectName",
-  "zh-CN": "模版名称"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "模版名称",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.list.tableColPanel",
-  "zh-CN": "拼板(行*列)"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "拼板(行*列)",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.list.tableColPcbSize",
-  "zh-CN": "PCB尺寸(长*宽)"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "PCB尺寸(长*宽)",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.list.tableColBomFile",
-  "zh-CN": "Bom文件"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "Bom文件",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.list.tableColManufacturer",
-  "zh-CN": "制造商"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "制造商",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.list.tableColCreateBy",
-  "zh-CN": "创建人"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "创建人",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.list.tableColCreateTime",
-  "zh-CN": "创建时间"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "创建时间",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.list.tableColUpdateTime",
-  "zh-CN": "修改时间"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "修改时间",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.list.tableColAction",
-  "zh-CN": "操作"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "操作",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.list.tableBtnStartDetection",
-  "zh-CN": "启动检测"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "启动检测",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.list.tableBtnEdit",
-  "zh-CN": "编辑"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "编辑",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.list.tableBtnDelete",
-  "zh-CN": "删除"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "删除",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.list.tableTitle",
-  "zh-CN": "模版列表"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "模版列表",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.list.btnAddTpl",
-  "zh-CN": "新建模版"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "新建模版",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.list.tableShowTotal",
-  "zh-CN": "共 {total} 条记录"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "共 {total} 条记录",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.newTitle",
-  "zh-CN": "新建模版"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "新建模版",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.editTitle",
-  "zh-CN": "编辑模版"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "编辑模版",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.basicInfoProjectName",
-  "zh-CN": "自定义模版"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "自定义模版",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.captureErrorMessage",
-  "zh-CN": "请完成拍摄"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "请完成拍摄",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.captureParsingMessage",
-  "zh-CN": "算法正在解析，请稍等"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "算法正在解析，请稍等",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.saveErrorMessage",
-  "zh-CN": "保存模版失败，请稍后再试"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "保存模版失败，请稍后再试",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.basicInfoTitle",
-  "zh-CN": "基本信息"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "基本信息",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.cadInfoTitle",
-  "zh-CN": "导入CAD"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "导入CAD",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.cameraInfoTitle",
-  "zh-CN": "拍摄金板"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "拍摄金板",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.goldBoardProgress",
-  "zh-CN": "金板解析进度"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "金板解析进度",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.btnGoldBoardProgramming",
-  "zh-CN": "金板编程"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "金板编程",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.btnSaveTemplate",
-  "zh-CN": "保存模版"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "保存模版",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.saveModalTitle",
-  "zh-CN": "保存成功"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "保存成功",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.btnBackToList",
-  "zh-CN": "返回列表"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "返回列表",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.btnModalStartDetection",
-  "zh-CN": "启动检测"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "启动检测",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.basicInfoProjectNameLabel",
-  "zh-CN": "模版名称"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "模版名称",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.basicInfoProjectNamePlaceholder",
-  "zh-CN": "请输入模版名称"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "请输入模版名称",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.basicInfoPcbTypeLabel",
-  "zh-CN": "PCB类型"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "PCB类型",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.basicInfoPcbTypePlaceholder",
-  "zh-CN": "请输入PCB类型"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "请输入PCB类型",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.basicInfoManufacturerLabel",
-  "zh-CN": "生产商"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "生产商",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.basicInfoManufacturerPlaceholder",
-  "zh-CN": "请输入生产商名称"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "请输入生产商名称",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.basicInfoGoldBoardLengthLabel",
-  "zh-CN": "金板板长"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "金板板长",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.basicInfoGoldBoardLengthPlaceholder",
-  "zh-CN": "请输入金板板长"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "请输入金板板长",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.basicInfoGoldBoardWidthLabel",
-  "zh-CN": "金板板宽"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "金板板宽",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.basicInfoGoldBoardWidthPlaceholder",
-  "zh-CN": "请输入金板板宽"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "请输入金板板宽",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.basicInfoBomFileLabel",
-  "zh-CN": "BOM信息"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "BOM信息",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.basicInfoBomFilePlaceholder",
-  "zh-CN": "请输入BOM信息"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "请输入BOM信息",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.basicInfoPanelRowsLabel",
-  "zh-CN": "拼板行数"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "拼板行数",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.basicInfoPanelRowsPlaceholder",
-  "zh-CN": "请输入拼板行数"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "请输入拼板行数",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.basicInfoPanelColumnsLabel",
-  "zh-CN": "拼板列数"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "拼板列数",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.basicInfoPanelColumnsPlaceholder",
-  "zh-CN": "请输入拼板列数"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "请输入拼板列数",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.basicInfoAdditionalInfoLabel",
-  "zh-CN": "附加信息"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "附加信息",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.basicInfoAdditionalInfoPlaceholder",
-  "zh-CN": "请输入附加信息"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "请输入附加信息",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.cameraInfoShootFinishMessage",
-  "zh-CN": "金板拍摄完成"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "金板拍摄完成",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.cameraInfoGoldBoardWidthLabel",
-  "zh-CN": "流道宽度/金板宽度"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "流道宽度/金板宽度",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.cameraInfoGoldBoardWidthPlaceholder",
-  "zh-CN": "请输入流道宽度/金板宽度"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "请输入流道宽度/金板宽度",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.cameraInfoBtnGoldBoardWidthApply",
-  "zh-CN": "应用"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "应用",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.cameraInfoGoldBoardInOutLabel",
-  "zh-CN": "金板进出"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "金板进出",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.cameraInfoBtnGoldBoardIn",
-  "zh-CN": "进板"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "进板",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.cameraInfoBtnGoldBoardOut",
-  "zh-CN": "出板"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "出板",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.cameraInfoCaptureGoldBoardLabel",
-  "zh-CN": "拍摄金板图片"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "拍摄金板图片",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.cameraInfoBtnCapture",
-  "zh-CN": "拍摄"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "拍摄",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.cameraInfoBtnStop",
-  "zh-CN": "停止"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "停止",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.cadInfoTableColIndex",
-  "zh-CN": "序号"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "序号",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.cadInfoTableColCenterPointX",
-  "zh-CN": "中心点X"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "中心点X",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.cadInfoTableColCenterPointY",
-  "zh-CN": "中心点Y"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "中心点Y",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.cadInfoTableColRotationAngle",
-  "zh-CN": "角度"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "角度",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.cadInfoTableColComponentCode",
-  "zh-CN": "位置号"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "位置号",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.cadInfoTableColMaterialCode",
-  "zh-CN": "料号"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "料号",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.cadInfoTableColPanel",
-  "zh-CN": "拼板"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "拼板",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.cadInfoUnitMMOption",
-  "zh-CN": "毫米"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "毫米",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.cadInfoUnitINOption",
-  "zh-CN": "英寸"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "英寸",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.cadInfoUnitMILOption",
-  "zh-CN": "密耳"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "密耳",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.cadInfoParseStatus",
-  "zh-CN": "待上传"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "待上传",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.cadInfoParseStatusUploading",
-  "zh-CN": "上传中"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "上传中",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.cadInfoParseStatusParsing",
-  "zh-CN": "解析中"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "解析中",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.cadInfoParseStatusFinish",
-  "zh-CN": "解析成功"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "解析成功",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.cadInfoFileSizeLimitMessage",
-  "zh-CN": "文件大小不能超过100MB"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "文件大小不能超过100MB",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.cadInfoFileTypeErrorMessage",
-  "zh-CN": "文件类型错误"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "文件类型错误",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.cadInfoFileParseErrorMessage",
-  "zh-CN": "文件解析失败"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "文件解析失败",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.cadInfoFileUploadErrorMessage",
-  "zh-CN": "文件上传失败"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "文件上传失败",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.cadInfoFileUploadMessage",
-  "zh-CN": "请上传CAD文件"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "请上传CAD文件",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.cadInfoFileDragTip",
-  "zh-CN": "将文件拖到此处或点击上传"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "将文件拖到此处或点击上传",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.cadInfoFileSizeLimitTip",
-  "zh-CN": "只能上传txt/csv文件，且不超过100MB"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "只能上传txt/csv文件，且不超过100MB",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.cadInfoFileUploadingStatus",
-  "zh-CN": "文件上传中"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "文件上传中",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.cadInfoFileParsingStatus",
-  "zh-CN": "文件解析中"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "文件解析中",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.cadInfoBtnReset",
-  "zh-CN": "重置"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "重置",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.cadInfoImportSettingsLabel",
-  "zh-CN": "导入设置"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "导入设置",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.cadInfoSelectAllLines",
-  "zh-CN": "选择全部行"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "选择全部行",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.cadInfoStartLineLabel",
-  "zh-CN": "开始行"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "开始行",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.cadInfoEndLineLabel",
-  "zh-CN": "结束行"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "结束行",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.cadInfoLengthUnitLabel",
-  "zh-CN": "设置单位"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "设置单位",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.cadInfoCharsetLabel",
-  "zh-CN": "编码"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "编码",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.leaveConfirmTitle",
-  "zh-CN": "确定离开当前页面？"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "确定离开当前页面？",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.leaveConfirmContent",
-  "zh-CN": "您有未保存的编辑内容，离开页面将丢失更改"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "您有未保存的编辑内容，离开页面将丢失更改",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.goldBoard.saveSuccessMessage",
-  "zh-CN": "保存成功"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "保存成功",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.goldBoard.saveErrorMessage",
-  "zh-CN": "保存失败"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "保存失败",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.goldBoard.AnnotationBtnLight",
-  "zh-CN": "光源切换"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "光源切换",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.goldBoard.AnnotationBtnSave",
-  "zh-CN": "保存"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "保存",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.goldBoard.deviceTreeEnableOption",
-  "zh-CN": "启用"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "启用",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.goldBoard.deviceTreeDisableOption",
-  "zh-CN": "禁用"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "禁用",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.goldBoard.deviceTreeRenameOption",
-  "zh-CN": "重命名"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "重命名",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.goldBoard.deviceTreeRenameErrorMessage",
-  "zh-CN": "节点名称重复"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "节点名称重复",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.goldBoard.deviceTreeRenameSuccessMessage",
-  "zh-CN": "重命名成功"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "重命名成功",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.goldBoard.deviceTreeOtherOption",
-  "zh-CN": "其他"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "其他",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.goldBoard.deviceTreePassSuccessMessage",
-  "zh-CN": "已通过"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "已通过",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.goldBoard.deviceTreePassErrorMessage",
-  "zh-CN": "确认失败"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "确认失败",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.goldBoard.deviceTreeNotFoundWarningMessage",
-  "zh-CN": "未找到匹配的器件ID"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "未找到匹配的器件ID",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.goldBoard.deviceTreeSearchPlaceholder",
-  "zh-CN": "请输入器件ID搜索"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "请输入器件ID搜索",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.goldBoard.deviceTreeRenameModalTitle",
-  "zh-CN": "重命名"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "重命名",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.goldBoard.deviceTreeRenameModalEmptyErrorMessage",
-  "zh-CN": "名称不能为空"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "名称不能为空",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.goldBoard.deviceTreeRenameModalUnchangedMessage",
-  "zh-CN": "名称未修改"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "名称未修改",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.goldBoard.deviceTreeRenameModalInputPlaceholder",
-  "zh-CN": "请输入新的名称"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "请输入新的名称",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.statusMap.Pass",
-  "zh-CN": "通过"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "通过",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.statusMap.NotPass",
-  "zh-CN": "未通过"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "未通过",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.statusMap.Pending",
-  "zh-CN": "待确认"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "待确认",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.statusMap.Warning",
-  "zh-CN": "警告"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "警告",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.statusMap.Undetected",
-  "zh-CN": "未检出"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "未检出",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.statusMap.Disabled",
-  "zh-CN": "不启用"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "不启用",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.deviceMap.shapeAttributes",
-  "zh-CN": "封装框"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "封装框",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.deviceMap.polarityBoxes",
-  "zh-CN": "极性标"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "极性标",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.deviceMap.pad",
-  "zh-CN": "焊盘"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "焊盘",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.deviceMap.pin",
-  "zh-CN": "引脚"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "引脚",
+  "zh-TW": ""
  },
  {
+  "en-US": "",
   "key": "aoi.edit.annotationBottomBarAll",
-  "zh-CN": "全部"
+  "th-TH": "",
+  "vi-VN": "",
+  "zh-CN": "全部",
+  "zh-TW": ""
  }
 ]
