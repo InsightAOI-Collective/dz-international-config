@@ -1,1012 +1,406 @@
 [
  {
-  "en": "You have unsaved changes. Are you sure you want to leave?",
-  "en-US": "You have unsaved changes. Are you sure you want to leave?",
   "key": "adjudicationStation.GridLayout.confirmUnsavedMessage",
-  "th-TH": "คุณมีการเปลี่ยนแปลงที่ยังไม่ได้บันทึก, ยืนยันที่จะออกหรือไม่",
-  "vi-VN": "Bạn có những thay đổi chưa được lưu, xác nhận muốn rời đi không?",
-  "zh-CN": "您有未保存的修改，确认要离开吗",
-  "zh-MY": "您有未保存的修改，确认要离开吗",
-  "zh-TW": "您有未儲存的修改，確認要離開嗎"
+  "zh-CN": "您有未保存的修改，确认要离开吗"
  },
  {
-  "en": "Please select a device or defect or light source first",
-  "en-US": "Please select a component, defect, or light source first.",
   "key": "adjudicationStation.GridLayout.selectObjectMessage",
-  "th-TH": "กรุณาเลือกส่วนประกอบ ข้อบกพร่อง หรือแหล่งกำเนิดแสงก่อน",
-  "vi-VN": "Vui lòng chọn một linh kiện, lỗi hoặc nguồn sáng trước.",
-  "zh-CN": "请先选择一个器件或缺陷或光源",
-  "zh-MY": "请先选择一个器件或缺陷或光源",
-  "zh-TW": "請先選擇一個器件或缺陷或光源"
+  "zh-CN": "请先选择一个器件或缺陷或光源"
  },
  {
-  "en": "Current board data does not exist",
-  "en-US": "Current PCB data not found.",
   "key": "adjudicationStation.GridLayout.currentPcbNotFoundMessage",
-  "th-TH": "ไม่พบข้อมูล PCB ปัจจุบัน",
-  "vi-VN": "Không tìm thấy dữ liệu PCB hiện tại.",
-  "zh-CN": "当前板卡数据不存在",
-  "zh-MY": "当前板卡数据不存在",
-  "zh-TW": "目前電路板資料不存在"
+  "zh-CN": "当前板卡数据不存在"
  },
  {
-  "en": "Save successful",
-  "en-US": "Saved successfully.",
   "key": "adjudicationStation.GridLayout.saveSuccessMessage",
-  "th-TH": "บันทึกสำเร็จ",
-  "vi-VN": "Đã lưu thành công.",
-  "zh-CN": "保存成功",
-  "zh-MY": "保存成功",
-  "zh-TW": "儲存成功"
+  "zh-CN": "保存成功"
  },
  {
-  "en": "Component List",
-  "en-US": "Widget List",
   "key": "adjudicationStation.Drawer.title",
-  "th-TH": "รายการวิดเจ็ต",
-  "vi-VN": "Danh sách tiện ích",
-  "zh-CN": "组件列表",
-  "zh-MY": "组件列表",
-  "zh-TW": "元件列表"
+  "zh-CN": "组件列表"
  },
  {
-  "en": "Open side drawer",
-  "en-US": "Open Side Drawer",
   "key": "adjudicationStation.Drawer.label",
-  "th-TH": "เปิดลิ้นชักด้านข้าง",
-  "vi-VN": "Mở Ngăn kéo bên",
-  "zh-CN": "打开侧边抽屉",
-  "zh-MY": "打开侧边抽屉",
-  "zh-TW": "開啟側邊抽屜"
+  "zh-CN": "打开侧边抽屉"
  },
  {
-  "en": "The current component cannot be added. Exceeds the maximum number of rows limit.",
-  "en-US": "The current widget cannot be added; the maximum number of rows has been exceeded.",
   "key": "adjudicationStation.Drawer.addWidgetErrorMessage",
-  "th-TH": "ไม่สามารถเพิ่มวิดเจ็ตปัจจุบันได้ จำนวนแถวสูงสุดเกินกำหนด",
-  "vi-VN": "Không thể thêm tiện ích hiện tại; đã vượt quá số hàng tối đa.",
-  "zh-CN": "当前组件无法添加，超出最大行数限制",
-  "zh-MY": "当前组件无法添加，超出最大行数限制",
-  "zh-TW": "目前元件無法加入，超出最大行數限制"
+  "zh-CN": "当前组件无法添加，超出最大行数限制"
  },
  {
-  "en": "Added",
-  "en-US": "Added",
   "key": "adjudicationStation.Drawer.addedTag",
-  "th-TH": "เพิ่มแล้ว",
-  "vi-VN": "Đã thêm",
-  "zh-CN": "已添加",
-  "zh-MY": "已添加",
-  "zh-TW": "已加入"
+  "zh-CN": "已添加"
  },
  {
-  "en": "Not added",
-  "en-US": "Not Added",
   "key": "adjudicationStation.Drawer.notAddedTag",
-  "th-TH": "ยังไม่ได้เพิ่ม",
-  "vi-VN": "Chưa thêm",
-  "zh-CN": "未添加",
-  "zh-MY": "未添加",
-  "zh-TW": "未加入"
+  "zh-CN": "未添加"
  },
  {
-  "en": "White light",
-  "en-US": "White Light",
   "key": "adjudicationStation.PcbDefectTable.lightOption",
-  "th-TH": "แสงสีขาว",
-  "vi-VN": "Ánh sáng trắng",
-  "zh-CN": "白光",
-  "zh-MY": "白光",
-  "zh-TW": "白光"
+  "zh-CN": "白光"
  },
  {
-  "en": "Defect Frame ID",
-  "en-US": "Defect Box ID",
   "key": "adjudicationStation.PcbDefectTable.tableColId",
-  "th-TH": "ID กล่องข้อบกพร่อง",
-  "vi-VN": "ID Hộp lỗi",
-  "zh-CN": "缺陷框编号",
-  "zh-MY": "缺陷框编号",
-  "zh-TW": "缺陷框編號"
+  "zh-CN": "缺陷框编号"
  },
  {
-  "en": "Actual Value",
-  "en-US": "Actual Value",
   "key": "adjudicationStation.PcbDefectTable.tableColJudgeActual",
-  "th-TH": "ค่าจริง",
-  "vi-VN": "Giá trị thực tế",
-  "zh-CN": "检测值",
-  "zh-MY": "检测值",
-  "zh-TW": "檢測值"
+  "zh-CN": "检测值"
  },
  {
-  "en": "Target Value",
-  "en-US": "Target Value",
   "key": "adjudicationStation.PcbDefectTable.tableColJudgeOk",
-  "th-TH": "ค่าเป้าหมาย",
-  "vi-VN": "Giá trị mục tiêu",
-  "zh-CN": "目标值",
-  "zh-MY": "目标值",
-  "zh-TW": "目標值"
+  "zh-CN": "目标值"
  },
  {
-  "en": "Light Source",
-  "en-US": "Light Source",
   "key": "adjudicationStation.PcbDefectTable.tableColLightIndex",
-  "th-TH": "แหล่งกำเนิดแสง",
-  "vi-VN": "Nguồn sáng",
-  "zh-CN": "光源",
-  "zh-MY": "光源",
-  "zh-TW": "光源"
+  "zh-CN": "光源"
  },
  {
-  "en": "AOI Detection Result",
-  "en-US": "AOI Detection Result",
   "key": "adjudicationStation.PcbDefectTable.tableColResultAoi",
-  "th-TH": "ผลการตรวจจับโดย AOI",
-  "vi-VN": "Kết quả phát hiện AOI",
-  "zh-CN": "AOI检测结果",
-  "zh-MY": "AOI检测结果",
-  "zh-TW": "AOI檢測結果"
+  "zh-CN": "AOI检测结果"
  },
  {
-  "en": "Manual Review Result",
-  "en-US": "Manual Review Result",
   "key": "adjudicationStation.PcbDefectTable.tableColResultOperator",
-  "th-TH": "ผลการตรวจสอบด้วยตนเอง",
-  "vi-VN": "Kết quả xem xét thủ công",
-  "zh-CN": "人工复判结果",
-  "zh-MY": "人工复判结果",
-  "zh-TW": "人工複判結果"
+  "zh-CN": "人工复判结果"
  },
  {
-  "en": "Manual Review Time",
-  "en-US": "Manual Review Time",
   "key": "adjudicationStation.PcbDefectTable.tableColResultOperatorTime",
-  "th-TH": "เวลาตรวจสอบด้วยตนเอง",
-  "vi-VN": "Thời gian xem xét thủ công",
-  "zh-CN": "人工复判时间",
-  "zh-MY": "人工复判时间",
-  "zh-TW": "人工複判時間"
+  "zh-CN": "人工复判时间"
  },
  {
-  "en": "Defect Frame ID",
-  "en-US": "Defect Box ID",
   "key": "adjudicationStation.PcbDefectTable.tableColAIId",
-  "th-TH": "ID กล่องข้อบกพร่อง",
-  "vi-VN": "ID Hộp lỗi",
-  "zh-CN": "缺陷框编号",
-  "zh-MY": "缺陷框编号",
-  "zh-TW": "缺陷框編號"
+  "zh-CN": "缺陷框编号"
  },
  {
-  "en": "AI Detection Result",
-  "en-US": "AI Detection Result",
   "key": "adjudicationStation.PcbDefectTable.tableColAIResultAoi",
-  "th-TH": "ผลการตรวจจับโดย AI",
-  "vi-VN": "Kết quả phát hiện AI",
-  "zh-CN": "AI检测结果",
-  "zh-MY": "AI检测结果",
-  "zh-TW": "AI檢測結果"
+  "zh-CN": "AI检测结果"
  },
  {
-  "en": "AI Review Result",
-  "en-US": "AI Review Result",
   "key": "adjudicationStation.PcbDefectTable.tableColAIResultOperator",
-  "th-TH": "ผลการตรวจสอบโดย AI",
-  "vi-VN": "Kết quả xem xét AI",
-  "zh-CN": "AI复判结果",
-  "zh-MY": "AI复判结果",
-  "zh-TW": "AI複判結果"
+  "zh-CN": "AI复判结果"
  },
  {
-  "en": "AI Review Time",
-  "en-US": "AI Review Time",
   "key": "adjudicationStation.PcbDefectTable.tableColAIResultOperatorTime",
-  "th-TH": "เวลาตรวจสอบโดย AI",
-  "vi-VN": "Thời gian xem xét AI",
-  "zh-CN": "AI复判时间",
-  "zh-MY": "AI复判时间",
-  "zh-TW": "AI複判時間"
+  "zh-CN": "AI复判时间"
  },
  {
-  "en": "White light",
-  "en-US": "White Light",
   "key": "adjudicationStation.PcbLightTable.lightOption",
-  "th-TH": "แสงสีขาว",
-  "vi-VN": "Ánh sáng trắng",
-  "zh-CN": "白光",
-  "zh-MY": "白光",
-  "zh-TW": "白光"
+  "zh-CN": "白光"
  },
  {
-  "en": "Light Source",
-  "en-US": "Light Source",
   "key": "adjudicationStation.PcbLightTable.tableColLightIndex",
-  "th-TH": "แหล่งกำเนิดแสง",
-  "vi-VN": "Nguồn sáng",
-  "zh-CN": "光源",
-  "zh-MY": "光源",
-  "zh-TW": "光源"
+  "zh-CN": "光源"
  },
  {
-  "en": "Defect Frame ID",
-  "en-US": "Defect Box ID",
   "key": "adjudicationStation.PcbLightTable.tableColNgIdList",
-  "th-TH": "ID กล่องข้อบกพร่อง",
-  "vi-VN": "ID Hộp lỗi",
-  "zh-CN": "缺陷框编号",
-  "zh-MY": "缺陷框编号",
-  "zh-TW": "缺陷框編號"
+  "zh-CN": "缺陷框编号"
  },
  {
-  "en": "AI Review Result",
-  "en-US": "AI Review Result",
   "key": "adjudicationStation.PcbLightTable.tableColAIResultAiList",
-  "th-TH": "ผลการตรวจสอบโดย AI",
-  "vi-VN": "Kết quả xem xét AI",
-  "zh-CN": "AI复判结果",
-  "zh-MY": "AI复判结果",
-  "zh-TW": "AI複判結果"
+  "zh-CN": "AI复判结果"
  },
  {
-  "en": "Manual Review Result",
-  "en-US": "Manual Review Result",
   "key": "adjudicationStation.PcbLightTable.tableColAIResultOperator",
-  "th-TH": "ผลการตรวจสอบด้วยตนเอง",
-  "vi-VN": "Kết quả xem xét thủ công",
-  "zh-CN": "人工复判结果",
-  "zh-MY": "人工复判结果",
-  "zh-TW": "人工複判結果"
+  "zh-CN": "人工复判结果"
  },
  {
-  "en": "Manual Review Time",
-  "en-US": "Manual Review Time",
   "key": "adjudicationStation.PcbLightTable.tableColAIResultOperatorTime",
-  "th-TH": "เวลาตรวจสอบด้วยตนเอง",
-  "vi-VN": "Thời gian xem xét thủ công",
-  "zh-CN": "人工复判时间",
-  "zh-MY": "人工复判时间",
-  "zh-TW": "人工複判時間"
+  "zh-CN": "人工复判时间"
  },
  {
-  "en": "Position ID",
-  "en-US": "Position ID",
   "key": "adjudicationStation.PcbPartTable.tableColPartName",
-  "th-TH": "ID ตำแหน่ง",
-  "vi-VN": "ID vị trí",
-  "zh-CN": "位置号ID",
-  "zh-MY": "位置号ID",
-  "zh-TW": "位置號ID"
+  "zh-CN": "位置号ID"
  },
  {
-  "en": "AOI Detection Result",
-  "en-US": "AOI Detection Result",
   "key": "adjudicationStation.PcbPartTable.tableColResultAoi",
-  "th-TH": "ผลการตรวจจับโดย AOI",
-  "vi-VN": "Kết quả phát hiện AOI",
-  "zh-CN": "AOI检测结果",
-  "zh-MY": "AOI检测结果",
-  "zh-TW": "AOI檢測結果"
+  "zh-CN": "AOI检测结果"
  },
  {
-  "en": "AI Review Result",
-  "en-US": "AI Review Result",
   "key": "adjudicationStation.PcbPartTable.tableColResultAi",
-  "th-TH": "ผลการตรวจสอบโดย AI",
-  "vi-VN": "Kết quả xem xét AI",
-  "zh-CN": "AI复判结果",
-  "zh-MY": "AI复判结果",
-  "zh-TW": "AI複判結果"
+  "zh-CN": "AI复判结果"
  },
  {
-  "en": "Manual Review Result",
-  "en-US": "Manual Review Result",
   "key": "adjudicationStation.PcbPartTable.tableColResultOperator",
-  "th-TH": "ผลการตรวจสอบด้วยตนเอง",
-  "vi-VN": "Kết quả xem xét thủ công",
-  "zh-CN": "人工复判结果",
-  "zh-MY": "人工复判结果",
-  "zh-TW": "人工複判結果"
+  "zh-CN": "人工复判结果"
  },
  {
-  "en": "Manual Review Time",
-  "en-US": "Manual Review Time",
   "key": "adjudicationStation.PcbPartTable.tableColResultOperatorTime",
-  "th-TH": "เวลาตรวจสอบด้วยตนเอง",
-  "vi-VN": "Thời gian xem xét thủ công",
-  "zh-CN": "人工复判时间",
-  "zh-MY": "人工复判时间",
-  "zh-TW": "人工複判時間"
+  "zh-CN": "人工复判时间"
  },
  {
-  "en": "Lot Number",
-  "en-US": "Part Number",
   "key": "adjudicationStation.PcbPartTable.tableColLotName",
-  "th-TH": "หมายเลขชิ้นส่วน",
-  "vi-VN": "Mã linh kiện",
-  "zh-CN": "料号",
-  "zh-MY": "料号",
-  "zh-TW": "料號"
+  "zh-CN": "料号"
  },
  {
-  "en": "Angle",
-  "en-US": "Angle",
   "key": "adjudicationStation.PcbPartTable.tableColAngle",
-  "th-TH": "มุม",
-  "vi-VN": "Góc",
-  "zh-CN": "角度",
-  "zh-MY": "角度",
-  "zh-TW": "角度"
+  "zh-CN": "角度"
  },
  {
-  "en": "Operation",
-  "en-US": "Operation",
   "key": "adjudicationStation.PcbPartTable.tableColOperation",
-  "th-TH": "การดำเนินการ",
-  "vi-VN": "Thao tác",
-  "zh-CN": "操作",
-  "zh-MY": "操作",
-  "zh-TW": "操作"
+  "zh-CN": "操作"
  },
  {
-  "en": "Adjust current device detection parameters",
-  "en-US": "Adjust Current Component Detection Parameters",
   "key": "adjudicationStation.PcbPartTable.tableColOperationTitle",
-  "th-TH": "ปรับพารามิเตอร์การตรวจจับส่วนประกอบปัจจุบัน",
-  "vi-VN": "Điều chỉnh thông số phát hiện linh kiện hiện tại",
-  "zh-CN": "调整当前器件检测参数",
-  "zh-MY": "调整当前器件检测参数",
-  "zh-TW": "調整目前器件檢測參數"
+  "zh-CN": "调整当前器件检测参数"
  },
  {
-  "en": "Parameter Optimization",
-  "en-US": "Parameter Optimization",
   "key": "adjudicationStation.PcbPartTable.tableColOperationText",
-  "th-TH": "การปรับพารามิเตอร์ให้เหมาะสม",
-  "vi-VN": "Tối ưu hóa thông số",
-  "zh-CN": "参数优化",
-  "zh-MY": "参数优化",
-  "zh-TW": "參數優化"
+  "zh-CN": "参数优化"
  },
  {
-  "en": "Board ID",
-  "en-US": "PCB ID",
   "key": "adjudicationStation.PcbTable.tableColMaterialId",
-  "th-TH": "ID PCB",
-  "vi-VN": "ID PCB",
-  "zh-CN": "板卡ID",
-  "zh-MY": "板卡ID",
-  "zh-TW": "電路板ID"
+  "zh-CN": "板卡ID"
  },
  {
-  "en": "AOI Detection Result",
-  "en-US": "AOI Detection Result",
   "key": "adjudicationStation.PcbTable.tableColResultAoi",
-  "th-TH": "ผลการตรวจจับโดย AOI",
-  "vi-VN": "Kết quả phát hiện AOI",
-  "zh-CN": "AOI检测结果",
-  "zh-MY": "AOI检测结果",
-  "zh-TW": "AOI檢測結果"
+  "zh-CN": "AOI检测结果"
  },
  {
-  "en": "AI Review Result",
-  "en-US": "AI Review Result",
   "key": "adjudicationStation.PcbTable.tableColResultAi",
-  "th-TH": "ผลการตรวจสอบโดย AI",
-  "vi-VN": "Kết quả xem xét AI",
-  "zh-CN": "AI复判结果",
-  "zh-MY": "AI复判结果",
-  "zh-TW": "AI複判結果"
+  "zh-CN": "AI复判结果"
  },
  {
-  "en": "Manual Review Result",
-  "en-US": "Manual Review Result",
   "key": "adjudicationStation.PcbTable.tableColResultOperator",
-  "th-TH": "ผลการตรวจสอบด้วยตนเอง",
-  "vi-VN": "Kết quả xem xét thủ công",
-  "zh-CN": "人工复判结果",
-  "zh-MY": "人工复判结果",
-  "zh-TW": "人工複判結果"
+  "zh-CN": "人工复判结果"
  },
  {
-  "en": "Manual Review Time",
-  "en-US": "Manual Review Time",
   "key": "adjudicationStation.PcbTable.tableColResultOperatorTime",
-  "th-TH": "เวลาตรวจสอบด้วยตนเอง",
-  "vi-VN": "Thời gian xem xét thủ công",
-  "zh-CN": "人工复判时间",
-  "zh-MY": "人工复判时间",
-  "zh-TW": "人工複判時間"
+  "zh-CN": "人工复判时间"
  },
  {
-  "en": "Create Time",
-  "en-US": "Creation Time",
   "key": "adjudicationStation.PcbTable.tableColCreateTime",
-  "th-TH": "เวลาสร้าง",
-  "vi-VN": "Thời gian tạo",
-  "zh-CN": "添加时间",
-  "zh-MY": "添加时间",
-  "zh-TW": "建立時間"
+  "zh-CN": "添加时间"
  },
  {
-  "en": "Work Order",
-  "en-US": "Work Order",
   "key": "adjudicationStation.PcbTable.tableColOrderNumber",
-  "th-TH": "ใบสั่งงาน",
-  "vi-VN": "Lệnh sản xuất",
-  "zh-CN": "工单",
-  "zh-MY": "工单",
-  "zh-TW": "工單"
+  "zh-CN": "工单"
  },
  {
-  "en": "Production Line",
-  "en-US": "Production Line",
   "key": "adjudicationStation.PcbTable.tableColMachineLine",
-  "th-TH": "สายการผลิต",
-  "vi-VN": "Dây chuyền sản xuất",
-  "zh-CN": "产线",
-  "zh-MY": "产线",
-  "zh-TW": "產線"
+  "zh-CN": "产线"
  },
  {
-  "en": "Equipment Number",
-  "en-US": "Machine Station No.",
   "key": "adjudicationStation.PcbTable.tableColMachineStation",
-  "th-TH": "หมายเลขสถานีเครื่อง",
-  "vi-VN": "Số trạm máy",
-  "zh-CN": "设备号",
-  "zh-MY": "设备号",
-  "zh-TW": "設備號"
+  "zh-CN": "设备号"
  },
  {
-  "en": "Inspector",
-  "en-US": "Inspector",
   "key": "adjudicationStation.PcbTable.tableColOperatorId",
-  "th-TH": "ผู้ตรวจสอบ",
-  "vi-VN": "Người kiểm tra",
-  "zh-CN": "质检员",
-  "zh-MY": "质检员",
-  "zh-TW": "質檢員"
+  "zh-CN": "质检员"
  },
  {
-  "en": "Board ID",
-  "en-US": "PCB ID",
   "key": "adjudicationStation.PcbTable.formMaterialIdLabel",
-  "th-TH": "ID PCB",
-  "vi-VN": "ID PCB",
-  "zh-CN": "板卡ID",
-  "zh-MY": "板卡ID",
-  "zh-TW": "電路板ID"
+  "zh-CN": "板卡ID"
  },
  {
-  "en": "Work Order",
-  "en-US": "Work Order",
   "key": "adjudicationStation.PcbTable.formOrderNumberLabel",
-  "th-TH": "ใบสั่งงาน",
-  "vi-VN": "Lệnh sản xuất",
-  "zh-CN": "工单",
-  "zh-MY": "工单",
-  "zh-TW": "工單"
+  "zh-CN": "工单"
  },
  {
-  "en": "Production Line",
-  "en-US": "Production Line",
   "key": "adjudicationStation.PcbTable.formMachineLineLabel",
-  "th-TH": "สายการผลิต",
-  "vi-VN": "Dây chuyền sản xuất",
-  "zh-CN": "产线",
-  "zh-MY": "产线",
-  "zh-TW": "產線"
+  "zh-CN": "产线"
  },
  {
-  "en": "Equipment Number",
-  "en-US": "Machine Station No.",
   "key": "adjudicationStation.PcbTable.formMachineStationLabel",
-  "th-TH": "หมายเลขสถานีเครื่อง",
-  "vi-VN": "Số trạm máy",
-  "zh-CN": "设备号",
-  "zh-MY": "设备号",
-  "zh-TW": "設備號"
+  "zh-CN": "设备号"
  },
  {
-  "en": "Inspector",
-  "en-US": "Inspector",
   "key": "adjudicationStation.PcbTable.formOperatorIdLabel",
-  "th-TH": "ผู้ตรวจสอบ",
-  "vi-VN": "Người kiểm tra",
-  "zh-CN": "质检员",
-  "zh-MY": "质检员",
-  "zh-TW": "質檢員"
+  "zh-CN": "质检员"
  },
  {
-  "en": "Search",
-  "en-US": "Search",
   "key": "adjudicationStation.PcbTable.formBtnSearch",
-  "th-TH": "ค้นหา",
-  "vi-VN": "Tìm kiếm",
-  "zh-CN": "搜索",
-  "zh-MY": "搜索",
-  "zh-TW": "搜尋"
+  "zh-CN": "搜索"
  },
  {
-  "en": "Reset",
-  "en-US": "Reset",
   "key": "adjudicationStation.PcbTable.formBtnReset",
-  "th-TH": "รีเซ็ต",
-  "vi-VN": "Đặt lại",
-  "zh-CN": "重置",
-  "zh-MY": "重置",
-  "zh-TW": "重置"
+  "zh-CN": "重置"
  },
  {
-  "en": "Please select a board first",
-  "en-US": "Please select a PCB first.",
   "key": "adjudicationStation.utils.pleaseSelectPcbFirst",
-  "th-TH": "กรุณาเลือก PCB ก่อน",
-  "vi-VN": "Vui lòng chọn một PCB trước.",
-  "zh-CN": "请先选择一个板卡",
-  "zh-MY": "请先选择一个板卡",
-  "zh-TW": "請先選擇一個電路板"
+  "zh-CN": "请先选择一个板卡"
  },
  {
-  "en": "Board list data does not exist",
-  "en-US": "PCB list data not found.",
   "key": "adjudicationStation.utils.pcbListEmptyMessage",
-  "th-TH": "ไม่พบข้อมูลรายการ PCB",
-  "vi-VN": "Không tìm thấy dữ liệu danh sách PCB.",
-  "zh-CN": "板卡列表数据不存在",
-  "zh-MY": "板卡列表数据不存在",
-  "zh-TW": "電路板列表資料不存在"
+  "zh-CN": "板卡列表数据不存在"
  },
  {
-  "en": "Could not find the currently selected board",
-  "en-US": "The currently selected PCB was not found.",
   "key": "adjudicationStation.utils.currentPcbNotFoundMessage",
-  "th-TH": "ไม่พบ PCB ที่เลือกปัจจุบัน",
-  "vi-VN": "Không tìm thấy PCB được chọn hiện tại.",
-  "zh-CN": "未找到当前选中的板卡",
-  "zh-MY": "未找到当前选中的板卡",
-  "zh-TW": "未找到目前選中的電路板"
+  "zh-CN": "未找到当前选中的板卡"
  },
  {
-  "en": "There are no unreviewed boards",
-  "en-US": "There are no unreviewed PCBs left.",
   "key": "adjudicationStation.utils.noUnJudgedPcbMessage",
-  "th-TH": "ไม่มี PCB ที่ยังไม่ได้ตรวจสอบเหลืออยู่แล้ว",
-  "vi-VN": "Không còn PCB chưa được xem xét.",
-  "zh-CN": "已经没有未复判的板卡了",
-  "zh-MY": "已经没有未复判的板卡了",
-  "zh-TW": "已經沒有未複判的電路板了"
+  "zh-CN": "已经没有未复判的板卡了"
  },
  {
-  "en": "Please select a device first",
-  "en-US": "Please select a component first.",
   "key": "adjudicationStation.utils.pleaseSelectDeviceFirst",
-  "th-TH": "กรุณาเลือกส่วนประกอบก่อน",
-  "vi-VN": "Vui lòng chọn một linh kiện trước.",
-  "zh-CN": "请先选择一个器材",
-  "zh-MY": "请先选择一个器材",
-  "zh-TW": "請先選擇一個器件"
+  "zh-CN": "请先选择一个器材"
  },
  {
-  "en": "Device list data is empty",
-  "en-US": "Component list data is empty.",
   "key": "adjudicationStation.utils.deviceListEmptyMessage",
-  "th-TH": "ข้อมูลรายการส่วนประกอบว่างเปล่า",
-  "vi-VN": "Dữ liệu danh sách linh kiện trống.",
-  "zh-CN": "器材列表数据为空",
-  "zh-MY": "器材列表数据为空",
-  "zh-TW": "器件清單資料為空"
+  "zh-CN": "器材列表数据为空"
  },
  {
-  "en": "The currently selected device is not in the list",
-  "en-US": "The currently selected component is not in the list.",
   "key": "adjudicationStation.utils.currentDeviceNotFoundMessage",
-  "th-TH": "ส่วนประกอบที่เลือกปัจจุบันไม่อยู่ในรายการ",
-  "vi-VN": "Linh kiện được chọn hiện tại không có trong danh sách.",
-  "zh-CN": "当前选中的器材不在列表中",
-  "zh-MY": "当前选中的器材不在列表中",
-  "zh-TW": "目前選中的器件不在清單中"
+  "zh-CN": "当前选中的器材不在列表中"
  },
  {
-  "en": "There are no unreviewed devices",
-  "en-US": "There are no unreviewed components left.",
   "key": "adjudicationStation.utils.noUnJudgedDeviceMessage",
-  "th-TH": "ไม่มีส่วนประกอบที่ยังไม่ได้ตรวจสอบเหลืออยู่แล้ว",
-  "vi-VN": "Không còn linh kiện chưa được xem xét.",
-  "zh-CN": "已经没有未复判的器材了",
-  "zh-MY": "已经没有未复判的器材了",
-  "zh-TW": "已經沒有未複判的器件了"
+  "zh-CN": "已经没有未复判的器材了"
  },
  {
-  "en": "Please select a defect first",
-  "en-US": "Please select a defect first.",
   "key": "adjudicationStation.utils.pleaseSelectDefectFirst",
-  "th-TH": "กรุณาเลือกข้อบกพร่องก่อน",
-  "vi-VN": "Vui lòng chọn một lỗi trước.",
-  "zh-CN": "请先选择一个缺陷",
-  "zh-MY": "请先选择一个缺陷",
-  "zh-TW": "請先選擇一個缺陷"
+  "zh-CN": "请先选择一个缺陷"
  },
  {
-  "en": "Defect list data is empty",
-  "en-US": "Defect list data is empty.",
   "key": "adjudicationStation.utils.defectListEmptyMessage",
-  "th-TH": "ข้อมูลรายการข้อบกพร่องว่างเปล่า",
-  "vi-VN": "Dữ liệu danh sách lỗi trống.",
-  "zh-CN": "缺陷列表数据为空",
-  "zh-MY": "缺陷列表数据为空",
-  "zh-TW": "缺陷清單資料為空"
+  "zh-CN": "缺陷列表数据为空"
  },
  {
-  "en": "The currently selected defect is not in the list",
-  "en-US": "The currently selected defect is not in the list.",
   "key": "adjudicationStation.utils.currentDefectNotFoundMessage",
-  "th-TH": "ข้อบกพร่องที่เลือกปัจจุบันไม่อยู่ในรายการ",
-  "vi-VN": "Lỗi được chọn hiện tại không có trong danh sách.",
-  "zh-CN": "当前选中的缺陷不在列表中",
-  "zh-MY": "当前选中的缺陷不在列表中",
-  "zh-TW": "目前選中的缺陷不在清單中"
+  "zh-CN": "当前选中的缺陷不在列表中"
  },
  {
-  "en": "There are no unreviewed defects",
-  "en-US": "There are no unreviewed defects left.",
   "key": "adjudicationStation.utils.noUnJudgedDefectMessage",
-  "th-TH": "ไม่มีข้อบกพร่องที่ยังไม่ได้ตรวจสอบเหลืออยู่แล้ว",
-  "vi-VN": "Không còn lỗi chưa được xem xét.",
-  "zh-CN": "已经没有未复判的缺陷了",
-  "zh-MY": "已经没有未复判的缺陷了",
-  "zh-TW": "已經沒有未複判的缺陷了"
+  "zh-CN": "已经没有未复判的缺陷了"
  },
  {
-  "en": "Please select a light source first",
-  "en-US": "Please select a light source first.",
   "key": "adjudicationStation.utils.pleaseSelectLightFirst",
-  "th-TH": "กรุณาเลือกแหล่งกำเนิดแสงก่อน",
-  "vi-VN": "Vui lòng chọn một nguồn sáng trước.",
-  "zh-CN": "请先选择一个光源",
-  "zh-MY": "请先选择一个光源",
-  "zh-TW": "請先選擇一個光源"
+  "zh-CN": "请先选择一个光源"
  },
  {
-  "en": "Light source list data is empty",
-  "en-US": "Light source list data is empty.",
   "key": "adjudicationStation.utils.lightListEmptyMessage",
-  "th-TH": "ข้อมูลรายการแหล่งกำเนิดแสงว่างเปล่า",
-  "vi-VN": "Dữ liệu danh sách nguồn sáng trống.",
-  "zh-CN": "光源列表数据为空",
-  "zh-MY": "光源列表数据为空",
-  "zh-TW": "光源清單資料為空"
+  "zh-CN": "光源列表数据为空"
  },
  {
-  "en": "The currently selected light source is not in the list",
-  "en-US": "The currently selected light source is not in the list.",
   "key": "adjudicationStation.utils.currentLightNotFoundMessage",
-  "th-TH": "แหล่งกำเนิดแสงที่เลือกปัจจุบันไม่อยู่ในรายการ",
-  "vi-VN": "Nguồn sáng được chọn hiện tại không có trong danh sách.",
-  "zh-CN": "当前选中的光源不在列表中",
-  "zh-MY": "当前选中的光源不在列表中",
-  "zh-TW": "目前選中的光源不在清單中"
+  "zh-CN": "当前选中的光源不在列表中"
  },
  {
-  "en": "There are no unreviewed light sources",
-  "en-US": "There are no unreviewed light sources left.",
   "key": "adjudicationStation.utils.noUnJudgedLightMessage",
-  "th-TH": "ไม่มีแหล่งกำเนิดแสงที่ยังไม่ได้ตรวจสอบเหลืออยู่แล้ว",
-  "vi-VN": "Không còn nguồn sáng chưa được xem xét.",
-  "zh-CN": "已经没有未复判的光源了",
-  "zh-MY": "已经没有未复判的光源了",
-  "zh-TW": "已經沒有未複判的光源了"
+  "zh-CN": "已经没有未复判的光源了"
  },
  {
-  "en": "Type",
-  "en-US": "Type",
   "key": "adjudicationStation.DefectDetails.typeLabel",
-  "th-TH": "ประเภท",
-  "vi-VN": "Loại",
-  "zh-CN": "类型",
-  "zh-MY": "类型",
-  "zh-TW": "類型"
+  "zh-CN": "类型"
  },
  {
-  "en": "Center",
-  "en-US": "Center",
   "key": "adjudicationStation.DefectDetails.centerLabel",
-  "th-TH": "ศูนย์กลาง",
-  "vi-VN": "Trung tâm",
-  "zh-CN": "中心",
-  "zh-MY": "中心",
-  "zh-TW": "中心"
+  "zh-CN": "中心"
  },
  {
-  "en": "Width",
-  "en-US": "Width",
   "key": "adjudicationStation.DefectDetails.widthLabel",
-  "th-TH": "ความกว้าง",
-  "vi-VN": "Chiều rộng",
-  "zh-CN": "宽度",
-  "zh-MY": "宽度",
-  "zh-TW": "寬度"
+  "zh-CN": "宽度"
  },
  {
-  "en": "Height",
-  "en-US": "Height",
   "key": "adjudicationStation.DefectDetails.heightLabel",
-  "th-TH": "ความสูง",
-  "vi-VN": "Chiều cao",
-  "zh-CN": "高度",
-  "zh-MY": "高度",
-  "zh-TW": "高度"
+  "zh-CN": "高度"
  },
  {
-  "en": "Angle",
-  "en-US": "Angle",
   "key": "adjudicationStation.DefectDetails.angleLabel",
-  "th-TH": "มุม",
-  "vi-VN": "Góc",
-  "zh-CN": "角度",
-  "zh-MY": "角度",
-  "zh-TW": "角度"
+  "zh-CN": "角度"
  },
  {
-  "en": "Go to slide",
-  "en-US": "Go to Slide",
   "key": "adjudicationStation.DefectDetails.btnLabel",
-  "th-TH": "ไปที่สไลด์",
-  "vi-VN": "Chuyển đến trang chiếu",
-  "zh-CN": "转到幻灯片",
-  "zh-MY": "转到幻灯片",
-  "zh-TW": "轉到幻燈片"
+  "zh-CN": "转到幻灯片"
  },
  {
-  "en": "Please select an object first",
-  "en-US": "Please select an object first.",
   "key": "adjudicationStation.headerTool.warningEmptyMessage",
-  "th-TH": "กรุณาเลือกวัตถุก่อน",
-  "vi-VN": "Vui lòng chọn một đối tượng trước.",
-  "zh-CN": "请先选择一个对象",
-  "zh-MY": "请先选择一个对象",
-  "zh-TW": "請先選擇一個物件"
+  "zh-CN": "请先选择一个对象"
  },
  {
-  "en": "Current board data does not exist",
-  "en-US": "Current PCB data not found.",
   "key": "adjudicationStation.headerTool.warningCurrentPcbNotFoundMessage",
-  "th-TH": "ไม่พบข้อมูล PCB ปัจจุบัน",
-  "vi-VN": "Không tìm thấy dữ liệu PCB hiện tại.",
-  "zh-CN": "当前板卡数据不存在",
-  "zh-MY": "当前板卡数据不存在",
-  "zh-TW": "目前電路板資料不存在"
+  "zh-CN": "当前板卡数据不存在"
  },
  {
-  "en": "Device list data does not exist",
-  "en-US": "Component list data not found.",
   "key": "adjudicationStation.headerTool.warningCurrentDeviceNotFoundMessage",
-  "th-TH": "ไม่พบข้อมูลรายการส่วนประกอบ",
-  "vi-VN": "Không tìm thấy dữ liệu danh sách linh kiện.",
-  "zh-CN": "器材列表数据不存在",
-  "zh-MY": "器材列表数据不存在",
-  "zh-TW": "器件列表資料不存在"
+  "zh-CN": "器材列表数据不存在"
  },
  {
-  "en": "There are unreviewed devices",
-  "en-US": "Unreviewed components exist.",
   "key": "adjudicationStation.headerTool.uncheckedMessage",
-  "th-TH": "มีส่วนประกอบที่ยังไม่ได้ตรวจสอบ",
-  "vi-VN": "Tồn tại các linh kiện chưa được xem xét.",
-  "zh-CN": "存在未复判器件",
-  "zh-MY": "存在未复判器件",
-  "zh-TW": "存在未複判器件"
+  "zh-CN": "存在未复判器件"
  },
  {
-  "en": "Board list data does not exist",
-  "en-US": "PCB list data not found.",
   "key": "adjudicationStation.headerTool.warningPcbListEmptyMessage",
-  "th-TH": "ไม่พบข้อมูลรายการ PCB",
-  "vi-VN": "Không tìm thấy dữ liệu danh sách PCB.",
-  "zh-CN": "板卡列表数据不存在",
-  "zh-MY": "板卡列表数据不存在",
-  "zh-TW": "電路板列表資料不存在"
+  "zh-CN": "板卡列表数据不存在"
  },
  {
-  "en": "Confirm End Review",
-  "en-US": "Confirm End Review",
   "key": "adjudicationStation.headerTool.confirmModalTitle",
-  "th-TH": "ยืนยันการสิ้นสุดการตรวจสอบ",
-  "vi-VN": "Xác nhận kết thúc xem xét",
-  "zh-CN": "确认结束复判",
-  "zh-MY": "确认结束复判",
-  "zh-TW": "確認結束複判"
+  "zh-CN": "确认结束复判"
  },
  {
-  "en": "Are you sure you want to end the review of the current board?",
-  "en-US": "End the review of the current PCB?",
   "key": "adjudicationStation.headerTool.confirmModalContent",
-  "th-TH": "สิ้นสุดการตรวจสอบ PCB ปัจจุบันหรือไม่?",
-  "vi-VN": "Kết thúc xem xét PCB hiện tại?",
-  "zh-CN": "是否结束当前板卡的复判？",
-  "zh-MY": "是否结束当前板卡的复判？",
-  "zh-TW": "是否結束目前電路板的複判？"
+  "zh-CN": "是否结束当前板卡的复判？"
  },
  {
-  "en": "Board ID does not exist",
-  "en-US": "PCB ID does not exist.",
   "key": "adjudicationStation.headerTool.confirmModalErrorMessage",
-  "th-TH": "ID PCB ไม่มีอยู่",
-  "vi-VN": "ID PCB không tồn tại.",
-  "zh-CN": "板卡ID不存在",
-  "zh-MY": "板卡ID不存在",
-  "zh-TW": "電路板ID不存在"
+  "zh-CN": "板卡ID不存在"
  },
  {
-  "en": "Save successful",
-  "en-US": "Saved successfully.",
   "key": "adjudicationStation.headerTool.confirmModalSuccessMessage",
-  "th-TH": "บันทึกสำเร็จ",
-  "vi-VN": "Đã lưu thành công.",
-  "zh-CN": "保存成功",
-  "zh-MY": "保存成功",
-  "zh-TW": "儲存成功"
+  "zh-CN": "保存成功"
  },
  {
-  "en": "Review Completed",
-  "en-US": "Review Completed",
   "key": "adjudicationStation.headerTool.infoModalTitle",
-  "th-TH": "การตรวจสอบเสร็จสมบูรณ์",
-  "vi-VN": "Đã hoàn tất xem xét",
-  "zh-CN": "复判完成",
-  "zh-MY": "复判完成",
-  "zh-TW": "複判完成"
+  "zh-CN": "复判完成"
  },
  {
-  "en": "All board reviews have been completed",
-  "en-US": "All PCB reviews have been completed.",
   "key": "adjudicationStation.headerTool.infoModalContent",
-  "th-TH": "การตรวจสอบ PCB ทั้งหมดเสร็จสมบูรณ์แล้ว",
-  "vi-VN": "Tất cả các PCB đã được xem xét xong.",
-  "zh-CN": "所有板卡复判已完成",
-  "zh-MY": "所有板卡复判已完成",
-  "zh-TW": "所有電路板複判已完成"
+  "zh-CN": "所有板卡复判已完成"
  },
  {
-  "en": "Previous",
-  "en-US": "Previous",
   "key": "adjudicationStation.headerTool.btnPrev",
-  "th-TH": "ก่อนหน้า",
-  "vi-VN": "Trước đó",
-  "zh-CN": "上一个",
-  "zh-MY": "上一个",
-  "zh-TW": "上一個"
+  "zh-CN": "上一个"
  },
  {
-  "en": "Next",
-  "en-US": "Next",
   "key": "adjudicationStation.headerTool.btnNext",
-  "th-TH": "ถัดไป",
-  "vi-VN": "Tiếp theo",
-  "zh-CN": "下一个",
-  "zh-MY": "下一个",
-  "zh-TW": "下一個"
+  "zh-CN": "下一个"
  },
  {
-  "en": "Skip",
-  "en-US": "Skip",
   "key": "adjudicationStation.headerTool.btnSkip",
-  "th-TH": "ข้าม",
-  "vi-VN": "Bỏ qua",
-  "zh-CN": "跳过",
-  "zh-MY": "跳过",
-  "zh-TW": "跳過"
+  "zh-CN": "跳过"
  },
  {
-  "en": "Save",
-  "en-US": "Save",
   "key": "adjudicationStation.headerTool.btnSave",
-  "th-TH": "บันทึก",
-  "vi-VN": "Lưu",
-  "zh-CN": "保存",
-  "zh-MY": "保存",
-  "zh-TW": "儲存"
+  "zh-CN": "保存"
  },
  {
-  "en": "Please select board data first",
-  "en-US": "Please select PCB data first.",
   "key": "adjudicationStation.HeaderToolBtnRadio.errorMessage",
-  "th-TH": "กรุณาเลือกข้อมูล PCB ก่อน",
-  "vi-VN": "Vui lòng chọn dữ liệu PCB trước.",
-  "zh-CN": "请先选择板卡数据",
-  "zh-MY": "请先选择板卡数据",
-  "zh-TW": "請先選擇電路板資料"
+  "zh-CN": "请先选择板卡数据"
  },
  {
-  "en": "RGB Image",
-  "en-US": "RGB Image",
   "key": "adjudicationStation.HeaderToolBtnRadio.RGBOption",
-  "th-TH": "ภาพ RGB",
-  "vi-VN": "Hình ảnh RGB",
-  "zh-CN": "RGB图",
-  "zh-MY": "RGB图",
-  "zh-TW": "RGB圖"
+  "zh-CN": "RGB图"
  },
  {
-  "en": "White Image",
-  "en-US": "White Image",
   "key": "adjudicationStation.HeaderToolBtnRadio.WhiteOption",
-  "th-TH": "ภาพสีขาว",
-  "vi-VN": "Hình ảnh trắng",
-  "zh-CN": "白图",
-  "zh-MY": "白图",
-  "zh-TW": "白圖"
+  "zh-CN": "白图"
  },
  {
-  "en": "Save successful",
-  "en-US": "Saved successfully.",
   "key": "adjudicationStation.ProgrammingPage.saveSuccessMessage",
-  "th-TH": "บันทึกสำเร็จ",
-  "vi-VN": "Đã lưu thành công.",
-  "zh-CN": "保存成功",
-  "zh-MY": "保存成功",
-  "zh-TW": "儲存成功"
+  "zh-CN": "保存成功"
  },
  {
-  "en": "Algorithm Parameter Configuration",
-  "en-US": "Algorithm Parameter Configuration",
   "key": "adjudicationStation.ProgrammingPage.title",
-  "th-TH": "การกำหนดค่าพารามิเตอร์อัลกอริทึม",
-  "vi-VN": "Cấu hình thông số thuật toán",
-  "zh-CN": "算法参数配置",
-  "zh-MY": "算法参数配置",
-  "zh-TW": "演算法參數配置"
+  "zh-CN": "算法参数配置"
  },
  {
-  "en": "Matching Algorithm",
-  "en-US": "Matching Algorithm",
   "key": "adjudicationStation.ProgrammingPage.matchAlgorithm",
-  "th-TH": "อัลกอริทึมการจับคู่",
-  "vi-VN": "Thuật toán so khớp",
-  "zh-CN": "匹配算法",
-  "zh-MY": "匹配算法",
-  "zh-TW": "匹配演算法"
+  "zh-CN": "匹配算法"
  },
  {
-  "en": "Model Version",
-  "en-US": "Model Version",
   "key": "adjudicationStation.ProgrammingPage.modelVersion",
-  "th-TH": "เวอร์ชันโมเดล",
-  "vi-VN": "Phiên bản mô hình",
-  "zh-CN": "模型版本",
-  "zh-MY": "模型版本",
-  "zh-TW": "模型版本"
+  "zh-CN": "模型版本"
  },
  {
-  "en": "Scope",
-  "en-US": "Scope",
   "key": "adjudicationStation.ProgrammingPage.scope",
-  "th-TH": "ขอบเขตการมีผล",
-  "vi-VN": "Phạm vi áp dụng",
-  "zh-CN": "生效范围",
-  "zh-MY": "生效范围",
-  "zh-TW": "生效範圍"
+  "zh-CN": "生效范围"
  },
  {
-  "en": "Save",
-  "en-US": "Save",
   "key": "adjudicationStation.ProgrammingPage.btnSave",
-  "th-TH": "บันทึก",
-  "vi-VN": "Lưu",
-  "zh-CN": "保存",
-  "zh-MY": "保存",
-  "zh-TW": "儲存"
+  "zh-CN": "保存"
  },
  {
-  "en": "AI Review",
-  "en-US": "Image Type",
   "key": "adjudicationStation.HeaderToolBtnRadio.title",
-  "th-TH": "AI การตัดสินใหม่",
-  "vi-VN": "AI Phán xét lại",
-  "zh-CN": "AI复判",
-  "zh-MY": "AI复判",
-  "zh-TW": "AI複判"
+  "zh-CN": "AI复判"
  }
 ]
