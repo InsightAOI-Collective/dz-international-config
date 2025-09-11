@@ -1,1026 +1,1026 @@
 [
-    {
-        "key": "dataManagement.managementList.title",
-        "en-US": "Management List",
-        "th-TH": "รายการการจัดการ",
-        "vi-VN": "Danh sách quản lý",
-        "zh-CN": "管理列表",
-        "zh-TW": "管理列表"
-    },
-    {
-        "key": "dataManagement.annotationList.title",
-        "en-US": "Annotation List",
-        "th-TH": "รายการคำอธิบายประกอบ",
-        "vi-VN": "Danh sách chú thích",
-        "zh-CN": "标注列表",
-        "zh-TW": "標註列表"
-    },
-    {
-        "key": "dataManagement.auditList.title",
-        "en-US": "Audit List",
-        "th-TH": "รายการตรวจสอบ",
-        "vi-VN": "Danh sách kiểm duyệt",
-        "zh-CN": "审核列表",
-        "zh-TW": "審核列表"
-    },
-    {
-        "key": "dataManagement.list.searchBatchNameLabel",
-        "en-US": "Batch Name",
-        "th-TH": "ชื่อชุดงาน",
-        "vi-VN": "Tên lô",
-        "zh-CN": "批次名",
-        "zh-TW": "批次名稱"
-    },
-    {
-        "key": "dataManagement.list.searchBatchNamePlaceholder",
-        "en-US": "Please enter batch name",
-        "th-TH": "โปรดป้อนชื่อชุดงาน",
-        "vi-VN": "Vui lòng nhập tên lô",
-        "zh-CN": "请输入批次名",
-        "zh-TW": "請輸入批次名稱"
-    },
-    {
-        "key": "dataManagement.list.searchBatchStatusLabel",
-        "en-US": "Batch Status",
-        "th-TH": "สถานะชุดงาน",
-        "vi-VN": "Trạng thái lô",
-        "zh-CN": "批次状态",
-        "zh-TW": "批次狀態"
-    },
-    {
-        "key": "dataManagement.list.searchBatchStatusPlaceholder",
-        "en-US": "Please select batch status",
-        "th-TH": "โปรดเลือกสถานะชุดงาน",
-        "vi-VN": "Vui lòng chọn trạng thái lô",
-        "zh-CN": "请选择批次状态",
-        "zh-TW": "請選擇批次狀態"
-    },
-    {
-        "key": "dataManagement.list.searchCreateTimeLabel",
-        "en-US": "Create Time",
-        "th-TH": "เวลาสร้าง",
-        "vi-VN": "Thời gian tạo",
-        "zh-CN": "创建时间",
-        "zh-TW": "建立時間"
-    },
-    {
-        "key": "dataManagement.list.searchStartCreateTimePlaceholder",
-        "en-US": "Start Time",
-        "th-TH": "เวลาเริ่มต้น",
-        "vi-VN": "Thời gian bắt đầu",
-        "zh-CN": "开始时间",
-        "zh-TW": "開始時間"
-    },
-    {
-        "key": "dataManagement.list.searchEndCreateTimePlaceholder",
-        "en-US": "End Time",
-        "th-TH": "เวลาสิ้นสุด",
-        "vi-VN": "Thời gian kết thúc",
-        "zh-CN": "结束时间",
-        "zh-TW": "結束時間"
-    },
-    {
-        "key": "dataManagement.list.searchCreateUserIdLabel",
-        "en-US": "Creator",
-        "th-TH": "ผู้สร้าง",
-        "vi-VN": "Người tạo",
-        "zh-CN": "创建人",
-        "zh-TW": "建立人"
-    },
-    {
-        "key": "dataManagement.list.searchCreateUserIdPlaceholder",
-        "en-US": "Please select creator",
-        "th-TH": "โปรดเลือกผู้สร้าง",
-        "vi-VN": "Vui lòng chọn người tạo",
-        "zh-CN": "请选择创建人",
-        "zh-TW": "請選擇建立人"
-    },
-    {
-        "key": "dataManagement.list.searchMarkUserIdLabel",
-        "en-US": "Marker",
-        "th-TH": "ผู้ทำเครื่องหมาย",
-        "vi-VN": "Người chú thích",
-        "zh-CN": "标注人",
-        "zh-TW": "標註人"
-    },
-    {
-        "key": "dataManagement.list.searchMarkUserIdPlaceholder",
-        "en-US": "Please select marker",
-        "th-TH": "โปรดเลือกผู้ทำเครื่องหมาย",
-        "vi-VN": "Vui lòng chọn người chú thích",
-        "zh-CN": "请选择标注人",
-        "zh-TW": "請選擇標註人"
-    },
-    {
-        "key": "dataManagement.list.searchAuditUserIdLabel",
-        "en-US": "Auditor",
-        "th-TH": "ผู้ตรวจสอบ",
-        "vi-VN": "Người kiểm duyệt",
-        "zh-CN": "审核人",
-        "zh-TW": "審核人"
-    },
-    {
-        "key": "dataManagement.list.searchAuditUserIdPlaceholder",
-        "en-US": "Please select auditor",
-        "th-TH": "โปรดเลือกผู้ตรวจสอบ",
-        "vi-VN": "Vui lòng chọn người kiểm duyệt",
-        "zh-CN": "请选择审核人",
-        "zh-TW": "請選擇審核人"
-    },
-    {
-        "key": "dataManagement.list.searchButton",
-        "en-US": "Search",
-        "th-TH": "ค้นหา",
-        "vi-VN": "Tìm kiếm",
-        "zh-CN": "查询",
-        "zh-TW": "查詢"
-    },
-    {
-        "key": "dataManagement.list.searchBtnReset",
-        "en-US": "Reset",
-        "th-TH": "รีเซ็ต",
-        "vi-VN": "Đặt lại",
-        "zh-CN": "重置",
-        "zh-TW": "重置"
-    },
-    {
-        "key": "dataManagement.list.createBatchSuccessMessage",
-        "en-US": "Batch created successfully",
-        "th-TH": "สร้างชุดงานสำเร็จแล้ว",
-        "vi-VN": "Tạo lô thành công",
-        "zh-CN": "批次创建成功",
-        "zh-TW": "批次建立成功"
-    },
-    {
-        "key": "dataManagement.list.submitBatchSuccessMessage",
-        "en-US": "Batch submitted for audit successfully",
-        "th-TH": "ส่งชุดงานเพื่อตรวจสอบสำเร็จแล้ว",
-        "vi-VN": "Gửi lô để kiểm duyệt thành công",
-        "zh-CN": "批次提交审核成功",
-        "zh-TW": "批次提交審核成功"
-    },
-    {
-        "key": "dataManagement.list.auditBatchSuccessMessage",
-        "en-US": "Batch audit approved successfully",
-        "th-TH": "การตรวจสอบเป็นชุดได้รับการอนุมัติสำเร็จแล้ว",
-        "vi-VN": "Đã chấp thuận kiểm duyệt lô thành công",
-        "zh-CN": "批次审核通过成功",
-        "zh-TW": "批次審核通過成功"
-    },
-    {
-        "key": "dataManagement.list.auditBatchFailedMessage",
-        "en-US": "Batch audit rejected successfully",
-        "th-TH": "การตรวจสอบเป็นชุดถูกปฏิเสธสำเร็จแล้ว",
-        "vi-VN": "Đã từ chối kiểm duyệt lô thành công",
-        "zh-CN": "批次审核驳回成功",
-        "zh-TW": "批次審核駁回成功"
-    },
-    {
-        "key": "dataManagement.list.delBatchSuccessMessage",
-        "en-US": "Batch deleted successfully",
-        "th-TH": "ลบชุดงานสำเร็จแล้ว",
-        "vi-VN": "Xóa lô thành công",
-        "zh-CN": "批次删除成功",
-        "zh-TW": "批次刪除成功"
-    },
-    {
-        "key": "dataManagement.list.auditBatchWarningMessage",
-        "en-US": "Please select at least one batch for audit",
-        "th-TH": "โปรดเลือกชุดงานอย่างน้อยหนึ่งชุดเพื่อตรวจสอบ",
-        "vi-VN": "Vui lòng chọn ít nhất một lô để kiểm duyệt",
-        "zh-CN": "请至少选择一个批次进行审核",
-        "zh-TW": "請至少選擇一個批次進行審核"
-    },
-    {
-        "key": "dataManagement.list.submitBatchWarningMessage",
-        "en-US": "Please select at least one batch for submission",
-        "th-TH": "โปรดเลือกชุดงานอย่างน้อยหนึ่งชุดเพื่อส่ง",
-        "vi-VN": "Vui lòng chọn ít nhất một lô để gửi",
-        "zh-CN": "请至少选择一个批次进行提交",
-        "zh-TW": "請至少選擇一個批次進行提交"
-    },
-    {
-        "key": "dataManagement.list.btnDel",
-        "en-US": "Delete",
-        "th-TH": "ลบ",
-        "vi-VN": "Xóa",
-        "zh-CN": "删除",
-        "zh-TW": "刪除"
-    },
-    {
-        "key": "dataManagement.list.btnPass",
-        "en-US": "Pass",
-        "th-TH": "ผ่าน",
-        "vi-VN": "Duyệt",
-        "zh-CN": "通过",
-        "zh-TW": "通過"
-    },
-    {
-        "key": "dataManagement.list.btnReject",
-        "en-US": "Reject",
-        "th-TH": "ปฏิเสธ",
-        "vi-VN": "Từ chối",
-        "zh-CN": "驳回",
-        "zh-TW": "駁回"
-    },
-    {
-        "key": "dataManagement.list.btnSubmit",
-        "en-US": "Submit for Audit",
-        "th-TH": "ส่งเพื่อตรวจสอบ",
-        "vi-VN": "Gửi để kiểm duyệt",
-        "zh-CN": "提交审核",
-        "zh-TW": "提交審核"
-    },
-    {
-        "key": "dataManagement.list.updateSuccessMessage",
-        "en-US": "Update successful",
-        "th-TH": "อัปเดตสำเร็จ",
-        "vi-VN": "Cập nhật thành công",
-        "zh-CN": "更新成功",
-        "zh-TW": "更新成功"
-    },
-    {
-        "key": "dataManagement.list.tableColBatchName",
-        "en-US": "Batch Name",
-        "th-TH": "ชื่อชุดงาน",
-        "vi-VN": "Tên lô",
-        "zh-CN": "批次名",
-        "zh-TW": "批次名稱"
-    },
-    {
-        "key": "dataManagement.list.tableColCreateUser",
-        "en-US": "Creator",
-        "th-TH": "ผู้สร้าง",
-        "vi-VN": "Người tạo",
-        "zh-CN": "创建人",
-        "zh-TW": "建立人"
-    },
-    {
-        "key": "dataManagement.list.tableColImageCount",
-        "en-US": "Image Count",
-        "th-TH": "จำนวนรูปภาพ",
-        "vi-VN": "Số lượng ảnh",
-        "zh-CN": "图片数量",
-        "zh-TW": "圖片數量"
-    },
-    {
-        "key": "dataManagement.list.tableColBatchStatus",
-        "en-US": "Batch Status",
-        "th-TH": "สถานะชุดงาน",
-        "vi-VN": "Trạng thái lô",
-        "zh-CN": "批次状态",
-        "zh-TW": "批次狀態"
-    },
-    {
-        "key": "dataManagement.list.tableColMarkUser",
-        "en-US": "Marker",
-        "th-TH": "ผู้ทำเครื่องหมาย",
-        "vi-VN": "Người chú thích",
-        "zh-CN": "标注人",
-        "zh-TW": "標註人"
-    },
-    {
-        "key": "dataManagement.list.tableColMarkUserPlaceholder",
-        "en-US": "Please select marker",
-        "th-TH": "โปรดเลือกผู้ทำเครื่องหมาย",
-        "vi-VN": "Vui lòng chọn người chú thích",
-        "zh-CN": "请选择标注人",
-        "zh-TW": "請選擇標註人"
-    },
-    {
-        "key": "dataManagement.list.tableColAuditUser",
-        "en-US": "Auditor",
-        "th-TH": "ผู้ตรวจสอบ",
-        "vi-VN": "Người kiểm duyệt",
-        "zh-CN": "审核人",
-        "zh-TW": "審核人"
-    },
-    {
-        "key": "dataManagement.list.tableColAuditUserPlaceholder",
-        "en-US": "Please select auditor",
-        "th-TH": "โปรดเลือกผู้ตรวจสอบ",
-        "vi-VN": "Vui lòng chọn người kiểm duyệt",
-        "zh-CN": "请选择审核人",
-        "zh-TW": "請選擇審核人"
-    },
-    {
-        "key": "dataManagement.list.tableColTagType",
-        "en-US": "Tag Type",
-        "th-TH": "ประเภทแท็ก",
-        "vi-VN": "Loại nhãn",
-        "zh-CN": "标签类型",
-        "zh-TW": "標籤類型"
-    },
-    {
-        "key": "dataManagement.list.tableColTagTypePlaceholder",
-        "en-US": "Please select tag type",
-        "th-TH": "โปรดเลือกประเภทแท็ก",
-        "vi-VN": "Vui lòng chọn loại nhãn",
-        "zh-CN": "请选择标签类型",
-        "zh-TW": "請選擇標籤類型"
-    },
-    {
-        "key": "dataManagement.list.tableColTagTypeOption1",
-        "en-US": "Detection Tag",
-        "th-TH": "แท็กการตรวจจับ",
-        "vi-VN": "Nhãn phát hiện",
-        "zh-CN": "检测标签",
-        "zh-TW": "偵測標籤"
-    },
-    {
-        "key": "dataManagement.list.tableColTagTypeOption2",
-        "en-US": "Classification Tag",
-        "th-TH": "แท็กการจัดหมวดหมู่",
-        "vi-VN": "Nhãn phân loại",
-        "zh-CN": "分类标签",
-        "zh-TW": "分類標籤"
-    },
-    {
-        "key": "dataManagement.list.tableColCreateTime",
-        "en-US": "Create Time",
-        "th-TH": "เวลาสร้าง",
-        "vi-VN": "Thời gian tạo",
-        "zh-CN": "创建时间",
-        "zh-TW": "建立時間"
-    },
-    {
-        "key": "dataManagement.list.tableColOperation",
-        "en-US": "Operation",
-        "th-TH": "การดำเนินการ",
-        "vi-VN": "Thao tác",
-        "zh-CN": "操作",
-        "zh-TW": "操作"
-    },
-    {
-        "key": "dataManagement.list.btnDetail",
-        "en-US": "Details",
-        "th-TH": "รายละเอียด",
-        "vi-VN": "Chi tiết",
-        "zh-CN": "详情",
-        "zh-TW": "詳情"
-    },
-    {
-        "key": "dataManagement.list.delBatchWarningMessage",
-        "en-US": "Please select at least one batch for deletion",
-        "th-TH": "โปรดเลือกชุดงานอย่างน้อยหนึ่งชุดเพื่อลบ",
-        "vi-VN": "Vui lòng chọn ít nhất một lô để xóa",
-        "zh-CN": "请至少选择一个批次进行删除",
-        "zh-TW": "請至少選擇一個批次進行刪除"
-    },
-    {
-        "key": "dataManagement.list.tableShowTotal",
-        "en-US": "Total {total} records",
-        "th-TH": "รวม {total} รายการ",
-        "vi-VN": "Tổng {total} bản ghi",
-        "zh-CN": "共 {total} 条记录",
-        "zh-TW": "共 {total} 條記錄"
-    },
-    {
-        "key": "dataManagement.list.delBatchConfirmMessage",
-        "en-US": "Confirm to delete selected batches?",
-        "th-TH": "ยืนยันที่จะลบชุดงานที่เลือกหรือไม่",
-        "vi-VN": "Xác nhận xóa các lô đã chọn?",
-        "zh-CN": "确认要删除选中的批次吗？",
-        "zh-TW": "確認要刪除選定的批次嗎？"
-    },
-    {
-        "key": "dataManagement.list.delBatchConfirmMessageDetail",
-        "en-US": "Cannot be recovered after deletion, please operate with caution!",
-        "th-TH": "ไม่สามารถกู้คืนได้หลังจากลบ โปรดดำเนินการด้วยความระมัดระวัง!",
-        "vi-VN": "Không thể phục hồi sau khi xóa, vui lòng thao tác cẩn thận!",
-        "zh-CN": "删除后将无法恢复，请谨慎操作!",
-        "zh-TW": "刪除後將無法恢復，請謹慎操作！"
-    },
-    {
-        "key": "dataManagement.list.btnCancel",
-        "en-US": "Cancel",
-        "th-TH": "ยกเลิก",
-        "vi-VN": "Hủy",
-        "zh-CN": "取消",
-        "zh-TW": "取消"
-    },
-    {
-        "key": "dataManagement.list.btnConfirm",
-        "en-US": "Confirm",
-        "th-TH": "ยืนยัน",
-        "vi-VN": "Xác nhận",
-        "zh-CN": "确认",
-        "zh-TW": "確認"
-    },
-    {
-        "key": "dataManagement.imageList.searchDatasetOption1",
-        "en-US": "Test Set",
-        "th-TH": "ชุดทดสอบ",
-        "vi-VN": "Tập dữ liệu kiểm thử",
-        "zh-CN": "测试集",
-        "zh-TW": "測試集"
-    },
-    {
-        "key": "dataManagement.imageList.searchDatasetOption2",
-        "en-US": "Non-Test Set",
-        "th-TH": "ชุดที่ไม่ใช่การทดสอบ",
-        "vi-VN": "Tập dữ liệu không kiểm thử",
-        "zh-CN": "非测试集",
-        "zh-TW": "非測試集"
-    },
-    {
-        "key": "dataManagement.imageList.searchMarkTimeLabel",
-        "en-US": "Mark Time",
-        "th-TH": "เวลาทำเครื่องหมาย",
-        "vi-VN": "Thời gian chú thích",
-        "zh-CN": "标注时间",
-        "zh-TW": "標註時間"
-    },
-    {
-        "key": "dataManagement.imageList.searchStartMarkTimePlaceholder",
-        "en-US": "Start Time",
-        "th-TH": "เวลาเริ่มต้น",
-        "vi-VN": "Thời gian bắt đầu",
-        "zh-CN": "开始时间",
-        "zh-TW": "開始時間"
-    },
-    {
-        "key": "dataManagement.imageList.searchEndMarkTimePlaceholder",
-        "en-US": "End Time",
-        "th-TH": "เวลาสิ้นสุด",
-        "vi-VN": "Thời gian kết thúc",
-        "zh-CN": "结束时间",
-        "zh-TW": "結束時間"
-    },
-    {
-        "key": "dataManagement.imageList.searchAuditTimeLabel",
-        "en-US": "Audit Time",
-        "th-TH": "เวลาตรวจสอบ",
-        "vi-VN": "Thời gian kiểm duyệt",
-        "zh-CN": "审核时间",
-        "zh-TW": "審核時間"
-    },
-    {
-        "key": "dataManagement.imageList.searchStartAuditTimePlaceholder",
-        "en-US": "Start Time",
-        "th-TH": "เวลาเริ่มต้น",
-        "vi-VN": "Thời gian bắt đầu",
-        "zh-CN": "开始时间",
-        "zh-TW": "開始時間"
-    },
-    {
-        "key": "dataManagement.imageList.searchEndAuditTimePlaceholder",
-        "en-US": "End Time",
-        "th-TH": "เวลาสิ้นสุด",
-        "vi-VN": "Thời gian kết thúc",
-        "zh-CN": "结束时间",
-        "zh-TW": "結束時間"
-    },
-    {
-        "key": "dataManagement.imageList.searchMarkStatusLabel",
-        "en-US": "Mark Status",
-        "th-TH": "สถานะการทำเครื่องหมาย",
-        "vi-VN": "Trạng thái chú thích",
-        "zh-CN": "标注状态",
-        "zh-TW": "標註狀態"
-    },
-    {
-        "key": "dataManagement.imageList.searchMarkStatusPlaceholder",
-        "en-US": "Please select mark status",
-        "th-TH": "โปรดเลือกสถานะการทำเครื่องหมาย",
-        "vi-VN": "Vui lòng chọn trạng thái chú thích",
-        "zh-CN": "请选择标注状态",
-        "zh-TW": "請選擇標註狀態"
-    },
-    {
-        "key": "dataManagement.imageList.searchAuditStatusLabel",
-        "en-US": "Audit Status",
-        "th-TH": "สถานะการตรวจสอบ",
-        "vi-VN": "Trạng thái kiểm duyệt",
-        "zh-CN": "审核状态",
-        "zh-TW": "審核狀態"
-    },
-    {
-        "key": "dataManagement.imageList.searchAuditStatusPlaceholder",
-        "en-US": "Please select audit status",
-        "th-TH": "โปรดเลือกสถานะการตรวจสอบ",
-        "vi-VN": "Vui lòng chọn trạng thái kiểm duyệt",
-        "zh-CN": "请选择审核状态",
-        "zh-TW": "請選擇審核狀態"
-    },
-    {
-        "key": "dataManagement.imageList.searchDatasetTypeLabel",
-        "en-US": "Dataset Type",
-        "th-TH": "ประเภทชุดข้อมูล",
-        "vi-VN": "Loại tập dữ liệu",
-        "zh-CN": "数据集类型",
-        "zh-TW": "數據集類型"
-    },
-    {
-        "key": "dataManagement.imageList.searchDatasetTypePlaceholder",
-        "en-US": "Please select dataset type",
-        "th-TH": "โปรดเลือกประเภทชุดข้อมูล",
-        "vi-VN": "Vui lòng chọn loại tập dữ liệu",
-        "zh-CN": "请选择数据集类型",
-        "zh-TW": "請選擇數據集類型"
-    },
-    {
-        "key": "dataManagement.imageList.searchButton",
-        "en-US": "Search",
-        "th-TH": "ค้นหา",
-        "vi-VN": "Tìm kiếm",
-        "zh-CN": "查询",
-        "zh-TW": "查詢"
-    },
-    {
-        "key": "dataManagement.imageList.searchBtnReset",
-        "en-US": "Reset",
-        "th-TH": "รีเซ็ต",
-        "vi-VN": "Đặt lại",
-        "zh-CN": "重置",
-        "zh-TW": "重置"
-    },
-    {
-        "key": "dataManagement.imageList.uploadFileFormatMessage",
-        "en-US": "Only supports png/jpg/jpeg image formats",
-        "th-TH": "รองรับเฉพาะไฟล์รูปภาพรูปแบบ png/jpg/jpeg เท่านั้น",
-        "vi-VN": "Chỉ hỗ trợ định dạng ảnh png/jpg/jpeg",
-        "zh-CN": "仅支持png/jpg/jpeg格式的图片",
-        "zh-TW": "僅支援png/jpg/jpeg格式的圖片"
-    },
-    {
-        "key": "dataManagement.imageList.delDuplicateImagesMessage",
-        "en-US": "Duplicate images deleted",
-        "th-TH": "ลบรูปภาพที่ซ้ำกันแล้ว",
-        "vi-VN": "Đã xóa ảnh trùng lặp",
-        "zh-CN": "已删除重复图片",
-        "zh-TW": "已刪除重複圖片"
-    },
-    {
-        "key": "dataManagement.imageList.uploadSuccessMessage",
-        "en-US": "Upload successful, {count} images in total{failCount > 0 ? `, ${failCount} failed` : ''}",
-        "th-TH": "อัปโหลดสำเร็จ, รูปภาพรวม {count} รูป{failCount > 0 ? `, ล้มเหลว ${failCount} รูป` : ''}",
-        "vi-VN": "Tải lên thành công, tổng cộng {count} ảnh{failCount > 0 ? `, ${failCount} thất bại` : ''}",
-        "zh-CN": "上传成功，共{count}张{failCount > 0 ? `，失败${failCount}张` : ''}",
-        "zh-TW": "上傳成功，共{count}張{failCount > 0 ? `，失敗${failCount}張` : ''}"
-    },
-    {
-        "key": "dataManagement.imageList.btnBatchDelete",
-        "en-US": "Batch Delete",
-        "th-TH": "ลบเป็นชุด",
-        "vi-VN": "Xóa hàng loạt",
-        "zh-CN": "批量删除",
-        "zh-TW": "批次刪除"
-    },
-    {
-        "key": "dataManagement.imageList.uploadButton",
-        "en-US": "Upload",
-        "th-TH": "อัปโหลด",
-        "vi-VN": "Tải lên",
-        "zh-CN": "上传",
-        "zh-TW": "上傳"
-    },
-    {
-        "key": "dataManagement.imageList.btnBatchAudit",
-        "en-US": "Batch Audit",
-        "th-TH": "ตรวจสอบเป็นชุด",
-        "vi-VN": "Kiểm duyệt hàng loạt",
-        "zh-CN": "批量审核",
-        "zh-TW": "批次審核"
-    },
-    {
-        "key": "dataManagement.imageList.btnBatchMark",
-        "en-US": "Batch Mark",
-        "th-TH": "ทำเครื่องหมายเป็นชุด",
-        "vi-VN": "Chú thích hàng loạt",
-        "zh-CN": "批量标注",
-        "zh-TW": "批次標註"
-    },
-    {
-        "key": "dataManagement.imageList.tableColImageName",
-        "en-US": "Image Name",
-        "th-TH": "ชื่อรูปภาพ",
-        "vi-VN": "Tên ảnh",
-        "zh-CN": "图片名称",
-        "zh-TW": "圖片名稱"
-    },
-    {
-        "key": "dataManagement.imageList.tableColIsDuplicate",
-        "en-US": "Is Duplicate",
-        "th-TH": "ซ้ำกันหรือไม่",
-        "vi-VN": "Có trùng lặp",
-        "zh-CN": "是否重复",
-        "zh-TW": "是否重複"
-    },
-    {
-        "key": "dataManagement.imageList.tableColIsDuplicateYes",
-        "en-US": "Duplicate",
-        "th-TH": "ซ้ำกัน",
-        "vi-VN": "Trùng lặp",
-        "zh-CN": "重复",
-        "zh-TW": "重複"
-    },
-    {
-        "key": "dataManagement.imageList.tableColIsDuplicateNo",
-        "en-US": "Not Duplicate",
-        "th-TH": "ไม่ซ้ำกัน",
-        "vi-VN": "Không trùng lặp",
-        "zh-CN": "未重复",
-        "zh-TW": "未重複"
-    },
-    {
-        "key": "dataManagement.imageList.tableColOperation",
-        "en-US": "Operation",
-        "th-TH": "การดำเนินการ",
-        "vi-VN": "Thao tác",
-        "zh-CN": "操作",
-        "zh-TW": "操作"
-    },
-    {
-        "key": "dataManagement.imageList.tableColOperationDelete",
-        "en-US": "Delete",
-        "th-TH": "ลบ",
-        "vi-VN": "Xóa",
-        "zh-CN": "删除",
-        "zh-TW": "刪除"
-    },
-    {
-        "key": "dataManagement.imageList.title",
-        "en-US": "Image List",
-        "th-TH": "รายการรูปภาพ",
-        "vi-VN": "Danh sách ảnh",
-        "zh-CN": "图片列表",
-        "zh-TW": "圖片列表"
-    },
-    {
-        "key": "dataManagement.imageList.uploadModalTitle",
-        "en-US": "Image Upload",
-        "th-TH": "อัปโหลดรูปภาพ",
-        "vi-VN": "Tải lên ảnh",
-        "zh-CN": "图片上传",
-        "zh-TW": "圖片上傳"
-    },
-    {
-        "key": "dataManagement.imageList.uploadModalFilesLabel",
-        "en-US": "Upload Images",
-        "th-TH": "อัปโหลดรูปภาพ",
-        "vi-VN": "Tải lên ảnh",
-        "zh-CN": "上传图片",
-        "zh-TW": "上傳圖片"
-    },
-    {
-        "key": "dataManagement.imageList.uploadModalFilesErrorMessage",
-        "en-US": "Please enter batch name prefix",
-        "th-TH": "โปรดป้อนคำนำหน้าชื่อชุดงาน",
-        "vi-VN": "Vui lòng nhập tiền tố tên lô",
-        "zh-CN": "请输入批次名前缀",
-        "zh-TW": "請輸入批次名稱前綴"
-    },
-    {
-        "key": "dataManagement.imageList.uploadModalBtnChooseImage",
-        "en-US": "Choose Image",
-        "th-TH": "เลือกรูปภาพ",
-        "vi-VN": "Chọn ảnh",
-        "zh-CN": "选择图片",
-        "zh-TW": "選擇圖片"
-    },
-    {
-        "key": "dataManagement.imageList.uploadModalBtnChooseFolder",
-        "en-US": "Choose Folder",
-        "th-TH": "เลือกโฟลเดอร์",
-        "vi-VN": "Chọn thư mục",
-        "zh-CN": "选择文件夹",
-        "zh-TW": "選擇資料夾"
-    },
-    {
-        "key": "dataManagement.imageList.uploadModalDuplicateTip",
-        "en-US": "Tip: Duplicate images exist in current upload, click here",
-        "th-TH": "คำแนะนำ: มีรูปภาพที่ซ้ำกันในการอัปโหลดปัจจุบัน คลิกที่นี่",
-        "vi-VN": "Mẹo: Có ảnh trùng lặp trong lần tải lên hiện tại, nhấp vào đây",
-        "zh-CN": "提示：当前上传存在重复图片，点此",
-        "zh-TW": "提示：目前上傳存在重複圖片，點此"
-    },
-    {
-        "key": "dataManagement.imageList.uploadModalDuplicateTipLink",
-        "en-US": "One-click Delete",
-        "th-TH": "ลบด้วยคลิกเดียว",
-        "vi-VN": "Xóa bằng một cú nhấp",
-        "zh-CN": "一键删除",
-        "zh-TW": "一鍵刪除"
-    },
-    {
-        "key": "dataManagement.imageList.uploadModalDuplicateTipDescription",
-        "en-US": "Layer duplicate images",
-        "th-TH": "รูปภาพเลเยอร์ที่ซ้ำกัน",
-        "vi-VN": "Ảnh trùng lặp lớp",
-        "zh-CN": "图层重复图片",
-        "zh-TW": "圖層重複圖片"
-    },
-    {
-        "key": "dataManagement.imageList.uploadModalDuplicateTipSummary",
-        "en-US": "{length} images selected, {duplicateCount} duplicates",
-        "th-TH": "เลือกรูปภาพ {length} รูป, ซ้ำกัน {duplicateCount} รูป",
-        "vi-VN": "Đã chọn {length} ảnh, {duplicateCount} ảnh trùng lặp",
-        "zh-CN": "已选择 {length} 张图片，{duplicateCount}张重复",
-        "zh-TW": "已選擇 {length} 張圖片，{duplicateCount}張重複"
-    },
-    {
-        "key": "dataManagement.imageList.uploadModalBtnCancel",
-        "en-US": "Cancel",
-        "th-TH": "ยกเลิก",
-        "vi-VN": "Hủy",
-        "zh-CN": "取消",
-        "zh-TW": "取消"
-    },
-    {
-        "key": "dataManagement.imageList.uploadModalBtnUpload",
-        "en-US": "Start Upload",
-        "th-TH": "เริ่มอัปโหลด",
-        "vi-VN": "Bắt đầu tải lên",
-        "zh-CN": "开始上传",
-        "zh-TW": "開始上傳"
-    },
-    {
-        "key": "dataManagement.batchListAction.btnDeleteBatch",
-        "en-US": "Batch Delete",
-        "zh-CN": "批量删除",
-        "zh-TW": "批次刪除",
-        "th-TH": "ลบเป็นชุด",
-        "vi-VN": "Xóa hàng loạt"
-    },
-    {
-        "key": "dataManagement.batchListAction.btnCreateBatch",
-        "en-US": "Create Batch",
-        "zh-CN": "创建批次",
-        "zh-TW": "建立批次",
-        "th-TH": "สร้างชุดงาน",
-        "vi-VN": "Tạo lô"
-    },
-    {
-        "key": "dataManagement.batchListAction.btnRejectAudit",
-        "en-US": "Reject Audit",
-        "zh-CN": "驳回审核",
-        "zh-TW": "駁回審核",
-        "th-TH": "ปฏิเสธการตรวจสอบ",
-        "vi-VN": "Từ chối kiểm duyệt"
-    },
-    {
-        "key": "dataManagement.batchListAction.btnPassAudit",
-        "en-US": "Pass Audit",
-        "zh-CN": "通过审核",
-        "zh-TW": "通過審核",
-        "th-TH": "ผ่านการตรวจสอบ",
-        "vi-VN": "Duyệt kiểm tra"
-    },
-    {
-        "key": "dataManagement.batchListAction.btnSubmit",
-        "en-US": "Submit for Audit",
-        "zh-CN": "提交审核",
-        "zh-TW": "提交審核",
-        "th-TH": "ส่งเพื่อตรวจสอบ",
-        "vi-VN": "Gửi để kiểm duyệt"
-    },
-    {
-        "key": "dataManagement.batchListAction.title",
-        "en-US": "Batch List",
-        "zh-CN": "批次列表",
-        "zh-TW": "批次列表",
-        "th-TH": "รายการชุดงาน",
-        "vi-VN": "Danh sách lô"
-    },
-    {
-        "key": "dataManagement.batchListAction.modalTitle",
-        "en-US": "Create Batch",
-        "zh-CN": "创建批次",
-        "zh-TW": "建立批次",
-        "th-TH": "สร้างชุดงาน",
-        "vi-VN": "Tạo lô"
-    },
-    {
-        "key": "dataManagement.batchListAction.modalBatchLabel",
-        "en-US": "Batch Name Prefix",
-        "zh-CN": "批次名前缀",
-        "zh-TW": "批次名稱前綴",
-        "th-TH": "คำนำหน้าชื่อชุดงาน",
-        "vi-VN": "Tiền tố tên lô"
-    },
-    {
-        "key": "dataManagement.batchListAction.modalBatchMessage",
-        "en-US": "Please enter batch name prefix",
-        "zh-CN": "请输入批次名前缀",
-        "zh-TW": "請輸入批次名稱前綴",
-        "th-TH": "โปรดป้อนคำนำหน้าชื่อชุดงาน",
-        "vi-VN": "Vui lòng nhập tiền tố tên lô"
-    },
-    {
-        "key": "dataManagement.batchListAction.modalBatchPlaceholder",
-        "en-US": "Please enter batch name prefix, e.g.: 0718_resistor_excess_solder",
-        "zh-CN": "请输入批次名前缀，例如：0718_电阻_多锡",
-        "zh-TW": "請輸入批次名稱前綴，例如：0718_電阻_多錫",
-        "th-TH": "โปรดป้อนคำนำหน้าชื่อชุดงาน เช่น: 0718_ตัวต้านทาน_บัดกรีเกิน",
-        "vi-VN": "Vui lòng nhập tiền tố tên lô, ví dụ: 0718_điện_trở_thừa_thiếc"
-    },
-    {
-        "key": "dataManagement.batchListAction.modalBtnCancel",
-        "en-US": "Cancel",
-        "zh-CN": "取消",
-        "zh-TW": "取消",
-        "th-TH": "ยกเลิก",
-        "vi-VN": "Hủy"
-    },
-    {
-        "key": "dataManagement.batchListAction.modalBtnConfirm",
-        "en-US": "Create",
-        "zh-CN": "创建",
-        "zh-TW": "建立",
-        "th-TH": "สร้าง",
-        "vi-VN": "Tạo"
-    },
-    {
-        "key": "dataManagement.imageList.delImageSuccessMessage",
-        "en-US": "Image deleted successfully",
-        "zh-CN": "图片删除成功",
-        "zh-TW": "圖片刪除成功",
-        "th-TH": "ลบรูปภาพสำเร็จแล้ว",
-        "vi-VN": "Xóa ảnh thành công"
-    },
-    {
-        "key": "dataManagement.imageList.setImageSuccessMessage",
-        "en-US": "Set successfully",
-        "zh-CN": "设置成功",
-        "zh-TW": "設定成功",
-        "th-TH": "ตั้งค่าสำเร็จแล้ว",
-        "vi-VN": "Thiết lập thành công"
-    },
-    {
-        "key": "dataManagement.imageList.btnSetTestCollection",
-        "en-US": "Set Test Collection",
-        "zh-CN": "设置测试集",
-        "zh-TW": "設定測試集",
-        "th-TH": "ตั้งค่าชุดทดสอบ",
-        "vi-VN": "Đặt bộ sưu tập kiểm thử"
-    },
-    {
-        "key": "dataManagement.imageList.btnDel",
-        "en-US": "Delete",
-        "zh-CN": "删除",
-        "zh-TW": "刪除",
-        "th-TH": "ลบ",
-        "vi-VN": "Xóa"
-    },
-    {
-        "key": "dataManagement.imageList.btnAudit",
-        "en-US": "Audit",
-        "zh-CN": "审核",
-        "zh-TW": "審核",
-        "th-TH": "ตรวจสอบ",
-        "vi-VN": "Kiểm duyệt"
-    },
-    {
-        "key": "dataManagement.imageList.btnMark",
-        "en-US": "Mark",
-        "zh-CN": "标注",
-        "zh-TW": "標註",
-        "th-TH": "ทำเครื่องหมาย",
-        "vi-VN": "Chú thích"
-    },
-    {
-        "key": "dataManagement.imageList.listTableColImageName",
-        "en-US": "Image Name",
-        "zh-CN": "图片名称",
-        "zh-TW": "圖片名稱",
-        "th-TH": "ชื่อรูปภาพ",
-        "vi-VN": "Tên ảnh"
-    },
-    {
-        "key": "dataManagement.imageList.listTableColUploadUser",
-        "en-US": "Uploader",
-        "zh-CN": "上传人",
-        "zh-TW": "上傳人",
-        "th-TH": "ผู้อัปโหลด",
-        "vi-VN": "Người tải lên"
-    },
-    {
-        "key": "dataManagement.imageList.listTableColMarkStatus",
-        "en-US": "Mark Status",
-        "zh-CN": "标注状态",
-        "zh-TW": "標註狀態",
-        "th-TH": "สถานะการทำเครื่องหมาย",
-        "vi-VN": "Trạng thái chú thích"
-    },
-    {
-        "key": "dataManagement.imageList.listTableColAuditStatus",
-        "en-US": "Audit Status",
-        "zh-CN": "审核状态",
-        "zh-TW": "審核狀態",
-        "th-TH": "สถานะการตรวจสอบ",
-        "vi-VN": "Trạng thái kiểm duyệt"
-    },
-    {
-        "key": "dataManagement.imageList.listTableColMarkTime",
-        "en-US": "Mark Time",
-        "zh-CN": "标注时间",
-        "zh-TW": "標註時間",
-        "th-TH": "เวลาทำเครื่องหมาย",
-        "vi-VN": "Thời gian chú thích"
-    },
-    {
-        "key": "dataManagement.imageList.listTableColAuditTime",
-        "en-US": "Audit Time",
-        "zh-CN": "审核时间",
-        "zh-TW": "審核時間",
-        "th-TH": "เวลาตรวจสอบ",
-        "vi-VN": "Thời gian kiểm duyệt"
-    },
-    {
-        "key": "dataManagement.imageList.listTableColDatasetType",
-        "en-US": "Dataset Type",
-        "zh-CN": "数据集类型",
-        "zh-TW": "數據集類型",
-        "th-TH": "ประเภทชุดข้อมูล",
-        "vi-VN": "Loại tập dữ liệu"
-    },
-    {
-        "key": "dataManagement.imageList.listTableColDatasetTypeOption1",
-        "en-US": "Test Set",
-        "zh-CN": "测试集",
-        "zh-TW": "測試集",
-        "th-TH": "ชุดทดสอบ",
-        "vi-VN": "Tập dữ liệu kiểm thử"
-    },
-    {
-        "key": "dataManagement.imageList.listTableColOperation",
-        "en-US": "Operation",
-        "zh-CN": "操作",
-        "zh-TW": "操作",
-        "th-TH": "การดำเนินการ",
-        "vi-VN": "Thao tác"
-    },
-    {
-        "key": "dataManagement.imageList.delWarningMessage",
-        "en-US": "Please select at least 1 image for deletion",
-        "zh-CN": "请至少选择1张图片进行删除",
-        "zh-TW": "請至少選擇1張圖片進行刪除",
-        "th-TH": "โปรดเลือกรูปภาพอย่างน้อย 1 รูปเพื่อลบ",
-        "vi-VN": "Vui lòng chọn ít nhất 1 ảnh để xóa"
-    },
-    {
-        "key": "dataManagement.imageList.auditWarningMessage",
-        "en-US": "Please select at least 1 image for audit",
-        "zh-CN": "请至少选择1张图片进行审核",
-        "zh-TW": "請至少選擇1張圖片進行審核",
-        "th-TH": "โปรดเลือกรูปภาพอย่างน้อย 1 รูปเพื่อตรวจสอบ",
-        "vi-VN": "Vui lòng chọn ít nhất 1 ảnh để kiểm duyệt"
-    },
-    {
-        "key": "dataManagement.imageList.markWarningMessage",
-        "en-US": "Please select at least 1 image for marking",
-        "zh-CN": "请至少选择1张图片进行标注",
-        "zh-TW": "請至少選擇1張圖片進行標註",
-        "th-TH": "โปรดเลือกรูปภาพอย่างน้อย 1 รูปเพื่อทำเครื่องหมาย",
-        "vi-VN": "Vui lòng chọn ít nhất 1 ảnh để chú thích"
-    },
-    {
-        "key": "dataManagement.imageList.tableShowTotal",
-        "en-US": "Total {total} records",
-        "zh-CN": "共{total}记录",
-        "zh-TW": "共{total}記錄",
-        "th-TH": "รวม {total} รายการ",
-        "vi-VN": "Tổng {total} bản ghi"
-    },
-    {
-        "key": "dataManagement.imageList.btnBack",
-        "en-US": "Back to Previous",
-        "zh-CN": "返回上一级",
-        "zh-TW": "返回上一級",
-        "th-TH": "กลับไปยังระดับก่อนหน้า",
-        "vi-VN": "Quay lại cấp trước"
-    },
-    {
-        "key": "dataManagement.imageList.delModalTitle",
-        "en-US": "Confirm to delete selected images?",
-        "zh-CN": "确认要删除选中的图片吗？",
-        "zh-TW": "確認要刪除選中的圖片嗎？",
-        "th-TH": "ยืนยันที่จะลบรูปภาพที่เลือกหรือไม่?",
-        "vi-VN": "Xác nhận xóa các ảnh đã chọn?"
-    },
-    {
-        "key": "dataManagement.imageList.delModalContent",
-        "en-US": "Cannot be recovered after deletion, please operate with caution!",
-        "zh-CN": "删除后将无法恢复，请谨慎操作!",
-        "zh-TW": "刪除後將無法恢復，請謹慎操作！",
-        "th-TH": "ไม่สามารถกู้คืนได้หลังจากลบ โปรดดำเนินการด้วยความระมัดระวัง!",
-        "vi-VN": "Không thể phục hồi sau khi xóa, vui lòng thao tác cẩn thận!"
-    },
-    {
-        "key": "dataManagement.imageList.delModalCancel",
-        "en-US": "Cancel",
-        "zh-CN": "取消",
-        "zh-TW": "取消",
-        "th-TH": "ยกเลิก",
-        "vi-VN": "Hủy"
-    },
-    {
-        "key": "dataManagement.imageList.delModalConfirm",
-        "en-US": "Confirm",
-        "zh-CN": "确认",
-        "zh-TW": "確認",
-        "th-TH": "ยืนยัน",
-        "vi-VN": "Xác nhận"
-    }
+ {
+  "en-US": "Management List",
+  "key": "dataManagement.managementList.title",
+  "th-TH": "รายการการจัดการ",
+  "vi-VN": "Danh sách quản lý",
+  "zh-CN": "管理列表",
+  "zh-TW": "管理列表"
+ },
+ {
+  "en-US": "Annotation List",
+  "key": "dataManagement.annotationList.title",
+  "th-TH": "รายการคำอธิบายประกอบ",
+  "vi-VN": "Danh sách chú thích",
+  "zh-CN": "标注列表",
+  "zh-TW": "標註列表"
+ },
+ {
+  "en-US": "Audit List",
+  "key": "dataManagement.auditList.title",
+  "th-TH": "รายการตรวจสอบ",
+  "vi-VN": "Danh sách kiểm duyệt",
+  "zh-CN": "审核列表",
+  "zh-TW": "審核列表"
+ },
+ {
+  "en-US": "Batch Name",
+  "key": "dataManagement.list.searchBatchNameLabel",
+  "th-TH": "ชื่อชุดงาน",
+  "vi-VN": "Tên lô",
+  "zh-CN": "批次名",
+  "zh-TW": "批次名稱"
+ },
+ {
+  "en-US": "Please enter batch name",
+  "key": "dataManagement.list.searchBatchNamePlaceholder",
+  "th-TH": "โปรดป้อนชื่อชุดงาน",
+  "vi-VN": "Vui lòng nhập tên lô",
+  "zh-CN": "请输入批次名",
+  "zh-TW": "請輸入批次名稱"
+ },
+ {
+  "en-US": "Batch Status",
+  "key": "dataManagement.list.searchBatchStatusLabel",
+  "th-TH": "สถานะชุดงาน",
+  "vi-VN": "Trạng thái lô",
+  "zh-CN": "批次状态",
+  "zh-TW": "批次狀態"
+ },
+ {
+  "en-US": "Please select batch status",
+  "key": "dataManagement.list.searchBatchStatusPlaceholder",
+  "th-TH": "โปรดเลือกสถานะชุดงาน",
+  "vi-VN": "Vui lòng chọn trạng thái lô",
+  "zh-CN": "请选择批次状态",
+  "zh-TW": "請選擇批次狀態"
+ },
+ {
+  "en-US": "Create Time",
+  "key": "dataManagement.list.searchCreateTimeLabel",
+  "th-TH": "เวลาสร้าง",
+  "vi-VN": "Thời gian tạo",
+  "zh-CN": "创建时间",
+  "zh-TW": "建立時間"
+ },
+ {
+  "en-US": "Start Time",
+  "key": "dataManagement.list.searchStartCreateTimePlaceholder",
+  "th-TH": "เวลาเริ่มต้น",
+  "vi-VN": "Thời gian bắt đầu",
+  "zh-CN": "开始时间",
+  "zh-TW": "開始時間"
+ },
+ {
+  "en-US": "End Time",
+  "key": "dataManagement.list.searchEndCreateTimePlaceholder",
+  "th-TH": "เวลาสิ้นสุด",
+  "vi-VN": "Thời gian kết thúc",
+  "zh-CN": "结束时间",
+  "zh-TW": "結束時間"
+ },
+ {
+  "en-US": "Creator",
+  "key": "dataManagement.list.searchCreateUserIdLabel",
+  "th-TH": "ผู้สร้าง",
+  "vi-VN": "Người tạo",
+  "zh-CN": "创建人",
+  "zh-TW": "建立人"
+ },
+ {
+  "en-US": "Please select creator",
+  "key": "dataManagement.list.searchCreateUserIdPlaceholder",
+  "th-TH": "โปรดเลือกผู้สร้าง",
+  "vi-VN": "Vui lòng chọn người tạo",
+  "zh-CN": "请选择创建人",
+  "zh-TW": "請選擇建立人"
+ },
+ {
+  "en-US": "Marker",
+  "key": "dataManagement.list.searchMarkUserIdLabel",
+  "th-TH": "ผู้ทำเครื่องหมาย",
+  "vi-VN": "Người chú thích",
+  "zh-CN": "标注人",
+  "zh-TW": "標註人"
+ },
+ {
+  "en-US": "Please select marker",
+  "key": "dataManagement.list.searchMarkUserIdPlaceholder",
+  "th-TH": "โปรดเลือกผู้ทำเครื่องหมาย",
+  "vi-VN": "Vui lòng chọn người chú thích",
+  "zh-CN": "请选择标注人",
+  "zh-TW": "請選擇標註人"
+ },
+ {
+  "en-US": "Auditor",
+  "key": "dataManagement.list.searchAuditUserIdLabel",
+  "th-TH": "ผู้ตรวจสอบ",
+  "vi-VN": "Người kiểm duyệt",
+  "zh-CN": "审核人",
+  "zh-TW": "審核人"
+ },
+ {
+  "en-US": "Please select auditor",
+  "key": "dataManagement.list.searchAuditUserIdPlaceholder",
+  "th-TH": "โปรดเลือกผู้ตรวจสอบ",
+  "vi-VN": "Vui lòng chọn người kiểm duyệt",
+  "zh-CN": "请选择审核人",
+  "zh-TW": "請選擇審核人"
+ },
+ {
+  "en-US": "Search",
+  "key": "dataManagement.list.searchButton",
+  "th-TH": "ค้นหา",
+  "vi-VN": "Tìm kiếm",
+  "zh-CN": "查询",
+  "zh-TW": "查詢"
+ },
+ {
+  "en-US": "Reset",
+  "key": "dataManagement.list.searchBtnReset",
+  "th-TH": "รีเซ็ต",
+  "vi-VN": "Đặt lại",
+  "zh-CN": "重置",
+  "zh-TW": "重置"
+ },
+ {
+  "en-US": "Batch created successfully",
+  "key": "dataManagement.list.createBatchSuccessMessage",
+  "th-TH": "สร้างชุดงานสำเร็จแล้ว",
+  "vi-VN": "Tạo lô thành công",
+  "zh-CN": "批次创建成功",
+  "zh-TW": "批次建立成功"
+ },
+ {
+  "en-US": "Batch submitted for audit successfully",
+  "key": "dataManagement.list.submitBatchSuccessMessage",
+  "th-TH": "ส่งชุดงานเพื่อตรวจสอบสำเร็จแล้ว",
+  "vi-VN": "Gửi lô để kiểm duyệt thành công",
+  "zh-CN": "批次提交审核成功",
+  "zh-TW": "批次提交審核成功"
+ },
+ {
+  "en-US": "Batch audit approved successfully",
+  "key": "dataManagement.list.auditBatchSuccessMessage",
+  "th-TH": "การตรวจสอบเป็นชุดได้รับการอนุมัติสำเร็จแล้ว",
+  "vi-VN": "Đã chấp thuận kiểm duyệt lô thành công",
+  "zh-CN": "批次审核通过成功",
+  "zh-TW": "批次審核通過成功"
+ },
+ {
+  "en-US": "Batch audit rejected successfully",
+  "key": "dataManagement.list.auditBatchFailedMessage",
+  "th-TH": "การตรวจสอบเป็นชุดถูกปฏิเสธสำเร็จแล้ว",
+  "vi-VN": "Đã từ chối kiểm duyệt lô thành công",
+  "zh-CN": "批次审核驳回成功",
+  "zh-TW": "批次審核駁回成功"
+ },
+ {
+  "en-US": "Batch deleted successfully",
+  "key": "dataManagement.list.delBatchSuccessMessage",
+  "th-TH": "ลบชุดงานสำเร็จแล้ว",
+  "vi-VN": "Xóa lô thành công",
+  "zh-CN": "批次删除成功",
+  "zh-TW": "批次刪除成功"
+ },
+ {
+  "en-US": "Please select at least one batch for audit",
+  "key": "dataManagement.list.auditBatchWarningMessage",
+  "th-TH": "โปรดเลือกชุดงานอย่างน้อยหนึ่งชุดเพื่อตรวจสอบ",
+  "vi-VN": "Vui lòng chọn ít nhất một lô để kiểm duyệt",
+  "zh-CN": "请至少选择一个批次进行审核",
+  "zh-TW": "請至少選擇一個批次進行審核"
+ },
+ {
+  "en-US": "Please select at least one batch for submission",
+  "key": "dataManagement.list.submitBatchWarningMessage",
+  "th-TH": "โปรดเลือกชุดงานอย่างน้อยหนึ่งชุดเพื่อส่ง",
+  "vi-VN": "Vui lòng chọn ít nhất một lô để gửi",
+  "zh-CN": "请至少选择一个批次进行提交",
+  "zh-TW": "請至少選擇一個批次進行提交"
+ },
+ {
+  "en-US": "Delete",
+  "key": "dataManagement.list.btnDel",
+  "th-TH": "ลบ",
+  "vi-VN": "Xóa",
+  "zh-CN": "删除",
+  "zh-TW": "刪除"
+ },
+ {
+  "en-US": "Pass",
+  "key": "dataManagement.list.btnPass",
+  "th-TH": "ผ่าน",
+  "vi-VN": "Duyệt",
+  "zh-CN": "通过",
+  "zh-TW": "通過"
+ },
+ {
+  "en-US": "Reject",
+  "key": "dataManagement.list.btnReject",
+  "th-TH": "ปฏิเสธ",
+  "vi-VN": "Từ chối",
+  "zh-CN": "驳回",
+  "zh-TW": "駁回"
+ },
+ {
+  "en-US": "Submit for Audit",
+  "key": "dataManagement.list.btnSubmit",
+  "th-TH": "ส่งเพื่อตรวจสอบ",
+  "vi-VN": "Gửi để kiểm duyệt",
+  "zh-CN": "提交审核",
+  "zh-TW": "提交審核"
+ },
+ {
+  "en-US": "Update successful",
+  "key": "dataManagement.list.updateSuccessMessage",
+  "th-TH": "อัปเดตสำเร็จ",
+  "vi-VN": "Cập nhật thành công",
+  "zh-CN": "更新成功",
+  "zh-TW": "更新成功"
+ },
+ {
+  "en-US": "Batch Name",
+  "key": "dataManagement.list.tableColBatchName",
+  "th-TH": "ชื่อชุดงาน",
+  "vi-VN": "Tên lô",
+  "zh-CN": "批次名",
+  "zh-TW": "批次名稱"
+ },
+ {
+  "en-US": "Creator",
+  "key": "dataManagement.list.tableColCreateUser",
+  "th-TH": "ผู้สร้าง",
+  "vi-VN": "Người tạo",
+  "zh-CN": "创建人",
+  "zh-TW": "建立人"
+ },
+ {
+  "en-US": "Image Count",
+  "key": "dataManagement.list.tableColImageCount",
+  "th-TH": "จำนวนรูปภาพ",
+  "vi-VN": "Số lượng ảnh",
+  "zh-CN": "图片数量",
+  "zh-TW": "圖片數量"
+ },
+ {
+  "en-US": "Batch Status",
+  "key": "dataManagement.list.tableColBatchStatus",
+  "th-TH": "สถานะชุดงาน",
+  "vi-VN": "Trạng thái lô",
+  "zh-CN": "批次状态",
+  "zh-TW": "批次狀態"
+ },
+ {
+  "en-US": "Marker",
+  "key": "dataManagement.list.tableColMarkUser",
+  "th-TH": "ผู้ทำเครื่องหมาย",
+  "vi-VN": "Người chú thích",
+  "zh-CN": "标注人",
+  "zh-TW": "標註人"
+ },
+ {
+  "en-US": "Please select marker",
+  "key": "dataManagement.list.tableColMarkUserPlaceholder",
+  "th-TH": "โปรดเลือกผู้ทำเครื่องหมาย",
+  "vi-VN": "Vui lòng chọn người chú thích",
+  "zh-CN": "请选择标注人",
+  "zh-TW": "請選擇標註人"
+ },
+ {
+  "en-US": "Auditor",
+  "key": "dataManagement.list.tableColAuditUser",
+  "th-TH": "ผู้ตรวจสอบ",
+  "vi-VN": "Người kiểm duyệt",
+  "zh-CN": "审核人",
+  "zh-TW": "審核人"
+ },
+ {
+  "en-US": "Please select auditor",
+  "key": "dataManagement.list.tableColAuditUserPlaceholder",
+  "th-TH": "โปรดเลือกผู้ตรวจสอบ",
+  "vi-VN": "Vui lòng chọn người kiểm duyệt",
+  "zh-CN": "请选择审核人",
+  "zh-TW": "請選擇審核人"
+ },
+ {
+  "en-US": "Tag Type",
+  "key": "dataManagement.list.tableColTagType",
+  "th-TH": "ประเภทแท็ก",
+  "vi-VN": "Loại nhãn",
+  "zh-CN": "标签类型",
+  "zh-TW": "標籤類型"
+ },
+ {
+  "en-US": "Please select tag type",
+  "key": "dataManagement.list.tableColTagTypePlaceholder",
+  "th-TH": "โปรดเลือกประเภทแท็ก",
+  "vi-VN": "Vui lòng chọn loại nhãn",
+  "zh-CN": "请选择标签类型",
+  "zh-TW": "請選擇標籤類型"
+ },
+ {
+  "en-US": "Detection Tag",
+  "key": "dataManagement.list.tableColTagTypeOption1",
+  "th-TH": "แท็กการตรวจจับ",
+  "vi-VN": "Nhãn phát hiện",
+  "zh-CN": "检测标签",
+  "zh-TW": "偵測標籤"
+ },
+ {
+  "en-US": "Classification Tag",
+  "key": "dataManagement.list.tableColTagTypeOption2",
+  "th-TH": "แท็กการจัดหมวดหมู่",
+  "vi-VN": "Nhãn phân loại",
+  "zh-CN": "分类标签",
+  "zh-TW": "分類標籤"
+ },
+ {
+  "en-US": "Create Time",
+  "key": "dataManagement.list.tableColCreateTime",
+  "th-TH": "เวลาสร้าง",
+  "vi-VN": "Thời gian tạo",
+  "zh-CN": "创建时间",
+  "zh-TW": "建立時間"
+ },
+ {
+  "en-US": "Operation",
+  "key": "dataManagement.list.tableColOperation",
+  "th-TH": "การดำเนินการ",
+  "vi-VN": "Thao tác",
+  "zh-CN": "操作",
+  "zh-TW": "操作"
+ },
+ {
+  "en-US": "Details",
+  "key": "dataManagement.list.btnDetail",
+  "th-TH": "รายละเอียด",
+  "vi-VN": "Chi tiết",
+  "zh-CN": "详情",
+  "zh-TW": "詳情"
+ },
+ {
+  "en-US": "Please select at least one batch for deletion",
+  "key": "dataManagement.list.delBatchWarningMessage",
+  "th-TH": "โปรดเลือกชุดงานอย่างน้อยหนึ่งชุดเพื่อลบ",
+  "vi-VN": "Vui lòng chọn ít nhất một lô để xóa",
+  "zh-CN": "请至少选择一个批次进行删除",
+  "zh-TW": "請至少選擇一個批次進行刪除"
+ },
+ {
+  "en-US": "Total {total} records",
+  "key": "dataManagement.list.tableShowTotal",
+  "th-TH": "รวม {total} รายการ",
+  "vi-VN": "Tổng {total} bản ghi",
+  "zh-CN": "共 {total} 条记录",
+  "zh-TW": "共 {total} 條記錄"
+ },
+ {
+  "en-US": "Confirm to delete selected batches?",
+  "key": "dataManagement.list.delBatchConfirmMessage",
+  "th-TH": "ยืนยันที่จะลบชุดงานที่เลือกหรือไม่",
+  "vi-VN": "Xác nhận xóa các lô đã chọn?",
+  "zh-CN": "确认要删除选中的批次吗？",
+  "zh-TW": "確認要刪除選定的批次嗎？"
+ },
+ {
+  "en-US": "Cannot be recovered after deletion, please operate with caution!",
+  "key": "dataManagement.list.delBatchConfirmMessageDetail",
+  "th-TH": "ไม่สามารถกู้คืนได้หลังจากลบ โปรดดำเนินการด้วยความระมัดระวัง!",
+  "vi-VN": "Không thể phục hồi sau khi xóa, vui lòng thao tác cẩn thận!",
+  "zh-CN": "删除后将无法恢复，请谨慎操作!",
+  "zh-TW": "刪除後將無法恢復，請謹慎操作！"
+ },
+ {
+  "en-US": "Cancel",
+  "key": "dataManagement.list.btnCancel",
+  "th-TH": "ยกเลิก",
+  "vi-VN": "Hủy",
+  "zh-CN": "取消",
+  "zh-TW": "取消"
+ },
+ {
+  "en-US": "Confirm",
+  "key": "dataManagement.list.btnConfirm",
+  "th-TH": "ยืนยัน",
+  "vi-VN": "Xác nhận",
+  "zh-CN": "确认",
+  "zh-TW": "確認"
+ },
+ {
+  "en-US": "Test Set",
+  "key": "dataManagement.imageList.searchDatasetOption1",
+  "th-TH": "ชุดทดสอบ",
+  "vi-VN": "Tập dữ liệu kiểm thử",
+  "zh-CN": "测试集",
+  "zh-TW": "測試集"
+ },
+ {
+  "en-US": "Non-Test Set",
+  "key": "dataManagement.imageList.searchDatasetOption2",
+  "th-TH": "ชุดที่ไม่ใช่การทดสอบ",
+  "vi-VN": "Tập dữ liệu không kiểm thử",
+  "zh-CN": "非测试集",
+  "zh-TW": "非測試集"
+ },
+ {
+  "en-US": "Mark Time",
+  "key": "dataManagement.imageList.searchMarkTimeLabel",
+  "th-TH": "เวลาทำเครื่องหมาย",
+  "vi-VN": "Thời gian chú thích",
+  "zh-CN": "标注时间",
+  "zh-TW": "標註時間"
+ },
+ {
+  "en-US": "Start Time",
+  "key": "dataManagement.imageList.searchStartMarkTimePlaceholder",
+  "th-TH": "เวลาเริ่มต้น",
+  "vi-VN": "Thời gian bắt đầu",
+  "zh-CN": "开始时间",
+  "zh-TW": "開始時間"
+ },
+ {
+  "en-US": "End Time",
+  "key": "dataManagement.imageList.searchEndMarkTimePlaceholder",
+  "th-TH": "เวลาสิ้นสุด",
+  "vi-VN": "Thời gian kết thúc",
+  "zh-CN": "结束时间",
+  "zh-TW": "結束時間"
+ },
+ {
+  "en-US": "Audit Time",
+  "key": "dataManagement.imageList.searchAuditTimeLabel",
+  "th-TH": "เวลาตรวจสอบ",
+  "vi-VN": "Thời gian kiểm duyệt",
+  "zh-CN": "审核时间",
+  "zh-TW": "審核時間"
+ },
+ {
+  "en-US": "Start Time",
+  "key": "dataManagement.imageList.searchStartAuditTimePlaceholder",
+  "th-TH": "เวลาเริ่มต้น",
+  "vi-VN": "Thời gian bắt đầu",
+  "zh-CN": "开始时间",
+  "zh-TW": "開始時間"
+ },
+ {
+  "en-US": "End Time",
+  "key": "dataManagement.imageList.searchEndAuditTimePlaceholder",
+  "th-TH": "เวลาสิ้นสุด",
+  "vi-VN": "Thời gian kết thúc",
+  "zh-CN": "结束时间",
+  "zh-TW": "結束時間"
+ },
+ {
+  "en-US": "Mark Status",
+  "key": "dataManagement.imageList.searchMarkStatusLabel",
+  "th-TH": "สถานะการทำเครื่องหมาย",
+  "vi-VN": "Trạng thái chú thích",
+  "zh-CN": "标注状态",
+  "zh-TW": "標註狀態"
+ },
+ {
+  "en-US": "Please select mark status",
+  "key": "dataManagement.imageList.searchMarkStatusPlaceholder",
+  "th-TH": "โปรดเลือกสถานะการทำเครื่องหมาย",
+  "vi-VN": "Vui lòng chọn trạng thái chú thích",
+  "zh-CN": "请选择标注状态",
+  "zh-TW": "請選擇標註狀態"
+ },
+ {
+  "en-US": "Audit Status",
+  "key": "dataManagement.imageList.searchAuditStatusLabel",
+  "th-TH": "สถานะการตรวจสอบ",
+  "vi-VN": "Trạng thái kiểm duyệt",
+  "zh-CN": "审核状态",
+  "zh-TW": "審核狀態"
+ },
+ {
+  "en-US": "Please select audit status",
+  "key": "dataManagement.imageList.searchAuditStatusPlaceholder",
+  "th-TH": "โปรดเลือกสถานะการตรวจสอบ",
+  "vi-VN": "Vui lòng chọn trạng thái kiểm duyệt",
+  "zh-CN": "请选择审核状态",
+  "zh-TW": "請選擇審核狀態"
+ },
+ {
+  "en-US": "Dataset Type",
+  "key": "dataManagement.imageList.searchDatasetTypeLabel",
+  "th-TH": "ประเภทชุดข้อมูล",
+  "vi-VN": "Loại tập dữ liệu",
+  "zh-CN": "数据集类型",
+  "zh-TW": "數據集類型"
+ },
+ {
+  "en-US": "Please select dataset type",
+  "key": "dataManagement.imageList.searchDatasetTypePlaceholder",
+  "th-TH": "โปรดเลือกประเภทชุดข้อมูล",
+  "vi-VN": "Vui lòng chọn loại tập dữ liệu",
+  "zh-CN": "请选择数据集类型",
+  "zh-TW": "請選擇數據集類型"
+ },
+ {
+  "en-US": "Search",
+  "key": "dataManagement.imageList.searchButton",
+  "th-TH": "ค้นหา",
+  "vi-VN": "Tìm kiếm",
+  "zh-CN": "查询",
+  "zh-TW": "查詢"
+ },
+ {
+  "en-US": "Reset",
+  "key": "dataManagement.imageList.searchBtnReset",
+  "th-TH": "รีเซ็ต",
+  "vi-VN": "Đặt lại",
+  "zh-CN": "重置",
+  "zh-TW": "重置"
+ },
+ {
+  "en-US": "Only supports png/jpg/jpeg image formats",
+  "key": "dataManagement.imageList.uploadFileFormatMessage",
+  "th-TH": "รองรับเฉพาะไฟล์รูปภาพรูปแบบ png/jpg/jpeg เท่านั้น",
+  "vi-VN": "Chỉ hỗ trợ định dạng ảnh png/jpg/jpeg",
+  "zh-CN": "仅支持png/jpg/jpeg格式的图片",
+  "zh-TW": "僅支援png/jpg/jpeg格式的圖片"
+ },
+ {
+  "en-US": "Duplicate images deleted",
+  "key": "dataManagement.imageList.delDuplicateImagesMessage",
+  "th-TH": "ลบรูปภาพที่ซ้ำกันแล้ว",
+  "vi-VN": "Đã xóa ảnh trùng lặp",
+  "zh-CN": "已删除重复图片",
+  "zh-TW": "已刪除重複圖片"
+ },
+ {
+  "en-US": "Upload successful, {count} images in total{failCount \u003e 0 ? `, ${failCount} failed` : ''}",
+  "key": "dataManagement.imageList.uploadSuccessMessage",
+  "th-TH": "อัปโหลดสำเร็จ, รูปภาพรวม {count} รูป{failCount \u003e 0 ? `, ล้มเหลว ${failCount} รูป` : ''}",
+  "vi-VN": "Tải lên thành công, tổng cộng {count} ảnh{failCount \u003e 0 ? `, ${failCount} thất bại` : ''}",
+  "zh-CN": "上传成功，共{count}张{failCount \u003e 0 ? `，失败${failCount}张` : ''}",
+  "zh-TW": "上傳成功，共{count}張{failCount \u003e 0 ? `，失敗${failCount}張` : ''}"
+ },
+ {
+  "en-US": "Batch Delete",
+  "key": "dataManagement.imageList.btnBatchDelete",
+  "th-TH": "ลบเป็นชุด",
+  "vi-VN": "Xóa hàng loạt",
+  "zh-CN": "批量删除",
+  "zh-TW": "批次刪除"
+ },
+ {
+  "en-US": "Upload",
+  "key": "dataManagement.imageList.uploadButton",
+  "th-TH": "อัปโหลด",
+  "vi-VN": "Tải lên",
+  "zh-CN": "上传",
+  "zh-TW": "上傳"
+ },
+ {
+  "en-US": "Batch Audit",
+  "key": "dataManagement.imageList.btnBatchAudit",
+  "th-TH": "ตรวจสอบเป็นชุด",
+  "vi-VN": "Kiểm duyệt hàng loạt",
+  "zh-CN": "批量审核",
+  "zh-TW": "批次審核"
+ },
+ {
+  "en-US": "Batch Mark",
+  "key": "dataManagement.imageList.btnBatchMark",
+  "th-TH": "ทำเครื่องหมายเป็นชุด",
+  "vi-VN": "Chú thích hàng loạt",
+  "zh-CN": "批量标注",
+  "zh-TW": "批次標註"
+ },
+ {
+  "en-US": "Image Name",
+  "key": "dataManagement.imageList.tableColImageName",
+  "th-TH": "ชื่อรูปภาพ",
+  "vi-VN": "Tên ảnh",
+  "zh-CN": "图片名称",
+  "zh-TW": "圖片名稱"
+ },
+ {
+  "en-US": "Is Duplicate",
+  "key": "dataManagement.imageList.tableColIsDuplicate",
+  "th-TH": "ซ้ำกันหรือไม่",
+  "vi-VN": "Có trùng lặp",
+  "zh-CN": "是否重复",
+  "zh-TW": "是否重複"
+ },
+ {
+  "en-US": "Duplicate",
+  "key": "dataManagement.imageList.tableColIsDuplicateYes",
+  "th-TH": "ซ้ำกัน",
+  "vi-VN": "Trùng lặp",
+  "zh-CN": "重复",
+  "zh-TW": "重複"
+ },
+ {
+  "en-US": "Not Duplicate",
+  "key": "dataManagement.imageList.tableColIsDuplicateNo",
+  "th-TH": "ไม่ซ้ำกัน",
+  "vi-VN": "Không trùng lặp",
+  "zh-CN": "未重复",
+  "zh-TW": "未重複"
+ },
+ {
+  "en-US": "Operation",
+  "key": "dataManagement.imageList.tableColOperation",
+  "th-TH": "การดำเนินการ",
+  "vi-VN": "Thao tác",
+  "zh-CN": "操作",
+  "zh-TW": "操作"
+ },
+ {
+  "en-US": "Delete",
+  "key": "dataManagement.imageList.tableColOperationDelete",
+  "th-TH": "ลบ",
+  "vi-VN": "Xóa",
+  "zh-CN": "删除",
+  "zh-TW": "刪除"
+ },
+ {
+  "en-US": "Image List",
+  "key": "dataManagement.imageList.title",
+  "th-TH": "รายการรูปภาพ",
+  "vi-VN": "Danh sách ảnh",
+  "zh-CN": "图片列表",
+  "zh-TW": "圖片列表"
+ },
+ {
+  "en-US": "Image Upload",
+  "key": "dataManagement.imageList.uploadModalTitle",
+  "th-TH": "อัปโหลดรูปภาพ",
+  "vi-VN": "Tải lên ảnh",
+  "zh-CN": "图片上传",
+  "zh-TW": "圖片上傳"
+ },
+ {
+  "en-US": "Upload Images",
+  "key": "dataManagement.imageList.uploadModalFilesLabel",
+  "th-TH": "อัปโหลดรูปภาพ",
+  "vi-VN": "Tải lên ảnh",
+  "zh-CN": "上传图片",
+  "zh-TW": "上傳圖片"
+ },
+ {
+  "en-US": "Please enter batch name prefix",
+  "key": "dataManagement.imageList.uploadModalFilesErrorMessage",
+  "th-TH": "โปรดป้อนคำนำหน้าชื่อชุดงาน",
+  "vi-VN": "Vui lòng nhập tiền tố tên lô",
+  "zh-CN": "请输入批次名前缀",
+  "zh-TW": "請輸入批次名稱前綴"
+ },
+ {
+  "en-US": "Choose Image",
+  "key": "dataManagement.imageList.uploadModalBtnChooseImage",
+  "th-TH": "เลือกรูปภาพ",
+  "vi-VN": "Chọn ảnh",
+  "zh-CN": "选择图片",
+  "zh-TW": "選擇圖片"
+ },
+ {
+  "en-US": "Choose Folder",
+  "key": "dataManagement.imageList.uploadModalBtnChooseFolder",
+  "th-TH": "เลือกโฟลเดอร์",
+  "vi-VN": "Chọn thư mục",
+  "zh-CN": "选择文件夹",
+  "zh-TW": "選擇資料夾"
+ },
+ {
+  "en-US": "Tip: Duplicate images exist in current upload, click here",
+  "key": "dataManagement.imageList.uploadModalDuplicateTip",
+  "th-TH": "คำแนะนำ: มีรูปภาพที่ซ้ำกันในการอัปโหลดปัจจุบัน คลิกที่นี่",
+  "vi-VN": "Mẹo: Có ảnh trùng lặp trong lần tải lên hiện tại, nhấp vào đây",
+  "zh-CN": "提示：当前上传存在重复图片，点此",
+  "zh-TW": "提示：目前上傳存在重複圖片，點此"
+ },
+ {
+  "en-US": "One-click Delete",
+  "key": "dataManagement.imageList.uploadModalDuplicateTipLink",
+  "th-TH": "ลบด้วยคลิกเดียว",
+  "vi-VN": "Xóa bằng một cú nhấp",
+  "zh-CN": "一键删除",
+  "zh-TW": "一鍵刪除"
+ },
+ {
+  "en-US": "Layer duplicate images",
+  "key": "dataManagement.imageList.uploadModalDuplicateTipDescription",
+  "th-TH": "รูปภาพเลเยอร์ที่ซ้ำกัน",
+  "vi-VN": "Ảnh trùng lặp lớp",
+  "zh-CN": "图层重复图片",
+  "zh-TW": "圖層重複圖片"
+ },
+ {
+  "en-US": "{length} images selected, {duplicateCount} duplicates",
+  "key": "dataManagement.imageList.uploadModalDuplicateTipSummary",
+  "th-TH": "เลือกรูปภาพ {length} รูป, ซ้ำกัน {duplicateCount} รูป",
+  "vi-VN": "Đã chọn {length} ảnh, {duplicateCount} ảnh trùng lặp",
+  "zh-CN": "已选择 {length} 张图片，{duplicateCount}张重复",
+  "zh-TW": "已選擇 {length} 張圖片，{duplicateCount}張重複"
+ },
+ {
+  "en-US": "Cancel",
+  "key": "dataManagement.imageList.uploadModalBtnCancel",
+  "th-TH": "ยกเลิก",
+  "vi-VN": "Hủy",
+  "zh-CN": "取消",
+  "zh-TW": "取消"
+ },
+ {
+  "en-US": "Start Upload",
+  "key": "dataManagement.imageList.uploadModalBtnUpload",
+  "th-TH": "เริ่มอัปโหลด",
+  "vi-VN": "Bắt đầu tải lên",
+  "zh-CN": "开始上传",
+  "zh-TW": "開始上傳"
+ },
+ {
+  "en-US": "Batch Delete",
+  "key": "dataManagement.batchListAction.btnDeleteBatch",
+  "th-TH": "ลบเป็นชุด",
+  "vi-VN": "Xóa hàng loạt",
+  "zh-CN": "批量删除",
+  "zh-TW": "批次刪除"
+ },
+ {
+  "en-US": "Create Batch",
+  "key": "dataManagement.batchListAction.btnCreateBatch",
+  "th-TH": "สร้างชุดงาน",
+  "vi-VN": "Tạo lô",
+  "zh-CN": "创建批次",
+  "zh-TW": "建立批次"
+ },
+ {
+  "en-US": "Reject Audit",
+  "key": "dataManagement.batchListAction.btnRejectAudit",
+  "th-TH": "ปฏิเสธการตรวจสอบ",
+  "vi-VN": "Từ chối kiểm duyệt",
+  "zh-CN": "驳回审核",
+  "zh-TW": "駁回審核"
+ },
+ {
+  "en-US": "Pass Audit",
+  "key": "dataManagement.batchListAction.btnPassAudit",
+  "th-TH": "ผ่านการตรวจสอบ",
+  "vi-VN": "Duyệt kiểm tra",
+  "zh-CN": "通过审核",
+  "zh-TW": "通過審核"
+ },
+ {
+  "en-US": "Submit for Audit",
+  "key": "dataManagement.batchListAction.btnSubmit",
+  "th-TH": "ส่งเพื่อตรวจสอบ",
+  "vi-VN": "Gửi để kiểm duyệt",
+  "zh-CN": "提交审核",
+  "zh-TW": "提交審核"
+ },
+ {
+  "en-US": "Batch List",
+  "key": "dataManagement.batchListAction.title",
+  "th-TH": "รายการชุดงาน",
+  "vi-VN": "Danh sách lô",
+  "zh-CN": "批次列表",
+  "zh-TW": "批次列表"
+ },
+ {
+  "en-US": "Create Batch",
+  "key": "dataManagement.batchListAction.modalTitle",
+  "th-TH": "สร้างชุดงาน",
+  "vi-VN": "Tạo lô",
+  "zh-CN": "创建批次",
+  "zh-TW": "建立批次"
+ },
+ {
+  "en-US": "Batch Name Prefix",
+  "key": "dataManagement.batchListAction.modalBatchLabel",
+  "th-TH": "คำนำหน้าชื่อชุดงาน",
+  "vi-VN": "Tiền tố tên lô",
+  "zh-CN": "批次名前缀",
+  "zh-TW": "批次名稱前綴"
+ },
+ {
+  "en-US": "Please enter batch name prefix",
+  "key": "dataManagement.batchListAction.modalBatchMessage",
+  "th-TH": "โปรดป้อนคำนำหน้าชื่อชุดงาน",
+  "vi-VN": "Vui lòng nhập tiền tố tên lô",
+  "zh-CN": "请输入批次名前缀",
+  "zh-TW": "請輸入批次名稱前綴"
+ },
+ {
+  "en-US": "Please enter batch name prefix, e.g.: 0718_resistor_excess_solder",
+  "key": "dataManagement.batchListAction.modalBatchPlaceholder",
+  "th-TH": "โปรดป้อนคำนำหน้าชื่อชุดงาน เช่น: 0718_ตัวต้านทาน_บัดกรีเกิน",
+  "vi-VN": "Vui lòng nhập tiền tố tên lô, ví dụ: 0718_điện_trở_thừa_thiếc",
+  "zh-CN": "请输入批次名前缀，例如：0718_电阻_多锡",
+  "zh-TW": "請輸入批次名稱前綴，例如：0718_電阻_多錫"
+ },
+ {
+  "en-US": "Cancel",
+  "key": "dataManagement.batchListAction.modalBtnCancel",
+  "th-TH": "ยกเลิก",
+  "vi-VN": "Hủy",
+  "zh-CN": "取消",
+  "zh-TW": "取消"
+ },
+ {
+  "en-US": "Create",
+  "key": "dataManagement.batchListAction.modalBtnConfirm",
+  "th-TH": "สร้าง",
+  "vi-VN": "Tạo",
+  "zh-CN": "创建",
+  "zh-TW": "建立"
+ },
+ {
+  "en-US": "Image deleted successfully",
+  "key": "dataManagement.imageList.delImageSuccessMessage",
+  "th-TH": "ลบรูปภาพสำเร็จแล้ว",
+  "vi-VN": "Xóa ảnh thành công",
+  "zh-CN": "图片删除成功",
+  "zh-TW": "圖片刪除成功"
+ },
+ {
+  "en-US": "Set successfully",
+  "key": "dataManagement.imageList.setImageSuccessMessage",
+  "th-TH": "ตั้งค่าสำเร็จแล้ว",
+  "vi-VN": "Thiết lập thành công",
+  "zh-CN": "设置成功",
+  "zh-TW": "設定成功"
+ },
+ {
+  "en-US": "Set Test Collection",
+  "key": "dataManagement.imageList.btnSetTestCollection",
+  "th-TH": "ตั้งค่าชุดทดสอบ",
+  "vi-VN": "Đặt bộ sưu tập kiểm thử",
+  "zh-CN": "设置测试集",
+  "zh-TW": "設定測試集"
+ },
+ {
+  "en-US": "Delete",
+  "key": "dataManagement.imageList.btnDel",
+  "th-TH": "ลบ",
+  "vi-VN": "Xóa",
+  "zh-CN": "删除",
+  "zh-TW": "刪除"
+ },
+ {
+  "en-US": "Audit",
+  "key": "dataManagement.imageList.btnAudit",
+  "th-TH": "ตรวจสอบ",
+  "vi-VN": "Kiểm duyệt",
+  "zh-CN": "审核",
+  "zh-TW": "審核"
+ },
+ {
+  "en-US": "Mark",
+  "key": "dataManagement.imageList.btnMark",
+  "th-TH": "ทำเครื่องหมาย",
+  "vi-VN": "Chú thích",
+  "zh-CN": "标注",
+  "zh-TW": "標註"
+ },
+ {
+  "en-US": "Image Name",
+  "key": "dataManagement.imageList.listTableColImageName",
+  "th-TH": "ชื่อรูปภาพ",
+  "vi-VN": "Tên ảnh",
+  "zh-CN": "图片名称",
+  "zh-TW": "圖片名稱"
+ },
+ {
+  "en-US": "Uploader",
+  "key": "dataManagement.imageList.listTableColUploadUser",
+  "th-TH": "ผู้อัปโหลด",
+  "vi-VN": "Người tải lên",
+  "zh-CN": "上传人",
+  "zh-TW": "上傳人"
+ },
+ {
+  "en-US": "Mark Status",
+  "key": "dataManagement.imageList.listTableColMarkStatus",
+  "th-TH": "สถานะการทำเครื่องหมาย",
+  "vi-VN": "Trạng thái chú thích",
+  "zh-CN": "标注状态",
+  "zh-TW": "標註狀態"
+ },
+ {
+  "en-US": "Audit Status",
+  "key": "dataManagement.imageList.listTableColAuditStatus",
+  "th-TH": "สถานะการตรวจสอบ",
+  "vi-VN": "Trạng thái kiểm duyệt",
+  "zh-CN": "审核状态",
+  "zh-TW": "審核狀態"
+ },
+ {
+  "en-US": "Mark Time",
+  "key": "dataManagement.imageList.listTableColMarkTime",
+  "th-TH": "เวลาทำเครื่องหมาย",
+  "vi-VN": "Thời gian chú thích",
+  "zh-CN": "标注时间",
+  "zh-TW": "標註時間"
+ },
+ {
+  "en-US": "Audit Time",
+  "key": "dataManagement.imageList.listTableColAuditTime",
+  "th-TH": "เวลาตรวจสอบ",
+  "vi-VN": "Thời gian kiểm duyệt",
+  "zh-CN": "审核时间",
+  "zh-TW": "審核時間"
+ },
+ {
+  "en-US": "Dataset Type",
+  "key": "dataManagement.imageList.listTableColDatasetType",
+  "th-TH": "ประเภทชุดข้อมูล",
+  "vi-VN": "Loại tập dữ liệu",
+  "zh-CN": "数据集类型",
+  "zh-TW": "數據集類型"
+ },
+ {
+  "en-US": "Test Set",
+  "key": "dataManagement.imageList.listTableColDatasetTypeOption1",
+  "th-TH": "ชุดทดสอบ",
+  "vi-VN": "Tập dữ liệu kiểm thử",
+  "zh-CN": "测试集",
+  "zh-TW": "測試集"
+ },
+ {
+  "en-US": "Operation",
+  "key": "dataManagement.imageList.listTableColOperation",
+  "th-TH": "การดำเนินการ",
+  "vi-VN": "Thao tác",
+  "zh-CN": "操作",
+  "zh-TW": "操作"
+ },
+ {
+  "en-US": "Please select at least 1 image for deletion",
+  "key": "dataManagement.imageList.delWarningMessage",
+  "th-TH": "โปรดเลือกรูปภาพอย่างน้อย 1 รูปเพื่อลบ",
+  "vi-VN": "Vui lòng chọn ít nhất 1 ảnh để xóa",
+  "zh-CN": "请至少选择1张图片进行删除",
+  "zh-TW": "請至少選擇1張圖片進行刪除"
+ },
+ {
+  "en-US": "Please select at least 1 image for audit",
+  "key": "dataManagement.imageList.auditWarningMessage",
+  "th-TH": "โปรดเลือกรูปภาพอย่างน้อย 1 รูปเพื่อตรวจสอบ",
+  "vi-VN": "Vui lòng chọn ít nhất 1 ảnh để kiểm duyệt",
+  "zh-CN": "请至少选择1张图片进行审核",
+  "zh-TW": "請至少選擇1張圖片進行審核"
+ },
+ {
+  "en-US": "Please select at least 1 image for marking",
+  "key": "dataManagement.imageList.markWarningMessage",
+  "th-TH": "โปรดเลือกรูปภาพอย่างน้อย 1 รูปเพื่อทำเครื่องหมาย",
+  "vi-VN": "Vui lòng chọn ít nhất 1 ảnh để chú thích",
+  "zh-CN": "请至少选择1张图片进行标注",
+  "zh-TW": "請至少選擇1張圖片進行標註"
+ },
+ {
+  "en-US": "Total {total} records",
+  "key": "dataManagement.imageList.tableShowTotal",
+  "th-TH": "รวม {total} รายการ",
+  "vi-VN": "Tổng {total} bản ghi",
+  "zh-CN": "共{total}记录",
+  "zh-TW": "共{total}記錄"
+ },
+ {
+  "en-US": "Back to Previous",
+  "key": "dataManagement.imageList.btnBack",
+  "th-TH": "กลับไปยังระดับก่อนหน้า",
+  "vi-VN": "Quay lại cấp trước",
+  "zh-CN": "返回上一级",
+  "zh-TW": "返回上一級"
+ },
+ {
+  "en-US": "Confirm to delete selected images?",
+  "key": "dataManagement.imageList.delModalTitle",
+  "th-TH": "ยืนยันที่จะลบรูปภาพที่เลือกหรือไม่?",
+  "vi-VN": "Xác nhận xóa các ảnh đã chọn?",
+  "zh-CN": "确认要删除选中的图片吗？",
+  "zh-TW": "確認要刪除選中的圖片嗎？"
+ },
+ {
+  "en-US": "Cannot be recovered after deletion, please operate with caution!",
+  "key": "dataManagement.imageList.delModalContent",
+  "th-TH": "ไม่สามารถกู้คืนได้หลังจากลบ โปรดดำเนินการด้วยความระมัดระวัง!",
+  "vi-VN": "Không thể phục hồi sau khi xóa, vui lòng thao tác cẩn thận!",
+  "zh-CN": "删除后将无法恢复，请谨慎操作!",
+  "zh-TW": "刪除後將無法恢復，請謹慎操作！"
+ },
+ {
+  "en-US": "Cancel",
+  "key": "dataManagement.imageList.delModalCancel",
+  "th-TH": "ยกเลิก",
+  "vi-VN": "Hủy",
+  "zh-CN": "取消",
+  "zh-TW": "取消"
+ },
+ {
+  "en-US": "Confirm",
+  "key": "dataManagement.imageList.delModalConfirm",
+  "th-TH": "ยืนยัน",
+  "vi-VN": "Xác nhận",
+  "zh-CN": "确认",
+  "zh-TW": "確認"
+ }
 ]
