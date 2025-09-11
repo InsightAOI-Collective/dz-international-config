@@ -1,502 +1,1002 @@
 [
  {
+  "en-US": "In Queue",
   "key": "modelCenter.list.statusQueue",
-  "zh-CN": "模型中心"
+  "th-TH": "ในคิว",
+  "vi-VN": "Trung tâm mô hình",
+  "zh-CN": "模型中心",
+  "zh-TW": "模型中心"
  },
  {
+  "en-US": "Training",
   "key": "modelCenter.list.statusTraining",
-  "zh-CN": "训练中"
+  "th-TH": "กำลังฝึก",
+  "vi-VN": "Đang huấn luyện",
+  "zh-CN": "训练中",
+  "zh-TW": "訓練中"
  },
  {
+  "en-US": "Completed",
   "key": "modelCenter.list.statusCompleted",
-  "zh-CN": "已完成"
+  "th-TH": "เสร็จสมบูรณ์แล้ว",
+  "vi-VN": "Đã hoàn thành",
+  "zh-CN": "已完成",
+  "zh-TW": "已完成"
  },
  {
+  "en-US": "Failed",
   "key": "modelCenter.list.statusFailed",
-  "zh-CN": "失败"
+  "th-TH": "ล้มเหลว",
+  "vi-VN": "Thất bại",
+  "zh-CN": "失败",
+  "zh-TW": "失敗"
  },
  {
+  "en-US": "Classification",
   "key": "modelCenter.list.modelTypeClassify",
-  "zh-CN": "分类"
+  "th-TH": "การจัดหมวดหมู่",
+  "vi-VN": "Phân loại",
+  "zh-CN": "分类",
+  "zh-TW": "分類"
  },
  {
+  "en-US": "Positive Sample",
   "key": "modelCenter.list.modelTypePositive",
-  "zh-CN": "正样本"
+  "th-TH": "ตัวอย่างเชิงบวก",
+  "vi-VN": "Mẫu dương",
+  "zh-CN": "正样本",
+  "zh-TW": "正樣本"
  },
  {
+  "en-US": "Package",
   "key": "modelCenter.list.modelTypePackage",
-  "zh-CN": "封装"
+  "th-TH": "การห่อหุ้ม",
+  "vi-VN": "Đóng gói",
+  "zh-CN": "封装",
+  "zh-TW": "封裝"
  },
  {
+  "en-US": "Failed to fetch model list",
   "key": "modelCenter.list.fetchFailed",
-  "zh-CN": "获取模型列表失败"
+  "th-TH": "ไม่สามารถดึงรายการโมเดลได้",
+  "vi-VN": "Lấy danh sách mô hình thất bại",
+  "zh-CN": "获取模型列表失败",
+  "zh-TW": "獲取模型列表失敗"
  },
  {
+  "en-US": "Thumbnail",
   "key": "modelCenter.list.tableColThumbnail",
-  "zh-CN": "缩略图"
+  "th-TH": "รูปขนาดย่อ",
+  "vi-VN": "Hình thu nhỏ",
+  "zh-CN": "缩略图",
+  "zh-TW": "縮略圖"
  },
  {
+  "en-US": "Version No.",
   "key": "modelCenter.list.tableColName",
-  "zh-CN": "版本号"
+  "th-TH": "หมายเลขเวอร์ชัน",
+  "vi-VN": "Số phiên bản",
+  "zh-CN": "版本号",
+  "zh-TW": "版本號"
  },
  {
+  "en-US": "Model Type",
   "key": "modelCenter.list.tableColType",
-  "zh-CN": "模型类型"
+  "th-TH": "ประเภทโมเดล",
+  "vi-VN": "Loại mô hình",
+  "zh-CN": "模型类型",
+  "zh-TW": "模型類型"
  },
  {
+  "en-US": "Accuracy",
   "key": "modelCenter.list.tableColAccuracy",
-  "zh-CN": "准确率"
+  "th-TH": "อัตราความแม่นยำ",
+  "vi-VN": "Độ chính xác",
+  "zh-CN": "准确率",
+  "zh-TW": "準確率"
  },
  {
+  "en-US": "Recall Rate",
   "key": "modelCenter.list.tableColRecall",
-  "zh-CN": "召回率"
+  "th-TH": "อัตราการเรียกคืน",
+  "vi-VN": "Tỷ lệ thu hồi",
+  "zh-CN": "召回率",
+  "zh-TW": "召回率"
  },
  {
+  "en-US": "Data Volume",
   "key": "modelCenter.list.tableColDataCount",
-  "zh-CN": "数据量"
+  "th-TH": "ปริมาณข้อมูล",
+  "vi-VN": "Lượng dữ liệu",
+  "zh-CN": "数据量",
+  "zh-TW": "資料量"
  },
  {
+  "en-US": "Training Status",
   "key": "modelCenter.list.tableColStatus",
-  "zh-CN": "训练状态"
+  "th-TH": "สถานะการฝึก",
+  "vi-VN": "Trạng thái huấn luyện",
+  "zh-CN": "训练状态",
+  "zh-TW": "訓練狀態"
  },
  {
+  "en-US": "Training Time",
   "key": "modelCenter.list.tableColTrainTime",
-  "zh-CN": "训练时间"
+  "th-TH": "เวลาการฝึก",
+  "vi-VN": "Thời gian huấn luyện",
+  "zh-CN": "训练时间",
+  "zh-TW": "訓練時間"
  },
  {
+  "en-US": "Trainer",
   "key": "modelCenter.list.tableColTrainUser",
-  "zh-CN": "训练人"
+  "th-TH": "ผู้ฝึกสอน",
+  "vi-VN": "Người huấn luyện",
+  "zh-CN": "训练人",
+  "zh-TW": "訓練人"
  },
  {
+  "en-US": "Actions",
   "key": "modelCenter.list.tableColActions",
-  "zh-CN": "操作"
+  "th-TH": "การดำเนินการ",
+  "vi-VN": "Thao tác",
+  "zh-CN": "操作",
+  "zh-TW": "操作"
  },
  {
+  "en-US": "Details",
   "key": "modelCenter.list.tableColBtnDetails",
-  "zh-CN": "详情"
+  "th-TH": "รายละเอียด",
+  "vi-VN": "Chi tiết",
+  "zh-CN": "详情",
+  "zh-TW": "詳情"
  },
  {
+  "en-US": "Version No.",
   "key": "modelCenter.list.formVersionLabel",
-  "zh-CN": "版本号"
+  "th-TH": "หมายเลขเวอร์ชัน",
+  "vi-VN": "Số phiên bản",
+  "zh-CN": "版本号",
+  "zh-TW": "版本號"
  },
  {
+  "en-US": "Please enter version No.",
   "key": "modelCenter.list.formVersionPlaceholder",
-  "zh-CN": "请输入版本号"
+  "th-TH": "โปรดป้อนหมายเลขเวอร์ชัน",
+  "vi-VN": "Vui lòng nhập số phiên bản",
+  "zh-CN": "请输入版本号",
+  "zh-TW": "請輸入版本號"
  },
  {
+  "en-US": "Model Type",
   "key": "modelCenter.list.formModelTypeLabel",
-  "zh-CN": "模型分类"
+  "th-TH": "ประเภทโมเดล",
+  "vi-VN": "Phân loại mô hình",
+  "zh-CN": "模型分类",
+  "zh-TW": "模型分類"
  },
  {
+  "en-US": "Please select",
   "key": "modelCenter.list.formSelectPlaceholder",
-  "zh-CN": "请选择"
+  "th-TH": "โปรดเลือก",
+  "vi-VN": "Vui lòng chọn",
+  "zh-CN": "请选择",
+  "zh-TW": "請選擇"
  },
  {
+  "en-US": "Training Status",
   "key": "modelCenter.list.formTrainStatusLabel",
-  "zh-CN": "训练状态"
+  "th-TH": "สถานะการฝึก",
+  "vi-VN": "Trạng thái huấn luyện",
+  "zh-CN": "训练状态",
+  "zh-TW": "訓練狀態"
  },
  {
+  "en-US": "Trainer",
   "key": "modelCenter.list.formTrainUserLabel",
-  "zh-CN": "训练人"
+  "th-TH": "ผู้ฝึกสอน",
+  "vi-VN": "Người huấn luyện",
+  "zh-CN": "训练人",
+  "zh-TW": "訓練人"
  },
  {
+  "en-US": "Please enter trainer",
   "key": "modelCenter.list.formTrainUserPlaceholder",
-  "zh-CN": "请输入训练人"
+  "th-TH": "โปรดป้อนผู้ฝึกสอน",
+  "vi-VN": "Vui lòng nhập người huấn luyện",
+  "zh-CN": "请输入训练人",
+  "zh-TW": "請輸入訓練人"
  },
  {
+  "en-US": "Training Time",
   "key": "modelCenter.list.formTrainTimeLabel",
-  "zh-CN": "训练时间"
+  "th-TH": "เวลาการฝึก",
+  "vi-VN": "Thời gian huấn luyện",
+  "zh-CN": "训练时间",
+  "zh-TW": "訓練時間"
  },
  {
+  "en-US": "Search",
   "key": "modelCenter.list.formBtnSearch",
-  "zh-CN": "查询"
+  "th-TH": "ค้นหา",
+  "vi-VN": "Tìm kiếm",
+  "zh-CN": "查询",
+  "zh-TW": "查詢"
  },
  {
+  "en-US": "Reset",
   "key": "modelCenter.list.formBtnReset",
-  "zh-CN": "重置"
+  "th-TH": "รีเซ็ต",
+  "vi-VN": "Đặt lại",
+  "zh-CN": "重置",
+  "zh-TW": "重設"
  },
  {
+  "en-US": "Model List",
   "key": "modelCenter.list.title",
-  "zh-CN": "模型列表"
+  "th-TH": "รายการโมเดล",
+  "vi-VN": "Danh sách mô hình",
+  "zh-CN": "模型列表",
+  "zh-TW": "模型列表"
  },
  {
+  "en-US": "Current model training failed, please retrain",
   "key": "modelCenter.trainingResults.failedMessage",
-  "zh-CN": "当前模型训练失败，请重新训练"
+  "th-TH": "การฝึกโมเดลปัจจุบันล้มเหลว โปรดฝึกใหม่",
+  "vi-VN": "Huấn luyện mô hình hiện tại thất bại, vui lòng huấn luyện lại",
+  "zh-CN": "当前模型训练失败，请重新训练",
+  "zh-TW": "當前模型訓練失敗，請重新訓練"
  },
  {
+  "en-US": "Start Inference",
   "key": "modelCenter.trainingResults.startInferenceMessage",
-  "zh-CN": "开始推理"
+  "th-TH": "เริ่มการอนุมาน",
+  "vi-VN": "Bắt đầu suy luận",
+  "zh-CN": "开始推理",
+  "zh-TW": "開始推論"
  },
  {
+  "en-US": "Up to 5 models can be added",
   "key": "modelCenter.trainingResults.maxModelLimitMessage",
-  "zh-CN": "最多添加5个模型"
+  "th-TH": "สามารถเพิ่มโมเดลได้สูงสุด 5 โมเดล",
+  "vi-VN": "Chỉ có thể thêm tối đa 5 mô hình",
+  "zh-CN": "最多添加5个模型",
+  "zh-TW": "最多新增5個模型"
  },
  {
+  "en-US": "This is the last model, it cannot be deleted. If you need to replace it, please return to the model center.",
   "key": "modelCenter.trainingResults.lastModelDeleteWarning",
-  "zh-CN": "最后一个模型，无法删除，如需更换请返回模型中心"
+  "th-TH": "โมเดลสุดท้ายไม่สามารถลบได้ หากต้องการเปลี่ยน โปรดกลับไปยังศูนย์โมเดล",
+  "vi-VN": "Đây là mô hình cuối cùng, không thể xóa. Nếu bạn muốn thay thế, vui lòng quay lại trung tâm mô hình.",
+  "zh-CN": "最后一个模型，无法删除，如需更换请返回模型中心",
+  "zh-TW": "最後一個模型，無法刪除，如需更換請返回模型中心"
  },
  {
+  "en-US": "Current model already exists",
   "key": "modelCenter.trainingResults.currentModelExists",
-  "zh-CN": "当前模型已存在"
+  "th-TH": "โมเดลปัจจุบันมีอยู่แล้ว",
+  "vi-VN": "Mô hình hiện tại đã tồn tại",
+  "zh-CN": "当前模型已存在",
+  "zh-TW": "當前模型已存在"
  },
  {
+  "en-US": "Image Count",
   "key": "modelCenter.trainingResults.imageCountLabel",
-  "zh-CN": "图像数量"
+  "th-TH": "จำนวนรูปภาพ",
+  "vi-VN": "Số lượng hình ảnh",
+  "zh-CN": "图像数量",
+  "zh-TW": "圖像數量"
  },
  {
+  "en-US": "Training Set",
   "key": "modelCenter.trainingResults.trainSetLabel",
-  "zh-CN": "训练集"
+  "th-TH": "ชุดฝึก",
+  "vi-VN": "Tập huấn luyện",
+  "zh-CN": "训练集",
+  "zh-TW": "訓練集"
  },
  {
+  "en-US": "Validation Set",
   "key": "modelCenter.trainingResults.validationSetLabel",
-  "zh-CN": "验证集"
+  "th-TH": "ชุดตรวจสอบ",
+  "vi-VN": "Tập xác thực",
+  "zh-CN": "验证集",
+  "zh-TW": "驗證集"
  },
  {
+  "en-US": "Model Version",
   "key": "modelCenter.trainingResults.modelVersionOption",
-  "zh-CN": "模型版本"
+  "th-TH": "เวอร์ชันโมเดล",
+  "vi-VN": "Phiên bản mô hình",
+  "zh-CN": "模型版本",
+  "zh-TW": "模型版本"
  },
  {
+  "en-US": "Inference Result",
   "key": "modelCenter.trainingResults.inferenceResultOption",
-  "zh-CN": "推理结果"
+  "th-TH": "ผลการอนุมาน",
+  "vi-VN": "Kết quả suy luận",
+  "zh-CN": "推理结果",
+  "zh-TW": "推論結果"
  },
  {
+  "en-US": "Model List",
   "key": "modelCenter.trainingResults.modalListTitle",
-  "zh-CN": "模型列表"
+  "th-TH": "รายการโมเดล",
+  "vi-VN": "Danh sách mô hình",
+  "zh-CN": "模型列表",
+  "zh-TW": "模型列表"
  },
  {
+  "en-US": "Untagged",
   "key": "modelCenter.trainingResults.ImageSelectModalMarkStatusUntagged",
-  "zh-CN": "未标注"
+  "th-TH": "ยังไม่มีการทำเครื่องหมาย",
+  "vi-VN": "Chưa gán nhãn",
+  "zh-CN": "未标注",
+  "zh-TW": "未標註"
  },
  {
+  "en-US": "Tagged",
   "key": "modelCenter.trainingResults.ImageSelectModalMarkStatusTagged",
-  "zh-CN": "已标注"
+  "th-TH": "มีการทำเครื่องหมายแล้ว",
+  "vi-VN": "Đã gán nhãn",
+  "zh-CN": "已标注",
+  "zh-TW": "已標註"
  },
  {
+  "en-US": "Pending Review",
   "key": "modelCenter.trainingResults.ImageSelectModalAuditStatusPending",
-  "zh-CN": "待审核"
+  "th-TH": "รอการตรวจสอบ",
+  "vi-VN": "Đang chờ duyệt",
+  "zh-CN": "待审核",
+  "zh-TW": "待審核"
  },
  {
+  "en-US": "Approved",
   "key": "modelCenter.trainingResults.ImageSelectModalAuditStatusApproved",
-  "zh-CN": "通过"
+  "th-TH": "อนุมัติแล้ว",
+  "vi-VN": "Đã duyệt",
+  "zh-CN": "通过",
+  "zh-TW": "通過"
  },
  {
+  "en-US": "Rejected",
   "key": "modelCenter.trainingResults.ImageSelectModalAuditStatusRejected",
-  "zh-CN": "未通过"
+  "th-TH": "ไม่ผ่านการอนุมัติ",
+  "vi-VN": "Không đạt",
+  "zh-CN": "未通过",
+  "zh-TW": "未通過"
  },
  {
+  "en-US": "Thumbnail",
   "key": "modelCenter.trainingResults.ImageSelectModalTableColThumbnail",
-  "zh-CN": "缩略图"
+  "th-TH": "รูปขนาดย่อ",
+  "vi-VN": "Hình thu nhỏ",
+  "zh-CN": "缩略图",
+  "zh-TW": "縮略圖"
  },
  {
+  "en-US": "Image Name",
   "key": "modelCenter.trainingResults.ImageSelectModalTableColName",
-  "zh-CN": "图片名称"
+  "th-TH": "ชื่อรูปภาพ",
+  "vi-VN": "Tên hình ảnh",
+  "zh-CN": "图片名称",
+  "zh-TW": "圖片名稱"
  },
  {
+  "en-US": "Batch Name",
   "key": "modelCenter.trainingResults.ImageSelectModalTableColBatchName",
-  "zh-CN": "批次名"
+  "th-TH": "ชื่อชุดข้อมูล",
+  "vi-VN": "Tên lô",
+  "zh-CN": "批次名",
+  "zh-TW": "批次名稱"
  },
  {
+  "en-US": "Uploader",
   "key": "modelCenter.trainingResults.ImageSelectModalTableColUploadUser",
-  "zh-CN": "上传人"
+  "th-TH": "ผู้อัปโหลด",
+  "vi-VN": "Người tải lên",
+  "zh-CN": "上传人",
+  "zh-TW": "上傳人"
  },
  {
+  "en-US": "Marking Status",
   "key": "modelCenter.trainingResults.ImageSelectModalTableColMarkStatus",
-  "zh-CN": "标注状态"
+  "th-TH": "สถานะการทำเครื่องหมาย",
+  "vi-VN": "Trạng thái gán nhãn",
+  "zh-CN": "标注状态",
+  "zh-TW": "標註狀態"
  },
  {
+  "en-US": "Audit Status",
   "key": "modelCenter.trainingResults.ImageSelectModalTableColAuditStatus",
-  "zh-CN": "审核状态"
+  "th-TH": "สถานะการตรวจสอบ",
+  "vi-VN": "Trạng thái duyệt",
+  "zh-CN": "审核状态",
+  "zh-TW": "審核狀態"
  },
  {
+  "en-US": "Marking Time",
   "key": "modelCenter.trainingResults.ImageSelectModalTableColMarkTime",
-  "zh-CN": "标注时间"
+  "th-TH": "เวลาการทำเครื่องหมาย",
+  "vi-VN": "Thời gian gán nhãn",
+  "zh-CN": "标注时间",
+  "zh-TW": "標註時間"
  },
  {
+  "en-US": "Audit Time",
   "key": "modelCenter.trainingResults.ImageSelectModalTableColAuditTime",
-  "zh-CN": "审核时间"
+  "th-TH": "เวลาตรวจสอบ",
+  "vi-VN": "Thời gian duyệt",
+  "zh-CN": "审核时间",
+  "zh-TW": "審核時間"
  },
  {
+  "en-US": "Added successfully",
   "key": "modelCenter.trainingResults.ImageSelectModalAddSuccessMessage",
-  "zh-CN": "添加成功"
+  "th-TH": "เพิ่มสำเร็จ",
+  "vi-VN": "Thêm thành công",
+  "zh-CN": "添加成功",
+  "zh-TW": "新增成功"
  },
  {
+  "en-US": "Add Image",
   "key": "modelCenter.trainingResults.ImageSelectModalTitle",
-  "zh-CN": "添加图片"
+  "th-TH": "เพิ่มรูปภาพ",
+  "vi-VN": "Thêm hình ảnh",
+  "zh-CN": "添加图片",
+  "zh-TW": "新增圖片"
  },
  {
+  "en-US": "Add to Model",
   "key": "modelCenter.trainingResults.ImageSelectModalBtnConfirmText",
-  "zh-CN": "添加到模型"
+  "th-TH": "เพิ่มไปยังโมเดล",
+  "vi-VN": "Thêm vào mô hình",
+  "zh-CN": "添加到模型",
+  "zh-TW": "新增到模型"
  },
  {
+  "en-US": "Cancel",
   "key": "modelCenter.trainingResults.ImageSelectModalBtnCancelText",
-  "zh-CN": "取消"
+  "th-TH": "ยกเลิก",
+  "vi-VN": "Hủy",
+  "zh-CN": "取消",
+  "zh-TW": "取消"
  },
  {
+  "en-US": "To evaluate the model's generalization ability, the dataset needs to be split into training and test sets first. The splitting strategy can also be adjusted manually later.",
   "key": "modelCenter.trainingResults.ImageSelectModalTip",
-  "zh-CN": "为评估模型泛化能力，需先将数据集划分为训练集和测试集。后续也可手动调整划分策略。"
+  "th-TH": "เพื่อประเมินความสามารถในการสรุปผลของโมเดล จำเป็นต้องแบ่งชุดข้อมูลออกเป็นชุดฝึกและชุดทดสอบก่อน สามารถปรับกลยุทธ์การแบ่งข้อมูลได้ด้วยตนเองในภายหลัง",
+  "vi-VN": "Để đánh giá khả năng tổng quát hóa của mô hình, cần chia tập dữ liệu thành tập huấn luyện và tập kiểm tra trước. Bạn cũng có thể điều chỉnh chiến lược phân chia thủ công sau này.",
+  "zh-CN": "为评估模型泛化能力，需先将数据集划分为训练集和测试集。后续也可手动调整划分策略。",
+  "zh-TW": "為評估模型泛化能力，需先將資料集劃分為訓練集和測試集。後續也可手動調整劃分策略。"
  },
  {
+  "en-US": "Data Split Ratio",
   "key": "modelCenter.trainingResults.ImageSelectModalRatioLabel",
-  "zh-CN": "数据划分比例"
+  "th-TH": "อัตราส่วนการแบ่งข้อมูล",
+  "vi-VN": "Tỷ lệ phân chia dữ liệu",
+  "zh-CN": "数据划分比例",
+  "zh-TW": "資料劃分比例"
  },
  {
+  "en-US": "Set All as Validation Set",
   "key": "modelCenter.trainingResults.ImageSelectModalRatioAllToValidationOption",
-  "zh-CN": "全部设为验证集"
+  "th-TH": "กำหนดทั้งหมดเป็นชุดข้อมูลการตรวจสอบ",
+  "vi-VN": "Đặt tất cả làm tập xác thực",
+  "zh-CN": "全部设为验证集",
+  "zh-TW": "全部設為驗證集"
  },
  {
+  "en-US": "Total ${total} items",
   "key": "modelCenter.trainingResults.ImageSelectModalTotalCount",
-  "zh-CN": "共 ${total} 条"
+  "th-TH": "รวม ${total} รายการ",
+  "vi-VN": "Tổng ${total} mục",
+  "zh-CN": "共 ${total} 条",
+  "zh-TW": "共 ${total} 條"
  },
  {
+  "en-US": "Marking Time",
   "key": "modelCenter.trainingResults.ImageSelectModalFormMarkTimeLabel",
-  "zh-CN": "标注时间"
+  "th-TH": "เวลาการทำเครื่องหมาย",
+  "vi-VN": "Thời gian gán nhãn",
+  "zh-CN": "标注时间",
+  "zh-TW": "標註時間"
  },
  {
+  "en-US": "Audit Time",
   "key": "modelCenter.trainingResults.ImageSelectModalFormAuditTimeLabel",
-  "zh-CN": "审核时间"
+  "th-TH": "เวลาตรวจสอบ",
+  "vi-VN": "Thời gian duyệt",
+  "zh-CN": "审核时间",
+  "zh-TW": "審核時間"
  },
  {
+  "en-US": "Batch Name",
   "key": "modelCenter.trainingResults.ImageSelectModalFormBatchNameLabel",
-  "zh-CN": "批次名"
+  "th-TH": "ชื่อชุดข้อมูล",
+  "vi-VN": "Tên lô",
+  "zh-CN": "批次名",
+  "zh-TW": "批次名稱"
  },
  {
+  "en-US": "Please enter batch name",
   "key": "modelCenter.trainingResults.ImageSelectModalFormBatchNamePlaceholder",
-  "zh-CN": "请输入批次名"
+  "th-TH": "โปรดป้อนชื่อชุดข้อมูล",
+  "vi-VN": "Vui lòng nhập tên lô",
+  "zh-CN": "请输入批次名",
+  "zh-TW": "請輸入批次名稱"
  },
  {
+  "en-US": "Search",
   "key": "modelCenter.trainingResults.ImageSelectModalFormBtnSearch",
-  "zh-CN": "搜索"
+  "th-TH": "ค้นหา",
+  "vi-VN": "Tìm kiếm",
+  "zh-CN": "搜索",
+  "zh-TW": "搜尋"
  },
  {
+  "en-US": "Reset",
   "key": "modelCenter.trainingResults.ImageSelectModalFormBtnReset",
-  "zh-CN": "重置"
+  "th-TH": "รีเซ็ต",
+  "vi-VN": "Đặt lại",
+  "zh-CN": "重置",
+  "zh-TW": "重設"
  },
  {
+  "en-US": "Error Prediction",
   "key": "modelCenter.trainingResults.DonutChartErrorPredictionOption",
-  "zh-CN": "错误预测"
+  "th-TH": "การคาดการณ์ที่ผิดพลาด",
+  "vi-VN": "Dự đoán sai",
+  "zh-CN": "错误预测",
+  "zh-TW": "錯誤預測"
  },
  {
+  "en-US": "Correct Prediction",
   "key": "modelCenter.trainingResults.DonutChartCorrectPredictionOption",
-  "zh-CN": "正确预测"
+  "th-TH": "การคาดการณ์ที่ถูกต้อง",
+  "vi-VN": "Dự đoán đúng",
+  "zh-CN": "正确预测",
+  "zh-TW": "正確預測"
  },
  {
+  "en-US": "Start Training",
   "key": "modelCenter.trainingResults.HeaderItemTrainTooltip",
-  "zh-CN": "开始训练"
+  "th-TH": "เริ่มการฝึก",
+  "vi-VN": "Bắt đầu huấn luyện",
+  "zh-CN": "开始训练",
+  "zh-TW": "開始訓練"
  },
  {
+  "en-US": "Start Inference",
   "key": "modelCenter.trainingResults.HeaderItemInferenceTooltip",
-  "zh-CN": "开始推理"
+  "th-TH": "เริ่มการอนุมาน",
+  "vi-VN": "Bắt đầu suy luận",
+  "zh-CN": "开始推理",
+  "zh-TW": "開始推論"
  },
  {
+  "en-US": "Add Model",
   "key": "modelCenter.trainingResults.HeaderItemAddModelTooltip",
-  "zh-CN": "添加模型"
+  "th-TH": "เพิ่มโมเดล",
+  "vi-VN": "Thêm mô hình",
+  "zh-CN": "添加模型",
+  "zh-TW": "新增模型"
  },
  {
+  "en-US": "Delete Model",
   "key": "modelCenter.trainingResults.HeaderItemDeleteModelTooltip",
-  "zh-CN": "删除模型"
+  "th-TH": "ลบโมเดล",
+  "vi-VN": "Xóa mô hình",
+  "zh-CN": "删除模型",
+  "zh-TW": "刪除模型"
  },
  {
+  "en-US": "Model training in progress...",
   "key": "modelCenter.trainingResults.ModelListTrainingMessage",
-  "zh-CN": "模型训练中..."
+  "th-TH": "กำลังฝึกโมเดล...",
+  "vi-VN": "Mô hình đang huấn luyện...",
+  "zh-CN": "模型训练中...",
+  "zh-TW": "模型訓練中..."
  },
  {
+  "en-US": "Recall Rate",
   "key": "modelCenter.trainingResults.ModelListRecallRateLabel",
-  "zh-CN": "召回率"
+  "th-TH": "อัตราการเรียกคืน",
+  "vi-VN": "Tỷ lệ thu hồi",
+  "zh-CN": "召回率",
+  "zh-TW": "召回率"
  },
  {
+  "en-US": "Accuracy",
   "key": "modelCenter.trainingResults.ModelListPrecisionRateLabel",
-  "zh-CN": "准确率"
+  "th-TH": "อัตราความแม่นยำ",
+  "vi-VN": "Độ chính xác",
+  "zh-CN": "准确率",
+  "zh-TW": "準確率"
  },
  {
+  "en-US": "Data Volume",
   "key": "modelCenter.trainingResults.ModelListDataVolumeLabel",
-  "zh-CN": "数据量"
+  "th-TH": "ปริมาณข้อมูล",
+  "vi-VN": "Lượng dữ liệu",
+  "zh-CN": "数据量",
+  "zh-TW": "資料量"
  },
  {
+  "en-US": "Current model already exists",
   "key": "modelCenter.trainingResults.ModelListCurrentModelExistsMessage",
-  "zh-CN": "当前模型已存在"
+  "th-TH": "โมเดลปัจจุบันมีอยู่แล้ว",
+  "vi-VN": "Mô hình hiện tại đã tồn tại",
+  "zh-CN": "当前模型已存在",
+  "zh-TW": "當前模型已存在"
  },
  {
+  "en-US": "Current Version",
   "key": "modelCenter.trainingResults.ModelListBtnCurrentVersion",
-  "zh-CN": "当前版本"
+  "th-TH": "เวอร์ชันปัจจุบัน",
+  "vi-VN": "Phiên bản hiện tại",
+  "zh-CN": "当前版本",
+  "zh-TW": "當前版本"
  },
  {
+  "en-US": "In Queue",
   "key": "modelCenter.trainingResults.ModelListBtnQueue",
-  "zh-CN": "队列中"
+  "th-TH": "ในคิว",
+  "vi-VN": "Trong hàng đợi",
+  "zh-CN": "队列中",
+  "zh-TW": "佇列中"
  },
  {
+  "en-US": "Training",
   "key": "modelCenter.trainingResults.ModelListBtnTraining",
-  "zh-CN": "训练中"
+  "th-TH": "กำลังฝึก",
+  "vi-VN": "Đang huấn luyện",
+  "zh-CN": "训练中",
+  "zh-TW": "訓練中"
  },
  {
+  "en-US": "Retrain",
   "key": "modelCenter.trainingResults.ModelListBtnRestartTrain",
-  "zh-CN": "重新训练"
+  "th-TH": "ฝึกใหม่",
+  "vi-VN": "Huấn luyện lại",
+  "zh-CN": "重新训练",
+  "zh-TW": "重新訓練"
  },
  {
+  "en-US": "Switch to Current Version",
   "key": "modelCenter.trainingResults.ModelListBtnSwitchToCurrentVersion",
-  "zh-CN": "切换到当前版本"
+  "th-TH": "สลับไปเวอร์ชันปัจจุบัน",
+  "vi-VN": "Chuyển sang phiên bản hiện tại",
+  "zh-CN": "切换到当前版本",
+  "zh-TW": "切換到當前版本"
  },
  {
+  "en-US": "Training failed",
   "key": "modelCenter.trainingResults.ModelListTrainingFailedMessage",
-  "zh-CN": "训练失败"
+  "th-TH": "การฝึกโมเดลล้มเหลว",
+  "vi-VN": "Huấn luyện thất bại",
+  "zh-CN": "训练失败",
+  "zh-TW": "訓練失敗"
  },
  {
+  "en-US": "Annotation Results",
   "key": "modelCenter.trainingResults.PreviewAreaTitle",
-  "zh-CN": "标注结果"
+  "th-TH": "ผลการทำเครื่องหมาย",
+  "vi-VN": "Kết quả gán nhãn",
+  "zh-CN": "标注结果",
+  "zh-TW": "標註結果"
  },
  {
+  "en-US": "Inference Results",
   "key": "modelCenter.trainingResults.PreviewAreaInferenceTitle",
-  "zh-CN": "推理结果"
+  "th-TH": "ผลการอนุมาน",
+  "vi-VN": "Kết quả suy luận",
+  "zh-CN": "推理结果",
+  "zh-TW": "推論結果"
  },
  {
+  "en-US": "Type",
   "key": "modelCenter.trainingResults.PrismaContentTypeLabel",
-  "zh-CN": "类型"
+  "th-TH": "ประเภท",
+  "vi-VN": "Loại",
+  "zh-CN": "类型",
+  "zh-TW": "類型"
  },
  {
+  "en-US": "Center",
   "key": "modelCenter.trainingResults.PrismaContentCenterLabel",
-  "zh-CN": "中心"
+  "th-TH": "จุดศูนย์กลาง",
+  "vi-VN": "Trung tâm",
+  "zh-CN": "中心",
+  "zh-TW": "中心"
  },
  {
+  "en-US": "Area",
   "key": "modelCenter.trainingResults.PrismaContentAreaLabel",
-  "zh-CN": "面积"
+  "th-TH": "พื้นที่",
+  "vi-VN": "Diện tích",
+  "zh-CN": "面积",
+  "zh-TW": "面積"
  },
  {
+  "en-US": "Long Side",
   "key": "modelCenter.trainingResults.PrismaContentLongSideLabel",
-  "zh-CN": "长边"
+  "th-TH": "ด้านยาว",
+  "vi-VN": "Cạnh dài",
+  "zh-CN": "长边",
+  "zh-TW": "長邊"
  },
  {
+  "en-US": "Short Side",
   "key": "modelCenter.trainingResults.PrismaContentShortSideLabel",
-  "zh-CN": "短边"
+  "th-TH": "ด้านสั้น",
+  "vi-VN": "Cạnh ngắn",
+  "zh-CN": "短边",
+  "zh-TW": "短邊"
  },
  {
+  "en-US": "No data available",
   "key": "modelCenter.trainingResults.PrismaContentEmptyMessage",
-  "zh-CN": "暂无数据"
+  "th-TH": "ไม่มีข้อมูลชั่วคราว",
+  "vi-VN": "Hiện không có dữ liệu",
+  "zh-CN": "暂无数据",
+  "zh-TW": "暫無資料"
  },
  {
+  "en-US": "Inspection Count",
   "key": "modelCenter.trainingResults.StatisticsPanelTableColInspectionCount",
-  "zh-CN": "过检数"
+  "th-TH": "จำนวนการตรวจสอบที่ผ่าน",
+  "vi-VN": "Số lượng đạt kiểm tra",
+  "zh-CN": "过检数",
+  "zh-TW": "過檢數"
  },
  {
+  "en-US": "Missed Count",
   "key": "modelCenter.trainingResults.StatisticsPanelTableColMissedCount",
-  "zh-CN": "漏检数"
+  "th-TH": "จำนวนการตรวจจับที่พลาด",
+  "vi-VN": "Số lượng bỏ sót",
+  "zh-CN": "漏检数",
+  "zh-TW": "漏檢數"
  },
  {
+  "en-US": "Confusion Matrix",
   "key": "modelCenter.trainingResults.StatisticsPanelTitle",
-  "zh-CN": "混淆矩阵"
+  "th-TH": "เมทริกซ์ความสับสน",
+  "vi-VN": "Ma trận nhầm lẫn",
+  "zh-CN": "混淆矩阵",
+  "zh-TW": "混淆矩陣"
  },
  {
+  "en-US": "Inference Results",
   "key": "modelCenter.trainingResults.StatisticsPanelTableTitle",
-  "zh-CN": "推理结果"
+  "th-TH": "ผลการอนุมาน",
+  "vi-VN": "Kết quả suy luận",
+  "zh-CN": "推理结果",
+  "zh-TW": "推論結果"
  },
  {
+  "en-US": "Manual Annotation",
   "key": "modelCenter.trainingResults.StatisticsPanelMarkLabel",
-  "zh-CN": "人工标注"
+  "th-TH": "การทำเครื่องหมายด้วยตนเอง",
+  "vi-VN": "Gán nhãn thủ công",
+  "zh-CN": "人工标注",
+  "zh-TW": "人工標註"
  },
  {
+  "en-US": "Category Overview",
   "key": "modelCenter.trainingResults.StatisticsPanelCategoryTitle",
-  "zh-CN": "类别概览"
+  "th-TH": "ภาพรวมหมวดหมู่",
+  "vi-VN": "Tổng quan danh mục",
+  "zh-CN": "类别概览",
+  "zh-TW": "類別概覽"
  },
  {
+  "en-US": "Delete",
   "key": "modelCenter.trainingResults.ThumbnailDelLabel",
-  "zh-CN": "删除"
+  "th-TH": "ลบ",
+  "vi-VN": "Xóa",
+  "zh-CN": "删除",
+  "zh-TW": "刪除"
  },
  {
+  "en-US": "Add to Training Set",
   "key": "modelCenter.trainingResults.ThumbnailAddToTrainLabel",
-  "zh-CN": "加入训练集"
+  "th-TH": "เพิ่มไปยังชุดฝึก",
+  "vi-VN": "Thêm vào tập huấn luyện",
+  "zh-CN": "加入训练集",
+  "zh-TW": "加入訓練集"
  },
  {
+  "en-US": "Remove from Training Set",
   "key": "modelCenter.trainingResults.ThumbnailRemoveFromTrainLabel",
-  "zh-CN": "移除训练集"
+  "th-TH": "ลบออกจากชุดฝึก",
+  "vi-VN": "Xóa khỏi tập huấn luyện",
+  "zh-CN": "移除训练集",
+  "zh-TW": "移除訓練集"
  },
  {
+  "en-US": "Add to Validation Set",
   "key": "modelCenter.trainingResults.ThumbnailAddToValidationLabel",
-  "zh-CN": "加入验证集"
+  "th-TH": "เพิ่มไปยังชุดตรวจสอบ",
+  "vi-VN": "Thêm vào tập xác thực",
+  "zh-CN": "加入验证集",
+  "zh-TW": "加入驗證集"
  },
  {
+  "en-US": "Remove from Validation Set",
   "key": "modelCenter.trainingResults.ThumbnailRemoveFromValidationLabel",
-  "zh-CN": "移除验证集"
+  "th-TH": "ลบออกจากชุดตรวจสอบ",
+  "vi-VN": "Xóa khỏi tập xác thực",
+  "zh-CN": "移除验证集",
+  "zh-TW": "移除驗證集"
  },
  {
+  "en-US": "Remove",
   "key": "modelCenter.trainingResults.ThumbnailRemoveLabel",
-  "zh-CN": "删除"
+  "th-TH": "ลบ",
+  "vi-VN": "Xóa",
+  "zh-CN": "删除",
+  "zh-TW": "刪除"
  },
  {
+  "en-US": "Validation Set",
   "key": "modelCenter.trainingResults.ThumbnailValidationTag",
-  "zh-CN": "验证集"
+  "th-TH": "ชุดตรวจสอบ",
+  "vi-VN": "Tập xác thực",
+  "zh-CN": "验证集",
+  "zh-TW": "驗證集"
  },
  {
+  "en-US": "Training Set",
   "key": "modelCenter.trainingResults.ThumbnailTrainingTag",
-  "zh-CN": "训练集"
+  "th-TH": "ชุดฝึก",
+  "vi-VN": "Tập huấn luyện",
+  "zh-CN": "训练集",
+  "zh-TW": "訓練集"
  },
  {
+  "en-US": "All",
   "key": "modelCenter.trainingResults.ThumbnailAllFilter",
-  "zh-CN": "全部"
+  "th-TH": "ทั้งหมด",
+  "vi-VN": "Tất cả",
+  "zh-CN": "全部",
+  "zh-TW": "全部"
  },
  {
+  "en-US": "Training Set",
   "key": "modelCenter.trainingResults.ThumbnailTrainSetFilter",
-  "zh-CN": "训练集"
+  "th-TH": "ชุดฝึก",
+  "vi-VN": "Tập huấn luyện",
+  "zh-CN": "训练集",
+  "zh-TW": "訓練集"
  },
  {
+  "en-US": "Validation Set",
   "key": "modelCenter.trainingResults.ThumbnailValidationSetFilter",
-  "zh-CN": "验证集"
+  "th-TH": "ชุดตรวจสอบ",
+  "vi-VN": "Tập xác thực",
+  "zh-CN": "验证集",
+  "zh-TW": "驗證集"
  },
  {
+  "en-US": "Filter",
   "key": "modelCenter.trainingResults.ThumbnailBtnFilter",
-  "zh-CN": "筛选"
+  "th-TH": "กรอง",
+  "vi-VN": "Lọc",
+  "zh-CN": "筛选",
+  "zh-TW": "篩選"
  },
  {
+  "en-US": "Add Image",
   "key": "modelCenter.trainingResults.ThumbnailBtnAddImage",
-  "zh-CN": "添加图片"
+  "th-TH": "เพิ่มรูปภาพ",
+  "vi-VN": "Thêm hình ảnh",
+  "zh-CN": "添加图片",
+  "zh-TW": "新增圖片"
  },
  {
+  "en-US": "Confirm Deletion",
   "key": "modelCenter.annotation.ModalTitle",
-  "zh-CN": "确认删除"
+  "th-TH": "ยืนยันการลบ",
+  "vi-VN": "Xác nhận xóa",
+  "zh-CN": "确认删除",
+  "zh-TW": "確認刪除"
  },
  {
+  "en-US": "Are you sure you want to clear the current frame canvas?",
   "key": "modelCenter.annotation.ModalContent",
-  "zh-CN": "确定清除当期帧画布吗？"
+  "th-TH": "คุณยืนยันที่จะล้างพื้นที่ทำงานเฟรมปัจจุบันหรือไม่?",
+  "vi-VN": "Bạn có chắc chắn muốn xóa canvas khung hiện tại không?",
+  "zh-CN": "确定清除当期帧画布吗？",
+  "zh-TW": "確定清除當前幀畫布嗎？"
  },
  {
+  "en-US": "Confirm",
   "key": "modelCenter.annotation.BtnOk",
-  "zh-CN": "确认"
+  "th-TH": "ยืนยัน",
+  "vi-VN": "Xác nhận",
+  "zh-CN": "确认",
+  "zh-TW": "確認"
  },
  {
+  "en-US": "Cancel",
   "key": "modelCenter.annotation.BtnCancel",
-  "zh-CN": "取消"
+  "th-TH": "ยกเลิก",
+  "vi-VN": "Hủy",
+  "zh-CN": "取消",
+  "zh-TW": "取消"
  },
  {
+  "en-US": "Original",
   "key": "modelCenter.annotation.AnnotationHeaderOrigin",
-  "zh-CN": "原图"
+  "th-TH": "รูปต้นฉบับ",
+  "vi-VN": "Ảnh gốc",
+  "zh-CN": "原图",
+  "zh-TW": "原圖"
  },
  {
+  "en-US": "Undo",
   "key": "modelCenter.annotation.AnnotationHeaderUndo",
-  "zh-CN": "撤回"
+  "th-TH": "เลิกทำ",
+  "vi-VN": "Hoàn tác",
+  "zh-CN": "撤回",
+  "zh-TW": "撤銷"
  },
  {
+  "en-US": "Zoom In",
   "key": "modelCenter.annotation.AnnotationHeaderZoomIn",
-  "zh-CN": "放大"
+  "th-TH": "ซูมเข้า",
+  "vi-VN": "Phóng to",
+  "zh-CN": "放大",
+  "zh-TW": "放大"
  },
  {
+  "en-US": "Zoom Out",
   "key": "modelCenter.annotation.AnnotationHeaderZoomOut",
-  "zh-CN": "缩小"
+  "th-TH": "ซูมออก",
+  "vi-VN": "Thu nhỏ",
+  "zh-CN": "缩小",
+  "zh-TW": "縮小"
  },
  {
+  "en-US": "Save",
   "key": "modelCenter.annotation.AnnotationHeaderSave",
-  "zh-CN": "保存"
+  "th-TH": "บันทึก",
+  "vi-VN": "Lưu",
+  "zh-CN": "保存",
+  "zh-TW": "保存"
  },
  {
+  "en-US": "Show All",
   "key": "modelCenter.annotation.AnnotationSidebarShowAll",
-  "zh-CN": "显示全部"
+  "th-TH": "แสดงทั้งหมด",
+  "vi-VN": "Hiện tất cả",
+  "zh-CN": "显示全部",
+  "zh-TW": "顯示全部"
  },
  {
+  "en-US": "Hide All",
   "key": "modelCenter.annotation.AnnotationSidebarHideAll",
-  "zh-CN": "隐藏全部"
+  "th-TH": "ซ่อนทั้งหมด",
+  "vi-VN": "Ẩn tất cả",
+  "zh-CN": "隐藏全部",
+  "zh-TW": "隱藏全部"
  },
  {
+  "en-US": "Cancel",
   "key": "modelCenter.annotation.DefectLabelSelectorBtnCancel",
-  "zh-CN": "取消"
+  "th-TH": "ยกเลิก",
+  "vi-VN": "Hủy",
+  "zh-CN": "取消",
+  "zh-TW": "取消"
  },
  {
+  "en-US": "Confirm",
   "key": "modelCenter.annotation.DefectLabelSelectorBtnConfirm",
-  "zh-CN": "确认"
+  "th-TH": "ยืนยัน",
+  "vi-VN": "Xác nhận",
+  "zh-CN": "确认",
+  "zh-TW": "確認"
  }
 ]

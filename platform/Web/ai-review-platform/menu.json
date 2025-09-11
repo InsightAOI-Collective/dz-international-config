@@ -1,90 +1,178 @@
 [
  {
+  "en-US": "Management Backend",
   "key": "menu.management",
-  "zh-CN": "管理后台"
+  "th-TH": "",
+  "vi-VN": "Quản Lý Backend",
+  "zh-CN": "管理后台",
+  "zh-TW": "管理後台"
  },
  {
+  "en-US": "Account Management",
   "key": "menu.management.account",
-  "zh-CN": "账户管理"
+  "th-TH": "การจัดการบัญชี",
+  "vi-VN": "Quản Lý Tài Khoản",
+  "zh-CN": "账户管理",
+  "zh-TW": "帳戶管理"
  },
  {
+  "en-US": "Role Management",
   "key": "menu.management.role",
-  "zh-CN": "角色管理"
+  "th-TH": "การจัดการบทบาท",
+  "vi-VN": "Quản Lý Vai Trò",
+  "zh-CN": "角色管理",
+  "zh-TW": "角色管理"
  },
  {
+  "en-US": "Label Management",
   "key": "menu.management.defectLabel",
-  "zh-CN": "标签管理"
+  "th-TH": "การจัดการป้ายกำกับ",
+  "vi-VN": "Quản Lý Nhãn",
+  "zh-CN": "标签管理",
+  "zh-TW": "標籤管理"
  },
  {
+  "en-US": "Service Monitoring",
   "key": "menu.serverMonitoring",
-  "zh-CN": "服务监控"
+  "th-TH": "การตรวจสอบบริการ",
+  "vi-VN": "Giám Sát Dịch Vụ",
+  "zh-CN": "服务监控",
+  "zh-TW": "服務監控"
  },
  {
+  "en-US": "Model Center",
   "key": "menu.modelCenter",
-  "zh-CN": "模型中心"
+  "th-TH": "ศูนย์โมเดล",
+  "vi-VN": "Trung Tâm Mô Hình",
+  "zh-CN": "模型中心",
+  "zh-TW": "模型中心"
  },
  {
+  "en-US": "Training Details",
   "key": "menu.modelCenter.trainingDetails",
-  "zh-CN": "训练详情"
+  "th-TH": "รายละเอียดการฝึกอบรม",
+  "vi-VN": "Chi Tiết Đào Tạo",
+  "zh-CN": "训练详情",
+  "zh-TW": "訓練詳情"
  },
  {
+  "en-US": "Annotation Platform",
   "key": "menu.annotation",
-  "zh-CN": "标注平台"
+  "th-TH": "แพลตฟอร์มการทำเครื่องหมาย",
+  "vi-VN": "Nền Tảng Ghi Nhãn",
+  "zh-CN": "标注平台",
+  "zh-TW": "標註平台"
  },
  {
+  "en-US": "Annotation Platform",
   "key": "menu.annotation.annotation",
-  "zh-CN": "标注平台"
+  "th-TH": "แพลตฟอร์มการทำเครื่องหมาย",
+  "vi-VN": "Nền Tảng Ghi Nhãn",
+  "zh-CN": "标注平台",
+  "zh-TW": "標註平台"
  },
  {
+  "en-US": "Adjudication Station",
   "key": "menu.adjudicationStation",
-  "zh-CN": "复判站"
+  "th-TH": "สถานีพิจารณา",
+  "vi-VN": "Trạm Đánh Giá Lại",
+  "zh-CN": "复判站",
+  "zh-TW": "複判站"
  },
  {
+  "en-US": "Data Management",
   "key": "menu.dataManagement",
-  "zh-CN": "数据管理"
+  "th-TH": "การจัดการข้อมูล",
+  "vi-VN": "Quản Lý Dữ Liệu",
+  "zh-CN": "数据管理",
+  "zh-TW": "資料管理"
  },
  {
+  "en-US": "Management List",
   "key": "menu.dataManagement.managementList",
-  "zh-CN": "管理列表"
+  "th-TH": "รายการจัดการ",
+  "vi-VN": "Danh Sách Quản Lý",
+  "zh-CN": "管理列表",
+  "zh-TW": "管理列表"
  },
  {
+  "en-US": "Annotation List",
   "key": "menu.dataManagement.annotationList",
-  "zh-CN": "标注列表"
+  "th-TH": "รายการทำเครื่องหมาย",
+  "vi-VN": "Danh Sách Ghi Nhãn",
+  "zh-CN": "标注列表",
+  "zh-TW": "標註列表"
  },
  {
+  "en-US": "Audit List",
   "key": "menu.dataManagement.auditList",
-  "zh-CN": "审核列表"
+  "th-TH": "รายการตรวจสอบ",
+  "vi-VN": "Danh Sách Kiểm Tra",
+  "zh-CN": "审核列表",
+  "zh-TW": "審核列表"
  },
  {
+  "en-US": "Image List",
   "key": "menu.dataManagement.imageList",
-  "zh-CN": "图片列表"
+  "th-TH": "รายการรูปภาพ",
+  "vi-VN": "Danh Sách Hình Ảnh",
+  "zh-CN": "图片列表",
+  "zh-TW": "圖片列表"
  },
  {
+  "en-US": "Annotation Platform",
   "key": "menu.markPlatform",
-  "zh-CN": "标注平台"
+  "th-TH": "แพลตฟอร์มการทำเครื่องหมาย",
+  "vi-VN": "Nền Tảng Ghi Nhãn",
+  "zh-CN": "标注平台",
+  "zh-TW": "標註平台"
  },
  {
+  "en-US": "Detection Template",
   "key": "menu.aoiTpl",
-  "zh-CN": "检测模版"
+  "th-TH": "เทมเพลตการตรวจจับ",
+  "vi-VN": "Mẫu Kiểm Định",
+  "zh-CN": "检测模版",
+  "zh-TW": "檢測模板"
  },
  {
+  "en-US": "Template List",
   "key": "menu.aoiTpl.aoiTplList",
-  "zh-CN": "模版列表"
+  "th-TH": "รายการเทมเพลต",
+  "vi-VN": "Danh Sách Mẫu",
+  "zh-CN": "模版列表",
+  "zh-TW": "模板列表"
  },
  {
+  "en-US": "New Template",
   "key": "menu.aoiTpl.aoiTplNew",
-  "zh-CN": "新建模版"
+  "th-TH": "สร้างเทมเพลตใหม่",
+  "vi-VN": "Tạo Mẫu Mới",
+  "zh-CN": "新建模版",
+  "zh-TW": "新建模板"
  },
  {
+  "en-US": "Edit Template",
   "key": "menu.aoiTpl.aoiTplEdit",
-  "zh-CN": "编辑模版"
+  "th-TH": "แก้ไขเทมเพลต",
+  "vi-VN": "Chỉnh Sửa Mẫu",
+  "zh-CN": "编辑模版",
+  "zh-TW": "編輯模板"
  },
  {
+  "en-US": "Golden Board Programming",
   "key": "menu.aoiTpl.boardProgramming",
-  "zh-CN": "金板编程"
+  "th-TH": "การตั้งโปรแกรม Golden Board",
+  "vi-VN": "Lập Trình Bo Mạch Chuẩn",
+  "zh-CN": "金板编程",
+  "zh-TW": "金板編程"
  },
  {
+  "en-US": "Designer",
   "key": "menu.lowCode",
-  "zh-CN": "设计器"
+  "th-TH": "ดีไซน์เนอร์",
+  "vi-VN": "Trình Thiết Kế",
+  "zh-CN": "设计器",
+  "zh-TW": "設計器"
  }
 ]
